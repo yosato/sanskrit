@@ -1,9 +1,10 @@
-import imp
+import imp,os,sys
 import sanskrit_morph
 
 imp.reload(sanskrit_morph)
 
-def main0(StarDictFP,UpTo=10000):
+
+def main0(StarDictFP,UpTo=300):
     WdsByLemma=file2wds(StarDictFP,UpTo)
     for WdsPerLemma in WdsByLemma:
         print(WdsPerLemma[0].lexeme.lemma+'\n')
@@ -14,26 +15,46 @@ def main0(StarDictFP,UpTo=10000):
 
 def file2wds(StarDictFP,UpTo):
     Wds=[]
+    InfCats=['n','m','f','pron','v','adj']
+    Nouns=['n','m','f']
     for Cntr,LiNe in enumerate(open(StarDictFP)):
+        print(LiNe)
         if Cntr>UpTo:
             break
         LineEls=LiNe.strip().split('│')[1:]
-        Lemma=LineEls[1]; LemmaLstChr=LineEls[1][-1]; Cat=LineEls[2]
-        if (Cat in ['n.','m.'] and LemmaLstChr=='a') or (Cat=='f.' and LemmaLstChr=='ā'):
-            NounLex=sanskrit_morph.NounLexeme(Lemma,Cat[:-1])
-            Wds.append(NounLex.decline_all())
+        CatStr=LineEls[2]
+        Lemma=LineEls[1]; Cat=(CatStr[:-1] if CatStr.endswith('.') else CatStr)
+        if Cat not in InfCats:
+            continue
+        else:
+            if Cat in Nouns:
+                NounLex=sanskrit_morph.NounLexeme(Lemma,Cat)
+                Wds.append(NounLex.decline_all())
+            elif Cat == 'adj':
+                AdjLex=sanskrit_morph.AdjLexeme(Lemma)
+                Wds.append(AdjLex.decline_all())
+            elif Cat == 'pron':
+                PronLex=sanskrit_morph.PronounLexeme(Lemma)
+                Wds.append(PronLex.decline_all())
+            elif Cat == 'v':
+                VLex=sanskrit_morph.VerbLexeme(Lemma)
+                Wds.append(VLex.conjugate_all())
     return Wds
 
-            
-                
-
-    
 def main():
     import argparse
     ArgPsr=argparse.ArgumentParser()
-    ArgPsr.add_argument('stardict_fp')
+    ArgPsr.add_argument('stardict_fp',nargs='?')
     Args=ArgPsr.parse_args()
-    main0(Args.stardict_fp)
+    if Args.stardict_fp is None:
+        RepoDir=os.path.join(os.getenv('HOME'),'myProjects/sanskrit/sanskrit_coders')
+        RepoSubDir='stardict-sanskrit/sanskrit-db'
+        FN='sanskrit.infonly.table'
+        Args.stardict_fp=os.path.join(RepoDir,RepoSubDir,FN)
+    if not os.path.isfile(Args.stardict_fp):
+        sys.exit('\nfile specified ('+Args.stardict_fp+') does not exist\n')
+    else:
+        main0(Args.stardict_fp)
     
 if __name__=='__main__':
     main()

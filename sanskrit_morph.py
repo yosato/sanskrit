@@ -1,56 +1,98 @@
+import imp
 from pythonlib_ys import morph_univ
-from collections import defaultdict
 
-SandhiRulesRaw=[
-    ('a','u','o'),
-    ('a','a','ā'),
-        ('ā','a','ā'),
-        ('a','ā','ā')
-]
+import paradigms,sandhi,sanskrit_phon
+imp.reload(paradigms)
+imp.reload(sandhi)
+imp.reload(sanskrit_phon)
 
-NounInfTypes={
-    ('a','m'):'AM',
-    ('a','n'):'AN',
-    ('ā','f'):'AF'
-    }
+def get_stem_suffix(Str):
+    if Str.endswith('at') or Str.endswith('in'):
+        SplitPoint=-2
+    else:
+        SplitPoint=-1
+    return Str[:SplitPoint],Str[SplitPoint:]
 
-NounParadigms={
- 'AM':{'nom':['as','au','ās'],'acc':['am','au','ān'],'inst':['ena','ābhyām','ais'],'dat':['āya','ābhyām','ābhyas'],'abl':['āt','ābhyām','ābhyas'],'gen':['masya','mayos','ānām'],'loc':['e','ayos','eṣu'],'voc':['a','au','ās']},
+SandhiRulesIndexed=sandhi.create_indexed_sandhirules()
 
-    'AN':{'nom':['am','ye','āni'],'acc':['am','ye','āni'],'inst':['ena','ābhyām','ais'],'dat':['āya','ābhyām','ābhyas'],'abl':['āt','ābhyām','ābhyas'],'gen':['asya','ayos','ānām'],'loc':['e','ayos','eṣu'],'voc':['a','ye','āni']},
+class Word:
+    def __init__(self,Lexeme,InfForm):
+        self.lexeme=Lexeme
+        self.infform=InfForm
+    def generate_sandhiforms(self):
+        SandhiForms=[]
+        if self.lastchar in SandhiRulesIndexed.keys():
+            for SandhiRule in SandhiRulesIndexed[self.lastchar]:
+                SandhiForms.append(self.infform[:-1]+SandhiRule.result)
+        return SandhiForms
+    
+class VerbLexeme(morph_univ.Lexeme):
+    def __init__(self,Lemma):
+        super().__init__(Lemma,'verb')
+        self.conjpar=paradigms.Verbs
+    def conjugate_all(self):
+        VerbWds=[]
+        for (ConjType,Table) in self.conjpar:
+            for ((Pers,Num),Forms) in Table:
+                for Form in Forms:
+                    VerbWds.append(VerbWord(self.lexeme,Form,Pers,Num))
+        return VerbWds
 
- 'AF':{'nom':['ā','e','ās'],'acc':['ām','e','ās'],'inst':['aya','ābhyām','abhis'],'dat':['āyai','ābhyām','ābhyas'],'abl':['ās','ābhyām','ābhyas'],'gen':['ās','ābhyām','ānām'],'loc':['āyam','ayos','āṣu'],'voc':['e','e','ās']}    
- }
+class VerbWord(Word):
+    def __init__(self,Lexeme,InfForm,Person,Number):
+        self.lexeme=Lexeme
+        self.infform=InfForm
+        self.lastchar=self.infform[-1]
+        self.person=Person
+        self.number=Number
+        self.sandhiforms=self.generate_sandhiforms()
 
-class SandhiRule:
-    def __init__(self,Fst,Scd,Result):
-        self.first=Fst
-        self.second=Scd
-        self.result=Result
+        
 
-SandhiRulesIndexed=defaultdict(list)
-for (Fst,Scd,Result) in SandhiRulesRaw:
-    SandhiRulesIndexed[Fst].append(SandhiRule(Fst,Scd,Result))
+class AdjLexeme(morph_univ.Lexeme):
+    def __init__(self,Lemma):
+        super().__init__(Lemma,'adj')
+        StemSuffix=get_stem_suffix(self.lemma)
+        self.stem=StemSuffix[0]
+        self.suffix=StemSuffix[1]
+        InfTypes=paradigms.NounAdjInfTypes
+        TypeHash=next( (Suffixes,('m','f','n')) for (Suffixes,_) in InfTypes.keys() if self.suffix in Suffixes )
+        self.inftype=paradigms.NounAdjInfTypes[TypeHash]
+        self.declpar=paradigms.Adjs
+    def decline_all(self):
+        AdjWds=[]
+        for (Case,NumVarSets) in self.declpar[self.inftype].items():
+            for Cnt,NumVarSet in enumerate(NumVarSets):
+                if Cnt==0: Num='sg'
+                elif Cnt==1: Num='dl'
+                else: Num='pl'
+                for NumVar in NumVarSet:
+                    AdjWds.append(AdjWord(self,self.stem+NumVar,Case,Num))
+        return AdjWds
 
 class NounLexeme(morph_univ.Lexeme):
     def __init__(self,Lemma,Gender):
         super().__init__(Lemma,'noun')
         self.gender=Gender
-        self.inftype=NounInfTypes[(self.lemma[-1],self.gender)]
-        self.stem=self.lemma[:-1]
-        self.declpar=NounParadigms
-                     
+        StemSuffix=get_stem_suffix(self.lemma)
+        self.stem=StemSuffix[0]
+        self.suffix=StemSuffix[1]
+        InfTypes=paradigms.NounAdjInfTypes
+        self.inftype=InfTypes[next( Type for Type in InfTypes.keys() if Gender in Type[1] )]
+        self.declpar=paradigms.Nouns
     def decline_all(self):
         NounWds=[]
-        for (Case,NumVars) in self.declpar[self.inftype].items():
-            for Cnt,NumVar in enumerate(NumVars):
+        for (Case,NumVarSets) in self.declpar[self.inftype].items():
+            for Cnt,NumVarSet in enumerate(NumVarSets):
                 if Cnt==0: Num='sg'
                 elif Cnt==1: Num='dl'
                 else: Num='pl'
-                NounWds.append(NounWord(self,self.stem+NumVar,self.gender,Case,Num))
-        return NounWds
+                for NumVar in NumVarSet:
+                    NounWds.append(NounWord(self,self.stem+NumVar,self.gender,Case,Num))
+        return NounWds                     
 
-class NounWord:
+
+class NounWord(Word):
     def __init__(self,Lex,InfForm,Gender,Case,Number):
         self.lexeme=Lex
         self.infform=InfForm
@@ -58,12 +100,16 @@ class NounWord:
         self.case=Case
         self.number=Number
         self.sandhiforms=self.generate_sandhiforms()
-    def generate_sandhiforms(self):
-        SandhiForms=[]
-        if self.lastchar in SandhiRulesIndexed.keys():
-            for SandhiRule in SandhiRulesIndexed[self.lastchar]:
-                SandhiForms.append(self.infform[:-1]+SandhiRule.result)
-        return SandhiForms
+
+class AdjWord(Word):
+    def __init__(self,Lex,InfForm,Case,Number):
+        self.lexeme=Lex
+        self.infform=InfForm
+        self.lastchar=self.infform[-1]
+        self.case=Case
+        self.number=Number
+        self.sandhiforms=self.generate_sandhiforms()        
+
 
 
 
