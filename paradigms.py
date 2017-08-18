@@ -3,7 +3,7 @@ import copy
 
 ###===== pronouns and adjectives ==============
 
-Pronouns={
+pronoun={
 #yad/tad-replace ad wit:{
 'PronYadTad':{
     'm':{
@@ -175,7 +175,7 @@ NounAdjInfTypes={
 }
 
 
-Nouns={
+noun={
 'AM':{
 'Nom':(['aḥ','o', 'u', 'ū', 'ā', 'e', 'aṃ' ],['au'],['āh', 'ā', 'ām', 'ām', 'ān', 'āni', 'e', 'aḥ', 'o', 'āyo', 'āya'],),
 'Voc': (['a','ā', 'o', 'u', 'e'],['au'],['āh', 'ā', 'āho', 'āvo'],),
@@ -266,7 +266,7 @@ Nouns={
 'Gen':(['inaḥ', 'uno'], ['inoḥ'], ['inām', 'unām', 'ṛṇām'],),
 'Loc':(['ini'], ['inoḥ'], ['iṣu', 'ṛṣu'],),
 },
-'ṛ':{
+'ṛAllGender':{
 'Nom':(['ā', 'a', 'uḥ', 'u', 'ās'],['ārau'], ['āraḥ', 'ā'],),
 'Voc':(['aḥ', 'ar','e'], ['ārau'], ['āraḥ'],),
 'Acc':(['āram', 'āṃ', 'ā', 'ṛ', 'uṃ', 'u'],['ārau'],['ṛn', 'ṛm'],),
@@ -297,9 +297,9 @@ def combine_inftypes(Inf1,Inf2):
     return Combined
         
 
-AdjExtra=combine_inftypes(Nouns['A'],Nouns['AM'])
-Adjs=copy.copy(Nouns)
-Adjs[('AAllGender')]=AdjExtra
+AdjExtra=combine_inftypes(noun['A'],noun['AM'])
+adj=copy.copy(noun)
+adj[('AAllGender')]=AdjExtra
 
 ##============ Verb ========================
 
@@ -312,7 +312,7 @@ Adjs[('AAllGender')]=AdjExtra
 
 # please add to the wordlist the following forms: 'avocat', 'avocanti', 'āha', āhuḥ. they are frequently occurring 'aorists', no need to conjugate 'them', other persons do not occur.
 
-Verbs={
+verb={
 #ati/otiVerb:{
 'PresentActive':{
 ('1','sg',):[ 'mi'],
