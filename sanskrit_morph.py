@@ -20,7 +20,6 @@ def get_phoncat(Str):
 CategorisedSandhiRules=sandhi.create_sandhirules()
 
 
-
 class Word:
     def __init__(self,Lexeme,InfForm):
         self.lexeme=Lexeme
@@ -67,6 +66,13 @@ class Word:
     def print_featvals(self):
         print(self.stringify_featvals(self))
     
+class NonInfLexeme(morph_univ.Lexeme):
+    def __init__(self,Lemma,PoS):
+        super().__init__(Lemma,PoS)
+
+class NonInfWord(Word):
+    def __init__(self,Lemma,PoS):
+        super().__init__(NonInfLexeme(Lemma,PoS),Lemma)
         
 class InfLexeme(morph_univ.Lexeme):
     def __init__(self,Lemma,PoS):
@@ -76,6 +82,7 @@ class InfLexeme(morph_univ.Lexeme):
         self.suffix=StemSuffix[1]
         self.paradigm=paradigms.__dict__[PoS]
         self.inftypes=self.paradigm.keys()
+        
 
 class VerbLexeme(InfLexeme):
     def __init__(self,Lemma):
@@ -113,10 +120,10 @@ class NominalLexeme(InfLexeme):
 class AdjLexeme(NominalLexeme):
     def __init__(self,Lemma):
         super().__init__(Lemma,'adj')
-        InfTypes=paradigms.NounAdjInfTypes
+        InfTypes=paradigms.AdjInfTypes
         try:
             TypeHash=next( (Suffixes,('m','f','n')) for (Suffixes,_) in InfTypes.keys() if self.suffix in Suffixes )
-            self.inftype=paradigms.NounAdjInfTypes[TypeHash]
+            self.inftype=paradigms.AdjInfTypes[TypeHash]
         except:
             self.inftype=None
         self.declpar=paradigms.adj
@@ -192,7 +199,7 @@ class NounLexeme(NominalLexeme):
     def __init__(self,Lemma,Gender):
         super().__init__(Lemma,'noun')
         self.gender=Gender
-        InfTypes=paradigms.NounAdjInfTypes
+        InfTypes=paradigms.NounInfTypes
         self.inftype=InfTypes[next( Type for Type in InfTypes.keys() if Gender in Type[1] )]
         self.declpar=paradigms.noun
     def decline_all(self):

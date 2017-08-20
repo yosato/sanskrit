@@ -161,10 +161,9 @@ pronoun={
 # The division in Gender is very artificial. It may not work with non-classical texts.
 # format: AM:{nom:(['form1','form2','form3'],['dualform'],['pluralform'],),
 
-NounAdjInfTypes={
+NounInfTypes={
     (('a',),('m',)):'AM',
     (('a',),('f','n')):'A',
-        (('a',),('m','f','n')):'AAllGender',
     (('i','ī'),('m','f','n')):'i/īAllGender',
         (('u','ū'),('m','f','n')):'u/ūAllGender',
         (('s',),('m','f','n')):'sAllGender',
@@ -295,7 +294,10 @@ def combine_inftypes(Inf1,Inf2):
         FormSets2=Inf2[Feat]
         Combined[Feat]=tuple( [ set(FormSets1[i]).union(set(FormSets2[i])) for i in range(3) ] )
     return Combined
-        
+
+AdjInfTypes=copy.copy(NounInfTypes)
+AdjInfTypes[('a',),('m','f','n')]='AAllGender'
+
 
 AdjExtra=combine_inftypes(noun['A'],noun['AM'])
 adj=copy.copy(noun)

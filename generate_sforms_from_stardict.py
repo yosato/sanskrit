@@ -8,18 +8,20 @@ def main0(StarDictFP,Delimiter='\t',Debug=False,OutDir=None,UpTo=100):
         Out=sys.stdout
     else:
         Out=open(OutDir+'/'+os.path.basename(StarDictFP)+'.out','wt')
-    for Cntr,LiNe in enumerate(open(StarDictFP)):
-        if Debug: Out.write(str(Cntr+1)+' '+LiNe.strip()+'\n')
-        if Cntr>UpTo:
-            break
-        InfWds=lemmaline2wds(LiNe.strip(),Delimiter)
-        if not InfWds:
-            Out.write('no words for: '+LiNe.strip()+'\n')
+    for Wds in generate_words_perline(StarDictFP,Delimiter,Debug,OutDir,UpTo):
+        if type(Wds).__name__=='str':
+            sys.stderr.write(Wds+'\n')
         else:
-            for Wd in InfWds:
+            for Wd in Wds:
                 Out.write(Wd.stringify_featvals()+'\n')
                 Out.write(Wd.generate_sandhiforms(Stringify=True)+'\n')
-        Out.write('\n\n')
+
+def generate_words_perline(StarDictFP,Delimiter='\t',Debug=False,OutDir=None,UpTo=100):
+    for Cntr,LiNe in enumerate(open(StarDictFP)):
+        if Cntr>UpTo:
+            break
+        yield lemmaline2wds(LiNe.strip(),Delimiter)
+
 
 def lemmaline2wds(Line,Delimiter):
     LineEls=Line.split(Delimiter)
@@ -28,18 +30,16 @@ def lemmaline2wds(Line,Delimiter):
     Lemma=LineEls[1]
     if len(Lemma.split())>1:
         print('compound word? '+Lemma)
-        return []
+        return Line
     Cat=(CatStr[:-1] if (len(CatStrSplit)==1 and CatStr.endswith('.')) else CatStr.split()[0])
     print(Lemma+'\t'+Cat)
     if Cat not in InfCats:
-        print(Cat+' not found in the taxonomy')
-        return []
+        return [ sanskrit_morph.NonInfWord(Lemma,Cat) ]
     else:
-        return generate_words(Lemma,Cat)
+        return get_infl_words(Lemma,Cat)
 
-def generate_words(Lemma,Cat):
+def get_infl_words(Lemma,Cat):
     Nouns=['n','m','f']
-
     if Cat in Nouns:
         NounLex=sanskrit_morph.NounLexeme(Lemma,Cat)
         return NounLex.decline_all()
