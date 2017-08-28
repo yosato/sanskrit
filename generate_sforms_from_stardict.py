@@ -1,38 +1,90 @@
-import imp,os,sys
+import imp,os,sys,re,json
 import sanskrit_morph
+from collections import defaultdict
 
 imp.reload(sanskrit_morph)
 
-def main0(StarDictFP,Delimiter='\t',Debug=False,OutDir=None,UpTo=100):
+def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCntUpTo=None):
+    StarDictFN=os.path.basename(StarDictFP)
+    StarDictFNStem='.'.join(StarDictFN.split('.')[:-1])
+    if DoLemmaDict:
+        if OutDir is None:
+            sys.exit('Lemma dict requires out dir\n')
+        LemmaDict=defaultdict(set)
+        LemmaJFSw=open(os.path.join(OutDir,StarDictFNStem+'_lemmadict.json'),'wt')
+
     if OutDir is None:
         Out=sys.stdout
     else:
-        Out=open(OutDir+'/'+os.path.basename(StarDictFP)+'.out','wt')
-    for Wds in generate_words_perline(StarDictFP,Delimiter,Debug,OutDir,UpTo):
-        if type(Wds).__name__=='str':
-            sys.stderr.write(Wds+'\n')
-        else:
-            for Wd in Wds:
-                Out.write(Wd.stringify_featvals()+'\n')
-                Out.write(Wd.generate_sandhiforms(Stringify=True)+'\n')
+        Out=open(OutDir+'/'+StarDictFNStem+'.out','wt')
+    PrvAlph='';AlphCnt=0
+    for Cntr,Wds in enumerate(generate_words_perline(StarDictFP,Delimiter,Debug,OutDir)):
+        if DoLemmaDict or AlphCntUpTo:
+            CurAlph=Wds[0].infform[0]
+            if CurAlph!=PrvAlph:
+                AlphCnt+=1
+                if AlphCnt>=2:
+                    LemmaDict=[PrvAlph,{Key:list(Set) for (Key,Set) in LemmaDict.items() }]
+                    LemmaDictJ=json.dumps(LemmaDict)
+                    LemmaJFSw.write(LemmaDictJ)
+                    LemmaJFSw.write('\n')
+                    LemmaDict=defaultdict(set)
+            
+            if AlphCntUpTo and AlphCntUpTo<AlphCnt:
+                break
+        for Wd in Wds:
+            if Debug>=2:    sys.stderr.write(Wd.stringify_featvals()+'\n')
+            Out.write(Wd.infform+'\t'+Wd.infform+','+Wd.lexeme.lemma+'\n')
+            LemmaDict[Wd.infform].add(Wd.lexeme.lemma)
+            SandhiFormPair=Wd.generate_sandhiforms()
+            (SandhiVForm,SandhiForms)=SandhiFormPair
+            if SandhiVForm:
+                Out.write(SandhiVForm+'\t'+Wd.infform+Wd.lexeme.lemma+'\n')
+            for (SandhiForm,_) in SandhiForms:
+                Out.write(SandhiForm+'\t'+Wd.infform+','+Wd.lexeme.lemma+'\n')
+        PrvAlph=Wds[0].infform[0]
+    Size=sys.getsizeof(LemmaDict)
+    Len=len(LemmaDict)
+    print(Size)
+    print(Len)
+    if DoLemmaDict:
+        LemmaJFSw.close()
+        
+                
 
-def generate_words_perline(StarDictFP,Delimiter='\t',Debug=False,OutDir=None,UpTo=100):
+def generate_words_perline(StarDictFP,Delimiter='\t',Debug=0,OutDir=None):
+    Prv=[]
     for Cntr,LiNe in enumerate(open(StarDictFP)):
-        if Cntr>UpTo:
-            break
-        yield lemmaline2wds(LiNe.strip(),Delimiter)
+        LineEls=[ re.sub(r'{.+}$','',El).strip() for El in LiNe.strip().split(Delimiter) if El ][:3]
+        if any(not El for El in LineEls) or len(LineEls)<3:
+            continue
+        if LineEls[2]!='verb' and LineEls[2].startswith('verb'):
+            LineEls[2]='verb'
+        if LineEls==Prv:
+            if Debug:   sys.stderr.write('duplicates, ignoring, '+LiNe)
+            continue
+        elif len(LineEls[1].split())>1:
+            sys.stderr.write('compound word? '+LineEls[1]+'\n')
+            continue
+        elif LineEls[2]=='phrase':
+            continue
+        else:
+            if Debug:    sys.stderr.write(str(Cntr)+': '+LiNe)
+            Prv=LineEls
+            Wds=lemmaline2wds(LineEls,Delimiter)
+            if not Wds:
+                sys.stderr.write('no results returned from '+LiNe)
+                continue
+            else:
+                yield Wds
 
 
-def lemmaline2wds(Line,Delimiter):
-    LineEls=Line.split(Delimiter)
+def lemmaline2wds(LineEls,Delimiter):
     InfCats=['n','m','f','pron','verb','adj']
     CatStr=LineEls[2];CatStrSplit=CatStr.split()
     Lemma=LineEls[1]
-    if len(Lemma.split())>1:
-        print('compound word? '+Lemma)
-        return Line
     Cat=(CatStr[:-1] if (len(CatStrSplit)==1 and CatStr.endswith('.')) else CatStr.split()[0])
-    print(Lemma+'\t'+Cat)
+#    print(Lemma+'\t'+Cat)
     if Cat not in InfCats:
         return [ sanskrit_morph.NonInfWord(Lemma,Cat) ]
     else:
@@ -58,9 +110,9 @@ def main():
     import argparse
     ArgPsr=argparse.ArgumentParser()
     ArgPsr.add_argument('stardict_fps',nargs='+')
-    ArgPsr.add_argument('-u','--up-to',type=int)
+    ArgPsr.add_argument('-u','--alphcnt-up-to',type=int)
     ArgPsr.add_argument('-o','--out-dir')
-    ArgPsr.add_argument('--debug',action='store_true')
+    ArgPsr.add_argument('--debug',type=int,default=0)
     Args=ArgPsr.parse_args()
     RepoDir=os.path.join(os.getenv('HOME'),'myProjects/sanskrit')
     RepoSubDir='yo_scripts'
@@ -81,7 +133,7 @@ def main():
             FPs.append(FP)
 
         for FP in FPs:
-            main0(FP,UpTo=Args.up_to,OutDir=Args.out_dir,Debug=Args.debug)
+            main0(FP,AlphCntUpTo=Args.alphcnt_up_to,OutDir=Args.out_dir,Debug=Args.debug)
     
 if __name__=='__main__':
     main()

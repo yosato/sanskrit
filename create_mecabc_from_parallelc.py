@@ -1,37 +1,88 @@
-import re,os,sys,copy
+import re,os,sys,copy,glob,json
 from difflib import SequenceMatcher
+from collections import defaultdict
 #Delims=' ^.'
 
 def main0(FP,OutFP=None):
+    def count_lines(FP):
+        for LineCnt,_ in enumerate(open(FP)):
+            pass
+        return LineCnt
     Out=sys.stdout if OutFP is None else open(OutFP,'wt')
     Switched=False
-    for LineCnt,_ in enumerate(open(FP)):
-        pass
+    LineCnt=count_lines(FP)
     for Cntr,LiNe in enumerate(open(FP)):
+        if Cntr>300:
+            break
         if OutFP and not Switched and Cntr>LineCnt*0.8:
             Out.close()
             Out=open(OutFP+'.test','wt')
             Switched=True
         sys.stderr.write(str(Cntr+1)+': '+LiNe)
         OrgSeg=LiNe.strip().split('\t')
-        if len(OrgSeg)==3:
+        if len(OrgSeg)!=3:
+            print('something wrong with the line '+LiNe)
+            continue
+        else:
             (_,Org,Seg)=OrgSeg
             if Seg.endswith(']'):
                 Seg=re.sub(r'[/ ]*\[.+?\]$','',Seg)
             tokenise=lambda Str: re.sub(r'(.),',r'\1 ,',re.sub(r'^"','',re.sub(r'[ ,\-]+$','',Str)))
             Seg=tokenise(Seg); Org=tokenise(Org)
             assert(Org[0]==Seg[0])
-        else:
-            print('something wrong with the line '+LiNe)
-        WdPairs=align_org_seg(Org,Seg)
+
+            WdPairs=align_org_seg(Org,Seg)
 
         if check_plausibility(WdPairs):
-            for (Wd,Lemma) in WdPairs:
-                Out.write(Wd+'\t'+Lemma+'\n')
+            for (SForm,InfForm) in WdPairs:
+                Out.write(SForm+'\t'+InfForm+'\n')
             Out.write('EOS\n')
     if OutFP:
         Out.close()
-
+        ErrorOut=open(OutFP+'.errors','wt')
+        LemmaDicFP='/processedData/sanskrit/dictionary_IAST.short_lemmadict.json'
+        OccurringLemmaDic=defaultdict(list)
+        FSr=open(OutFP)
+        AStuff=set()
+        for LiNe in FSr:
+            if LiNe=='EOS\n' or len(LiNe.strip().split())!=2:
+                continue
+            IF=LiNe.strip().split('\t')[1]
+            if IF!='EOS\n' and IF.startswith('a'):
+                AStuff.add(IF)
+        FSr.seek(0)
+        for LiNeJ in open(LemmaDicFP):
+            InitChar,LemmaDic=json.loads(LiNeJ.strip())
+            AA=AStuff.intersection(set(LemmaDic.keys()))
+            Successes=0;Failures=0
+            for LiNeC in FSr:
+                LineC=LiNeC.strip()
+                if LineC=='EOS':
+                    continue
+                else:
+                    InfForm=LineC.split('\t')[-1]
+                    if InfForm.startswith(InitChar):
+                        if InfForm in LemmaDic.keys():
+                            OccurringLemmaDic[InfForm]=LemmaDic[InfForm]
+                            Successes+=1
+                        else:
+                            Failures+=1
+                            ErrorOut.write(InfForm+'\n')
+        ErrorOut.close()
+        FSr.seek(0)
+        for LiNe in FSr:
+            Line=LiNe.strip()
+            if Line=='EOS':
+                sys.stdout.write(LiNe)
+            else:
+                InfForm=Line.split('\t')[-1]
+                if InfForm in OccurringLemmaDic.keys():
+                    Lemma=OccurringLemmaDic[InfForm]
+                else:
+                    Lemma='*'
+                    
+                sys.stdout.write(Line+','+Lemma+'\n')
+                                 
 def check_plausibility(WdPairs):
     CumDist=0;CumWdCnt=0
     Plausibility=True

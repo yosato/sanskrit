@@ -28,7 +28,7 @@ class Word:
         self.stem=StemSuffix[0]
         self.suffix=StemSuffix[1]
         self.suffixphoncat=get_phoncat(self.suffix)
-        self.stemphoncat=get_phoncat(self.stem)
+        self.stemphoncat=get_phoncat(self.infform)
     def generate_sandhiforms(self,Stringify=False):
         SandhiResults=[]
         VCats={'vv','vvis'}; CCats=set(CategorisedSandhiRules.keys())-VCats
