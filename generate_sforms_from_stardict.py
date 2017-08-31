@@ -23,6 +23,7 @@ def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCnt
             CurAlph=Wds[0].infform[0]
             if CurAlph!=PrvAlph:
                 AlphCnt+=1
+                PrvAlph=Wds[0].infform[0]
                 if AlphCnt>=2:
                     LemmaDict=[PrvAlph,{Key:list(Set) for (Key,Set) in LemmaDict.items() }]
                     LemmaDictJ=json.dumps(LemmaDict)
@@ -42,7 +43,11 @@ def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCnt
                 Out.write(SandhiVForm+'\t'+Wd.infform+Wd.lexeme.lemma+'\n')
             for (SandhiForm,_) in SandhiForms:
                 Out.write(SandhiForm+'\t'+Wd.infform+','+Wd.lexeme.lemma+'\n')
-        PrvAlph=Wds[0].infform[0]
+    if DoLemmaDict:
+        LemmaDict=[CurAlph,{Key:list(Set) for (Key,Set) in LemmaDict.items() }]
+        LemmaDictJ=json.dumps(LemmaDict)
+        LemmaJFSw.write(LemmaDictJ)
+        LemmaJFSw.write('\n')
     Size=sys.getsizeof(LemmaDict)
     Len=len(LemmaDict)
     print(Size)

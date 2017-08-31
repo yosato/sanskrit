@@ -3,20 +3,20 @@ from difflib import SequenceMatcher
 from collections import defaultdict
 #Delims=' ^.'
 
-def main0(FP,OutFP=None):
+def main0(FP,OutFP=None,LemmaDicFP=None):
     def count_lines(FP):
         for LineCnt,_ in enumerate(open(FP)):
             pass
         return LineCnt
-    Out=sys.stdout if OutFP is None else open(OutFP,'wt')
+    OutTmp=sys.stdout if OutFP is None else open(OutFP+'.tmp','wt')
     Switched=False
     LineCnt=count_lines(FP)
     for Cntr,LiNe in enumerate(open(FP)):
         if Cntr>300:
             break
         if OutFP and not Switched and Cntr>LineCnt*0.8:
-            Out.close()
-            Out=open(OutFP+'.test','wt')
+            OutTmp.close()
+            OutTmp=open(OutFP+'.test','wt')
             Switched=True
         sys.stderr.write(str(Cntr+1)+': '+LiNe)
         OrgSeg=LiNe.strip().split('\t')
@@ -35,25 +35,15 @@ def main0(FP,OutFP=None):
 
         if check_plausibility(WdPairs):
             for (SForm,InfForm) in WdPairs:
-                Out.write(SForm+'\t'+InfForm+'\n')
-            Out.write('EOS\n')
+                OutTmp.write(SForm+'\t'+InfForm+'\n')
+            OutTmp.write('EOS\n')
     if OutFP:
-        Out.close()
-        ErrorOut=open(OutFP+'.errors','wt')
-        LemmaDicFP='/processedData/sanskrit/dictionary_IAST.short_lemmadict.json'
+        OutTmp.close()
         OccurringLemmaDic=defaultdict(list)
-        FSr=open(OutFP)
-        AStuff=set()
-        for LiNe in FSr:
-            if LiNe=='EOS\n' or len(LiNe.strip().split())!=2:
-                continue
-            IF=LiNe.strip().split('\t')[1]
-            if IF!='EOS\n' and IF.startswith('a'):
-                AStuff.add(IF)
-        FSr.seek(0)
+        FSr=open(OutFP+'.tmp')
         for LiNeJ in open(LemmaDicFP):
             InitChar,LemmaDic=json.loads(LiNeJ.strip())
-            AA=AStuff.intersection(set(LemmaDic.keys()))
+            #AA=AStuff.intersection(set(LemmaDic.keys()))
             Successes=0;Failures=0
             for LiNeC in FSr:
                 LineC=LiNeC.strip()
@@ -67,21 +57,21 @@ def main0(FP,OutFP=None):
                             Successes+=1
                         else:
                             Failures+=1
-                            ErrorOut.write(InfForm+'\n')
-        ErrorOut.close()
+
         FSr.seek(0)
+        Out=sys.stdout if OutFP is None else open(OutFP,'wt')
         for LiNe in FSr:
             Line=LiNe.strip()
             if Line=='EOS':
-                sys.stdout.write(LiNe)
+                Out.write(LiNe)
             else:
                 InfForm=Line.split('\t')[-1]
                 if InfForm in OccurringLemmaDic.keys():
-                    Lemma=OccurringLemmaDic[InfForm]
+                    Lemma=OccurringLemmaDic[InfForm][0]
                 else:
                     Lemma='*'
                     
-                sys.stdout.write(Line+','+Lemma+'\n')
+                Out.write(Line+','+Lemma+'\n')
                                  
 def check_plausibility(WdPairs):
     CumDist=0;CumWdCnt=0
@@ -135,10 +125,11 @@ def main():
     Psr=argparse.ArgumentParser()
     Psr.add_argument('parallel_fp')
     Psr.add_argument('-o','--out-fp')
+    Psr.add_argument('-l','--lemmadic-fp')
     Args=Psr.parse_args()
     if Args.out_fp and not os.path.dirname(Args.out_fp):
         print('parent of the specified fp '+Args.out_fp+' does not exist')
-    main0(Args.parallel_fp,OutFP=Args.out_fp)
+    main0(Args.parallel_fp,OutFP=Args.out_fp,LemmaDicFP=Args.lemmadic_fp)
 
 if __name__=='__main__':
     main()
