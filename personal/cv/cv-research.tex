@@ -1,0 +1,184 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+%% MACROS ARE FOUND IN cv-common.tex.
+
+\documentclass[a4paper]{article}
+
+\usepackage{cv}
+
+\def\name{Yo Sato}
+\def\version{research}
+\def\website{{\tt\small http://satoama.co.uk/yo}}
+
+%THIS IS THE MACRO FILE WHERE YOU FIND CORE INFO
+\include{cv-common}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+\smallskip
+
+Ph.D. and M.Sc. in Computational Linguistics, M.A. in Applied Linguistics\\
+
+%\noindent Director, Satoama Language Services Ltd.
+
+\vspace{0.25in}
+
+\begin{minipage}{0.4\linewidth}
+
+ 21 Coombe Gardens\\
+  New Malden, United Kingdom\\
+KT3 4AB\\
+
+\end{minipage}
+\begin{minipage}{0.43\linewidth}
+  \begin{tabular}{ll}
+    Phone/Fax: & (+44) (0)20-82881419 \\
+    Email: & {\tt satoama@gmail.com} \\
+    Website: & \website{} 
+
+  \end{tabular}
+\end{minipage}
+
+\personal
+
+\section*{Research interests and skills}
+
+\begin{itemize}
+\item  Language model building (statistical: N-gram including skip and clustered, neural net and word embeddings, symbolic: finite state techniques)\\
+  Machine learning (various including: kNN and neural net for classification, k-means and hierarchical technique for clustering, sequential labelling with HMM)
+
+  Computational modelling of language acquisition
+  (phonology, semantics and syntax)\\
+  Natural language parsing and theoretical syntax and semantics (HPSG,
+  Dynamic Syntax, Montague Grammar)
+
+  Usage of python-based tools (NLTK, sklearn, RNNLM)\\
+  Parser building with Prolog\\
+  Text processing (with Python, awk and sed)\\
+  Phonetic/phonological analysis with Praat and HTK
+
+\end{itemize}
+
+
+\education
+
+\section*{Research positions}
+
+\begin{itemize}
+
+\item \hspace{-2mm}Natural Language Processing Research Engineer, MyScript Lab,  2012--to date.
+
+\hspace{-2mm}Duties: Building principally statistical language models for handwriting recognition and input comple- tion and prediction. Main responsibilities include: morphological processing and learning algorighms based on corpora, as applicable to a wide range of languages (but with a special focus on Japanese and Korean); various N-Gram modelling with multi-word expression detection capability; adaptation of models to individuals and dialects
+
+\item \hspace{-.2cm}Research Fellow in Computational Linguistics,
+  University of Hertfordshire, Jan 2009--Mar 2015 (Visiting Fellow from Mar 2012)
+
+\hspace{-.2cm}Duties: Building a language acquisition model, including implementations of  grammar induction and phonological word discovery algorithms for `ITALK' (Integration and Transfer of Action and Language Knowledge in Robots), a European FP7 Framework Project  \\
+
+\item \hspace{-.2cm}Research Assistant, Computer Science Dept, Queen
+  Mary University of London, Jan 2008-- Jan 2009.
+
+\hspace{-.2cm}Duties: A year contract for `Dynamics of Conversational
+Dialogue', an Economic and Social Science Research Council (UK)
+project awarded to King's and Queen Mary Colleges, London University. Responsible for building a parser based on the Dynamic Syntax formalism and a formal model of ellipsis.
+
+\item \hspace{-.2cm}Doctoral Trainee, Computer Science Dept, King's
+  College London, Sep 2004-- Feb 2008.
+
+\hspace{-.2cm}Duties: Construction of natural language parser based on
+HPSG for freer word order languages, supervised by Professor Shalom
+Lappin, funded by the Engineering and Physical Science Research Council, U.K. 
+\end{itemize}
+
+
+
+\section*{Teaching}
+\begin{itemize}
+
+\item Lecturer/tutor, Imperial College London,  2003--2012\\
+   M.Sc. in Scientific, Technical and Medical Translation \\
+   Language Technology Module and English-Japanese Practical Translation Module
+
+\item Teaching Assistant, King's College London. 2006.\\
+    B.Sc. module `Natural Language Processing in Prolog' by Professor S. Lappin.\\
+   Tutorials (hands-on programming sessions), exercise setting and assignment marking
+
+
+
+\item Tutor, Bath University, 2006--2008, U.K.\\
+   M.A. in Translation Studies, \\Supervision on dissertations.
+
+
+\end{itemize}
+
+\section*{Other employment and qualifications}
+
+\begin{itemize}
+
+\item Japanese Service, BBC World, 1996--2002
+
+Duties: Translation and coordination related to the BBC news service
+
+
+\item Qualified Member, Institute of Translation and Interpreting, U.K. (MITI, since 2002)
+\end{itemize}
+
+
+%%===========================================================================%%
+
+\section*{Selected publications}
+
+\noindent{\smaller (Full list is available on \website{}/papers.html)}
+
+\bigskip
+
+\include{publications}
+
+\papers
+
+
+
+\section*{Conference / workshop organisation}
+\begin{itemize}
+\item {\em Semantics and Pragmatics of Dialogue (SemDial) 2008, King's College London}, Publication chair
+\item  {\em Special session on phonological word learning, International
+    Conference on Development and Learning (ICDL) 2011, Frankfurt,
+    Germany}, Session organiser
+
+\end{itemize}
+
+
+\languages
+
+
+\computer
+
+
+
+%%---------------------------------------------------------------------------%%
+
+\section*{Interests}
+Cricket, Cooking, Classical music
+
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today\\A more updated version may be available at: \\
+    \href{\footerlink}{\texttt{\website{}/cv-research.pdf}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}

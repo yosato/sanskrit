@@ -1,0 +1,290 @@
+\documentclass{article}
+\usepackage{acl2016}
+
+
+\usepackage[CJKspace]{xeCJK}
+%\setCJKmainfont{AozoraMinchoRegular.ttf}
+%\setCJKfont{SharpSong.ttf}
+
+\setCJKfamilyfont{zhrm}{SharpSong.ttf}
+\setCJKfamilyfont{jarm}{AozoraMinchoRegular.ttf}
+%\setCJKfamilyfont{korm}{Batang}
+
+\newcommand\Chinese{\CJKfamily{zhrm}\CJKnospace}
+\newcommand\Japanese{\CJKfamily{jarm}\CJKnospace}
+%\newcommand\Korean{\CJKfamily{korm}\CJKspace}
+
+\usepackage{relsize}
+\usepackage[]{algorithm2e}
+
+%\renewcommand{\topfraction}{5}
+
+\begin{document}
+
+\title{Is a multi-word expression possible without words? \\A syllable-based model}
+
+\maketitle
+
+\begin{abstract}
+
+This paper examines the potential of syllable-based method as a model for multi-word expressions by way of addressing the fundamental issue of morphological granularity. Given that word segmentation itself is a contentious issue, we build a model with syllables, and compare it with the conventional word-based model, on three languages with syllable-based orthography, Chinese, Japanese and Vietnamese. Furthermore, we do this employing variable length N-grams, i.e. in a general manner that allows for any length. The results indicate that for Chinese, the syllable model registers a performance close to the word model.
+
+\end{abstract}
+
+\section{Motivation}
+
+It would most probably sound just tautological to state that multi-word expressions are about sequences of \emph{words}. However, `word' is not so safe a concept: linguists have debated, without much clear conclusion, what a word is for a long time. One contentious issue concerns \emph{granularity}. Boarderline cases are abundant. Some `multi-word' expressions are ---say `hand bag' or `none the less' in English--- may just be pereived as single words, as the fact that they are also written without space indicates. On the other hand some spaceless expressions ---`aren't' in English or `aux' in French--- are semantically complex and could be conceived as consisting of multiple words. Thus a `multi-word expression' can consist of two words according to some, and of three to others, and inevitably, of one, which would not be multi-word at all. So the very building block of multi-word expression is rather fragile.
+
+Also, the `words', or their boundaries, should not be just taken for granted if any study were to construct a \emph{learning} model, which this work aspires to represent. By this we imply learning both by humans and by machines. For the infants acquiring words, word boundaries are simply absent in continuous speech, from which they need to somehow discover them. In fact, there is evidence that the infant learners start out `wholistically', that is learn indeed `multi-word' expressions apparently without much internal analysis \cite{Clark09,Tomasello03}. The fact that they seem to be able to capture multi-word epressions without yet having a vocabulary points to the possibility that some sub-lexical units are employed. 
+
+A sublexical model could also be useful in the context of learning by machine from texts, since there are languages the orthography of which is not word-based. Indeed in this study three of such languages, Chinese, Japanese and Vietnamese, will be our targets. Their orthography is instead \emph{syllable}-based, and this lends itself naturally to a type of sublexical model, i.e. that of syllables. 
+
+In light of this we will examine in what follows a model based on syllables and how it compare it with one based on `words', that is, a blob surrounded by spaces. Certainly the model based on syllables cannot per se provide that of words, since it would generate non-words at its peripheries. It cannot, in principle, outperform the word-model, as long as the word is correctly segmented. We nevertheless believe that this comparative study will contribute to the research of multi-word expressions, not just as a learning model, in at least two practical senses. One is to provide a reference for the word-based model. The syllable model would not only give the upper bound of the counterpart word model, but can shed light in terms of granularity on the word model, which can be oversegmenting or undersegmenting to varying degrees. Another is the usefulness to the aforementioned languages with syllable-based orthography. To build a model for multi-word expressions on words in such a language, we would need segmentation into words first, which in itself could be a tricky task. If the syllable model works nearly as well for the same purpose, we might be able to build the multi-word model without using words at all.
+
+\section{Methods}
+
+There are some well-known statistical techniques, or \emph{association measures} (AM) to extract multi-word expressions \cite{PecinaSchlesinger06}. Amongst these one of the most used would be an information-theoretic measure, pointwise mutual information (PMI), which is the co-ocurrence (joint) probability of two units divided by the `expected' probability, that is the product of the two units' marginal probabilities $( log_2\frac{P(w_1,w_2)}{P(w_1)P(w_2)} )$.
+
+\smallskip
+
+PMI however favours infrequent words, which is not so desirable as a metric to extract multi-word expressions as targeted in this study. We are targeting the kind of sequence that `stands out', or more precisely, that seems to the human perception \emph{salient} as a unit. The kind of sequence that would register the highest PMIs is a rare one in which its elements consistently co-occur as against outside it ---an obvious extreme case being one in which each element only occurs once globally as with an obscure full name--- is not salient in the normal sense of the word. Considering frequency as an important contributing factor to saliency, we incorporate it into the metrics, and use the frequency-biased MI called \emph{frequency-biased mutual dependency} by Thanopoulos et al. \shortcite{ThanopoulosEtAl02}, which is computed as follows:
+
+$$ FrMD= log_2 \frac{P(w_1,w_2)^2}{P(w_1)P(w_2)}+log_2 P(x,y)$$.
+
+Another crucial requirement of this study, which is intended to ascertain if a fine-grained unit, syllable, could lead to a broad-grained unit, multi-word expressions, is to extend the application of the AMs beyond bigrams, i.e. generally to N-Grams, since a multi-word expression would mostly stretch over a large number of syllables. Therefore we employ the \emph{variable-length} N-grams \cite{Kneser96,KeplerEtAl12}, where we start with bigrams and extend them to N+1-grams by taking N-grams as the first item of a `bigram' --or \emph{generalised bigram} or GBGs as we henceforth call it--- to compute the mutual information of N-grams in general for any N \cite{PitlerEtAl10,DuEtAl15}
+
+An obvious practical problem is the complexity of such cumulative iterations with GBGs. The possible combinations in simple bigrams is already exponential (a 2-permutation $n$ where $n$ is the size of the vocabulary) in general case. However given that N-grams in natural language are generally heavily constrained, it is rather the fact that after each iteration the resulting, bloated, N-grams are used in the next iteration that makes the whole procedure genuinely intractable in practice. Therefore we set a threshold, the best value of which is to be experimentally established, and prune the GBGs below this figure. The procedure would look like the following pseudocode below (\ref{peudocode}). 
+
+\begin{algorithm}[h]
+
+\KwData{$GBGsWithCount=\{((Units1,Unit2),Occ) \mid $ Units1 precede Unit2$\}$}\\{\smaller where Units1 is an n-tuple of base units, Unit2 a single base unit and Occ the occurrences of (Units1,Unit2)}\\
+\smallskip
+initialisation;\\
+GBGsWithCount$\leftarrow $ BigramWithCount\\
+GBGsWithAM$\leftarrow [\hspace{0.2mm}]$\\
+ \While{$GBGs\ne \emptyset$}{
+   \For{GBG $\in$ GBGs}{ 
+   calculate FrMD of GBG;
+  
+   GBGWithAM.append((GBG,AM)); }
+  GBGsWithAM$\leftarrow$ {\smaller sort GBGsWithAM on AM};\\
+  GBGsWithAM$\leftarrow$ {\smaller apply filters on GBGWithAM};\\
+ }\endFor
+ }\endWhile
+ \caption{Generalising bigrams to N-grams with filtering}
+\label{peudocode}
+\end{algorithm}
+
+Notice that in the end of each iteration i.e. in the transition from N to (N+1)grams, not just the simple pruning with threshold, but another type of intervention is executed, proposed by \cite{DuEtAl15}. This is in fact more pertinent to multi-word expressions. We could call it `expansion'-based pruning, as this applies to the case where we decide whether we proceed from N to N+1 if N is shared. If it turns out that the AM is much lower at N+1 than N, one could stop the `expansion' then and there. The intuition behind it is that a big drop is the sign of the end of multi-unit expressions. An example would be, say, if you have the bigram `sunny side', and the following words includes `up' and `of', it is expected that there is not much sharper decrease in an AM for the latter than the former. Here again, what the appropriate `drop' to justify the filtering seems to be emprically found, though we employ the heuristics employed by \cite{DuEtAl15}.
+
+We also apply the `downward' filtering as well related to this intervention. In those cases of continuing expansion, if the expansion increases the AM by the same margin, we deem it to be a proper `subsumption' case, that is where the N+1 subsumes N where N is just an intermediate stage to reach a full multi-unit expression. `Aun Sang Su', for example, is clearly an incomplete stage of the full name, and hence is not worth keeping.
+
+Iteration continues until all the (N+1)grams are pruned and there is no sequence left to process. This could happen quite quickly or take time depending on the threshold and margin values. 
+
+
+\begin{figure}[ht!]
+ % \scalebox{.5}{\input{plot.tex}}
+\centering
+\begin{tabular}{c|c}
+
+
+\Chinese
+%
+
+word-based&syllable-based\\
+\hline
+一\hspace{0.8em}个\hspace{0.8em}人&什\hspace{0.8em}么\\
+你\hspace{0.8em}的&一\hspace{0.8em}个\hspace{0.8em}人\\
+不\hspace{0.8em}知道&奥\hspace{0.8em}巴\hspace{0.8em}马\\
+奥\hspace{0.8em}巴\hspace{0.8em}马&不\hspace{0.8em}知\hspace{0.8em}道\\
+自己\hspace{0.8em}的&中\hspace{0.8em}国\\
+一定\hspace{0.8em}要&生\hspace{0.8em}日\\
+让\hspace{0.8em}你&问\hspace{0.8em}题\\
+变\hspace{0.8em}得&一\hspace{0.8em}定\hspace{0.8em}要\\
+原子\hspace{0.8em}炉&自\hspace{0.8em}己\hspace{0.8em}的\\
+一\hspace{0.8em}辈子&原\hspace{0.8em}子\hspace{0.8em}炉\\
+
+做\hspace{0.8em}不\hspace{0.8em}到&
+一\hspace{0.8em}定\hspace{0.8em}要\\
+我\hspace{0.8em}只\hspace{0.8em}想&让\hspace{0.8em}你\\
+每\hspace{0.8em}个\hspace{0.8em}人&变\hspace{0.8em}得\\
+句\hspace{0.8em}话&孩\hspace{0.8em}子\\
+都\hspace{0.8em}会&一\hspace{0.8em}辈\hspace{0.8em}子\\
+在\hspace{0.8em}一起&做\hspace{0.8em}不\hspace{0.8em}到\\
+一\hspace{0.8em}条&一\hspace{0.8em}件\hspace{0.8em}事\\
+薰\hspace{0.8em}衣\hspace{0.8em}草&我\hspace{0.8em}只\hspace{0.8em}想\\
+在\hspace{0.8em}一\hspace{0.8em}起&最\hspace{0.8em}大\hspace{0.8em}的\\
+两\hspace{0.8em}个\hspace{0.8em}人&每\hspace{0.8em}个\hspace{0.8em}人\\
+
+最\hspace{0.8em}好\hspace{0.8em}的&
+句\hspace{0.8em}话\\
+链接\hspace{0.8em}在\hspace{0.8em}评论&玩\hspace{0.8em}看\hspace{0.8em}短\hspace{0.8em}信\\
+找\hspace{0.8em}不\hspace{0.8em}到&昨\hspace{0.8em}天\\
+爱\hspace{0.8em}的\hspace{0.8em}人&都\hspace{0.8em}会\\
+赏\hspace{0.8em}赏\hspace{0.8em}虹\hspace{0.8em}霓&在\hspace{0.8em}一\hspace{0.8em}起\\
+全景\hspace{0.8em}天窗&一\hspace{0.8em}条\\
+最\hspace{0.8em}大\hspace{0.8em}的&薰\hspace{0.8em}衣\hspace{0.8em}草\\
+谁\hspace{0.8em}能\hspace{0.8em}拥有&在\hspace{0.8em}一\hspace{0.8em}起\\
+一\hspace{0.8em}件\hspace{0.8em}事&两\hspace{0.8em}个\hspace{0.8em}人\\
+如果\hspace{0.8em}有\hspace{0.8em}一天&一\hspace{0.8em}件\hspace{0.8em}事\\
+
+放\hspace{0.8em}不\hspace{0.8em}下&
+全\hspace{0.8em}世\hspace{0.8em}界\\
+肉欲\hspace{0.8em}横流&放\hspace{0.8em}不\hspace{0.8em}下\\
+蝉\hspace{0.8em}游记&加\hspace{0.8em}油\hspace{0.8em}加\hspace{0.8em}油\\
+我\hspace{0.8em}的\hspace{0.8em}小伙伴&今\hspace{0.8em}天\hspace{0.8em}开\hspace{0.8em}始\\
+日式\hspace{0.8em}照\hspace{0.8em}烧汁&赏\hspace{0.8em}赏\hspace{0.8em}虹\hspace{0.8em}霓\\
+税务\hspace{0.8em}登记\hspace{0.8em}证&看\hspace{0.8em}短\hspace{0.8em}信\hspace{0.8em}发\\
+%最\hspace{0.8em}重要\hspace{0.8em}的&日式\hspace{0.8em}照\hspace{0.8em}烧\\
+%免费\hspace{0.8em}手机\hspace{0.8em}流量&两\hspace{0.8em}个\hspace{0.8em}人\\
+%联合国\hspace{0.8em}教科\hspace{0.8em}文&时\hspace{0.8em}针\hspace{0.8em}它\hspace{0.8em}不\hspace{0.8em}停\\
+%工业\hspace{0.8em}区&我\hspace{0.8em}正\hspace{0.8em}在\hspace{0.8em}玩\\
+%&
+%我 们 一 起&蝉 游记&最 好 的&一 件 事&联　合　国 教　科 文　组　织&工 业 区&什 么 时 候&第 一 次&最 重 要&税 务 登 记 证\\
+
+
+
+\end{tabular}
+
+\label{rankingTable1}
+\caption{Top ranked multi-unit extractions for Chinese}
+\end{figure}
+
+
+\section{Experiments, target languages and corpora}
+
+\begin{figure*}[ht!]
+\centering
+\begin{tabular}{|c|c|}
+
+\Japanese
+
+word model&syllable model\\
+\hline
+まし た&
+
+あ り が と う ご ざ い ま\\
+ し て&	い ま\\
+	ありがとう　ござい ます&	しゅ う\\
+	ん だ&	わ ら い\\
+	て い&	だ い\\
+	よろしく おねがい　します&	ほ ん\\
+	し ます&	ま し た\\
+ 	て いる&	よ ろ し く お ね が い\\
+	ませ ん&	ど う\\
+	だ よ&	ぜ ん　ぜ　ん\\
+
+	でし た&	お め で と う ご ざ い ま す\\
+	だっ た&	ちゃ ん\\
+	よ ね&	い ま す\\
+	て ください&	あ る\\
+	です ね&	お ね が い い た し ま す\\
+	なっ て&	ふぉ ろ ー あ り が と う ご ざ\\
+あべ　せいけん&	ちゅ う\\
+さ せ て いただき&	し ん\\
+ふぉろー　し　て&	え ん\\
+	きょう は&	ぶ ん\\
+	て くれ&	にっ ぽ　ん\\
+	い ます&	ぜ ひ\\
+	だ けど&	だっ た\\
+	おり ます&	が と う\\
+	か な&	ひ と た ち ど う し で いっ しょ\\
+	なかっ た ん です&	お ま ち し て お り ま す\\
+		ござい まし　た&	お もっ\\
+あんぜん　ほしょう&	お つ か れ さ ま で し た\\
+　いただい　て&めっ ちゃ\\
+けんぽう　かいせい&て く だ\\
+
+\end{tabular}
+
+\label{rankingTable2}
+\caption{Top ranked multi-unit extractions for Japanese}
+\end{figure*}
+
+
+
+A pre-requisite of syllable-based model is, just as syllable-orthography languages require segmentation into words, that the input be segmented into syllables. Syllabification could however be a somewhat complicated process for word-orthography languages, so although it is by no means impossible, we report the results here on three syllable-orthography languages, Japanese, Chinese and Vietnamese.
+
+For the corpus to experiment on, relatively informal ones are desired, due to their proximity to everyday speech. The crucial property of such a genre of corpus would be that it would have more spontaneous repetitions, compared with the ones with a more formal register, where the writers usually proofread themselves. Therefore we use corpora of the social network genre, specifically the official dumps of Weibo (Chinese) and opensubtitles (Vietnamese)  and Twitter (Japanese).
+
+The size of corpora are roughly normalised to approximately 100M word tokens. They are split into test and train sets, each then being segmented into two versions, one word-segmented and the other syllable-segmented. The latter is a relatively straightforward process, trivial even for Chinese and Vietnamese, whose orthography is entirely syllable-based, while Japanese requires the homogenisation of characters into its syllable-based alphabet, \emph{hiragana}. The word segmentation, on the other hand, requires pre-processing with a morphological analyser, for which we used MeCab \cite{KudoEtAl04}.
+
+The train parts were then fed into the described procedure to extract multi-unit candidates. Evaluations were then conducted with the test parts.
+
+
+\section{Evaluation}
+
+Evaluation is a knotty issue for multi-word expressions as the preperation of the gold standard is not straightforward. However, our main focus is not so much the performance itself of the model, as whether a sub-lexical level model could work as well as a word-level one. Therefore we take the word-leovel results to be the reference, or upper bound, and see how close a result the syllable-models achieves. Therefore while we show, as is customary with studies on multi-word expression extraction, the top top-ranked outputs, we also provide the recall and precision figures taking the word-level results as the `gold standard'. 
+
+Except, of course, it is not exactly the gold standard that the word model represents. As mentioned in the introduction, there may well be cases where the word-based model can be rectified by the sub-lexical model, particularly for the OOV words such as neologisms. Here there is not so straightforward a way to quantify such potential `improvement' unless a merged model is created, which would not within the scope of this study. We will therefore instead simply evaluate the potential on both types of models by means of perplexity. 
+
+We take as the reference the `normal' trigram language model where `words' as segmented by the morphological analyser are the base units, and compare the performance of the models where the multi-unit expressions found in the above procedure are fed into the vocabulary, replacing the individual constituent words.  are fed into the vocabulary, replacing the component words. 
+
+ 
+\section{Results and observations}
+
+
+The top ranked multi-unit candidates are shown in Figures 1 and 2 for Chinese and Japanese. As one can see, there are significant overlaps, but as expected, the syllable-based extractions are more general, including not just multi-word expressions but what seems to be single words. There are some `part of multi-word expressions' observed particularly for Chinese, but in fact, this is not just the case with the syllable model but also with the word-model. This is due to the fact that in Chinese single syllables are very often words as well, and quite a few noises were found in the word model too, if to a lesser extent than the syllable model.
+
+The precision/recall figures of syllable models as against the word models, taking the top 5000 multi-word expressions in the word model are taken to be the gold standard, are shown in Figure \ref{modelComparison}.
+
+
+As expected, there are more false positives than negatives, due to a large number of single words and `peripheries' of multi-word expressions in the syllable model. There was a large variance between the three languages as well. In fact, the gap between precision and recall was surprisingly small for Chinese. This seems to reflect the aforementioned fact that there are noises in the word model, and indeed, there were cases where `reverse correction' occurs. For example, though not shown in the list, the syllable model found the correct complete multi-word expression {\Chinese 联合国教科文组织} (`UNESCO') as opposed to the word model's incomplete {\Chinese 联合国教科文}. The reader is reminded of the fact that the Chinese researchers are mainly interested in similar procedures to detect unknown words.
+
+Perhaps reflecting this, the perplexity of the model augmented with the syllable-based multi-unit expressions is almost equally good as that augmented with the multi-`word' expressions. 
+
+The situation is rather different in Japanese. Here the word-based model clearly outperforms the syllable-based model, and this is apparent from the top candidate list (Figure 2). This is essentially because the Japanese words are generally multi-syllabic, as opposed to Chinese, where there are many single-syllable words. More ambiguities ensue, therefore, which cause more problems with the syllable model.  
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{c|c|c|c}
+
+
+language&true positives& Precision & Recall \\
+\hline
+CN & 3991& 78.83 &  79.82 \\
+JP & 4309& 70.07 & 86.18  \\
+VI & 4318& 80.11 &  86.36\\
+
+\end{tabular}
+\caption{Performance of syllable model against word model}
+\label{modelComparison}
+\end{figure}
+
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{c|r|r|r}
+
+  & normal & word & syllable\\
+\hline
+CN & 655.946 & 492.129 & 491.210\\
+JP & 333.347 & 306.513 & 339.219\\
+VI & 193.292 & 173.495 & 180.147\\
+
+\end{tabular}
+\caption{Perplexity comparison}
+\label{perplexityComparison}
+\end{figure}
+
+\section{Future work}
+
+This is only a beginning of a long-term project, and there are a number of related forthcoming tasks. 
+
+First of all, we only tested in this study three Asian languages because of the ease of evaluation, but the same comparison should be pursued in other languages, with suitably pre-processed corpora. Furthermore, we were glossing over the fact that for Chinese, the model is not exactly a syllable model, since though a Chinese character does represent a syllable, characters are more differentiating than syllables. To be precise, the same procedure should be conducted on phonetic (e.g. pinying) equivalents.
+
+Secondly, although we mentioned the potential as a cognitive learning model, we have not quite fleshed out what the implications are. Related to the same point, more child-directed data should be dealt with, to render the study more oriented towards a cognitive acquisition study.
+
+Thirdly, we need to perform more comparisons to get the whole picture. We have not, for one, tested yet the performance of the syllable-only model. Furthermore, if the syllable model and word model could be complementary rather than one being inperfect counterpart of the other, one should look at the model combining both and see whether such a model improves over the base model.
+
+
+
+\bibliography{yobib}
+%\bibliography{acl2016}
+\bibliographystyle{acl2016}
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
