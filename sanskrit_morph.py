@@ -130,7 +130,7 @@ class AdjLexeme(NominalLexeme):
     def decline_all(self):
         AdjWds=[]
         if self.inftype is None:
-            print('not found '+self.lemma+'\n')
+            sys.stderr.write('Inflection type not identified '+self.lemma+'\n')
             return AdjWds
         for (Case,NumVarSets) in self.declpar[self.inftype].items():
             for Cnt,NumVarSet in enumerate(NumVarSets):
@@ -200,7 +200,7 @@ class NounLexeme(NominalLexeme):
         super().__init__(Lemma,'noun')
         self.gender=Gender
         InfTypes=paradigms.NounInfTypes
-        self.inftype=InfTypes[next( Type for Type in InfTypes.keys() if Gender in Type[1] )]
+        self.inftype=InfTypes[next( SuffGen for SuffGen in InfTypes.keys() if Gender in SuffGen[1] and self.suffix in SuffGen[0] )]
         self.declpar=paradigms.noun
     def decline_all(self):
         NounWds=[]

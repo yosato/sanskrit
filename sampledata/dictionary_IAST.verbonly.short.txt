@@ -1,0 +1,2501 @@
+अभ्यारोहति { अभ्यारुह् }	abhyārohati  { abhyāruh }	verb	ascend
+अभ्यारोहति { अभ्यारुह् }	abhyārohati  { abhyāruh }	verb	mount
+अभ्यारोहति { अभ्यारुह् }	abhyārohati  { abhyāruh }	verb	step upon
+अभ्यावधति { अभ्यावध् }	abhyāvadhati  { abhyāvadh }	verb	strike
+अभ्यावहति { अभ्यावह् }	abhyāvahati  { abhyāvah }	verb	bring towards
+अभ्यावहति { अभ्यावह् }	abhyāvahati  { abhyāvah }	verb	convey
+अभ्याविशति { अभ्याविश् }	abhyāviśati  { abhyāviś }	verb	penetrate
+अभ्यासिञ्चति { अभ्यासिच् }	abhyāsiñcati  { abhyāsic }	verb	pour on
+अभ्यासिदति { अभ्यासद् }	abhyāsidati  { abhyāsad }	verb	attain
+अभ्यासिदति { अभ्यासद् }	abhyāsidati  { abhyāsad }	verb	obtain
+अभ्यासिदति { अभ्यासद् }	abhyāsidati  { abhyāsad }	verb	sit down into
+अभ्यासं करोति { अभ्यासं कृ }	abhyāsaṃ karoti  { abhyāsaṃ kṛ }	verb	practise
+अभ्यासं करोति { कृ }	abhyāsṃ karoti  { kṛ }	verb	practise
+अभ्याहते { अभ्याहन् }	abhyāhate  { abhyāhan }	verb	impede
+अभ्याहते { अभ्याहन् }	abhyāhate  { abhyāhan }	verb	strike
+अभ्याहते { अभ्याहन् }	abhyāhate  { abhyāhan }	verb	wound  
+अभ्याह्वते { अभ्याह्वे }	abhyāhvate  { abhyāhve }	verb	challenge
+अभ्युक्षते { अभ्युक्ष् }	abhyukṣate  { abhyukṣ }	verb	cover with sparks
+अभ्युच्यति { अभ्युच् }	abhyucyati  { abhyuc }	verb	take pleasure in visiting
+अभ्युत्क्रमति { अभ्युत्क्रम् }	abhyutkramati  { abhyutkram }	verb	ascend
+अभ्युत्क्रमति { अभ्युत्क्रम् }	abhyutkramati  { abhyutkram }	verb	go up to
+अभ्युत्क्रोशति { अभ्युत्क्रुश् }	abhyutkrośati  { abhyutkruś }	verb	raise loud acclamations towards
+अभ्युत्सर्जति { अभ्युत्सर्ज् }	abhyutsarjati  { abhyutsarj }	verb	rattle towards
+अभ्युत्सहते { अभ्युत्सह् }	abhyutsahate  { abhyutsah }	verb	be able to resist
+अभ्युत्सहते { अभ्युत्सह् }	abhyutsahate  { abhyutsah }	verb	feel competent
+अभ्युत्सहते { अभ्युत्सह् }	abhyutsahate  { abhyutsah }	verb	venture
+अभ्युत्स्मयते { अभ्युत्स्मि }	abhyutsmayate  { abhyutsmi }	verb	smile on
+अभ्युदतिष्ठति { अभ्युत्था }	abhyudatiṣṭhati  { abhyutthā }	verb	desist from
+अभ्युदतिष्ठति { अभ्युत्था }	abhyudatiṣṭhati  { abhyutthā }	verb	leave off
+अभ्युदतिष्ठति { अभ्युत्था }	abhyudatiṣṭhati  { abhyutthā }	verb	rise for going towards
+अभ्युदतिष्ठति { अभ्युत्था }	abhyudatiṣṭhati  { abhyutthā }	verb	rise from a seat to do anyone honour
+अभ्युदतिष्ठति { अभ्युत्था }	abhyudatiṣṭhati  { abhyutthā }	verb	rise in rebellion
+अभ्युदूहति { अभ्युदूह् }	abhyudūhati  { abhyudūh }	verb	move or push farther out
+अभ्युद्द्रवति { अभ्युद्द्रु }	abhyuddravati  { abhyuddru }	verb	run up to
+अभ्युद्धरति { अभ्युद्धृ }	abhyuddharati  { abhyuddhṛ }	verb	draw (as water)
+अभ्युद्धरति { अभ्युद्धृ }	abhyuddharati  { abhyuddhṛ }	verb	elevate
+अभ्युद्धरति { अभ्युद्धृ }	abhyuddharati  { abhyuddhṛ }	verb	lift up
+अभ्युद्धरति { अभ्युद्धृ }	abhyuddharati  { abhyuddhṛ }	verb	render prosperous
+अभ्युद्धरति { अभ्युद्धृ }	abhyuddharati  { abhyuddhṛ }	verb	re-obtain
+अभ्युद्धरति { अभ्युद्धृ }	abhyuddharati  { abhyuddhṛ }	verb	take or draw out
+अभ्युद्धरति { अभ्युद्धृ }	abhyuddharati  { abhyuddhṛ }	verb	take up
+अभ्युन्नयति { अभ्युन्नी }	abhyunnayati  { abhyunnī }	verb	scoop towards
+अभ्युपपद्यते { अभ्युपपद् }	abhyupapadyate  { abhyupapad }	verb	approach in order to help
+अभ्युपपद्यते { अभ्युपपद् }	abhyupapadyate  { abhyupapad }	verb	ask for help
+अभ्युपपद्यते { अभ्युपपद् }	abhyupapadyate  { abhyupapad }	verb	furnish with
+अभ्युपमन्त्रयते { अभ्युपमन्त्र् }	abhyupamantrayate  { abhyupamantr }	verb	address with a formula
+अभ्युपलक्षते { अभ्युपलक्ष् }	abhyupalakṣate  { abhyupalakṣ }	verb	notice
+अभ्युपलक्षते { अभ्युपलक्ष् }	abhyupalakṣate  { abhyupalakṣ }	verb	perceive
+अभ्युपाकरोति { अभ्युपाकृ }	abhyupākaroti  { abhyupākṛ }	verb	prepare or make preparations  [ for a sacred action ]
+अभ्युपाददाति { अभ्युपादा }	abhyupādadāti  { abhyupādā }	verb	pick up  [ as fruits from the ground ]
+अभ्युपावहरति { अभ्युपावहृ }	abhyupāvaharati  { abhyupāvahṛ }	verb	bring or set down upon
+अभ्युपावहरति { अभ्युपावहृ }	abhyupāvaharati  { abhyupāvahṛ }	verb	lower  [ as one's arms ]
+अभ्युपाहरति { अभ्युपाहृ }	abhyupāharati  { abhyupāhṛ }	verb	bring near
+अभ्युपाहरति { अभ्युपाहृ }	abhyupāharati  { abhyupāhṛ }	verb	offer
+अभ्युपेक्षते { अभ्युपेक्ष् }	abhyupekṣate  { abhyupekṣ }	verb	allow
+अभ्युपेक्षते { अभ्युपेक्ष् }	abhyupekṣate  { abhyupekṣ }	verb	overlook
+अभ्युपैति { अभ्युपे }	abhyupaiti  { abhyupe }	verb	admit as an argument or a position
+अभ्युपैति { अभ्युपे }	abhyupaiti  { abhyupe }	verb	agree with
+अभ्युपैति { अभ्युपे }	abhyupaiti  { abhyupe }	verb	approach
+अभ्युपैति { अभ्युपे }	abhyupaiti  { abhyupe }	verb	approach (in copulation)
+अभ्युपैति { अभ्युपे }	abhyupaiti  { abhyupe }	verb	approve of
+अभ्युपैति { अभ्युपे }	abhyupaiti  { abhyupe }	verb	arrive at
+अभ्युपैति { अभ्युपे }	abhyupaiti  { abhyupe }	verb	enter
+अभ्युपैति { अभ्युपे }	abhyupaiti  { abhyupe }	verb	enter a state or condition
+अभ्युपैति { अभ्युपे }	abhyupaiti  { abhyupe }	verb	go near
+अभ्युपैति { अभ्युपे }	abhyupaiti  { abhyupe }	verb	go to meet any one
+अभ्युपैति { अभ्युपे }	abhyupaiti  { abhyupe }	verb	obtain
+अभ्युपैति { अभ्युपे }	abhyupaiti  { abhyupe }	verb	select as
+अभ्युपैति { अभ्युपे }	abhyupaiti  { abhyupe }	verb	share
+अभ्युपैहि { अभ्युपे }	abhyupaihi  { abhyupe }	verb	approach for refuge
+अभ्यूर्णोति { अभ्यूर्णु }	abhyūrṇoti  { abhyūrṇu }	verb	conceal
+अभ्यूहति { अभ्यूह् }	abhyūhati  { abhyūh }	verb	cover with  [ instr. ]
+अभ्यूहति { अभ्यूह् }	abhyūhati  { abhyūh }	verb	guess
+अभ्यूहति { अभ्यूह् }	abhyūhati  { abhyūh }	verb	infer
+अभ्यूहते { अभ्यूह् }	abhyūhate  { abhyūh }	verb	lie in ambush for
+अभ्यूहते { अभ्यूह् }	abhyūhate  { abhyūh }	verb	watch for
+अभ्येति { अभी }	abhyeti  { abhī }	verb	approach
+अभ्येति { अभी }	abhyeti  { abhī }	verb	begin to
+अभ्येति { अभी }	abhyeti  { abhī }	verb	come to
+अभ्येति { अभी }	abhyeti  { abhī }	verb	enter
+अभ्येति { अभी }	abhyeti  { abhī }	verb	go along or after
+अभ्येति { अभी }	abhyeti  { abhī }	verb	go over to
+अभ्येति { अभी }	abhyeti  { abhī }	verb	go up to or towards
+अभ्येति { अभी }	abhyeti  { abhī }	verb	join
+अभ्येति { अभी }	abhyeti  { abhī }	verb	obtain
+अभ्येति { अभी }	abhyeti  { abhī }	verb	reach
+अभ्येति { अभी }	abhyeti  { abhī }	verb	rise  [ said of sun ]
+अभ्येति { अभी }	abhyeti  { abhī }	verb	to get or fall into
+अभ्येति { अभ्ये }	abhyeti  { abhye }	verb	go near
+अभ्योषति { अभ्युष् }	abhyoṣati  { abhyuṣ }	verb	burn
+अभ्योषति { अभ्युष् }	abhyoṣati  { abhyuṣ }	verb	consume by fire
+अभ्रायते { अभ्राय }	abhrāyate  { abhrāya }	verb	create clouds
+अमरीभवति { अमरीभू }	amarībhavati  { amarībhū }	verb	become immortal  [ said of brave warriors dying in battle ]
+अमलयति { अमलय }	amalayati  { amalaya }	verb	make brilliant
+अमलयति { अमलय }	amalayati  { amalaya }	verb	make spotless
+अमलयति { अमलय }	amalayati  { amalaya }	verb	whiten
+अमलीकरोति { अमलीकृ }	amalīkaroti  { amalīkṛ }	verb	purify
+अमित्रयति { अमित्रय }	amitrayati  { amitraya }	verb	have hostile intentions
+अमित्रायते { अमित्राय }	amitrāyate  { amitrāya }	verb	have hostile intentions
+अमिथ्याकरोति { अमिथ्याकृ }	amithyākaroti  { amithyākṛ }	verb	confirm
+अमुकनाम्ना रक्षति	amukanāmnā rakṣati	verb	save as  [ computer ]
+अमृतायते { अमृताय }	amṛtāyate  { amṛtāya }	verb	be like nectar
+अम्बर्यति { अम्बर्य }	ambaryati  { ambarya }	verb	bring together
+अम्बर्यति { अम्बर्य }	ambaryati  { ambarya }	verb	collect
+अरङ्करोति { अरंकृ }	araṅkaroti  { araṃkṛ }	verb	make ready
+अरङ्करोति { अरंकृ }	araṅkaroti  { araṃkṛ }	verb	prepare
+अरङ्करोति { अरंकृ }	araṅkaroti  { araṃkṛ }	verb	serve
+अरङ्गच्छति { अरंगम् }	araṅgacchati  { araṃgam }	verb	assist
+अरङ्गच्छति { अरंगम् }	araṅgacchati  { araṃgam }	verb	attend
+अरङ्गच्छति { अरंगम् }	araṅgacchati  { araṃgam }	verb	come near  [ in order to help ]
+अरजायति { अरजाय }	arajāyati  { arajāya }	verb	become dustless
+अरजायति { अरजाय }	arajāyati  { arajāya }	verb	lose the monthly courses  [ post-menopause ]
+अरर्यति { अरर्य }	araryati  { ararya }	verb	work with an awl
+अरातियति { अरातिय }	arātiyati  { arātiya }	verb	be malevolent
+अरातियति { अरातिय }	arātiyati  { arātiya }	verb	have hostile intentions against  [ dat. ]
+अर्घम् निर्धारयति	argham nirdhārayati	verb	appraise  [ 2 ]
+अर्घम् निर्धारयति	argham nirdhārayati	verb	assess  [ 2 ]
+अर्जति { ऋज् }	arjati  { ṛj }	verb	
+अर्जति { ऋज् }	arjati  { ṛj }	verb	arjiṣyate
+अर्जति { ऋज् }	arjati  { ṛj }	verb	arjitā
+अर्जति { ऋज् }	arjati  { ṛj }	verb	be strong or healthy
+अर्जति { ऋज् }	arjati  { ṛj }	verb	go
+अर्जति { ऋज् }	arjati  { ṛj }	verb	obtain
+अर्जति { ऋज् }	arjati  { ṛj }	verb	stand or be firm
+अर्जते { ऋज् }	arjate  { ṛj }	verb	
+अर्जते { ऋज् }	arjate  { ṛj }	verb	acquire
+अर्जते { ऋज् }	arjate  { ṛj }	verb	arjiṣyate
+अर्जते { ऋज् }	arjate  { ṛj }	verb	arjitā
+अर्जते { ऋज् }	arjate  { ṛj }	verb	be strong or healthy
+अर्जते { ऋज् }	arjate  { ṛj }	verb	go
+अर्जते { ऋज् }	arjate  { ṛj }	verb	stand or be firm
+अर्णोति { ऋण् }	arṇoti  { ṛṇ }	verb	go
+अर्णोति { ऋण् }	arṇoti  { ṛṇ }	verb	move
+अर्थापयति { अर्थापय }	arthāpayati  { arthāpaya }	verb	esteem highly
+अर्थापयति { अर्थापय }	arthāpayati  { arthāpaya }	verb	hide cautiously
+अर्थापयति { अर्थापय }	arthāpayati  { arthāpaya }	verb	treat as money
+अर्पणं करोति { कृ }	arpaṇaṃ karoti  { kṛ }	verb	offer
+अर्बति { अर्ब् }	arbati  { arb }	verb	go  
+अर्बति { अर्ब् }	arbati  { arb }	verb	hurt
+अलङ्करोति { अलङ्कृ }	alaṅkaroti  { alaṅkṛ }	verb	beautify
+अलङ्करोति { अलंकृ }	alaṅkaroti  { alaṃkṛ }	verb	check
+अलङ्करोति { अलंकृ }	alaṅkaroti  { alaṃkṛ }	verb	decorate
+अलङ्करोति { अलंकृ }	alaṅkaroti  { alaṃkṛ }	verb	impede
+अलङ्करोति { अलंकृ }	alaṅkaroti  { alaṃkṛ }	verb	make ready
+अलङ्करोति { अलंकृ }	alaṅkaroti  { alaṃkṛ }	verb	ornament
+अलङ्करोति { अलंकृ }	alaṅkaroti  { alaṃkṛ }	verb	prepare
+अलङ्करोति { अलंकृ }	alaṅkaroti  { alaṃkṛ }	verb	violate
+अलति { अल् }	alati  { al }	verb	adorn  
+अलति { अल् }	alati  { al }	verb	be competent or able
+अलति { अल् }	alati  { al }	verb	prevent
+अलभत् { लभ् }	alabhat  { labh }	verb	he got
+अलिखत्	alikhat	verb	wrote  [ Past sg. ]
+अल्पयति { अल्पय }	alpayati  { alpaya }	verb	diminish
+अल्पयति { अल्पय }	alpayati  { alpaya }	verb	lessen
+अल्पयति { अल्पय }	alpayati  { alpaya }	verb	reduce
+अल्पाहारं करोति { कृ }	alpāhāraṃ karoti  { kṛ }	verb	take a light refreshment
+अल्पी करोति	alpī karoti	verb	lower
+अल्पीभवति { अल्पीभू }	alpībhavati  { alpībhū }	verb	become smaller
+अवकर्तति { अवकृत् }	avakartati  { avakṛt }	verb	cut off
+अवकर्तति { अवकृत् }	avakartati  { avakṛt }	verb	destroy
+अवकर्षति { अवकृष् }	avakarṣati  { avakṛṣ }	verb	allure
+अवकर्षति { अवकृष् }	avakarṣati  { avakṛṣ }	verb	drag down
+अवकर्षति { अवकृष् }	avakarṣati  { avakṛṣ }	verb	draw off or away
+अवकर्षति { अवकृष् }	avakarṣati  { avakṛṣ }	verb	entice
+अवकर्षति { अवकृष् }	avakarṣati  { avakṛṣ }	verb	remove  
+अवकर्षति { अवकृष् }	avakarṣati  { avakṛṣ }	verb	turn off
+अवकल्पते { अवकॢप् }	avakalpate  { avaklṛp }	verb	correspond to
+अवकिरति { अवकॄ }	avakirati  { avakṛṛ }	verb	become faithless
+अवकिरति { अवकॄ }	avakirati  { avakṛṛ }	verb	bestrew
+अवकिरति { अवकॄ }	avakirati  { avakṛṛ }	verb	cover with
+अवकिरति { अवकॄ }	avakirati  { avakṛṛ }	verb	disperse
+अवकिरति { अवकॄ }	avakirati  { avakṛṛ }	verb	extend in different directions
+अवकिरति { अवकॄ }	avakirati  { avakṛṛ }	verb	fall off
+अवकिरति { अवकॄ }	avakirati  { avakṛṛ }	verb	fill
+अवकिरति { अवकॄ }	avakirati  { avakṛṛ }	verb	leave  
+अवकिरति { अवकॄ }	avakirati  { avakṛṛ }	verb	pass away
+अवकिरति { अवकॄ }	avakirati  { avakṛṛ }	verb	pour out or down
+अवकिरति { अवकॄ }	avakirati  { avakṛṛ }	verb	pour upon
+अवकिरति { अवकॄ }	avakirati  { avakṛṛ }	verb	scatter
+अवकिरति { अवकॄ }	avakirati  { avakṛṛ }	verb	shake off
+अवकिरति { अवकॄ }	avakirati  { avakṛṛ }	verb	spill one's semen virile
+अवकिरति { अवकॄ }	avakirati  { avakṛṛ }	verb	spread
+अवकिरति { अवकॄ }	avakirati  { avakṛṛ }	verb	throw off
+अवकुत्सयति { अवकुत्स् }	avakutsayati  { avakuts }	verb	revile
+अवकुष्णति { अवकुष् }	avakuṣṇati  { avakuṣ }	verb	rub downwards
+अवकूजति { अवकूज् }	avakūjati  { avakūj }	verb	make a sound
+अवकूजति { अवकूज् }	avakūjati  { avakūj }	verb	utter
+अवकूलति { अवकूल् }	avakūlati  { avakūl }	verb	burn
+अवकूलति { अवकूल् }	avakūlati  { avakūl }	verb	singe
+अवक्रमति { अवक्रम् }	avakramati  { avakram }	verb	descend  [ into a womb ]
+अवक्रमति { अवक्रम् }	avakramati  { avakram }	verb	overcome  
+अवक्रमति { अवक्रम् }	avakramati  { avakram }	verb	step down upon
+अवक्रमति { अवक्रम् }	avakramati  { avakram }	verb	tread down
+अवक्रीणीते { अवक्री }	avakrīṇīte  { avakrī }	verb	bribe
+अवक्षयति { अवक्षि }	avakṣayati  { avakṣi }	verb	remove
+अवक्षिपति { अवक्षिप् }	avakṣipati  { avakṣip }	verb	cause to fly down or away
+अवक्षिपति { अवक्षिप् }	avakṣipati  { avakṣip }	verb	grant
+अवक्षिपति { अवक्षिप् }	avakṣipati  { avakṣip }	verb	hurl
+अवक्षिपति { अवक्षिप् }	avakṣipati  { avakṣip }	verb	revile
+अवक्षिपति { अवक्षिप् }	avakṣipati  { avakṣip }	verb	throw down
+अवक्षिपति { अवक्षिप् }	avakṣipati  { avakṣip }	verb	yield
+अवक्ष्णौति { अवक्ष्णु }	avakṣṇauti  { avakṣṇu }	verb	efface
+अवखण्डयति { अवखण्ड् }	avakhaṇḍayati  { avakhaṇḍ }	verb	annihilate
+अवखण्डयति { अवखण्ड् }	avakhaṇḍayati  { avakhaṇḍ }	verb	break into pieces
+अवखण्डयति { अवखण्ड् }	avakhaṇḍayati  { avakhaṇḍ }	verb	destroy
+अवगच्छति { अवगम् }	avagacchati  { avagam }	verb	anticipate
+अवगच्छति { अवगम् }	avagacchati  { avagam }	verb	approach  
+अवगच्छति { अवगम् }	avagacchati  { avagam }	verb	assure one's self
+अवगच्छति { अवगम् }	avagacchati  { avagam }	verb	be convinced
+अवगच्छति { अवगम् }	avagacchati  { avagam }	verb	come to
+अवगच्छति { अवगम् }	avagacchati  { avagam }	verb	conceive
+अवगच्छति { अवगम् }	avagacchati  { avagam }	verb	consider
+अवगच्छति { अवगम् }	avagacchati  { avagam }	verb	descend to
+अवगच्छति { अवगम् }	avagacchati  { avagam }	verb	get power or influence
+अवगच्छति { अवगम् }	avagacchati  { avagam }	verb	go down
+अवगच्छति { अवगम् }	avagacchati  { avagam }	verb	go near
+अवगच्छति { अवगम् }	avagacchati  { avagam }	verb	hit upon
+अवगच्छति { अवगम् }	avagacchati  { avagam }	verb	learn
+अवगच्छति { अवगम् }	avagacchati  { avagam }	verb	obtain  
+अवगच्छति { अवगम् }	avagacchati  { avagam }	verb	reach
+अवगच्छति { अवगम् }	avagacchati  { avagam }	verb	recogniśe
+अवगच्छति { अवगम् }	avagacchati  { avagam }	verb	think of
+अवगच्छति { अव- गम् }	avagacchati  { ava- gam }	verb	understand
+अवगच्छति { अवगम् }	avagacchati  { avagam }	verb	undertake  
+अवगच्छति { अवगम् }	avagacchati  { avagam }	verb	visit
+अवगमयति { अवगम् }	avagamayati  { avagam }	verb	bring near
+अवगमयति { अवगम् }	avagamayati  { avagam }	verb	cause to know
+अवगमयति { अवगम् }	avagamayati  { avagam }	verb	procure  
+अवगमयति { अवगम् }	avagamayati  { avagam }	verb	teach
+अवगाहते { अव- गाह् }	avagāhate  { ava- gāh }	verb	plunge
+अवगुण्ठयति { अवगुण्ठ् }	avaguṇṭhayati  { avaguṇṭh }	verb	conceal
+अवगूहति { अवगुह् }	avagūhati  { avaguh }	verb	conceal
+अवगूहति { अवगुह् }	avagūhati  { avaguh }	verb	cover
+अवगूहति { अवगुह् }	avagūhati  { avaguh }	verb	embrace
+अवगूहति { अवगुह् }	avagūhati  { avaguh }	verb	hide
+अवगूहति { अवगुह् }	avagūhati  { avaguh }	verb	put into or inside
+अवगूहते { अवगुह् }	avagūhate  { avaguh }	verb	conceal
+अवगूहते { अवगुह् }	avagūhate  { avaguh }	verb	cover
+अवगूहते { अवगुह् }	avagūhate  { avaguh }	verb	embrace
+अवगूहते { अवगुह् }	avagūhate  { avaguh }	verb	hide
+अवगूहते { अवगुह् }	avagūhate  { avaguh }	verb	put into or inside
+अवघर्षति { अवघृष् }	avagharṣati  { avaghṛṣ }	verb	rub to pieces
+अवचिनोति	avacinoti	verb	download  [ computer ]
+अवचिनोति	avacinoti	verb	pluck
+अवचिनोति { अवचि }	avacinoti  { avaci }	verb	draw back or open one's garment
+अवचिनोति { अवचि }	avacinoti  { avaci }	verb	examine
+अवच्छादयति { अवच्छद् }	avacchādayati  { avacchad }	verb	conceal  
+अवच्छादयति { अवच्छद् }	avacchādayati  { avacchad }	verb	cover
+अवच्छादयति { अवच्छद् }	avacchādayati  { avacchad }	verb	cover over
+अवच्छादयति { अवच्छद् }	avacchādayati  { avacchad }	verb	leave in darkness
+अवच्छादयति { अवच्छद् }	avacchādayati  { avacchad }	verb	obscure
+अवच्छादयति { अवच्छद् }	avacchādayati  { avacchad }	verb	overspread
+अवच्छ्यति { अवच्छो }	avacchyati  { avaccho }	verb	cut off
+अवजयति { अवजि }	avajayati  { avaji }	verb	spoil  [ deprive of by conquest ]
+अवजयति { अवजि }	avajayati  { avaji }	verb	ward off
+अवजानाति { अवज्ञा }	avajānāti  { avajñā }	verb	despise
+अवजानाति { अवज्ञा }	avajānāti  { avajñā }	verb	disesteem
+अवजानाति { अवज्ञा }	avajānāti  { avajñā }	verb	excel
+अवजानाति { अवज्ञा }	avajānāti  { avajñā }	verb	have a low opinion of
+अवजानाति { अवज्ञा }	avajānāti  { avajñā }	verb	treat with contempt
+अवजिगाति { अवगा }	avajigāti  { avagā }	verb	be wanting
+अवजिघ्रति { अवघ्रा }	avajighrati  { avaghrā }	verb	kiss
+अवजिघ्रति { अवघ्रा }	avajighrati  { avaghrā }	verb	smell
+अवजिघ्रति { अवघ्रा }	avajighrati  { avaghrā }	verb	touch with the mouth
+अवज्रिम्भते { अवजृम्भ् }	avajrimbhate  { avajṛmbh }	verb	yawn
+अवतनोति { अव- तन् }	avatanoti  { ava- tan }	verb	cover
+अवतनोति { अव- तन् }	avatanoti  { ava- tan }	verb	loosen
+अवतनोति { अव- तन् }	avatanoti  { ava- tan }	verb	overspread
+अवतनोति { अव- तन् }	avatanoti  { ava- tan }	verb	stretch or extend downwards
+अवतनोति { अव -तन् }	avatanoti  { ava -tan }	verb	undo  [ especially a bowstring ]
+अवतपति { अव- तप् }	avatapati  { ava- tap }	verb	radiate heat downwards
+अवतपति { अव- तप् }	avatapati  { ava- tap }	verb	radiate light downwards
+अवतर्णं करोति { कृ }	avatarṇaṃ karoti  { kṛ }	verb	descend
+अवतिष्ठति { अव- स्था }	avatiṣṭhati  { ava- sthā }	verb	abide
+अवतिष्ठति { अवस्था }	avatiṣṭhati  { avasthā }	verb	be separated from or deprived of
+अवतिष्ठति { अवस्था }	avatiṣṭhati  { avasthā }	verb	go away from
+अवतिष्ठति { अवस्था }	avatiṣṭhati  { avasthā }	verb	go down into
+अवतिष्ठति { अव- स्था }	avatiṣṭhati  { ava- sthā }	verb	human
+अवतिष्ठति { अवस्था }	avatiṣṭhati  { avasthā }	verb	reach down to
+अवतिष्ठते { अवस्था }	avatiṣṭhate  { avasthā }	verb	abide
+अवतिष्ठते { अवस्था }	avatiṣṭhate  { avasthā }	verb	abide in a state or condition
+अवतिष्ठते { अवस्था }	avatiṣṭhate  { avasthā }	verb	be absorbed in
+अवतिष्ठते { अवस्था }	avatiṣṭhate  { avasthā }	verb	be found
+अवतिष्ठते { अवस्था }	avatiṣṭhate  { avasthā }	verb	be present
+अवतिष्ठते { अवस्था }	avatiṣṭhate  { avasthā }	verb	enter
+अवतिष्ठते { अवस्था }	avatiṣṭhate  { avasthā }	verb	exist
+अवतिष्ठते { अवस्था }	avatiṣṭhate  { avasthā }	verb	fall into the possession of
+अवतिष्ठते { अवस्था }	avatiṣṭhate  { avasthā }	verb	fall to
+अवतिष्ठते { अवस्था }	avatiṣṭhate  { avasthā }	verb	penetrate (as sound or as fame)
+अवतिष्ठते { अवस्था }	avatiṣṭhate  { avasthā }	verb	remain standing
+अवतिष्ठते { अवस्था }	avatiṣṭhate  { avasthā }	verb	stay
+अवतिष्ठते { अवस्था }	avatiṣṭhate  { avasthā }	verb	stop at any place
+अवतिष्ठते { अवस्था }	avatiṣṭhate  { avasthā }	verb	take one's stand
+अवतृणत्ति { अव- तृद् }	avatṛṇatti  { ava- tṛd }	verb	make holes through
+अवतृणत्ति { अव- तृद् }	avatṛṇatti  { ava- tṛd }	verb	silence  [ as a drum ]
+अवत्वेषति { अव- त्विष् }	avatveṣati  { ava- tviṣ }	verb	dwell
+अवत्वेषति { अव- त्विष् }	avatveṣati  { ava- tviṣ }	verb	give  
+अवत्वेषति { अव- त्विष् }	avatveṣati  { ava- tviṣ }	verb	glitter
+अवत्वेषति { अव- त्विष् }	avatveṣati  { ava- tviṣ }	verb	shine  
+अवत्सरति { अव- त्सर् }	avatsarati  { ava- tsar }	verb	fly away
+अवदधाति { अव- धा }	avadadhāti  { ava- dhā }	verb	deposit
+अवदधाति { अवधा }	avadadhāti  { avadhā }	verb	deposit
+अवदधाति { अव- धा }	avadadhāti  { ava- dhā }	verb	place down
+अवदधाति { अवधा }	avadadhāti  { avadhā }	verb	place or put down
+अवदधाति { अव- धा }	avadadhāti  { ava- dhā }	verb	place or turn aside
+अवदधाति { अवधा }	avadadhāti  { avadhā }	verb	place or turn aside
+अवदधाति { अव- धा }	avadadhāti  { ava- dhā }	verb	plunge into
+अवदधाति { अवधा }	avadadhāti  { avadhā }	verb	plunge into
+अवदयते { अव- दय् }	avadayate  { ava- day }	verb	give or pay a sum of money  [ for the purpose of silencing or keeping one off ]
+अवदहति { अव- दह् }	avadahati  { ava- dah }	verb	consume
+अवदहति { अव- दह् }	avadahati  { ava- dah }	verb	expel with heat or fire
+अवदिधीते { अव- धी }	avadidhīte  { ava- dhī }	verb	watch or lie in wait for
+अवदीप्यते { अव- दीप् }	avadīpyate  { ava- dīp }	verb	burst out in a flame
+अवदृश्यते { अव- दृश् }	avadṛśyate  { ava- dṛś }	verb	to be inferred
+अवदेग्धि { अव- दिह् }	avadegdhi  { ava- dih }	verb	besmear
+अवद्यति { अव- दो }	avadyati  { ava- do }	verb	cut into pieces  [ Ved. ]
+अवद्यति { अव- दो }	avadyati  { ava- do }	verb	cut off  [ Ved. ]
+अवद्यति { अव- दो }	avadyati  { ava- do }	verb	divide  [ Ved. ]
+अवधमति { अव- धम् }	avadhamati  { ava- dham }	verb	stir up
+अवधापयति { अवधा }	avadhāpayati  { avadhā }	verb	cause to put or place into
+अवधावति { अव- धाव् }	avadhāvati  { ava- dhāv }	verb	run down drop down from
+अवधीयते { अवधा }	avadhīyate  { avadhā }	verb	be applied or directed, such as mind, etc.  [ passive ]
+अवधूनोति { अव- धू }	avadhūnoti  { ava- dhū }	verb	frighten away
+अवधूनोति { अव- धू }	avadhūnoti  { ava- dhū }	verb	shake off (as enemies or evil spirits or anything disagreeable)
+अवधूनोति { अव- धू }	avadhūnoti  { ava- dhū }	verb	shake off or out or down
+अवध्यायति { अव- ध्यै }	avadhyāyati  { ava- dhyai }	verb	disregard
+अवध्यायति { अव- ध्यै }	avadhyāyati  { ava- dhyai }	verb	think ill of
+अवध्वंसते { अवध्वंस् }	avadhvaṃsate  { avadhvaṃs }	verb	sprinkle
+अवनक्षति { अवनक्ष् }	avanakṣati  { avanakṣ }	verb	overtake any one
+अवनशति { अवनश् }	avanaśati  { avanaś }	verb	disappear
+अवनशति { अवनश् }	avanaśati  { avanaś }	verb	perish
+अवनिजे { अवनिज् }	avanije  { avanij }	verb	wash (especially the feet)
+अवपतति { अवपत् }	avapatati  { avapat }	verb	fly down
+अवपतति { अवपत् }	avapatati  { avapat }	verb	jump down
+अवपीडयते { अवपीड् }	avapīḍayate  { avapīḍ }	verb	compress
+अवबुध्यते { अवबुध् }	avabudhyate  { avabudh }	verb	become sensible or aware of
+अवभरति { अवभृ }	avabharati  { avabhṛ }	verb	throw or cut off
+अवभरति { अवभृ }	avabharati  { avabhṛ }	verb	throw or push or press down or into
+अवभरते { अवभृ }	avabharate  { avabhṛ }	verb	lower
+अवभरते { अवभृ }	avabharate  { avabhṛ }	verb	sink down or disappear (as foam)
+अवभर्त्सयते { अवभर्त्स् }	avabhartsayate  { avabharts }	verb	deter by scolding scold
+अवभर्त्सयते { अवभर्त्स् }	avabhartsayate  { avabharts }	verb	deter by threatening
+अवभाति	avabhāti	verb	appear
+अवभाति	avabhāti	verb	shine
+अवभाति	avabhāti	verb	shine downwards
+अवभाति { अवभा }	avabhāti  { avabhā }	verb	be brilliant
+अवभाति { अवभा }	avabhāti  { avabhā }	verb	become manifest
+अवभासते { अवभास् }	avabhāsate  { avabhās }	verb	appear as
+अवभासते { अवभास् }	avabhāsate  { avabhās }	verb	be brilliant
+अवभासते { अवभास् }	avabhāsate  { avabhās }	verb	become manifest
+अवभासते { अवभास् }	avabhāsate  { avabhās }	verb	shine forth
+अवभिनत्ति { अवभिद् }	avabhinatti  { avabhid }	verb	pierce
+अवभुजति { अवभुज् }	avabhujati  { avabhuj }	verb	curve inwards
+अवमज्जति { अवमज्ज् }	avamajjati  { avamajj }	verb	immerse
+अवमन्थति { अवमथ् }	avamanthati  { avamath }	verb	cleanse (as a wound) by pricking or stirring (with an instrument)
+अवमन्यते { अवमन् }	avamanyate  { avaman }	verb	refuse
+अवमन्यते { अवमन् }	avamanyate  { avaman }	verb	repudiate
+अवमन्यते { अवमन् }	avamanyate  { avaman }	verb	treat contemptuously
+अवमार्ष्टि { अवमृज् }	avamārṣṭi  { avamṛj }	verb	wipe or rub off
+अवमृद्राति { अवमृद् }	avamṛdrāti  { avamṛd }	verb	crush
+अवमृद्राति { अवमृद् }	avamṛdrāti  { avamṛd }	verb	rub
+अवमृद्राति { अवमृद् }	avamṛdrāti  { avamṛd }	verb	tread down
+अवराध्नोति { अवराध् }	avarādhnoti  { avarādh }	verb	commit a fault
+अवराध्नोति { अवराध् }	avarādhnoti  { avarādh }	verb	fail
+अवराध्नोति { अवराध् }	avarādhnoti  { avarādh }	verb	turn out ill
+अवरिफति { अवरिफ् }	avariphati  { avariph }	verb	utter a murmuring guttural sound
+अवरुजति { अवरुज् }	avarujati  { avaruj }	verb	break off (as shrubs)
+अवरुणद्धि { अवरुध् }	avaruṇaddhi  { avarudh }	verb	check
+अवरुणद्धि { अवरुध् }	avaruṇaddhi  { avarudh }	verb	confine within
+अवरुणद्धि { अवरुध् }	avaruṇaddhi  { avarudh }	verb	contain
+अवरुणद्धि { अवरुध् }	avaruṇaddhi  { avarudh }	verb	enclose
+अवरुणद्धि { अवरुध् }	avaruṇaddhi  { avarudh }	verb	expel  
+अवरुणद्धि { अवरुध् }	avaruṇaddhi  { avarudh }	verb	keep anything locked up  [ in one's bosom ]
+अवरुणद्धि { अवरुध् }	avaruṇaddhi  { avarudh }	verb	keep back
+अवरुणद्धि { अवरुध् }	avaruṇaddhi  { avarudh }	verb	keep one's self wrapped up in one's self
+अवरुणद्धि { अवरुध् }	avaruṇaddhi  { avarudh }	verb	obstruct
+अवरुणद्धि { अवरुध् }	avaruṇaddhi  { avarudh }	verb	put aside
+अवरुणद्धि { अवरुध् }	avaruṇaddhi  { avarudh }	verb	remove  
+अवरुणद्धि { अवरुध् }	avaruṇaddhi  { avarudh }	verb	restrain
+अवरुणद्धि { अवरुध् }	avaruṇaddhi  { avarudh }	verb	seclude
+अवरुणद्धि { अवरुध् }	avaruṇaddhi  { avarudh }	verb	shut in
+अवरोहति { अवरुह् }	avarohati  { avaruh }	verb	alight
+अवरोहति { अवरुह् }	avarohati  { avaruh }	verb	descend
+अवरोहति { अवरुह् }	avarohati  { avaruh }	verb	dismount
+अवर्ती { वृत् }	avartī  { vṛt }	verb	was
+अवलम्बते { अवलम्ब् }	avalambate  { avalamb }	verb	catch hold of
+अवलम्बते { अवलम्ब् }	avalambate  { avalamb }	verb	choose as a direction
+अवलम्बते { अवलम्ब् }	avalambate  { avalamb }	verb	cling to
+अवलम्बते { अवलम्ब् }	avalambate  { avalamb }	verb	descend
+अवलम्बते { अवलम्ब् }	avalambate  { avalamb }	verb	devote one's self to
+अवलम्बते { अवलम्ब् }	avalambate  { avalamb }	verb	enter a state or condition
+अवलम्बते { अवलम्ब् }	avalambate  { avalamb }	verb	glide or slip down
+अवलम्बते { अवलम्ब् }	avalambate  { avalamb }	verb	hang down
+अवलम्बते { अवलम्ब् }	avalambate  { avalamb }	verb	hang to
+अवलम्बते { अवलम्ब् }	avalambate  { avalamb }	verb	hold on or support one's self by
+अवलम्बते { अवलम्ब् }	avalambate  { avalamb }	verb	hold up anything (to prevent its falling down)
+अवलम्बते { अवलम्ब् }	avalambate  { avalamb }	verb	rest upon as a support
+अवलम्बते { अवलम्ब् }	avalambate  { avalamb }	verb	set (as the sun)
+अवलिखति { अवलिख् }	avalikhati  { avalikh }	verb	graśe
+अवलिखति { अवलिख् }	avalikhati  { avalikh }	verb	scratch
+अवलिम्पति { अवलिप् }	avalimpati  { avalip }	verb	smear
+अवलीयते { अवली }	avalīyate  { avalī }	verb	stoop
+अवलुञ्चति { अवलुञ्च् }	avaluñcati  { avaluñc }	verb	tear out  [ hairs ]
+अवलुम्बति { अवलुप् }	avalumbati  { avalup }	verb	rush or dash upon  [ as a wolf on his prey ]
+अवलुम्बति { अवलुप् }	avalumbati  { avalup }	verb	suppress
+अवलुम्बते { अवलुप् }	avalumbate  { avalup }	verb	rush or dash upon  [ as a wolf on his prey ]
+अवलुम्बते { अवलुप् }	avalumbate  { avalup }	verb	suppress
+अवलेढि { अवलिह् }	avaleḍhi  { avalih }	verb	lap
+अवलेढि { अवलिह् }	avaleḍhi  { avalih }	verb	lick
+अवलोकते { अव- लोक् }	avalokate  { ava- lok }	verb	behold
+अवलोकते { अवलोक् }	avalokate  { avalok }	verb	look upon or at
+अवलोकते { अवलोक् }	avalokate  { avalok }	verb	notice
+अवलोकते { अवलोक् }	avalokate  { avalok }	verb	observe
+अवलोकते { अवलोक् }	avalokate  { avalok }	verb	see
+अवलोकते { अवलोक् }	avalokate  { avalok }	verb	view
+अवलोकयति	avalokayati	verb	observe
+अवलोकयति { अव- लोक् }	avalokayati  { ava- lok }	verb	look at
+अवलोकयति { अव- लोक् }	avalokayati  { ava- lok }	verb	perceive
+अवलोकयति { अव- लोक् }	avalokayati  { ava- lok }	verb	see
+अववर्जति { अववृज् }	avavarjati  { avavṛj }	verb	separate
+अवविध्यति { अवव्यध् }	avavidhyati  { avavyadh }	verb	deprive of
+अववेति { अववी }	avaveti  { avavī }	verb	eat
+अववेति { अववी }	avaveti  { avavī }	verb	enjoy
+अवव्रश्चति { अवव्रश्च् }	avavraścati  { avavraśc }	verb	cut off
+अवव्रश्चति { अवव्रश्च् }	avavraścati  { avavraśc }	verb	splinter
+अवशर्धयति { अवशृध् }	avaśardhayati  { avaśṛdh }	verb	break wind against
+अवशर्धयति { अवशृध् }	avaśardhayati  { avaśṛdh }	verb	defy
+अवशर्धयति { अवशृध् }	avaśardhayati  { avaśṛdh }	verb	mock
+अवशिशाति { अवशि }	avaśiśāti  { avaśi }	verb	deliver from
+अवशिशाति { अवशि }	avaśiśāti  { avaśi }	verb	remove
+अवशिष्यते { अवशिष् }	avaśiṣyate  { avaśiṣ }	verb	be left as a remnant
+अवशृणोति { अवशॄ }	avaśṛṇoti  { avaśṛṛ }	verb	break
+अवशेषयति { अवशिष् }	avaśeṣayati  { avaśiṣ }	verb	remain
+अवश्चोतति { अवश्चुत् }	avaścotati  { avaścut }	verb	trickle down
+अवष्टब्नोति { अव- ष्टम्भ् }	avaṣṭabnoti  { ava- ṣṭambh }	verb	barricade
+अवष्टम्भ्नाति { अवष्टम्भ् }	avaṣṭambhnāti  { avaṣṭambh }	verb	arrest
+अवष्टम्भ्नाति { अवष्टम्भ् }	avaṣṭambhnāti  { avaṣṭambh }	verb	seiśe
+अवष्टम्भ्नोति { अवष्टम्भ् }	avaṣṭambhnoti  { avaṣṭambh }	verb	bar
+अवष्टम्भ्नोति { अवष्टम्भ् }	avaṣṭambhnoti  { avaṣṭambh }	verb	barricade  
+अवष्टम्भ्नोति { अवष्टम्भ् }	avaṣṭambhnoti  { avaṣṭambh }	verb	lean or rest upon
+अवष्वणति { अवष्वन् }	avaṣvaṇati  { avaṣvan }	verb	smack (one's lips) or otherwise make a noise in eating
+अवसज्जति { अवसञ्ज् }	avasajjati  { avasañj }	verb	append
+अवसज्जति { अवसञ्ज् }	avasajjati  { avasañj }	verb	suspend
+अवसज्जते { अवसञ्ज् }	avasajjate  { avasañj }	verb	not leave undisturbed
+अवसर्पति	avasarpati	verb	slide
+अवसर्पति { अवसृप् }	avasarpati  { avasṛp }	verb	creep to or approach unawares
+अवसर्पति { अवसृप् }	avasarpati  { avasṛp }	verb	flow over gradually
+अवसर्पति { अवसृप् }	avasarpati  { avasṛp }	verb	set    [ said of the sun ]
+अवसिञ्चति { अवसिच् }	avasiñcati  { avasic }	verb	sprinkle
+अवसीदति { अवसद् }	avasīdati  { avasad }	verb	become exhausted
+अवसीदति { अवसद् }	avasīdati  { avasad }	verb	come to an end
+अवसीदति { अवसद् }	avasīdati  { avasad }	verb	disheartened
+अवसीदति { अवसद् }	avasīdati  { avasad }	verb	faint
+अवसीदति { अवसद् }	avasīdati  { avasad }	verb	grow lean
+अवसीदति { अवसद् }	avasīdati  { avasad }	verb	perish
+अवसीदति { अवसद् }	avasīdati  { avasad }	verb	sink  [ into water ]
+अवसीदति { अवसद् }	avasīdati  { avasad }	verb	slacken
+अवसृजति { अवसृज् }	avasṛjati  { avasṛj }	verb	bring forth
+अवसृजति { अवसृज् }	avasṛjati  { avasṛj }	verb	deliver
+अवसृजति { अवसृज् }	avasṛjati  { avasṛj }	verb	fling
+अवसृजति { अवसृज् }	avasṛjati  { avasṛj }	verb	form
+अवसृजति { अवसृज् }	avasṛjati  { avasṛj }	verb	give up  [ one's anger ]
+अवसृजति { अवसृज् }	avasṛjati  { avasṛj }	verb	pardon  
+अवसृजति { अवसृज् }	avasṛjati  { avasṛj }	verb	produce
+अवसृजति { अवसृज् }	avasṛjati  { avasṛj }	verb	shape
+अवसृजति { अवसृज् }	avasṛjati  { avasṛj }	verb	surrender
+अवसृजति { अवसृज् }	avasṛjati  { avasṛj }	verb	throw  [ as arrows or the thunderbolt ]
+अवसृजति { अवसृज् }	avasṛjati  { avasṛj }	verb	throw or put into
+अवसृजते { अवसृज् }	avasṛjate  { avasṛj }	verb	lose energy and power
+अवसृजते { अवसृज् }	avasṛjate  { avasṛj }	verb	relax
+अवस्कन्दति { अवस्कन्द् }	avaskandati  { avaskand }	verb	approach hastening from
+अवस्कन्दति { अवस्कन्द् }	avaskandati  { avaskand }	verb	assault  [ as a city ]
+अवस्कन्दति { अवस्कन्द् }	avaskandati  { avaskand }	verb	jump down from
+अवस्तृणाति { अवस्तॄ }	avastṛṇāti  { avastṛṛ }	verb	strew
+अवस्पृणोति { अवस्पृ }	avaspṛṇoti  { avaspṛ }	verb	defend
+अवस्यति { अवसो }	avasyati  { avaso }	verb	be at an end
+अवस्यति { अवसो }	avasyati  { avaso }	verb	be exhausted
+अवस्यति { अवसो }	avasyati  { avaso }	verb	be finished
+अवस्यति { अवसो }	avasyati  { avaso }	verb	choose or appoint as a place for dwelling
+अवस्यति { अवसो }	avasyati  { avaso }	verb	decide
+अवस्यति { अव- सो }	avasyati  { ava- so }	verb	deliver from
+अवस्यति { अवसो }	avasyati  { avaso }	verb	loosen
+अवस्यति { अवसो }	avasyati  { avaso }	verb	obtain
+अवस्यति { अवसो }	avasyati  { avaso }	verb	put up at any one's house
+अवस्यति { अव- सो }	avasyati  { ava- so }	verb	rest
+अवस्यति { अव- सो }	avasyati  { ava- so }	verb	settle
+अवस्यति { अवसो }	avasyati  { avaso }	verb	take one's abode or standing-place in
+अवस्यति { अव- सो }	avasyati  { ava- so }	verb	terminate the undertaking
+अवस्यति { अवसो }	avasyati  { avaso }	verb	unharness (horses)
+अवस्यन्दते { अवस्यन्द् }	avasyandate  { avasyand }	verb	flow or trickle down
+अवस्वरति { अवस्वृ }	avasvarati  { avasvṛ }	verb	sound (as an instrument)
+अवस्वरति { अवस्वृ }	avasvarati  { avasvṛ }	verb	sustain with gradually lowered voice
+अवहन्ति { अवहन् }	avahanti  { avahan }	verb	hit  
+अवहन्ति { अवहन् }	avahanti  { avahan }	verb	strike
+अवहन्ति { अवहन् }	avahanti  { avahan }	verb	throw down
+अवहरति { अवहृ }	avaharati  { avahṛ }	verb	amass
+अवहरति { अवहृ }	avaharati  { avahṛ }	verb	bring together
+अवहरते { अवहृ }	avaharate  { avahṛ }	verb	move down (as the arms)
+अवहरते { अवहृ }	avaharate  { avahṛ }	verb	put down or aside
+अवहरते { अवहृ }	avaharate  { avahṛ }	verb	take down
+अवाकरोति { अवाकृ }	avākaroti  { avākṛ }	verb	remove
+अवाकरोति { अवाकृ }	avākaroti  { avākṛ }	verb	ward off
+अवागच्छति { अवागम् }	avāgacchati  { avāgam }	verb	undertake
+अवाचिनोति { अवाचि }	avācinoti  { avāci }	verb	dissipate what is accumulated
+अवानिति { अवान् }	avāniti  { avān }	verb	breathe or inhale
+अवापोहति { अवापोह् }	avāpohati  { avāpoh }	verb	remove
+अवाप्नोति { अव- आप् }	avāpnoti  { ava- āp }	verb	reach
+अवाप्नोति { अवाप् }	avāpnoti  { avāp }	verb	gain
+अवाप्नोति { अवाप् }	avāpnoti  { avāp }	verb	get
+अवाप्नोति { अवाप् }	avāpnoti  { avāp }	verb	get by division (as a quotient)  [ math. ]
+अवाप्नोति { अवाप् }	avāpnoti  { avāp }	verb	obtain
+अवाप्नोति { अवाप् }	avāpnoti  { avāp }	verb	suffer  [ blame or unpleasantness or pain ]
+अवारोपयति	avāropayati	verb	download  [ computer ]
+अवार्छति { अवार्छ् }	avārchati  { avārch }	verb	become damaged
+अवार्जति { अवार्ज् }	avārjati  { avārj }	verb	dismiss
+अवालोचते { अवालोच् }	avālocate  { avāloc }	verb	consider
+अवाहरति	avāharati	verb	download  [ computer ]
+अवेक्षते { अवेक्ष् }	avekṣate  { avekṣ }	verb	behold
+अवेक्षते { अवेक्ष् }	avekṣate  { avekṣ }	verb	experience
+अवेक्षते { अवेक्ष् }	avekṣate  { avekṣ }	verb	have in view
+अवेक्षते { अवेक्ष् }	avekṣate  { avekṣ }	verb	look towards
+अवेक्षते { अवेक्ष् }	avekṣate  { avekṣ }	verb	observe
+अवेक्षते { अवेक्ष् }	avekṣate  { avekṣ }	verb	perceive
+अवेति { अवे }	aveti  { ave }	verb	beg pardon for
+अवेति { अवे }	aveti  { ave }	verb	conceive
+अवेति { अवे }	aveti  { ave }	verb	conciliate
+अवेति { अवे }	aveti  { ave }	verb	consider  
+अवेति { अवे }	aveti  { ave }	verb	go away
+अवेति { अवे }	aveti  { ave }	verb	go down
+अवेति { अवे }	aveti  { ave }	verb	go to
+अवेति { अवे }	aveti  { ave }	verb	know
+अवेति { अवे }	aveti  { ave }	verb	learn
+अवेति { अवे }	aveti  { ave }	verb	look upon
+अवेति { अवे }	aveti  { ave }	verb	perceive
+अवेति { अवे }	aveti  { ave }	verb	rush down
+अवेति { अवे }	aveti  { ave }	verb	understand
+अवोक्षति { अवोक्ष् }	avokṣati  { avokṣ }	verb	besprinkle
+अशक्तं करोति	aśaktaṃ karoti	verb	comment out  [ computer ]
+अशक्तं करोति	aśaktaṃ karoti	verb	disable  [ computer ]
+अश्नाति { अश् }	aśnāti  { aś }	verb	consume
+अश्नीतपिबतीयति { अश्नीतपिबतीय }	aśnītapibatīyati  { aśnītapibatīya }	verb	have the intention of inviting to eat and drink
+अश्नुते { अश् }	aśnute  { aś }	verb	accumulate
+अश्नुते { अश् }	aśnute  { aś }	verb	arrive at
+अश्नुते { अश् }	aśnute  { aś }	verb	become master of
+अश्नुते { अश् }	aśnute  { aś }	verb	come to
+अश्नुते { अश् }	aśnute  { aś }	verb	enjoy  
+अश्नुते { अश् }	aśnute  { aś }	verb	fill  
+अश्नुते { अश् }	aśnute  { aś }	verb	gain
+अश्नुते { अश् }	aśnute  { aś }	verb	get
+अश्नुते { अश् }	aśnute  { aś }	verb	master
+अश्नुते { अश् }	aśnute  { aś }	verb	obtain
+अश्नुते { अश् }	aśnute  { aś }	verb	offer  
+अश्नुते { अश् }	aśnute  { aś }	verb	penetrate
+अश्नुते { अश् }	aśnute  { aś }	verb	pervade
+अश्नुते { अश् }	aśnute  { aś }	verb	reach
+अश्नुते { अश् }	aśnute  { aś }	verb	visit    [ said of an evil ]
+अश्रूणि पतयति	aśrūṇi patayati	verb	shed tears
+अश्वस्यस्यति { अश्वस्य }	aśvasyasyati  { aśvasya }	verb	wish for the stallion
+अश्वीयति { अश्वीय }	aśvīyati  { aśvīya }	verb	desire horses
+असुखायते { असुखाय }	asukhāyate  { asukhāya }	verb	be uneasy
+असूयति { असुय }	asūyati  { asuya }	verb	cause to be displeased
+असूयति { असूय }	asūyati  { asūya }	verb	bear malice to
+असूयति { असूय }	asūyati  { asūya }	verb	be displeased
+असूयति { असूय }	asūyati  { asūya }	verb	displeased or discontented with
+अस्ति { अस् }	asti  { as }	verb	be  [ he / she / it ]
+अस्तु { अस् }	astu  { as }	verb	be it so
+अस्तु { अस् }	astu  { as }	verb	let it be
+अस्तु { अस् }	astu  { as }	verb	there must be or should be
+अस्थिरीभवति { अस्थिरीभू }	asthirībhavati  { asthirībhū }	verb	decrease
+अहङ्करोति { अहंकृ }	ahaṅkaroti  { ahaṃkṛ }	verb	have the conceit of individuality
+अंशयति / -ते { अंश् }	aṃśayati / -te  { aṃś }	verb	distribute
+अंशयति /-ते { अंश् }	aṃśayati /-te  { aṃś }	verb	divide
+अंशापयति { अंश् }	aṃśāpayati  { aṃś }	verb	distribute
+अंशापयति { अंश् }	aṃśāpayati  { aṃś }	verb	divide
+अंशं प्रास्यति { प्रास् }	aṃśaṃ prāsyati  { prās }	verb	cast lots
+अंशं प्रास्यति { प्रास् }	aṃśaṃ prāsyati  { prās }	verb	lay a wager
+अंहते	aṃhate	verb	approach
+अंहते	aṃhate	verb	commence
+अंहते	aṃhate	verb	go
+अंहते	aṃhate	verb	set out
+अंहयति	aṃhayati	verb	send
+अंहयति	aṃhayati	verb	shine
+अंहयति	aṃhayati	verb	speak
+आकम्पते { आकम्प् }	ākampate  { ākamp }	verb	tremble  [ as the earth ]
+आकर्णयति { आकर्णय }	ākarṇayati  { ākarṇaya }	verb	hear
+आकर्णयति { आकर्णय }	ākarṇayati  { ākarṇaya }	verb	listen
+आकर्षणं करोति { कृ }	ākarṣaṇaṃ karoti  { kṛ }	verb	attract
+आकर्षति { आकृष् }	ākarṣati  { ākṛṣ }	verb	bend (a bow)
+आकर्षति { आकृष् }	ākarṣati  { ākṛṣ }	verb	borrow from
+आकर्षति { आकृष् }	ākarṣati  { ākṛṣ }	verb	deprive of
+आकर्षति { आकृष् }	ākarṣati  { ākṛṣ }	verb	draw (a sword)
+आकर्षति { आकृष् }	ākarṣati  { ākṛṣ }	verb	draw away with one's self
+आकर्षति { आकृष् }	ākarṣati  { ākṛṣ }	verb	draw towards one's self
+आकर्षति { आकृष् }	ākarṣati  { ākṛṣ }	verb	take away
+आकर्षति { आकृष् }	ākarṣati  { ākṛṣ }	verb	take off (as a garment)
+आकर्षति { आकृष् }	ākarṣati  { ākṛṣ }	verb	withdraw
+आकलयति { आकल् }	ākalayati  { ākal }	verb	examine
+आकलयति { आकल् }	ākalayati  { ākal }	verb	fasten  
+आकलयति { आकल् }	ākalayati  { ākal }	verb	notice
+आकलयति { आकल् }	ākalayati  { ākal }	verb	observe
+आकलयति { आकल् }	ākalayati  { ākal }	verb	reckon
+आकलयति { आकल् }	ākalayati  { ākal }	verb	surrender
+आकलयति { आकल् }	ākalayati  { ākal }	verb	take into consideration
+आकलयति { आकल् }	ākalayati  { ākal }	verb	tie
+आकलयति { आकल् }	ākalayati  { ākal }	verb	transfer  
+आकाङ्क्षति { आकाङ्क्ष् }	ākāṅkṣati  { ākāṅkṣ }	verb	endeavour to reach a place
+आकाङ्क्षति { आकाङ्क्ष् }	ākāṅkṣati  { ākāṅkṣ }	verb	expect
+आकाङ्क्षति { आकाङ्क्ष् }	ākāṅkṣati  { ākāṅkṣ }	verb	turn to
+आकाङ्क्षति { आकाङ्क्ष् }	ākāṅkṣati  { ākāṅkṣ }	verb	wait for or till
+आकाङ्क्षते { आकाङ्क्ष् }	ākāṅkṣate  { ākāṅkṣ }	verb	desire
+आकाङ्क्षते { आकाङ्क्ष् }	ākāṅkṣate  { ākāṅkṣ }	verb	endeavour to reach a place
+आकाङ्क्षते { आकाङ्क्ष् }	ākāṅkṣate  { ākāṅkṣ }	verb	expect
+आकाङ्क्षते { आकाङ्क्ष् }	ākāṅkṣate  { ākāṅkṣ }	verb	long for
+आकाङ्क्षते { आकाङ्क्ष् }	ākāṅkṣate  { ākāṅkṣ }	verb	turn to
+आकाङ्क्षते { आकाङ्क्ष् }	ākāṅkṣate  { ākāṅkṣ }	verb	wait for or till
+आकाशते { आकाश् }	ākāśate  { ākāś }	verb	recogniśe
+आकाशते { आकाश् }	ākāśate  { ākāś }	verb	view
+आकाशमुष्टिहननायते { आकाशमुष्टिहननाय }	ākāśamuṣṭihananāyate  { ākāśamuṣṭihananāya }	verb	be foolish like one who beats the air with his fist
+आकिरति { आकॄ }	ākirati  { ākṛṛ }	verb	give abundantly
+आकिरति { आकॄ }	ākirati  { ākṛṛ }	verb	scatter or sprinkle over
+आकुलीकरोति { आकुलीकृ }	ākulīkaroti  { ākulīkṛ }	verb	to be confounded or bewildered
+आकुवते { आकू }	ākuvate  { ākū }	verb	intend
+आकूजति { आकूज् }	ākūjati  { ākūj }	verb	lament
+आकोटयति { आकुट् }	ākoṭayati  { ākuṭ }	verb	break
+आक्रन्दति { आक्रन्द् }	ākrandati  { ākrand }	verb	call for help
+आक्रन्दति { आक्रन्द् }	ākrandati  { ākrand }	verb	invoke
+आक्रन्दति { आक्रन्द् }	ākrandati  { ākrand }	verb	shout out
+आक्रन्दते { आक्रन्द् }	ākrandate  { ākrand }	verb	cry with sorrow
+आक्रन्दते { आक्रन्द् }	ākrandate  { ākrand }	verb	lament
+आक्रन्दते { आक्रन्द् }	ākrandate  { ākrand }	verb	weep
+आक्रमते { आक्रम् }	ākramate  { ākram }	verb	rise
+आक्रामति { आक्रम् }	ākrāmati  { ākram }	verb	approach
+आक्रामति { आक्रम् }	ākrāmati  { ākram }	verb	attack
+आक्रामति { आक्रम् }	ākrāmati  { ākram }	verb	begin
+आक्रामति { आक्रम् }	ākrāmati  { ākram }	verb	come towards
+आक्रामति { आक्रम् }	ākrāmati  { ākram }	verb	eclipse    [ astron. ]
+आक्रामति { आक्रम् }	ākrāmati  { ākram }	verb	hold fast with the hands
+आक्रामति { आक्रम् }	ākrāmati  { ākram }	verb	invade
+आक्रामति { आक्रम् }	ākrāmati  { ākram }	verb	seiśe  
+आक्रामति { आक्रम् }	ākrāmati  { ākram }	verb	step or go near to
+आक्रामति { आक्रम् }	ākrāmati  { ākram }	verb	step or tread upon
+आक्रामति { आक्रम् }	ākrāmati  { ākram }	verb	undertake
+आक्रामति { आक्रम् }	ākrāmati  { ākram }	verb	visit
+आक्रीयते { आक्री }	ākrīyate  { ākrī }	verb	purchase
+आक्रोशति { आक्रुश् }	ākrośati  { ākruś }	verb	assail with angry and menacing words
+आक्रोशति { आक्रुश् }	ākrośati  { ākruś }	verb	call to any one in an abusive manner
+आक्रोशति { आक्रुश् }	ākrośati  { ākruś }	verb	revile
+आक्षिपति { आक्षिप् }	ākṣipati  { ākṣip }	verb	call to a dispute
+आक्षिपति { आक्षिप् }	ākṣipati  { ākṣip }	verb	cause to tremble
+आक्षिपति { आक्षिप् }	ākṣipati  { ākṣip }	verb	challenge
+आक्षिपति { आक्षिप् }	ākṣipati  { ākṣip }	verb	chase or drive out of a place
+आक्षिपति { आक्षिप् }	ākṣipati  { ākṣip }	verb	convulse
+आक्षिपति { आक्षिप् }	ākṣipati  { ākṣip }	verb	deride
+आक्षिपति { आक्षिप् }	ākṣipati  { ākṣip }	verb	disperse  
+आक्षिपति { आक्षिप् }	ākṣipati  { ākṣip }	verb	draw or take off or away
+आक्षिपति { आक्षिप् }	ākṣipati  { ākṣip }	verb	excel so as to put to shame
+आक्षिपति { आक्षिप् }	ākṣipati  { ākṣip }	verb	hint
+आक्षिपति { आक्षिप् }	ākṣipati  { ākṣip }	verb	indicate
+आक्षिपति { आक्षिप् }	ākṣipati  { ākṣip }	verb	insult
+आक्षिपति { आक्षिप् }	ākṣipati  { ākṣip }	verb	object to
+आक्षिपति { आक्षिप् }	ākṣipati  { ākṣip }	verb	point to
+आक्षिपति { आक्षिप् }	ākṣipati  { ākṣip }	verb	put into
+आक्षिपति { आक्षिप् }	ākṣipati  { ākṣip }	verb	refer to
+आक्षिपति { आक्षिप् }	ākṣipati  { ākṣip }	verb	refuse
+आक्षिपति { आक्षिप् }	ākṣipati  { ākṣip }	verb	strike with a bolt
+आक्षिपति { आक्षिप् }	ākṣipati  { ākṣip }	verb	throw down upon
+आक्षिपति { आक्षिप् }	ākṣipati  { ākṣip }	verb	withdraw from
+आख्याति { आख्या }	ākhyāti  { ākhyā }	verb	call
+आख्यानयति { आख्यानय }	ākhyānayati  { ākhyānaya }	verb	communicate
+आगच्छति	āgacchati	verb	comes
+आगच्छति { आगम् }	āgacchati  { āgam }	verb	arrive at
+आगच्छति { आगम् }	āgacchati  { āgam }	verb	attain
+आगच्छति { आगम् }	āgacchati  { āgam }	verb	come
+आगच्छति { आगम् }	āgacchati  { āgam }	verb	come near from
+आगच्छति { आगम् }	āgacchati  { āgam }	verb	fall into (any state of mind)
+आगच्छति { आगम् }	āgacchati  { āgam }	verb	have recourse to
+आगच्छति { आगम् }	āgacchati  { āgam }	verb	make one's appearance
+आगच्छति { आगम् }	āgacchati  { āgam }	verb	meet with  [ instr. ]
+आगच्छति { आगम् }	āgacchati  { āgam }	verb	reach
+आगुरते { आगुर् }	āgurate  { āgur }	verb	agree or assent to
+आगुरते { आगुर् }	āgurate  { āgur }	verb	approve
+आग्रथ्नाति { आग्रन्थ् }	āgrathnāti  { āgranth }	verb	twine round
+आग्रसति { आग्रस् }	āgrasati  { āgras }	verb	devour
+आघूर्णति { आघूर्ण् }	āghūrṇati  { āghūrṇ }	verb	fluctuate
+आघूर्णति { आघूर्ण् }	āghūrṇati  { āghūrṇ }	verb	whirl
+आघोषति { आघुष् }	āghoṣati  { āghuṣ }	verb	cry aloud
+आघोषति { आघुष् }	āghoṣati  { āghuṣ }	verb	listen to
+आघोषति { आघुष् }	āghoṣati  { āghuṣ }	verb	make one's self audible
+आघोषति { आघुष् }	āghoṣati  { āghuṣ }	verb	proclaim
+आघोषते { आघुष् }	āghoṣate  { āghuṣ }	verb	proclaim
+{ आचमनं कृ }	{ ācamanaṃ kṛ }	verb	sip water
+आचरति { आचर् }	ācarati  { ācar }	verb	act
+आचरति { आचर् }	ācarati  { ācar }	verb	address
+आचरति { आचर् }	ācarati  { ācar }	verb	apply to
+आचरति { आचर् }	ācarati  { ācar }	verb	apply  
+आचरति { आचर् }	ācarati  { ācar }	verb	approach  
+आचरति { आचर् }	ācarati  { ācar }	verb	behave one's self
+आचरति { आचर् }	ācarati  { ācar }	verb	come near to
+आचरति { आचर् }	ācarati  { ācar }	verb	do
+आचरति { आचर् }	ācarati  { ācar }	verb	examine (a witness)
+आचरति { आचर् }	ācarati  { ācar }	verb	exercise
+आचरति { आचर् }	ācarati  { ācar }	verb	have intercourse with
+आचरति { आचर् }	ācarati  { ācar }	verb	lead hither (as a path)
+आचरति { आचर् }	ācarati  { ācar }	verb	manage
+आचरति { आचर् }	ācarati  { ācar }	verb	perform
+आचरति { आचर् }	ācarati  { ācar }	verb	proceed
+आचरति { आचर् }	ācarati  { ācar }	verb	throw into the fire
+आचरति { आचर् }	ācarati  { ācar }	verb	undertake
+आचरति { आचर् }	ācarati  { ācar }	verb	use
+आचष्टे { आचक्ष् }	ācaṣṭe  { ācakṣ }	verb	acquaint
+आचष्टे { आचक्ष् }	ācaṣṭe  { ācakṣ }	verb	address any one
+आचष्टे { आचक्ष् }	ācaṣṭe  { ācakṣ }	verb	call
+आचष्टे { आचक्ष् }	ācaṣṭe  { ācakṣ }	verb	inspect  
+आचष्टे { आचक्ष् }	ācaṣṭe  { ācakṣ }	verb	introduce to
+आचष्टे { आचक्ष् }	ācaṣṭe  { ācakṣ }	verb	look at
+आचष्टे { आचक्ष् }	ācaṣṭe  { ācakṣ }	verb	make a communication about
+आचष्टे { आचक्ष् }	ācaṣṭe  { ācakṣ }	verb	name
+आचष्टे { आचक्ष् }	ācaṣṭe  { ācakṣ }	verb	signify
+आचामति { आ- चम् }	ācāmati  { ā- cam }	verb	absorb
+आचामति { आ- चम् }	ācāmati  { ā- cam }	verb	cause to disappear
+आचामति { आ- चम् }	ācāmati  { ā- cam }	verb	lap up
+आचामति { आ- चम् }	ācāmati  { ā- cam }	verb	lick up
+आचामति { आचम् }	ācāmati  { ācam }	verb	sip (water) from the palm of the hand for purification
+आचालयति { आचल् }	ācālayati  { ācal }	verb	move or draw away
+आचालयति { आचल् }	ācālayati  { ācal }	verb	remove
+आचालयति { आचल् }	ācālayati  { ācal }	verb	stir up
+आचिकिते { आचित् }	ācikite  { ācit }	verb	appear
+आचिकिते { आचित् }	ācikite  { ācit }	verb	become visible
+आचिकिते { आचित् }	ācikite  { ācit }	verb	distinguish one's self
+आचिनुते { आ- चि }	ācinute  { ā- ci }	verb	amass
+आचिनोति { आ- चि }	ācinoti  { ā- ci }	verb	accumulate
+आचिनोति { आचि }	ācinoti  { āci }	verb	accumulate  
+आचुम्बति { आचुम्ब् }	ācumbati  { ācumb }	verb	kiss
+आचुम्बति { आ- चुम्ब् }	ācumbati  { ā- cumb }	verb	kiss and caress amorously
+आचृतति { आचृत् }	ācṛtati  { ācṛt }	verb	affix
+आचृतति { आचृत् }	ācṛtati  { ācṛt }	verb	fasten
+आचृतति { आचृत् }	ācṛtati  { ācṛt }	verb	tie
+आचेतति { आचित् }	ācetati  { ācit }	verb	attend to
+आचेतति { आचित् }	ācetati  { ācit }	verb	invent  
+आचेतति { आचित् }	ācetati  { ācit }	verb	keep in mind
+आचेतति { आचित् }	ācetati  { ācit }	verb	know  
+आच्छदयते { आच्छद् }	ācchadayate  { ācchad }	verb	conceal
+आच्छदयते { आच्छद् }	ācchadayate  { ācchad }	verb	put on clothes
+आच्छादयति { आच्छद् }	ācchādayati  { ācchad }	verb	clothe
+आच्छादयति { आच्छद् }	ācchādayati  { ācchad }	verb	cover
+आच्छादयति { आच्छद् }	ācchādayati  { ācchad }	verb	dress  
+आच्छादयति { आच्छद् }	ācchādayati  { ācchad }	verb	hide
+आच्छादयति { आच्छद् }	ācchādayati  { ācchad }	verb	present with clothes
+आच्छादयति { आच्छद् }	ācchādayati  { ācchad }	verb	put on  [ clothes ]
+आच्छादयति { आ-छद् }	ācchādayati  { ā-chad }	verb	cover
+आच्छिनत्ति { आच्छिद् }	ācchinatti  { ācchid }	verb	rob
+आच्छिनत्ति { आच्छिद् }	ācchinatti  { ācchid }	verb	snatch away
+आच्छृणत्ति { आच्छृद् }	ācchṛṇatti  { ācchṛd }	verb	fill
+आच्छृणत्ति { आच्छृद् }	ācchṛṇatti  { ācchṛd }	verb	pour upon
+आजानाति { आज्ञा }	ājānāti  { ājñā }	verb	mind
+आजानाति { आज्ञा }	ājānāti  { ājñā }	verb	notice
+आजानाति { आज्ञा }	ājānāti  { ājñā }	verb	perceive
+आजानाति { आज्ञा }	ājānāti  { ājñā }	verb	understand  
+आजायते { आजन् }	ājāyate  { ājan }	verb	be born
+आजायते { आ- जन् }	ājāyate  { ā- jan }	verb	beget
+आजायते { आ- जन् }	ājāyate  { ā- jan }	verb	generate
+आजिगाति { आगा }	ājigāti  { āgā }	verb	approach
+आजिगाति { आगा }	ājigāti  { āgā }	verb	attain  
+आजिगाति { आगा }	ājigāti  { āgā }	verb	come towards or into
+आजिगाति { आगा }	ājigāti  { āgā }	verb	overcome
+आजिगाति { आगा }	ājigāti  { āgā }	verb	visit  [ as fear or evil ]
+आजिघर्ति { आघृ }	ājigharti  { āghṛ }	verb	sprinkle  [ with fat ]
+आजिन्वति { आजिन्व् }	ājinvati  { ājinv }	verb	refresh
+आजीवति { आजीव् }	ājīvati  { ājīv }	verb	live by subsisting on st.
+आज्छति { आञ्छ् }	ājchati  { āñch }	verb	draw into the right position
+आज्छति { आञ्छ् }	ājchati  { āñch }	verb	set (a bone or leg)
+आज्छति { आञ्छ् }	ājchati  { āñch }	verb	stretch
+आज्ञापालनं करोति { कृ }	ājñāpālanaṃ karoti  { kṛ }	verb	carry out an order
+आज्ञाम् पालयति	ājñām pālayati	verb	obey
+आडिवालयति { आड्वल् }	āḍivālayati  { āḍval }	verb	mingle
+आडिवालयति { आड्वल् }	āḍivālayati  { āḍval }	verb	mix
+आतक्षति { आतक्ष् }	ātakṣati  { ātakṣ }	verb	carve
+आतक्षति { आतक्ष् }	ātakṣati  { ātakṣ }	verb	procure
+आतनक्ति { आतञ्च् }	ātanakti  { ātañc }	verb	cause coagulation  [ by casting one liquid into another ]
+आतनोषि { आतन् }	ātanoṣi  { ātan }	verb	be ready for
+आतनोषि { आतन् }	ātanoṣi  { ātan }	verb	bestow upon
+आतनोषि { आतन् }	ātanoṣi  { ātan }	verb	diffuse  
+आतनोषि { आतन् }	ātanoṣi  { ātan }	verb	effect
+आतनोषि { आतन् }	ātanoṣi  { ātan }	verb	extend (a texture)
+आतनोषि { आतन् }	ātanoṣi  { ātan }	verb	extend or stretch over
+आतनोषि { आतन् }	ātanoṣi  { ātan }	verb	illuminate  
+आतनोषि { आतन् }	ātanoṣi  { ātan }	verb	penetrate
+आतनोषि { आतन् }	ātanoṣi  { ātan }	verb	produce
+आतनोषि { आतन् }	ātanoṣi  { ātan }	verb	seek to reach
+आतनोषि { आतन् }	ātanoṣi  { ātan }	verb	spread
+आतनोषि { आतन् }	ātanoṣi  { ātan }	verb	stop any one
+आतनोषि { आतन् }	ātanoṣi  { ātan }	verb	stretch (a bow for shooting)
+आतनोषि { आतन् }	ātanoṣi  { ātan }	verb	wait on
+आतन्वते { आतन् }	ātanvate  { ātan }	verb	bestow upon
+आतन्वते { आतन् }	ātanvate  { ātan }	verb	diffuse  
+आतन्वते { आतन् }	ātanvate  { ātan }	verb	effect
+आतन्वते { आतन् }	ātanvate  { ātan }	verb	extend (a texture)
+आतन्वते { आतन् }	ātanvate  { ātan }	verb	produce
+आतन्वते { आतन् }	ātanvate  { ātan }	verb	spread
+आतन्वते { आतन् }	ātanvate  { ātan }	verb	stretch (a bow for shooting)
+आतपति { आतप् }	ātapati  { ātap }	verb	radiate heat
+आतपायते { आतपाय }	ātapāyate  { ātapāya }	verb	become hot like sunshine
+आतर्जति { आतर्ज् }	ātarjati  { ātarj }	verb	scold
+आताम्यते { आतम् }	ātāmyate  { ātam }	verb	become senseless
+आताम्यते { आतम् }	ātāmyate  { ātam }	verb	become stiff
+आताम्यते { आतम् }	ātāmyate  { ātam }	verb	faint
+आतिरते { आतॄ }	ātirate  { ātṛṛ }	verb	glorify
+आतिष्ठति { आस्था }	ātiṣṭhati  { āsthā }	verb	acknowledge  
+आतिष्ठति { आस्था }	ātiṣṭhati  { āsthā }	verb	act according to
+आतिष्ठति { आस्था }	ātiṣṭhati  { āsthā }	verb	affirm  
+आतिष्ठति { आस्था }	ātiṣṭhati  { āsthā }	verb	be of the opinion of
+आतिष्ठति { आस्था }	ātiṣṭhati  { āsthā }	verb	carry out
+आतिष्ठति { आस्था }	ātiṣṭhati  { āsthā }	verb	do
+आतिष्ठति { आस्था }	ātiṣṭhati  { āsthā }	verb	follow  
+आतिष्ठति { आस्था }	ātiṣṭhati  { āsthā }	verb	go towards
+आतिष्ठति { आस्था }	ātiṣṭhati  { āsthā }	verb	have regard for
+आतिष्ठति { आस्था }	ātiṣṭhati  { āsthā }	verb	maintain
+आतिष्ठति { आस्था }	ātiṣṭhati  { āsthā }	verb	mount  
+आतिष्ठति { आस्था }	ātiṣṭhati  { āsthā }	verb	perform
+आतिष्ठति { आस्था }	ātiṣṭhati  { āsthā }	verb	practise
+आतिष्ठति { आस्था }	ātiṣṭhati  { āsthā }	verb	side or take part with
+आतिष्ठति { आस्था }	ātiṣṭhati  { āsthā }	verb	stand or remain on or by
+आतिष्ठति { आस्था }	ātiṣṭhati  { āsthā }	verb	stay near
+आतिष्ठति { आस्था }	ātiṣṭhati  { āsthā }	verb	take care for
+आतिष्ठति { आस्था }	ātiṣṭhati  { āsthā }	verb	undertake
+आतिष्ठति { आस्था }	ātiṣṭhati  { āsthā }	verb	use
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	acknowledge  
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	act according to
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	affirm  
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	ascend
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	be of the opinion of
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	carry out
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	do
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	follow  
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	go towards
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	have regard for
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	maintain
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	mount  
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	perform
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	practise
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	resort to
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	side or take part with
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	stand or remain on or by
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	stay near
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	take care for
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	undertake
+आतिष्ठते { आस्था }	ātiṣṭhate  { āsthā }	verb	use
+आतुदति { आतुद् }	ātudati  { ātud }	verb	push
+आतुदति { आतुद् }	ātudati  { ātud }	verb	spur on
+आतुदति { आतुद् }	ātudati  { ātud }	verb	stir up
+आतुदति { आतुद् }	ātudati  { ātud }	verb	strike
+आतृणत्ति { आतृद् }	ātṛṇatti  { ātṛd }	verb	divide
+आतृणत्ति { आतृद् }	ātṛṇatti  { ātṛd }	verb	pierce  [ as the ears ]
+आतृन्त्ते { आतृद् }	ātṛntte  { ātṛd }	verb	sever one's self
+आतोलयति { आतुल् }	ātolayati  { ātul }	verb	lift up
+आतोलयति { आतुल् }	ātolayati  { ātul }	verb	raise
+आतंसति { आतंस् }	ātaṃsati  { ātaṃs }	verb	bring near
+आतंसति { आतंस् }	ātaṃsati  { ātaṃs }	verb	furnish with
+आदघ्नुयात् { आदघ् }	ādaghnuyāt  { ādagh }	verb	befall any one  [ as misfortune ]
+आदघ्नुयात् { आदघ् }	ādaghnuyāt  { ādagh }	verb	frustrate
+आदघ्नुयात् { आदघ् }	ādaghnuyāt  { ādagh }	verb	happen to
+आदघ्नुयात् { आदघ् }	ādaghnuyāt  { ādagh }	verb	hurt
+आदघ्नुयात् { आदघ् }	ādaghnuyāt  { ādagh }	verb	injure
+आददृशे { आदृश् }	ādadṛśe  { ādṛś }	verb	appear
+आददृशे { आदृश् }	ādadṛśe  { ādṛś }	verb	be seen
+आदधाति { आधा }	ādadhāti  { ādhā }	verb	accept
+आदधाति { आ- धा }	ādadhāti  { ā- dhā }	verb	add  [  fuel to fire ]
+आदधाति { आधा }	ādadhāti  { ādhā }	verb	add (fuel to fire)
+आदधाति { आधा }	ādadhāti  { ādhā }	verb	apply
+आदधाति { आधा }	ādadhāti  { ādhā }	verb	appoint
+आदधाति { आधा }	ādadhāti  { ādhā }	verb	constitute
+आदधाति { आधा }	ādadhāti  { ādhā }	verb	deposit
+आदधाति { आधा }	ādadhāti  { ādhā }	verb	direct  
+आदधाति { आधा }	ādadhāti  { ādhā }	verb	effect
+आदधाति { आधा }	ādadhāti  { ādhā }	verb	give or deposit in pledge
+आदधाति { आधा }	ādadhāti  { ādhā }	verb	impregnate
+आदधाति { आधा }	ādadhāti  { ādhā }	verb	impress
+आदधाति { आधा }	ādadhāti  { ādhā }	verb	instil  [ e.g. good sentiments ]
+आदधाति { आधा }	ādadhāti  { ādhā }	verb	lend
+आदधाति { आधा }	ādadhāti  { ādhā }	verb	make
+आदधाति { आधा }	ādadhāti  { ādhā }	verb	place on
+आदधाति { आधा }	ādadhāti  { ādhā }	verb	put down
+आदधाति { आधा }	ādadhāti  { ādhā }	verb	put  
+आदधाति { आधा }	ādadhāti  { ādhā }	verb	receive
+आदधाति { आ- धा }	ādadhāti  { ā- dhā }	verb	set on  [ fire ]
+आदधाति { आधा }	ādadhāti  { ādhā }	verb	stake (money)
+आदधाति { आधा }	ādadhāti  { ādhā }	verb	supply
+आदभ्नुवति { आदभ् }	ādabhnuvati  { ādabh }	verb	harm
+आदभ्नुवति { आदभ् }	ādabhnuvati  { ādabh }	verb	hurt
+आदभ्नुवति { आदभ् }	ādabhnuvati  { ādabh }	verb	injure
+आदयति / -ते	ādayati / -te	verb	feed
+आदरं करोति { आदर }	ādaraṃ karoti  { ādara }	verb	exert or interest one's self for
+आदर्षि { आदॄ }	ādarṣi  { ādṛṛ }	verb	bring to light
+आदर्षि { आदॄ }	ādarṣi  { ādṛṛ }	verb	crush
+आदर्षि { आदॄ }	ādarṣi  { ādṛṛ }	verb	force or split open
+आदर्षि { आदॄ }	ādarṣi  { ādṛṛ }	verb	make accessible
+आदाति { आदो }	ādāti  { ādo }	verb	crush
+आदाति { आदो }	ādāti  { ādo }	verb	reduce to small pieces
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	aim at
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	announce
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	assign
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	banish
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	command
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	declare
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	denominate
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	determine
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	direct
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	foretell
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	have in view
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	hit  
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	indicate  
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	order
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	point out
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	profess as one's aim or duty
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	refer any one to
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	report
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	specify
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	teach
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	threaten
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	try  
+आदिदेष्टि { आदिश् }	ādideṣṭi  { ādiś }	verb	undertake
+आदिशति { आदिश् }	ādiśati  { ādiś }	verb	aim at
+आदिशति { आदिश् }	ādiśati  { ādiś }	verb	announce
+आदिशति { आदिश् }	ādiśati  { ādiś }	verb	assign
+आदिशति { आदिश् }	ādiśati  { ādiś }	verb	banish
+आदिशति { आदिश् }	ādiśati  { ādiś }	verb	command
+आदिशति { आदिश् }	ādiśati  { ādiś }	verb	declare
+आदिशति { आदिश् }	ādiśati  { ādiś }	verb	denominate
+आदिशति { आदिश् }	ādiśati  { ādiś }	verb	determine
+आदिशति { आदिश् }	ādiśati  { ādiś }	verb	foretell
+आदिशति { आदिश् }	ādiśati  { ādiś }	verb	have in view
+आदिशति { आदिश् }	ādiśati  { ādiś }	verb	hit  
+आदिशति { आदिश् }	ādiśati  { ādiś }	verb	indicate  
+आदिशति { आदिश् }	ādiśati  { ādiś }	verb	profess as one's aim or duty
+आदिशति { आदिश् }	ādiśati  { ādiś }	verb	refer any one to
+आदिशति { आदिश् }	ādiśati  { ādiś }	verb	report
+आदिशति { आदिश् }	ādiśati  { ādiś }	verb	specify
+आदिशति { आदिश् }	ādiśati  { ādiś }	verb	teach
+आदिशति { आदिश् }	ādiśati  { ādiś }	verb	threaten
+आदिशति { आदिश् }	ādiśati  { ādiś }	verb	try  
+आदिशति { आदिश् }	ādiśati  { ādiś }	verb	undertake
+आदीद्यति { आदी }	ādīdyati  { ādī }	verb	enlighten
+आदीधीते { आधी }	ādīdhīte  { ādhī }	verb	meditate on
+आदंशति { आदंश् }	ādaṃśati  { ādaṃś }	verb	bite  [ e.g. one's lips ]
+आद्यति { आदा }	ādyati  { ādā }	verb	bind on
+आद्यति { आदा }	ādyati  { ādā }	verb	fasten to
+आद्यति { आदो }	ādyati  { ādo }	verb	crush
+आद्यति { आदो }	ādyati  { ādo }	verb	reduce to small pieces
+आद्योतति { आद्युत् }	ādyotati  { ādyut }	verb	grow rotten
+आद्योतते { आद्युत् }	ādyotate  { ādyut }	verb	grow rotten
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	accept
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	add (fuel to fire)
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	apply
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	appoint
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	appropriate to one's self
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	conceive (as a woman)
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	constitute
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	deposit
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	direct  
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	effect
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	get children
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	give or deposit in pledge
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	hold
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	impregnate
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	impress
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	instil
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	keep
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	lend
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	make
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	place on
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	possess
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	preserve
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	put down
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	put  
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	receive
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	stake (money)
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	supply
+आधत्ते { आधा }	ādhatte  { ādhā }	verb	take  
+आधमति { आध्मा }	ādhamati  { ādhmā }	verb	blow  
+आधमति { आध्मा }	ādhamati  { ādhmā }	verb	cry out
+आधमति { आध्मा }	ādhamati  { ādhmā }	verb	inflate
+आधमति { आध्मा }	ādhamati  { ādhmā }	verb	sound
+आधमति { आध्मा }	ādhamati  { ādhmā }	verb	utter with a loud voice
+आधरति { आधृ }	ādharati  { ādhṛ }	verb	hold
+आधरति { आधृ }	ādharati  { ādhṛ }	verb	keep
+आधरति { आधृ }	ādharati  { ādhṛ }	verb	support
+आधर्षति { आधृष् }	ādharṣati  { ādhṛṣ }	verb	assail
+आधर्षति { आधृष् }	ādharṣati  { ādhṛṣ }	verb	attack
+आधर्षति { आधृष् }	ādharṣati  { ādhṛṣ }	verb	injure
+आधर्षति { आधृष् }	ādharṣati  { ādhṛṣ }	verb	overcome
+आधीकरोति { आधीकृ }	ādhīkaroti  { ādhīkṛ }	verb	make a deposit
+आधीकरोति { आधीकृ }	ādhīkaroti  { ādhīkṛ }	verb	mortgage
+आधीकरोति { आधीकृ }	ādhīkaroti  { ādhīkṛ }	verb	pawn
+आधीकरोति { आधीकृ }	ādhīkaroti  { ādhīkṛ }	verb	pledge
+आधुनोति { आधु }	ādhunoti  { ādhu }	verb	agitate
+आधुनोति { आधु }	ādhunoti  { ādhu }	verb	stir
+आधुवते { आधु }	ādhuvate  { ādhu }	verb	agitate
+आधुवते { आधु }	ādhuvate  { ādhu }	verb	stir
+आध्यायति { आध्यै }	ādhyāyati  { ādhyai }	verb	meditate on
+आनन्दति { आनन्द् }	ānandati  { ānand }	verb	be delighted
+आनन्दति { आनन्द् }	ānandati  { ānand }	verb	rejoice
+आनमति { आनम् }	ānamati  { ānam }	verb	bend
+आनमति { आनम् }	ānamati  { ānam }	verb	bend down
+आनमति { आनम् }	ānamati  { ānam }	verb	bend towards or near
+आनमति { आनम् }	ānamati  { ānam }	verb	be propitious (as gods to men)
+आनमति { आनम् }	ānamati  { ānam }	verb	bow
+आनमति { आनम् }	ānamati  { ānam }	verb	condescend  
+आनमति { आनम् }	ānamati  { ānam }	verb	do homage
+आनमति { आनम् }	ānamati  { ānam }	verb	incline
+आनमति { आनम् }	ānamati  { ānam }	verb	salute reverently
+आनमयति { आनम् }	ānamayati  { ānam }	verb	subdue
+आनयति { आनी }	ānayati  { ānī }	verb	bring any one to
+आनयति { आनी }	ānayati  { ānī }	verb	bring back or take back
+आनयति { आनी }	ānayati  { ānī }	verb	calculate  
+आनयति { आनी }	ānayati  { ānī }	verb	carry to a place
+आनयति { आनी }	ānayati  { ānī }	verb	cause to bring or fetch
+आनयति { आनी }	ānayati  { ānī }	verb	deduce
+आनयति { आनी }	ānayati  { ānī }	verb	employ
+आनयति { आनी }	ānayati  { ānī }	verb	lead towards or near
+आनयति { आनी }	ānayati  { ānī }	verb	mix in
+आनयति { आनी }	ānayati  { ānī }	verb	pour in
+आनयति { आनी }	ānayati  { ānī }	verb	prove
+आनयति { आनी }	ānayati  { ānī }	verb	reduce to any state
+आनयति { आनी }	ānayati  { ānī }	verb	use
+आनयत्	ānayat	verb	brought
+आनह्यति { आनह् }	ānahyati  { ānah }	verb	bind to or on
+आनृत्यति { आनृत् }	ānṛtyati  { ānṛt }	verb	dance towards
+आपचति { आ- पच् }	āpacati  { ā- pac }	verb	bake
+आपतति { आपत् }	āpatati  { āpat }	verb	approach  
+आपतति { आपत् }	āpatati  { āpat }	verb	assail  
+आपतति { आपत् }	āpatati  { āpat }	verb	come flying
+आपतति { आपत् }	āpatati  { āpat }	verb	fall towards or on
+आपतति { आपत् }	āpatati  { āpat }	verb	fly towards
+आपतति { आपत् }	āpatati  { āpat }	verb	happen  
+आपतति { आपत् }	āpatati  { āpat }	verb	hasten towards
+आपतति { आपत् }	āpatati  { āpat }	verb	rush in or on
+आपद्यते { आपद् }	āpadyate  { āpad }	verb	approach  
+आपद्यते { आपद् }	āpadyate  { āpad }	verb	arrive at
+आपद्यते { आपद् }	āpadyate  { āpad }	verb	attain
+आपद्यते { आपद् }	āpadyate  { āpad }	verb	be changed into
+आपद्यते { आपद् }	āpadyate  { āpad }	verb	be reduced to any state
+आपद्यते { आपद् }	āpadyate  { āpad }	verb	come
+आपद्यते { आपद् }	āpadyate  { āpad }	verb	enter
+आपद्यते { आपद् }	āpadyate  { āpad }	verb	fall in or into
+आपद्यते { आपद् }	āpadyate  { āpad }	verb	fall into misfortune
+आपद्यते { आपद् }	āpadyate  { āpad }	verb	get
+आपद्यते { आपद् }	āpadyate  { āpad }	verb	get in
+आपद्यते { आपद् }	āpadyate  { āpad }	verb	get into trouble
+आपद्यते { आपद् }	āpadyate  { āpad }	verb	go into
+आपद्यते { आपद् }	āpadyate  { āpad }	verb	happen
+आपद्यते { आपद् }	āpadyate  { āpad }	verb	occur
+आपद्यते { आपद् }	āpadyate  { āpad }	verb	take possession
+आपद्यते { आपद् }	āpadyate  { āpad }	verb	walk near
+आपिपर्ति { आपॄ }	āpiparti  { āpṛṛ }	verb	fill up
+आपिपर्ति { आपॄ }	āpiparti  { āpṛṛ }	verb	fulfil
+आपिपर्ति { आपॄ }	āpiparti  { āpṛṛ }	verb	satisfy any one's wish
+आपिबति	āpibati	verb	see or hear with attention
+आपिबति	āpibati	verb	take away
+आपिबति { आपा }	āpibati  { āpā }	verb	drink in
+आपिबति { आपा }	āpibati  { āpā }	verb	drink in with ears or eyes
+आपिबति { आपा }	āpibati  { āpā }	verb	sip  
+आपिबति { आपा }	āpibati  { āpā }	verb	suck in or up
+आपिब्दमान { आपिब्द् }	āpibdamāna  { āpibd }	verb	crackling
+आपिंशति { आपिश् }	āpiṃśati  { āpiś }	verb	decorate
+आपिंशते { आपिश् }	āpiṃśate  { āpiś }	verb	decorate
+आपीतयति { आपीतय }	āpītayati  { āpītaya }	verb	dye with any yellow substance
+आपीतयति { आपीतय }	āpītayati  { āpītaya }	verb	make yellowish
+आपृङ्क्ते { आपृच् }	āpṛṅkte  { āpṛc }	verb	satiate one's self
+आपृच्छते { आप्रछ् }	āpṛcchate  { āprach }	verb	ask
+आपृच्छते { आप्रछ् }	āpṛcchate  { āprach }	verb	bid farewell
+आपृच्छते { आप्रछ् }	āpṛcchate  { āprach }	verb	extol
+आपृच्छते { आप्रछ् }	āpṛcchate  { āprach }	verb	implore  
+आपृच्छते { आप्रछ् }	āpṛcchate  { āprach }	verb	inquire for
+आपृच्छते { आप्रछ् }	āpṛcchate  { āprach }	verb	salute on receiving or parting with a visitor
+आपृच्छते { आप्रछ् }	āpṛcchate  { āprach }	verb	take leave
+आपृणक्ति { आपृच् }	āpṛṇakti  { āpṛc }	verb	fill
+आपृणक्ति { आपृच् }	āpṛṇakti  { āpṛc }	verb	mix with
+आपृणक्ति { आपृच् }	āpṛṇakti  { āpṛc }	verb	pervade  
+आपृणक्ति { आपृच् }	āpṛṇakti  { āpṛc }	verb	satiate  
+आपृणति { आपॄ }	āpṛṇati  { āpṛṛ }	verb	fill up
+आपृणति { आपॄ }	āpṛṇati  { āpṛṛ }	verb	fulfil
+आपृणति { आपॄ }	āpṛṇati  { āpṛṛ }	verb	satisfy any one's wish
+आपृणते { आपॄ }	āpṛṇate  { āpṛṛ }	verb	satiate or satisfy one's self
+आपृणते { आपॄ }	āpṛṇate  { āpṛṛ }	verb	surfeit one's self
+आपृणाति { आपॄ }	āpṛṇāti  { āpṛṛ }	verb	fill up
+आप्नोति	āpnoti	verb	to obtain
+आप्ययते { आप्यै }	āpyayate  { āpyai }	verb	abound
+आप्ययते { आप्यै }	āpyayate  { āpyai }	verb	become full or strong
+आप्ययते { आप्यै }	āpyayate  { āpyai }	verb	enlarge
+आप्ययते { आप्यै }	āpyayate  { āpyai }	verb	grow larger or fat or comfortable
+आप्ययते { आप्यै }	āpyayate  { āpyai }	verb	increase  
+आप्ययते { आप्यै }	āpyayate  { āpyai }	verb	make full
+आप्ययते { आप्यै }	āpyayate  { āpyai }	verb	strengthen
+आप्ययते { आप्यै }	āpyayate  { āpyai }	verb	swell
+आप्ययते { आप्यै }	āpyayate  { āpyai }	verb	thrive  
+आप्यायते { आप्यै }	āpyāyate  { āpyai }	verb	abound
+आप्याययति { आप्यै }	āpyāyayati  { āpyai }	verb	cause to grow
+आप्याययति { आप्यै }	āpyāyayati  { āpyai }	verb	cause to increase or get the upper hand (e.g. a disease)
+आप्याययति { आप्यै }	āpyāyayati  { āpyai }	verb	confirm
+आप्याययति { आप्यै }	āpyāyayati  { āpyai }	verb	enlarge  
+आप्याययति { आप्यै }	āpyāyayati  { āpyai }	verb	fill up
+आप्याययति { आप्यै }	āpyāyayati  { āpyai }	verb	help forward
+आप्याययति { आप्यै }	āpyāyayati  { āpyai }	verb	increase  
+आप्याययति { आप्यै }	āpyāyayati  { āpyai }	verb	make fat or strong or comfortable
+आप्याययति { आप्यै }	āpyāyayati  { āpyai }	verb	make full
+आप्रीणाति { आप्री }	āprīṇāti  { āprī }	verb	conciliate
+आप्रीणाति { आप्री }	āprīṇāti  { āprī }	verb	please  
+आप्रीणाति { आप्री }	āprīṇāti  { āprī }	verb	propitiate
+आप्रीणाति { आप्री }	āprīṇāti  { āprī }	verb	satisfy
+आप्रीणीते { आप्री }	āprīṇīte  { āprī }	verb	amuse one's self
+आप्रीणीते { आप्री }	āprīṇīte  { āprī }	verb	be delighted or pleased
+आप्रुषायति { आप्रुषाय }	āpruṣāyati  { āpruṣāya }	verb	besprinkle
+आप्लवते { आप्लु }	āplavate  { āplu }	verb	bedew
+आप्लवते { आप्लु }	āplavate  { āplu }	verb	dance towards or over
+आप्लवते { आप्लु }	āplavate  { āplu }	verb	immerse one's self
+आप्लवते { आप्लु }	āplavate  { āplu }	verb	inundate  
+आप्लवते { आप्लु }	āplavate  { āplu }	verb	overrun
+आप्लवते { आप्लु }	āplavate  { āplu }	verb	spring or jump towards or over
+आप्लवते { आप्लु }	āplavate  { āplu }	verb	wash
+आप्लवते { आप्लु }	āplavate  { āplu }	verb	wash another
+आप्लवते { आप्लु }	āplavate  { āplu }	verb	water
+आप्लवयति { आप्लु }	āplavayati  { āplu }	verb	bathe (one's self)
+आप्लवयति { आप्लु }	āplavayati  { āplu }	verb	cause to be bathed or washed
+आप्लवयति { आप्लु }	āplavayati  { āplu }	verb	dip
+आप्लवयति { आप्लु }	āplavayati  { āplu }	verb	inundate
+आप्लवयति { आप्लु }	āplavayati  { āplu }	verb	overwhelm
+आप्लवयति { आप्लु }	āplavayati  { āplu }	verb	set in commotion
+आप्लवयति { आप्लु }	āplavayati  { āplu }	verb	steep
+आप्लवयति { आप्लु }	āplavayati  { āplu }	verb	wash or bathe any person or thing
+आप्लावयते { आप्लु }	āplāvayate  { āplu }	verb	bathe (one's self)
+आप्लावयते { आप्लु }	āplāvayate  { āplu }	verb	cause to be bathed or washed
+आप्लावयते { आप्लु }	āplāvayate  { āplu }	verb	dip
+आप्लावयते { आप्लु }	āplāvayate  { āplu }	verb	inundate
+आप्लावयते { आप्लु }	āplāvayate  { āplu }	verb	overwhelm
+आप्लावयते { आप्लु }	āplāvayate  { āplu }	verb	set in commotion
+आप्लावयते { आप्लु }	āplāvayate  { āplu }	verb	steep
+आप्लावयते { आप्लु }	āplāvayate  { āplu }	verb	wash or bathe any person or thing
+आफणति { आफण् }	āphaṇati  { āphaṇ }	verb	skip
+आबध्नाति { आबन्ध् }	ābadhnāti  { ābandh }	verb	bind or tie on
+आबध्नाति { आबन्ध् }	ābadhnāti  { ābandh }	verb	bring to light
+आबध्नाति { आबन्ध् }	ābadhnāti  { ābandh }	verb	effect
+आबध्नाति { आबन्ध् }	ābadhnāti  { ābandh }	verb	fix one's eye or mind on
+आबध्नाति { आबन्ध् }	ābadhnāti  { ābandh }	verb	produce  
+आबध्नाति { आबन्ध् }	ābadhnāti  { ābandh }	verb	resume  
+आबध्नाति { आबन्ध् }	ābadhnāti  { ābandh }	verb	seiśe  
+आबध्नाति { आबन्ध् }	ābadhnāti  { ābandh }	verb	show
+आबध्नाति { आबन्ध् }	ābadhnāti  { ābandh }	verb	tie to one's self
+आबन्धते { आबन्ध् }	ābandhate  { ābandh }	verb	combine
+आबन्धते { आबन्ध् }	ābandhate  { ābandh }	verb	resume  
+आबाधते { आबाध् }	ābādhate  { ābādh }	verb	check  
+आबाधते { आबाध् }	ābādhate  { ābādh }	verb	molest
+आबाधते { आबाध् }	ābādhate  { ābādh }	verb	oppress
+आबाधते { आबाध् }	ābādhate  { ābādh }	verb	pain or torment
+आबाधते { आबाध् }	ābādhate  { ābādh }	verb	press hard
+आबाधते { आबाध् }	ābādhate  { ābādh }	verb	press on
+आबाधते { आबाध् }	ābādhate  { ābādh }	verb	suspend
+आब्रुवते { आब्रू }	ābruvate  { ābrū }	verb	converse with
+आभजति { आभज् }	ābhajati  { ābhaj }	verb	revere
+आभजते { आभज् }	ābhajate  { ābhaj }	verb	revere
+आभरति { आभृ }	ābharati  { ābhṛ }	verb	attract (one's attention)
+आभरति { आभृ }	ābharati  { ābhṛ }	verb	bring towards or near
+आभरति { आभृ }	ābharati  { ābhṛ }	verb	carry or fetch
+आभरति { आभृ }	ābharati  { ābhṛ }	verb	effect
+आभरति { आभृ }	ābharati  { ābhṛ }	verb	fill
+आभरति { आभृ }	ābharati  { ābhṛ }	verb	fill up
+आभरति { आभृ }	ābharati  { ābhṛ }	verb	produce
+आभवति { आभू }	ābhavati  { ābhū }	verb	assist  
+आभवति { आभू }	ābhavati  { ābhū }	verb	begin to exist
+आभवति { आभू }	ābhavati  { ābhū }	verb	be produced
+आभवति { आभू }	ābhavati  { ābhū }	verb	continue one's existence
+आभवति { आभू }	ābhavati  { ābhū }	verb	exist
+आभवति { आभू }	ābhavati  { ābhū }	verb	originate
+आभवति { आभू }	ābhavati  { ābhū }	verb	to be present or near at hand
+आभाति	ābhāti	verb	become visible
+आभाति	ābhāti	verb	blaśe towards
+आभाति	ābhāti	verb	irradiate
+आभाति	ābhāti	verb	outshine
+आभाति { आभा }	ābhāti  { ābhā }	verb	appear
+आभाति { आभा }	ābhāti  { ābhā }	verb	become visible or apparent
+आभाति { आभा }	ābhāti  { ābhā }	verb	illumine  
+आभाति { आभा }	ābhāti  { ābhā }	verb	look like
+आभाति { आभा }	ābhāti  { ābhā }	verb	shine or blaśe towards
+आभाषते { आभाष् }	ābhāṣate  { ābhāṣ }	verb	converse with
+आभासते { आभास् }	ābhāsate  { ābhās }	verb	appear
+आभासते { आभास् }	ābhāsate  { ābhās }	verb	look like
+आभिद्यते { आभिद् }	ābhidyate  { ābhid }	verb	be divided or torn or cleft
+आभूषति { आभूष् }	ābhūṣati  { ābhūṣ }	verb	cultivate  
+आमनति { आम्ना }	āmanati  { āmnā }	verb	allege  
+आमनति { आम्ना }	āmanati  { āmnā }	verb	celebrate
+आमनति { आम्ना }	āmanati  { āmnā }	verb	cite
+आमनति { आम्ना }	āmanati  { āmnā }	verb	commit to memory
+आमनति { आम्ना }	āmanati  { āmnā }	verb	hand down in sacred texts
+आमनति { आम्ना }	āmanati  { āmnā }	verb	mention
+आमनति { आम्ना }	āmanati  { āmnā }	verb	quote  
+आमनति { आम्ना }	āmanati  { āmnā }	verb	utter
+आमन्त्रणं करोति { कृ }	āmantraṇaṃ karoti  { kṛ }	verb	invite
+आमन्यते { आमन् }	āmanyate  { āman }	verb	long to be at
+आमन्यते { आमन् }	āmanyate  { āman }	verb	wish one's self at
+आमहते { आमह् }	āmahate  { āmah }	verb	give
+आमहते { आमह् }	āmahate  { āmah }	verb	grant
+आमाथति { आमथ् }	āmāthati  { āmath }	verb	agitate
+आमाथति { आमथ् }	āmāthati  { āmath }	verb	shake about
+आमाथति { आमथ् }	āmāthati  { āmath }	verb	stir with velocity
+आमिनाति { आमी }	āmināti  { āmī }	verb	cause to disappear or vanish
+आमिनाति { आमी }	āmināti  { āmī }	verb	curtail  
+आमिनाति { आमी }	āmināti  { āmī }	verb	destroy
+आमिनाति { आमी }	āmināti  { āmī }	verb	displace  
+आमिनाति { आमी }	āmināti  { āmī }	verb	exchange
+आमिनाति { आमी }	āmināti  { āmī }	verb	neutraliśe
+आमिनाति { आमी }	āmināti  { āmī }	verb	put aside or away
+आमिनाति { आमी }	āmināti  { āmī }	verb	put or push out of place
+आमीनीते { आमी }	āmīnīte  { āmī }	verb	disappear
+आमीनीते { आमी }	āmīnīte  { āmī }	verb	vanish
+आमीवति { आमीव् }	āmīvati  { āmīv }	verb	open by pressure
+आमीवति { आमीव् }	āmīvati  { āmīv }	verb	press
+आमीवति { आमीव् }	āmīvati  { āmīv }	verb	push
+आमृजति { आमृज् }	āmṛjati  { āmṛj }	verb	clean
+आमृजति { आमृज् }	āmṛjati  { āmṛj }	verb	polish
+आमृजति { आमृज् }	āmṛjati  { āmṛj }	verb	rub
+आमृजति { आमृज् }	āmṛjati  { āmṛj }	verb	smooth
+आमृजति { आमृज् }	āmṛjati  { āmṛj }	verb	wipe away or off
+आमृद्राति { आमृद् }	āmṛdrāti  { āmṛd }	verb	crumple  
+आमृशति { आमृश् }	āmṛśati  { āmṛś }	verb	consider
+आमृशति { आमृश् }	āmṛśati  { āmṛś }	verb	enjoy (a woman)
+आमृशति { आमृश् }	āmṛśati  { āmṛś }	verb	reflect upon
+आमृशति { आमृश् }	āmṛśati  { āmṛś }	verb	remove
+आमृशति { आमृश् }	āmṛśati  { āmṛś }	verb	rub off
+आमृशति { आमृश् }	āmṛśati  { āmṛś }	verb	taste
+आमृशति { आमृश् }	āmṛśati  { āmṛś }	verb	touch  
+आमृशति { आमृश् }	āmṛśati  { āmṛś }	verb	wipe away
+आमृष्यते { आमृष् }	āmṛṣyate  { āmṛṣ }	verb	bear patiently
+आयच्छति { आयम् }	āyacchati  { āyam }	verb	bring hither
+आयच्छति { आयम् }	āyacchati  { āyam }	verb	draw back
+आयच्छति { आयम् }	āyacchati  { āyam }	verb	draw near
+आयच्छति { आयम् }	āyacchati  { āyam }	verb	fetch
+आयच्छति { आयम् }	āyacchati  { āyam }	verb	hold in
+आयच्छति { आयम् }	āyacchati  { āyam }	verb	keep
+आयच्छति { आयम् }	āyacchati  { āyam }	verb	procure  
+आयच्छति { आयम् }	āyacchati  { āyam }	verb	produce
+आयच्छति { आयम् }	āyacchati  { āyam }	verb	put on (an arrow
+आयच्छति { आयम् }	āyacchati  { āyam }	verb	restrain
+आयच्छति { आयम् }	āyacchati  { āyam }	verb	stop
+आयच्छति { आयम् }	āyacchati  { āyam }	verb	stretch (a bow)
+आयच्छते { आयम् }	āyacchate  { āyam }	verb	grasp
+आयच्छते { आयम् }	āyacchate  { āyam }	verb	grow long
+आयच्छते { आयम् }	āyacchate  { āyam }	verb	possess
+आयच्छते { आयम् }	āyacchate  { āyam }	verb	stretch one's self or be stretched or strained
+आयजति { आयज् }	āyajati  { āyaj }	verb	receive or procure through offerings
+आयजते { आयज् }	āyajate  { āyaj }	verb	receive or procure through offerings
+आयसति { आ- यस् }	āyasati  { ā- yas }	verb	torment
+आयसति { आ- यस् }	āyasati  { ā- yas }	verb	trouble
+आयस्यति { आयस् }	āyasyati  { āyas }	verb	become exhausted
+आयस्यति { आयस् }	āyasyati  { āyas }	verb	exert one's self
+आयस्यति { आयस् }	āyasyati  { āyas }	verb	weary one's self
+आयाचति { आयाच् }	āyācati  { āyāc }	verb	implore
+आयाचति { आयाच् }	āyācati  { āyāc }	verb	supplicate
+आयाचते { आयाच् }	āyācate  { āyāc }	verb	implore
+आयाचते { आयाच् }	āyācate  { āyāc }	verb	supplicate
+आयाति { आया }	āyāti  { āyā }	verb	become anything
+आयाति { आया }	āyāti  { āyā }	verb	be reduced to
+आयाति { आया }	āyāti  { āyā }	verb	come near or towards
+आयाति { आया }	āyāti  { āyā }	verb	get or fall into any state or condition
+आयापयति	āyāpayati	verb	import  [ computer ]
+आयुजति	āyujati	verb	arrange
+आयुञ्जते { आयुज् }	āyuñjate  { āyuj }	verb	accommodate with
+आयुञ्जते { आयुज् }	āyuñjate  { āyuj }	verb	appoint
+आयुञ्जते { आयुज् }	āyuñjate  { āyuj }	verb	fasten  
+आयुञ्जते { आयुज् }	āyuñjate  { āyuj }	verb	join
+आयुञ्जते { आयुज् }	āyuñjate  { āyuj }	verb	yoke or join to
+आयुध्यति { आयुध् }	āyudhyati  { āyudh }	verb	oppose
+आयुनक्ति { आयुज् }	āyunakti  { āyuj }	verb	accommodate with
+आयुनक्ति { आयुज् }	āyunakti  { āyuj }	verb	appoint
+आयुनक्ति { आयुज् }	āyunakti  { āyuj }	verb	fasten  
+आयुनक्ति { आयुज् }	āyunakti  { āyuj }	verb	join
+आयुनक्ति { आयुज् }	āyunakti  { āyuj }	verb	yoke or join to
+आयुवते { आयु }	āyuvate  { āyu }	verb	agitate
+आयुवते { आयु }	āyuvate  { āyu }	verb	draw or pull towards one's self
+आयुवते { आयु }	āyuvate  { āyu }	verb	mingle
+आयुवते { आयु }	āyuvate  { āyu }	verb	procure
+आयुवते { आयु }	āyuvate  { āyu }	verb	produce  
+आयुवते { आयु }	āyuvate  { āyu }	verb	provide
+आयुवते { आयु }	āyuvate  { āyu }	verb	seiśe
+आयुवते { आयु }	āyuvate  { āyu }	verb	stir up
+आयुवते { आयु }	āyuvate  { āyu }	verb	take possession of
+आयोजनं करोति { कृ }	āyojanaṃ karoti  { kṛ }	verb	join
+आरक्षति	ārakṣati	verb	allocate  [ computer ]
+आरक्षति { आरक्ष् }	ārakṣati  { ārakṣ }	verb	defend  
+आरक्षति { आरक्ष् }	ārakṣati  { ārakṣ }	verb	protect from
+आरक्षति { आरक्ष् }	ārakṣati  { ārakṣ }	verb	watch over
+आरटति { आरट् }	āraṭati  { āraṭ }	verb	screech
+आरटति { आरट् }	āraṭati  { āraṭ }	verb	shriek
+आरपति { आरप् }	ārapati  { ārap }	verb	whisper towards
+आरभ्ति { आरभ् }	ārabhti  { ārabh }	verb	attain  
+आरभ्ति { आरभ् }	ārabhti  { ārabh }	verb	begin
+आरभ्ति { आरभ् }	ārabhti  { ārabh }	verb	cling to
+आरभ्ति { आरभ् }	ārabhti  { ārabh }	verb	commence
+आरभ्ति { आरभ् }	ārabhti  { ārabh }	verb	compose
+आरभ्ति { आरभ् }	ārabhti  { ārabh }	verb	enter
+आरभ्ति { आरभ् }	ārabhti  { ārabh }	verb	form
+आरभ्ति { आरभ् }	ārabhti  { ārabh }	verb	gain a footing
+आरभ्ति { आरभ् }	ārabhti  { ārabh }	verb	keep fast
+आरभ्ति { आरभ् }	ārabhti  { ārabh }	verb	lay or take hold of
+आरभ्ति { आरभ् }	ārabhti  { ārabh }	verb	make
+आरभ्ति { आरभ् }	ārabhti  { ārabh }	verb	produce  
+आरभ्ति { आरभ् }	ārabhti  { ārabh }	verb	reach
+आरभ्ति { आरभ् }	ārabhti  { ārabh }	verb	undertake
+आरभ्ते { आरभ् }	ārabhte  { ārabh }	verb	attain  
+आरभ्ते { आरभ् }	ārabhte  { ārabh }	verb	begin
+आरभ्ते { आरभ् }	ārabhte  { ārabh }	verb	cling to
+आरभ्ते { आरभ् }	ārabhte  { ārabh }	verb	commence
+आरभ्ते { आरभ् }	ārabhte  { ārabh }	verb	compose
+आरभ्ते { आरभ् }	ārabhte  { ārabh }	verb	enter
+आरभ्ते { आरभ् }	ārabhte  { ārabh }	verb	form
+आरभ्ते { आरभ् }	ārabhte  { ārabh }	verb	gain a footing
+आरभ्ते { आरभ् }	ārabhte  { ārabh }	verb	keep fast
+आरभ्ते { आरभ् }	ārabhte  { ārabh }	verb	lay or take hold of
+आरभ्ते { आरभ् }	ārabhte  { ārabh }	verb	make
+आरभ्ते { आरभ् }	ārabhte  { ārabh }	verb	produce  
+आरभ्ते { आरभ् }	ārabhte  { ārabh }	verb	reach
+आरभ्ते { आरभ् }	ārabhte  { ārabh }	verb	undertake
+आरमति { आ- रम् }	āramati  { ā- ram }	verb	cease
+आरमति { आरम् }	āramati  { āram }	verb	delight in
+आरमति { आरम् }	āramati  { āram }	verb	enjoy one's self
+आरमति { आ- रम् }	āramati  { ā- ram }	verb	finish
+आरमति { आरम् }	āramati  { āram }	verb	leave off
+आरमति { आ- रम् }	āramati  { ā- ram }	verb	pause
+आरमति { आ- रम् }	āramati  { ā- ram }	verb	stop
+आरमति { आरम् }	āramati  { āram }	verb	stop  
+आरमति { आरम् }	āramati  { āram }	verb	take pleasure
+आरम्भति { आरभ् }	ārambhati  { ārabh }	verb	attain  
+आरम्भति { आरभ् }	ārambhati  { ārabh }	verb	begin
+आरम्भति { आरभ् }	ārambhati  { ārabh }	verb	cling to
+आरम्भति { आरभ् }	ārambhati  { ārabh }	verb	commence
+आरम्भति { आरभ् }	ārambhati  { ārabh }	verb	compose
+आरम्भति { आरभ् }	ārambhati  { ārabh }	verb	enter
+आरम्भति { आरभ् }	ārambhati  { ārabh }	verb	form
+आरम्भति { आरभ् }	ārambhati  { ārabh }	verb	gain a footing
+आरम्भति { आरभ् }	ārambhati  { ārabh }	verb	keep fast
+आरम्भति { आरभ् }	ārambhati  { ārabh }	verb	lay or take hold of
+आरम्भति { आरभ् }	ārambhati  { ārabh }	verb	make
+आरम्भति { आरभ् }	ārambhati  { ārabh }	verb	produce  
+आरम्भति { आरभ् }	ārambhati  { ārabh }	verb	reach
+आरम्भति { आरभ् }	ārambhati  { ārabh }	verb	undertake
+आरम्भते { आरभ् }	ārambhate  { ārabh }	verb	attain  
+आरम्भते { आरभ् }	ārambhate  { ārabh }	verb	begin
+आरम्भते { आरभ् }	ārambhate  { ārabh }	verb	cling to
+आरम्भते { आरभ् }	ārambhate  { ārabh }	verb	commence
+आरम्भते { आरभ् }	ārambhate  { ārabh }	verb	compose
+आरम्भते { आरभ् }	ārambhate  { ārabh }	verb	enter
+आरम्भते { आरभ् }	ārambhate  { ārabh }	verb	form
+आरम्भते { आरभ् }	ārambhate  { ārabh }	verb	gain a footing
+आरम्भते { आरभ् }	ārambhate  { ārabh }	verb	keep fast
+आरम्भते { आरभ् }	ārambhate  { ārabh }	verb	lay or take hold of
+आरम्भते { आरभ् }	ārambhate  { ārabh }	verb	make
+आरम्भते { आरभ् }	ārambhate  { ārabh }	verb	produce  
+आरम्भते { आरभ् }	ārambhate  { ārabh }	verb	reach
+आरम्भते { आरभ् }	ārambhate  { ārabh }	verb	undertake
+आरम्भं करोति { कृ }	ārambhaṃ karoti  { kṛ }	verb	start
+आरसति { आरस् }	ārasati  { āras }	verb	roar towards
+आरसति { आरस् }	ārasati  { āras }	verb	shout to
+आरागयति { आरागय }	ārāgayati  { ārāgaya }	verb	gladden highly
+आरागयति { आरागय }	ārāgayati  { ārāgaya }	verb	obtain
+आरागयति { आरागय }	ārāgayati  { ārāgaya }	verb	relish
+{ आराधनं कृ }	{ ārādhanaṃ kṛ }	verb	adorate
+आराधयति { आराध् }	ārādhayati  { ārādh }	verb	deserve
+आराधयति { आराध् }	ārādhayati  { ārādh }	verb	honour
+आराधयति { आराध् }	ārādhayati  { ārādh }	verb	merit
+आराधयति { आराध् }	ārādhayati  { ārādh }	verb	propitiate  
+आराधयति { आराध् }	ārādhayati  { ārādh }	verb	solicit  
+आराधयति { आराध् }	ārādhayati  { ārādh }	verb	strive to obtain the favour of or gain a boon from
+आराधयति { आराध् }	ārādhayati  { ārādh }	verb	worship  
+आरिणन्ति { आरी }	āriṇanti  { ārī }	verb	let drop
+आरिणन्ति { आरी }	āriṇanti  { ārī }	verb	pour
+आरीयते { आरी }	ārīyate  { ārī }	verb	flow over
+आरीयते { आरी }	ārīyate  { ārī }	verb	trickle or flow upon
+आरुजति { आरुज् }	ārujati  { āruj }	verb	pull down
+आरुजति { आरुज् }	ārujati  { āruj }	verb	shatter
+आरुणद्धि { आरुध् }	āruṇaddhi  { ārudh }	verb	besiege  
+आरुणद्धि { आरुध् }	āruṇaddhi  { ārudh }	verb	blockade
+आरुणद्धि { आरुध् }	āruṇaddhi  { ārudh }	verb	keep off
+आरुणद्धि { आरुध् }	āruṇaddhi  { ārudh }	verb	lock in
+आरुणद्धि { आरुध् }	āruṇaddhi  { ārudh }	verb	shut up
+आरुणद्धि { आरुध् }	āruṇaddhi  { ārudh }	verb	ward off
+आरोपयति	āropayati	verb	load  [ computer ]
+आरोहति { आरुह् }	ārohati  { āruh }	verb	arise
+आरोहति { आरुह् }	ārohati  { āruh }	verb	attain
+आरोहति { आरुह् }	ārohati  { āruh }	verb	bestride
+आरोहति { आरुह् }	ārohati  { āruh }	verb	come off
+आरोहति { आरुह् }	ārohati  { āruh }	verb	gain
+आरोहति { आरुह् }	ārohati  { āruh }	verb	result
+आरोहति { आरुह् }	ārohati  { āruh }	verb	rise up
+आरोहति { आरुह् }	ārohati  { āruh }	verb	undertake  
+आरोहति { आरुह् }	ārohati  { āruh }	verb	venture upon
+आर्च्छति { आर्छ् }	ārcchati  { ārch }	verb	fall into (calamity or mischief)
+आर्च्छति { आर्छ् }	ārcchati  { ārch }	verb	obtain
+आर्च्छति { आर्छ् }	ārcchati  { ārch }	verb	partake of
+आर्द्रयति { आर्द्रय }	ārdrayati  { ārdraya }	verb	soften
+आर्द्रीकरोति { आर्द्रीकृ }	ārdrīkaroti  { ārdrīkṛ }	verb	soften
+आलक्षयते { आलक्ष् }	ālakṣayate  { ālakṣ }	verb	behold
+आलक्षयते { आलक्ष् }	ālakṣayate  { ālakṣ }	verb	descry
+आलक्षयते { आलक्ष् }	ālakṣayate  { ālakṣ }	verb	see
+आलगति { आलग् }	ālagati  { ālag }	verb	adhere
+आलगति { आलग् }	ālagati  { ālag }	verb	cling to
+आलपति { आलप् }	ālapati  { ālap }	verb	converse
+आलभते { आलभ् }	ālabhate  { ālabh }	verb	commence
+आलभते { आलभ् }	ālabhate  { ālabh }	verb	conciliate
+आलभते { आलभ् }	ālabhate  { ālabh }	verb	handle
+आलभते { आलभ् }	ālabhate  { ālabh }	verb	kill
+आलभते { आलभ् }	ālabhate  { ālabh }	verb	obtain  
+आलभते { आलभ् }	ālabhate  { ālabh }	verb	reach
+आलभते { आलभ् }	ālabhate  { ālabh }	verb	sacrifice
+आलभते { आलभ् }	ālabhate  { ālabh }	verb	take hold of
+आलभते { आलभ् }	ālabhate  { ālabh }	verb	touch
+आलभते { आलभ् }	ālabhate  { ālabh }	verb	undertake  
+आलम्बते { आलम्ब् }	ālambate  { ālamb }	verb	appropriate  
+आलम्बते { आलम्ब् }	ālambate  { ālamb }	verb	bring near
+आलम्बते { आलम्ब् }	ālambate  { ālamb }	verb	cling to
+आलम्बते { आलम्ब् }	ālambate  { ālamb }	verb	depend
+आलम्बते { आलम्ब् }	ālambate  { ālamb }	verb	get  
+आलम्बते { आलम्ब् }	ālambate  { ālamb }	verb	give one's self up to
+आलम्बते { आलम्ब् }	ālambate  { ālamb }	verb	hang from
+आलम्बते { आलम्ब् }	ālambate  { ālamb }	verb	hold
+आलम्बते { आलम्ब् }	ālambate  { ālamb }	verb	lay hold of
+आलम्बते { आलम्ब् }	ālambate  { ālamb }	verb	rest or lean upon
+आलम्बते { आलम्ब् }	ālambate  { ālamb }	verb	seiśe
+आलम्बते { आलम्ब् }	ālambate  { ālamb }	verb	support
+आलम्बते { आलम्ब् }	ālambate  { ālamb }	verb	take up
+आलिखति	ālikhati	verb	delineate
+आलिखति	ālikhati	verb	draw
+आलिखति	ālikhati	verb	portrait
+आलिखति	ālikhati	verb	write down an orally dictated manuscript
+आलिखति { आलिख् }	ālikhati  { ālikh }	verb	delineate by scratches
+आलिखति { आलिख् }	ālikhati  { ālikh }	verb	make a scratch on
+आलिखति { आलिख् }	ālikhati  { ālikh }	verb	mark
+आलिखति { आलिख् }	ālikhati  { ālikh }	verb	paint
+आलिखति { आलिख् }	ālikhati  { ālikh }	verb	scratch
+आलिखति { आ- लिख् }	ālikhati  { ā- likh }	verb	to paint
+आलिखति { आलिख् }	ālikhati  { ālikh }	verb	write
+आलिङ्गति	āliṅgati	verb	embrace
+आलिङ्गति { आलिङ्ग् }	āliṅgati  { āliṅg }	verb	clasp
+आलिङ्गति { आलिङ्ग् }	āliṅgati  { āliṅg }	verb	encircle
+आलिङ्गति { आलिङ्ग् }	āliṅgati  { āliṅg }	verb	extend
+आलिङ्गति { आलिङ्ग् }	āliṅgati  { āliṅg }	verb	join the limbs closely
+आलिङ्गति { आलिङ्ग् }	āliṅgati  { āliṅg }	verb	spread out
+आलिङ्गते { आलिङ्ग् }	āliṅgate  { āliṅg }	verb	clasp
+आलिङ्गते { आलिङ्ग् }	āliṅgate  { āliṅg }	verb	embrace
+आलिङ्गते { आलिङ्ग् }	āliṅgate  { āliṅg }	verb	encircle
+आलिङ्गते { आलिङ्ग् }	āliṅgate  { āliṅg }	verb	extend
+आलिङ्गते { आलिङ्ग् }	āliṅgate  { āliṅg }	verb	join the limbs closely
+आलिङ्गते { आलिङ्ग् }	āliṅgate  { āliṅg }	verb	spread out
+आलिङ्गयति { आलिङ्ग् }	āliṅgayati  { āliṅg }	verb	clasp
+आलिङ्गयति { आलिङ्ग् }	āliṅgayati  { āliṅg }	verb	embrace
+आलिङ्गयति { आलिङ्ग् }	āliṅgayati  { āliṅg }	verb	encircle
+आलिङ्गयति { आलिङ्ग् }	āliṅgayati  { āliṅg }	verb	extend
+आलिङ्गयति { आलिङ्ग् }	āliṅgayati  { āliṅg }	verb	join the limbs closely
+आलिङ्गयति { आलिङ्ग् }	āliṅgayati  { āliṅg }	verb	spread out
+आलिन्ङ्गनं करोति { कृ }	ālinṅganaṃ karoti  { kṛ }	verb	embrace
+आलिम्पति { आलिप् }	ālimpati  { ālip }	verb	anoint
+आलिहति { आलिह् }	ālihati  { ālih }	verb	apply the tongue to
+आलिहति { आलिह् }	ālihati  { ālih }	verb	lap
+आलिहति { आलिह् }	ālihati  { ālih }	verb	lick
+आलुम्पति { आलुप् }	ālumpati  { ālup }	verb	dissolve
+आलुम्पति { आलुप् }	ālumpati  { ālup }	verb	separate
+आलुम्पति { आलुप् }	ālumpati  { ālup }	verb	tear out or asunder
+आलोकते { आलोक् }	ālokate  { ālok }	verb	behold
+आलोकते { आलोक् }	ālokate  { ālok }	verb	descry
+आलोकते { आलोक् }	ālokate  { ālok }	verb	look at
+आलोचते { आलोच् }	ālocate  { āloc }	verb	consider
+आलोचते { आलोच् }	ālocate  { āloc }	verb	reflect upon
+आलोचयति { आ- लोच् }	ālocayati  { ā- loc }	verb	consider
+आलोचयति { आ- लोच् }	ālocayati  { ā- loc }	verb	reflect
+आलोडयति { आलुड् }	āloḍayati  { āluḍ }	verb	agitate
+आलोडयति { आ- लुड् }	āloḍayati  { ā- luḍ }	verb	churn
+आलोडयति { आलुड् }	āloḍayati  { āluḍ }	verb	mix
+आलोडयति { आ- लुड् }	āloḍayati  { ā- luḍ }	verb	stir
+आवचते { आवच् }	āvacate  { āvac }	verb	invoke
+आवञ्चयति { आवञ्च् }	āvañcayati  { āvañc }	verb	gush or flow towards or near
+आवदति { आवद् }	āvadati  { āvad }	verb	celebrate
+आवदति { आवद् }	āvadati  { āvad }	verb	invoke
+आवधति { आवध् }	āvadhati  { āvadh }	verb	crush
+आवधति { आवध् }	āvadhati  { āvadh }	verb	shatter
+आवनते { आवन् }	āvanate  { āvan }	verb	crave for
+आवनते { आवन् }	āvanate  { āvan }	verb	desire
+आवनते { आवन् }	āvanate  { āvan }	verb	procure
+आवनते { आवन् }	āvanate  { āvan }	verb	wish
+आवपति { आवप् }	āvapati  { āvap }	verb	afford
+आवपति { आवप् }	āvapati  { āvap }	verb	fill up
+आवपति { आवप् }	āvapati  { āvap }	verb	mix with
+आवपति { आवप् }	āvapati  { āvap }	verb	offer
+आवपति { आवप् }	āvapati  { āvap }	verb	pour out
+आवपति { आवप् }	āvapati  { āvap }	verb	present
+आवपति { आवप् }	āvapati  { āvap }	verb	supply  
+आवपति { आवप् }	āvapati  { āvap }	verb	throw or scatter into
+आवयति	āvayati	verb	approach
+आवयति	āvayati	verb	be agitated
+आवयति	āvayati	verb	drive on or near
+आवयति	āvayati	verb	grasp
+आवयति	āvayati	verb	seiśe
+आवयति	āvayati	verb	tremble
+आवयति { आवे }	āvayati  { āve }	verb	interweave
+आवयति { आवे }	āvayati  { āve }	verb	rush down upon
+आवयति { आवे }	āvayati  { āve }	verb	sew loosely
+आवयति { आवे }	āvayati  { āve }	verb	string  
+आवयति { आवे }	āvayati  { āve }	verb	weave on to
+आवर्तते { आवृत् }	āvartate  { āvṛt }	verb	return
+आवर्तते { आवृत् }	āvartate  { āvṛt }	verb	revolve
+आवर्तते { आवृत् }	āvartate  { āvṛt }	verb	turn or draw round or back or near
+आवर्तते { आवृत् }	āvartate  { āvṛt }	verb	turn or go towards
+आवर्तते { आवृत् }	āvartate  { āvṛt }	verb	turn round or back
+आवसति { आवस् }	āvasati  { āvas }	verb	abide
+आवसति { आवस् }	āvasati  { āvas }	verb	dwell  
+आवसति { आवस् }	āvasati  { āvas }	verb	enter
+आवसति { आवस् }	āvasati  { āvas }	verb	inhabit  
+आवसति { आवस् }	āvasati  { āvas }	verb	sleep with
+आवसति { आवस् }	āvasati  { āvas }	verb	spend (time)
+आवसति { आवस् }	āvasati  { āvas }	verb	take possession of
+आवहति { आवह् }	āvahati  { āvah }	verb	bear  
+आवहति { आवह् }	āvahati  { āvah }	verb	bring home  [ a bride ]
+आवहति { आवह् }	āvahati  { āvah }	verb	bring  
+आवहति { आवह् }	āvahati  { āvah }	verb	carry away
+आवहति { आवह् }	āvahati  { āvah }	verb	drive or lead near or towards
+आवहति { आवह् }	āvahati  { āvah }	verb	fetch
+आवहति { आवह् }	āvahati  { āvah }	verb	pay  
+आवहति { आवह् }	āvahati  { āvah }	verb	procure
+आवहति { आवह् }	āvahati  { āvah }	verb	use
+आवहते { आवह् }	āvahate  { āvah }	verb	bear  
+आवहते { आवह् }	āvahate  { āvah }	verb	bring home  [ a bride ]
+आवहते { आवह् }	āvahate  { āvah }	verb	bring  
+आवहते { आवह् }	āvahate  { āvah }	verb	carry away
+आवहते { आवह् }	āvahate  { āvah }	verb	drive or lead near or towards
+आवहते { आवह् }	āvahate  { āvah }	verb	fetch
+आवहते { आवह् }	āvahate  { āvah }	verb	pay  
+आवहते { आवह् }	āvahate  { āvah }	verb	procure
+आवहते { आवह् }	āvahate  { āvah }	verb	use
+आवाहनं करोति { कृ }	āvāhanaṃ karoti  { kṛ }	verb	invoke
+आविध्यति { आव्यध् }	āvidhyati  { āvyadh }	verb	agitate
+आविध्यति { आव्यध् }	āvidhyati  { āvyadh }	verb	break  
+आविध्यति { आव्यध् }	āvidhyati  { āvyadh }	verb	drive or scare away
+आविध्यति { आव्यध् }	āvidhyati  { āvyadh }	verb	excite
+आविध्यति { आव्यध् }	āvidhyati  { āvyadh }	verb	fling away
+आविध्यति { आव्यध् }	āvidhyati  { āvyadh }	verb	hit
+आविध्यति { आव्यध् }	āvidhyati  { āvyadh }	verb	pierce
+आविध्यति { आव्यध् }	āvidhyati  { āvyadh }	verb	pin on
+आविध्यति { आव्यध् }	āvidhyati  { āvyadh }	verb	push away or out
+आविध्यति { आव्यध् }	āvidhyati  { āvyadh }	verb	shoot at
+आविध्यति { आव्यध् }	āvidhyati  { āvyadh }	verb	stir up
+आविध्यति { आव्यध् }	āvidhyati  { āvyadh }	verb	swing
+आविध्यति { आव्यध् }	āvidhyati  { āvyadh }	verb	throw in
+आविध्यति { आव्यध् }	āvidhyati  { āvyadh }	verb	wound
+आविन्दते { आविद् }	āvindate  { āvid }	verb	get into
+आविन्दते { आविद् }	āvindate  { āvid }	verb	obtain  
+आविन्दते { आविद् }	āvindate  { āvid }	verb	reach
+आविर्भवति { आविर्भू }	āvirbhavati  { āvirbhū }	verb	appear
+आविर्भवति { आविर्भू }	āvirbhavati  { āvirbhū }	verb	become apparent or visible
+आविर्भवति { आविर्भू }	āvirbhavati  { āvirbhū }	verb	become manifest
+आविर्भवति { आविर्भू }	āvirbhavati  { āvirbhū }	verb	be present before the eyes
+आविलयति { आविलय }	āvilayati  { āvilaya }	verb	blot
+आविलयति { आविलय }	āvilayati  { āvilaya }	verb	make turbid
+आविवेश { विश् }	āvivesha  { vish }	verb	possessing
+आविशति { आविश् }	āviśati  { āviś }	verb	approach
+आविशति { आविश् }	āviśati  { āviś }	verb	become
+आविशति { आ- विश् }	āviśati  { ā- viś }	verb	come in
+आविशति { आ- विश् }	āviśati  { ā- viś }	verb	enter in
+आविशति { आविश् }	āviśati  { āviś }	verb	enter  
+आविशति { आविश् }	āviśati  { āviś }	verb	get or fall into
+आविशति { आविश् }	āviśati  { āviś }	verb	go or drive in or towards
+आविशति { आविश् }	āviśati  { āviś }	verb	obtain  
+आविशति { आविश् }	āviśati  { āviś }	verb	reach
+आविशति { आविश् }	āviśati  { āviś }	verb	settle  
+आविशति { आविश् }	āviśati  { āviś }	verb	sit down
+आविष्करोति { आविष्कृ }	āviṣkaroti  { āviṣkṛ }	verb	reveal
+आविहन्ति { आविहन् }	āvihanti  { āvihan }	verb	hew at
+आवृङ्क्ते { आवृज् }	āvṛṅkte  { āvṛj }	verb	appropriate  
+आवृङ्क्ते { आवृज् }	āvṛṅkte  { āvṛj }	verb	be propitiated
+आवृङ्क्ते { आवृज् }	āvṛṅkte  { āvṛj }	verb	bestow
+आवृङ्क्ते { आवृज् }	āvṛṅkte  { āvṛj }	verb	favour
+आवृङ्क्ते { आवृज् }	āvṛṅkte  { āvṛj }	verb	give  
+आवृङ्क्ते { आवृज् }	āvṛṅkte  { āvṛj }	verb	procure for
+आवृङ्क्ते { आवृज् }	āvṛṅkte  { āvṛj }	verb	turn or bring into one's own possession
+आवृङ्क्ते { आवृज् }	āvṛṅkte  { āvṛj }	verb	turn or bring into the possession of
+आवृणुते { आवृ }	āvṛṇute  { āvṛ }	verb	choose
+आवृणुते { आवृ }	āvṛṇute  { āvṛ }	verb	desire
+आवृणुते { आवृ }	āvṛṇute  { āvṛ }	verb	fulfil
+आवृणुते { आवृ }	āvṛṇute  { āvṛ }	verb	grant (a wish)
+आवृणुते { आवृ }	āvṛṇute  { āvṛ }	verb	prefer  
+आवृणोति { आवृ }	āvṛṇoti  { āvṛ }	verb	comprehend
+आवृणोति { आवृ }	āvṛṇoti  { āvṛ }	verb	conceal  
+आवृणोति { आवृ }	āvṛṇoti  { āvṛ }	verb	enclose
+आवृणोति { आवृ }	āvṛṇoti  { āvṛ }	verb	hem in
+आवृणोति { आवृ }	āvṛṇoti  { āvṛ }	verb	hide
+आवृणोति { आवृ }	āvṛṇoti  { āvṛ }	verb	keep off
+आवृणोति { आवृ }	āvṛṇoti  { āvṛ }	verb	shut
+आवृश्चति { आव्रश्च् }	āvṛścati  { āvraśc }	verb	cut off
+आवृश्चति { आव्रश्च् }	āvṛścati  { āvraśc }	verb	remove
+आवृश्चति { आव्रश्च् }	āvṛścati  { āvraśc }	verb	separate
+आवृश्चति { आव्रश्च् }	āvṛścati  { āvraśc }	verb	tear off
+आवृश्चते { आव्रश्च् }	āvṛścate  { āvraśc }	verb	cut off
+आवृश्चते { आव्रश्च् }	āvṛścate  { āvraśc }	verb	take away
+आवृहते { आवृह् }	āvṛhate  { āvṛh }	verb	eradicate
+आवृहते { आवृह् }	āvṛhate  { āvṛh }	verb	pull or tear out or off
+आवेदति { आविद् }	āvedati  { āvid }	verb	address
+आवेदति { आविद् }	āvedati  { āvid }	verb	announce
+आवेदति { आविद् }	āvedati  { āvid }	verb	declare
+आवेदति { आविद् }	āvedati  { āvid }	verb	invite  
+आवेदति { आविद् }	āvedati  { āvid }	verb	know well or thoroughly
+आवेदति { आविद् }	āvedati  { āvid }	verb	make known
+आवेदति { आविद् }	āvedati  { āvid }	verb	offer
+आवेदति { आविद् }	āvedati  { āvid }	verb	present
+आवेदति { आविद् }	āvedati  { āvid }	verb	report
+आवेशयति { आविश् }	āveśayati  { āviś }	verb	cause to enter or approach
+आवेशयति { आविश् }	āveśayati  { āviś }	verb	cause to reach or obtain
+आवेशयति { आविश् }	āveśayati  { āviś }	verb	deliver
+आवेशयति { आविश् }	āveśayati  { āviś }	verb	make known
+आवेशयति { आविश् }	āveśayati  { āviś }	verb	offer
+आवेशयति { आविश् }	āveśayati  { āviś }	verb	present  
+आव्र्श्च्यते { आव्रश्च् }	āvrścyate  { āvraśc }	verb	to be torn or cut off
+आशक्नोति { आशक् }	āśaknoti  { āśak }	verb	aid
+आशक्नोति { आशक् }	āśaknoti  { āśak }	verb	bring near
+आशक्नोति { आशक् }	āśaknoti  { āśak }	verb	give a share of
+आशक्नोति { आशक् }	āśaknoti  { āśak }	verb	help  
+आशक्नोति { आशक् }	āśaknoti  { āśak }	verb	invite  
+आशक्नोति { आशक् }	āśaknoti  { āśak }	verb	let partake
+आशक्नोति { आशक् }	āśaknoti  { āśak }	verb	stimulate  
+आशङ्कते { आशङ्क् }	āśaṅkate  { āśaṅk }	verb	conjecture
+आशङ्कते { आशङ्क् }	āśaṅkate  { āśaṅk }	verb	expect
+आशङ्कते { आशङ्क् }	āśaṅkate  { āśaṅk }	verb	hesitate
+आशङ्कते { आशङ्क् }	āśaṅkate  { āśaṅk }	verb	imagine
+आशङ्कते { आशङ्क् }	āśaṅkate  { āśaṅk }	verb	mistrust
+आशङ्कते { आशङ्क् }	āśaṅkate  { āśaṅk }	verb	object  [ Phil. ]
+आशङ्कते { आशङ्क् }	āśaṅkate  { āśaṅk }	verb	suppose
+आशङ्कते { आशङ्क् }	āśaṅkate  { āśaṅk }	verb	think
+आशास्ते { आशास् }	āśāste  { āśās }	verb	ask
+आशास्ते { आशास् }	āśāste  { āśās }	verb	command  
+आशास्ते { आशास् }	āśāste  { āśās }	verb	instruct
+आशास्ते { आशास् }	āśāste  { āśās }	verb	order
+आशास्ते { आशास् }	āśāste  { āśās }	verb	pray for
+आशास्ते { आशास् }	āśāste  { āśās }	verb	subdue
+आशुषते { आशुष् }	āśuṣate  { āśuṣ }	verb	incite
+आशुषते { आशुष् }	āśuṣate  { āśuṣ }	verb	stimulate
+आशृउणोति { आश्रु }	āśṛuṇoti  { āśru }	verb	accept
+आशृउणोति { आश्रु }	āśṛuṇoti  { āśru }	verb	hear  
+आशृउणोति { आश्रु }	āśṛuṇoti  { āśru }	verb	listen to
+आशृउणोति { आश्रु }	āśṛuṇoti  { āśru }	verb	perceive (with the ear)
+आशृउणोति { आश्रु }	āśṛuṇoti  { āśru }	verb	promise
+आशृणुते { आश्रु }	āśṛṇute  { āśru }	verb	accept
+आशृणुते { आश्रु }	āśṛṇute  { āśru }	verb	hear  
+आशृणुते { आश्रु }	āśṛṇute  { āśru }	verb	listen to
+आशृणुते { आश्रु }	āśṛṇute  { āśru }	verb	perceive (with the ear)
+आशृणुते { आश्रु }	āśṛṇute  { āśru }	verb	promise
+आशंसति { आशंस् }	āśaṃsati  { āśaṃs }	verb	ask  
+आशंसति { आशंस् }	āśaṃsati  { āśaṃs }	verb	desire  
+आशंसति { आ - शंस् }	āśaṃsati  { ā - śaṃs }	verb	envisage
+आशंसति { आशंस् }	āśaṃsati  { āśaṃs }	verb	expect
+आशंसति { आशंस् }	āśaṃsati  { āśaṃs }	verb	extol  
+आशंसति { आशंस् }	āśaṃsati  { āśaṃs }	verb	fear
+आशंसति { आशंस् }	āśaṃsati  { āśaṃs }	verb	hope for
+आशंसति { आशंस् }	āśaṃsati  { āśaṃs }	verb	praise
+आशंसति { आशंस् }	āśaṃsati  { āśaṃs }	verb	recite  
+आशंसति { आशंस् }	āśaṃsati  { āśaṃs }	verb	suspect
+आशंसति { आशंस् }	āśaṃsati  { āśaṃs }	verb	tell
+आशंसति { आशंस् }	āśaṃsati  { āśaṃs }	verb	wish to attain
+आशंसते { आशंस् }	āśaṃsate  { āśaṃs }	verb	ask  
+आशंसते { आशंस् }	āśaṃsate  { āśaṃs }	verb	desire  
+आशंसते { आशंस् }	āśaṃsate  { āśaṃs }	verb	expect
+आशंसते { आशंस् }	āśaṃsate  { āśaṃs }	verb	extol  
+आशंसते { आशंस् }	āśaṃsate  { āśaṃs }	verb	fear
+आशंसते { आशंस् }	āśaṃsate  { āśaṃs }	verb	hope for
+आशंसते { आशंस् }	āśaṃsate  { āśaṃs }	verb	praise
+आशंसते { आशंस् }	āśaṃsate  { āśaṃs }	verb	recite  
+आशंसते { आशंस् }	āśaṃsate  { āśaṃs }	verb	suspect
+आशंसते { आशंस् }	āśaṃsate  { āśaṃs }	verb	tell
+आशंसते { आशंस् }	āśaṃsate  { āśaṃs }	verb	wish to attain
+आश्रयति { आ- श्रि }	āśrayati  { ā- śri }	verb	affix to  [ with loc. ]
+आश्रयति { आ- श्रि }	āśrayati  { ā- śri }	verb	take resort
+आश्रयते { आ- श्रि }	āśrayate  { ā- śri }	verb	adhere
+आश्रयते { आश्रि }	āśrayate  { āśri }	verb	attach one's self to
+आश्रयते { आश्रि }	āśrayate  { āśri }	verb	be subject to
+आश्रयते { आश्रि }	āśrayate  { āśri }	verb	betake one's self to
+आश्रयते { आश्रि }	āśrayate  { āśri }	verb	choose
+आश्रयते { आश्रि }	āśrayate  { āśri }	verb	enter
+आश्रयते { आश्रि }	āśrayate  { āśri }	verb	inhabit  
+आश्रयते { आश्रि }	āśrayate  { āśri }	verb	join
+आश्रयते { आश्रि }	āśrayate  { āśri }	verb	keep in mind
+आश्रयते { आश्रि }	āśrayate  { āśri }	verb	prefer  
+आश्रयते { आश्रि }	āśrayate  { āśri }	verb	refer or appeal to
+आश्रयते { आश्रि }	āśrayate  { āśri }	verb	resort to
+आश्रयते { आश्रि }	āśrayate  { āśri }	verb	seek refuge in
+आश्रीणति { आश्री }	āśrīṇati  { āśrī }	verb	boil
+आश्रीणति { आश्री }	āśrīṇati  { āśrī }	verb	mix
+आश्रीणति { आश्री }	āśrīṇati  { āśrī }	verb	shuffle  
+आश्रीणीते { आश्री }	āśrīṇīte  { āśrī }	verb	boil
+आश्रीणीते { आश्री }	āśrīṇīte  { āśrī }	verb	mix
+आश्रीणीते { आश्री }	āśrīṇīte  { āśrī }	verb	shuffle  
+आश्रौअतो { आश्रि }	āśrauato  { āśri }	verb	affix  
+आश्रौअतो { आश्रि }	āśrauato  { āśri }	verb	apply anything
+आश्लिषति { आश्लिष् }	āśliṣati  { āśliṣ }	verb	adhere or cling to
+आश्लिषति { आश्लिष् }	āśliṣati  { āśliṣ }	verb	embrace
+आश्लिष्यति { आश्लिष् }	āśliṣyati  { āśliṣ }	verb	adhere or cling to
+आश्लिष्यति { आश्लिष् }	āśliṣyati  { āśliṣ }	verb	embrace
+आश्लिष्यते { आश्लिष् }	āśliṣyate  { āśliṣ }	verb	adhere or cling to
+आश्लिष्यते { आश्लिष् }	āśliṣyate  { āśliṣ }	verb	embrace
+आश्वसति { आश्वस् }	āśvasati  { āśvas }	verb	breathe
+आश्वसति { आश्वस् }	āśvasati  { āśvas }	verb	breathe again or freely
+आश्वसति { आश्वस् }	āśvasati  { āśvas }	verb	revive
+आश्वसति { आश्वस् }	āśvasati  { āśvas }	verb	take heart or courage
+आश्वसति { आश्वस् }	āśvasati  { āśvas }	verb	take or recover breath
+आश्वसते { आश्वस् }	āśvasate  { āśvas }	verb	breathe
+आश्वसते { आश्वस् }	āśvasate  { āśvas }	verb	breathe again or freely
+आश्वसते { आश्वस् }	āśvasate  { āśvas }	verb	revive
+आश्वसते { आश्वस् }	āśvasate  { āśvas }	verb	take heart or courage
+आश्वसते { आश्वस् }	āśvasate  { āśvas }	verb	take or recover breath
+आश्वसिति { आश्वस् }	āśvasiti  { āśvas }	verb	breathe
+आश्वसिति { आश्वस् }	āśvasiti  { āśvas }	verb	breathe again or freely
+आश्वसिति { आश्वस् }	āśvasiti  { āśvas }	verb	revive
+आश्वसिति { आश्वस् }	āśvasiti  { āśvas }	verb	take heart or courage
+आश्वसिति { आश्वस् }	āśvasiti  { āśvas }	verb	take or recover breath
+आसङ्गृह्णति { आसंग्रह् }	āsaṅgṛhṇati  { āsaṃgrah }	verb	seiśe
+आसञ्जति { आसञ्ज् }	āsañjati  { āsañj }	verb	adhere to
+आसञ्जति { आसञ्ज् }	āsañjati  { āsañj }	verb	attach
+आसञ्जति { आसञ्ज् }	āsañjati  { āsañj }	verb	cling to
+आसञ्जति { आसञ्ज् }	āsañjati  { āsañj }	verb	fasten on
+आसञ्जति { आसञ्ज् }	āsañjati  { āsañj }	verb	fasten on one's self
+आसञ्जति { आसञ्ज् }	āsañjati  { āsañj }	verb	fix one's self to
+आसञ्जति { आसञ्ज् }	āsañjati  { āsañj }	verb	fix  
+आसञ्जति { आसञ्ज् }	āsañjati  { āsañj }	verb	put on (as dress , armour
+आसञ्जति { आसञ्ज् }	āsañjati  { āsañj }	verb	take hold of
+आसञ्जति { आसञ्ज् }	āsañjati  { āsañj }	verb	take up
+आसन्	āsan	verb	they were
+आसम्	āsam	verb	ī was
+आसिञ्चते { आसिच् }	āsiñcate  { āsic }	verb	fill up
+आसिञ्चते { आसिच् }	āsiñcate  { āsic }	verb	pour in
+आसिञ्चते { आसिच् }	āsiñcate  { āsic }	verb	pour on
+आसिञ्चते { आसिच् }	āsiñcate  { āsic }	verb	sprinkle
+आसिञ्चते { आसिच् }	āsiñcate  { āsic }	verb	water
+आसिञ्चते { आसिच् }	āsiñcate  { āsic }	verb	wet
+आसिनाति { आसि }	āsināti  { āsi }	verb	wrap or pack up
+आसिनोति { आसि }	āsinoti  { āsi }	verb	wrap or pack up
+आसीत्	āsīt	verb	he/she/it was
+आसीत्	āsīt	verb	there was
+आसीदति { आसद् }	āsīdati  { āsad }	verb	approach  
+आसीदति { आसद् }	āsīdati  { āsad }	verb	attack  
+आसीदति { आसद् }	āsīdati  { āsad }	verb	commence
+आसीदति { आसद् }	āsīdati  { āsad }	verb	encounter
+आसीदति { आसद् }	āsīdati  { āsad }	verb	go to
+आसीदति { आसद् }	āsīdati  { āsad }	verb	lie in wait for
+आसीदति { आसद् }	āsīdati  { āsad }	verb	preside over
+आसीदति { आसद् }	āsīdati  { āsad }	verb	sit
+आसीदति { आसद् }	āsīdati  { āsad }	verb	sit near
+आसीदते { आसद् }	āsīdate  { āsad }	verb	approach  
+आसीदते { आसद् }	āsīdate  { āsad }	verb	attack  
+आसीदते { आसद् }	āsīdate  { āsad }	verb	commence
+आसीदते { आसद् }	āsīdate  { āsad }	verb	encounter
+आसीदते { आसद् }	āsīdate  { āsad }	verb	go to
+आसीदते { आसद् }	āsīdate  { āsad }	verb	lie in wait for
+आसीदते { आसद् }	āsīdate  { āsad }	verb	preside over
+आसीदते { आसद् }	āsīdate  { āsad }	verb	sit
+आसीदते { आसद् }	āsīdate  { āsad }	verb	sit near
+आसुनोति { आसु }	āsunoti  { āsu }	verb	distil
+आसूवति { आसू }	āsūvati  { āsū }	verb	assign to
+आसूवति { आसू }	āsūvati  { āsū }	verb	bring quickly
+आसूवति { आसू }	āsūvati  { āsū }	verb	excite towards
+आसूवति { आसू }	āsūvati  { āsū }	verb	grant
+आसूवति { आसू }	āsūvati  { āsū }	verb	procure  
+आसूवति { आसू }	āsūvati  { āsū }	verb	send off towards
+आसूवति { आसू }	āsūvati  { āsū }	verb	throw to
+आसूवति { आसू }	āsūvati  { āsū }	verb	yield
+आसृजति { आसृज् }	āsṛjati  { āsṛj }	verb	adorn
+आसृजति { आसृज् }	āsṛjati  { āsṛj }	verb	carry near
+आसृजति { आसृज् }	āsṛjati  { āsṛj }	verb	decorate  
+आसृजति { आसृज् }	āsṛjati  { āsṛj }	verb	pour in
+आसृजति { आसृज् }	āsṛjati  { āsṛj }	verb	pour out upon
+आसृजति { आसृज् }	āsṛjati  { āsṛj }	verb	procure
+आसृजते { आसृज् }	āsṛjate  { āsṛj }	verb	adorn
+आसृजते { आसृज् }	āsṛjate  { āsṛj }	verb	carry near
+आसृजते { आसृज् }	āsṛjate  { āsṛj }	verb	decorate  
+आसृजते { आसृज् }	āsṛjate  { āsṛj }	verb	pour in
+आसृजते { आसृज् }	āsṛjate  { āsṛj }	verb	pour out upon
+आसृजते { आसृज् }	āsṛjate  { āsṛj }	verb	procure
+आसेधयति { आ- सिध् }	āsedhayati  { ā- sidh }	verb	arrest
+आसेधयति { आ- सिध् }	āsedhayati  { ā- sidh }	verb	imprison
+आसेवति { आसेव् }	āsevati  { āsev }	verb	abide in
+आसेवति { आसेव् }	āsevati  { āsev }	verb	attend to
+आसेवति { आसेव् }	āsevati  { āsev }	verb	dwell on
+आसेवति { आसेव् }	āsevati  { āsev }	verb	enjoy (sexual intercourse)
+आसेवति { आसेव् }	āsevati  { āsev }	verb	frequent  
+आसेवति { आसेव् }	āsevati  { āsev }	verb	honour  
+आसेवति { आसेव् }	āsevati  { āsev }	verb	indulge in
+आसेवति { आसेव् }	āsevati  { āsev }	verb	inhabit
+आसेवति { आसेव् }	āsevati  { āsev }	verb	like  
+आसेवति { आसेव् }	āsevati  { āsev }	verb	perform assiduously
+आसेवति { आसेव् }	āsevati  { āsev }	verb	practise
+आसेवति { आसेव् }	āsevati  { āsev }	verb	serve  
+आसेवति { आसेव् }	āsevati  { āsev }	verb	side with
+आसेवति { आसेव् }	āsevati  { āsev }	verb	take the part of
+आसेवते { आसेव् }	āsevate  { āsev }	verb	abide in
+आसेवते { आसेव् }	āsevate  { āsev }	verb	attend to
+आसेवते { आसेव् }	āsevate  { āsev }	verb	dwell on
+आसेवते { आसेव् }	āsevate  { āsev }	verb	enjoy (sexual intercourse)
+आसेवते { आसेव् }	āsevate  { āsev }	verb	frequent  
+आसेवते { आसेव् }	āsevate  { āsev }	verb	honour  
+आसेवते { आसेव् }	āsevate  { āsev }	verb	indulge in
+आसेवते { आसेव् }	āsevate  { āsev }	verb	inhabit
+आसेवते { आसेव् }	āsevate  { āsev }	verb	like  
+आसेवते { आसेव् }	āsevate  { āsev }	verb	perform assiduously
+आसेवते { आसेव् }	āsevate  { āsev }	verb	practise
+आसेवते { आसेव् }	āsevate  { āsev }	verb	serve  
+आसेवते { आसेव् }	āsevate  { āsev }	verb	side with
+आसेवते { आसेव् }	āsevate  { āsev }	verb	take the part of
+आस्कन्दति { आस्कन्द् }	āskandati  { āskand }	verb	assault
+आस्कन्दति { आस्कन्द् }	āskandati  { āskand }	verb	invade
+आस्कन्दति { आस्कन्द् }	āskandati  { āskand }	verb	leap
+आस्कन्दति { आस्कन्द् }	āskandati  { āskand }	verb	skip
+आस्कन्दं करोति { कृ }	āskandaṃ karoti  { kṛ }	verb	perform athletics
+आस्कुनोति { आस्कु }	āskunoti  { āsku }	verb	pluck
+आस्कुनोति { आस्कु }	āskunoti  { āsku }	verb	pull
+आस्कुनोति { आस्कु }	āskunoti  { āsku }	verb	tear
+आस्कौति { आस्कु }	āskauti  { āsku }	verb	pluck
+आस्कौति { आस्कु }	āskauti  { āsku }	verb	pull
+आस्कौति { आस्कु }	āskauti  { āsku }	verb	tear
+आस्त	āsta	verb	you (all) were
+आस्तरते { आस्तृ }	āstarate  { āstṛ }	verb	bestrew
+आस्ताम्	āstām	verb	they (two) were
+आस्ताम्	āstām	verb	you two were
+आस्तृणुते { आस्तृ }	āstṛṇute  { āstṛ }	verb	bestrew
+आस्तृणोति { आस्तृ }	āstṛṇoti  { āstṛ }	verb	bestrew
+आस्तोभति { आस्तुभ् }	āstobhati  { āstubh }	verb	receive or attend with shouts of joy
+आस्पन्दते { आस्पन्द् }	āspandate  { āspand }	verb	palpitate
+आस्फायते { आस्फाय् }	āsphāyate  { āsphāy }	verb	grow
+आस्फायते { आस्फाय् }	āsphāyate  { āsphāy }	verb	increase
+आस्यते { आस् }	āsyate  { ās }	verb	cause to flow in
+आस्यते { आस् }	āsyate  { ās }	verb	pour in
+आस्यते { आस् }	āsyate  { ās }	verb	put or throw on for one's self
+आस्रवति { आस्रु }	āsravati  { āsru }	verb	deteriorate
+आस्रवति { आस्रु }	āsravati  { āsru }	verb	flow
+आस्रवति { आस्रु }	āsravati  { āsru }	verb	flow from
+आस्रवति { आस्रु }	āsravati  { āsru }	verb	flow near or towards
+आस्रवति { आस्रु }	āsravati  { āsru }	verb	flow off
+आस्रवति { आस्रु }	āsravati  { āsru }	verb	go off
+आस्रवति { आस्रु }	āsravati  { āsru }	verb	spring a leak
+आस्रवति { आस्रु }	āsravati  { āsru }	verb	stream
+आस्व	āsva	verb	we two were
+आस्वनति { आस्वन् }	āsvanati  { āsvan }	verb	resound
+आस्विद्यति { आस्विद् }	āsvidyati  { āsvid }	verb	perspire
+आस्विद्यति { आस्विद् }	āsvidyati  { āsvid }	verb	sweat
+आहते { आहन् }	āhate  { āhan }	verb	beat or cause to sound  [ a drum ]
+आहते { आहन् }	āhate  { āhan }	verb	fasten  
+आहते { आहन् }	āhate  { āhan }	verb	make away with one's self
+आहरणीकरोति { आहरणीकृ }	āharaṇīkaroti  { āharaṇīkṛ }	verb	give as a present
+आहरणीकरोति { आहरणीकृ }	āharaṇīkaroti  { āharaṇīkṛ }	verb	offer
+आहरति	āharati	verb	read  [ computer ]
+आहरति { आहृ }	āharati  { āhṛ }	verb	bring home (a bride)
+आहरति { आहृ }	āharati  { āhṛ }	verb	conceive (as a woman)
+आहरति { आहृ }	āharati  { āhṛ }	verb	enjoy
+आहरति { आहृ }	āharati  { āhṛ }	verb	fetch for one's self
+आहरति { आहृ }	āharati  { āhṛ }	verb	get
+आहरति { आहृ }	āharati  { āhṛ }	verb	manifest
+आहरति { आहृ }	āharati  { āhṛ }	verb	put on
+आहरति { आहृ }	āharati  { āhṛ }	verb	receive
+आहरति { आहृ }	āharati  { āhṛ }	verb	speak
+आहरति { आहृ }	āharati  { āhṛ }	verb	take
+आहरति { आहृ }	āharati  { āhṛ }	verb	take away
+आहरति { आहृ }	āharati  { āhṛ }	verb	take for one's self
+आहरति { आहृ }	āharati  { āhṛ }	verb	use
+आहर्यते { आहर्य् }	āharyate  { āhary }	verb	foster
+आहर्षति { आहृष् }	āharṣati  { āhṛṣ }	verb	shiver
+आहर्षति { आहृष् }	āharṣati  { āhṛṣ }	verb	shudder
+आहारयति { आहारय }	āhārayati  { āhāraya }	verb	take food
+आहिण्डते { आहिण्ड् }	āhiṇḍate  { āhiṇḍ }	verb	roam
+आहिन्वते { आहि }	āhinvate  { āhi }	verb	carry near
+आहिन्वते { आहि }	āhinvate  { āhi }	verb	procure
+आहूय { हुति }	āhūya  { huti }	verb	having called [over]
+आह्नोति { अह् }	āhnoti  { ah }	verb	pervade or occupy
+आह्वयति { आ- ह्वे }	āhvayati  { ā- hve }	verb	call
+आह्वयति { आह्वे }	āhvayati  { āhve }	verb	call near
+आह्वयति { आ- ह्वे }	āhvayati  { ā- hve }	verb	call on
+आह्वयति { आह्वे }	āhvayati  { āhve }	verb	challenge
+आह्वयति { आ- ह्वे }	āhvayati  { ā- hve }	verb	invite
+आह्वयति { आह्वे }	āhvayati  { āhve }	verb	invoke
+आह्वयति { आह्वे }	āhvayati  { āhve }	verb	proclaim
+आह्वयति { आ- ह्वे }	āhvayati  { ā- hve }	verb	summon  [ to send for ]
+आह्वयते { आह्वे }	āhvayate  { āhve }	verb	call near
+आह्वयते { आह्वे }	āhvayate  { āhve }	verb	emulate
+आह्वयते { आह्वे }	āhvayate  { āhve }	verb	invite
+आह्वयते { आह्वे }	āhvayate  { āhve }	verb	invoke
+आह्वयते { आह्वे }	āhvayate  { āhve }	verb	proclaim
+आह्वरते { आह्वृ }	āhvarate  { āhvṛ }	verb	hurt
+आह्वरते { आह्वृ }	āhvarate  { āhvṛ }	verb	injure
+आह्वरते { आह्वृ }	āhvarate  { āhvṛ }	verb	make crooked
+आह्वानं करोति { कृ }	āhvānaṃ karoti  { kṛ }	verb	call
+इङ्गति { इङ्ग् }	iṅgati  { iṅg }	verb	go
+इङ्गति { इङ्ग् }	iṅgati  { iṅg }	verb	go to or towards
+इङ्गति { इङ्ग् }	iṅgati  { iṅg }	verb	move or agitate
+इङ्गते { इङ्ग् }	iṅgate  { iṅg }	verb	go
+इङ्गते { इङ्ग् }	iṅgate  { iṅg }	verb	go to or towards
+इङ्गते { इङ्ग् }	iṅgate  { iṅg }	verb	move or agitate
+इनक्षति { इनक्ष् }	inakṣati  { inakṣ }	verb	strive to obtain
+इनक्षति { इनक्ष् }	inakṣati  { inakṣ }	verb	to endeavour to reach
+इनोति { इन्व् }	inoti  { inv }	verb	advance upon
+इनोति { इन्व् }	inoti  { inv }	verb	be lord or master of anything
+इनोति { इन्व् }	inoti  { inv }	verb	drive
+इनोति { इन्व् }	inoti  { inv }	verb	drive away
+इनोति { इन्व् }	inoti  { inv }	verb	force
+इनोति { इन्व् }	inoti  { inv }	verb	gladden
+इनोति { इन्व् }	inoti  { inv }	verb	have in one's power
+इनोति { इन्व् }	inoti  { inv }	verb	have the disposal of
+इनोति { इन्व् }	inoti  { inv }	verb	infuse strength
+इनोति { इन्व् }	inoti  { inv }	verb	invigorate
+इनोति { इन्व् }	inoti  { inv }	verb	keep back
+इनोति { इन्व् }	inoti  { inv }	verb	pervade
+इनोति { इन्व् }	inoti  { inv }	verb	press upon
+इनोति { इन्व् }	inoti  { inv }	verb	remove
+इनोति { इन्व् }	inoti  { inv }	verb	take possession of
+इनोति { इन्व् }	inoti  { inv }	verb	use force
+इन्धनिकरोति { इन्धनिकृ }	indhanikaroti  { indhanikṛ }	verb	make in fuel
+इन्वति { इन्व् }	invati  { inv }	verb	advance upon
+इन्वति { इन्व् }	invati  { inv }	verb	be lord or master of anything
+इन्वति { इन्व् }	invati  { inv }	verb	drive
+इन्वति { इन्व् }	invati  { inv }	verb	drive away
+इन्वति { इन्व् }	invati  { inv }	verb	force
+इन्वति { इन्व् }	invati  { inv }	verb	gladden
+इन्वति { इन्व् }	invati  { inv }	verb	have in one's power
+इन्वति { इन्व् }	invati  { inv }	verb	have the disposal of
+इन्वति { इन्व् }	invati  { inv }	verb	infuse strength
+इन्वति { इन्व् }	invati  { inv }	verb	invigorate
+इन्वति { इन्व् }	invati  { inv }	verb	keep back
+इन्वति { इन्व् }	invati  { inv }	verb	pervade
+इन्वति { इन्व् }	invati  { inv }	verb	press upon
+इन्वति { इन्व् }	invati  { inv }	verb	remove
+इन्वति { इन्व् }	invati  { inv }	verb	take possession of
+इन्वति { इन्व् }	invati  { inv }	verb	use force
+इन्वति { एन्व् }	invati  { env }	verb	bestow
+इन्वति { एन्व् }	invati  { env }	verb	drive near
+इन्वति { एन्व् }	invati  { env }	verb	procure
+इयक्षति { इयक्ष् }	iyakṣati  { iyakṣ }	verb	approach
+इयक्षति { इयक्ष् }	iyakṣati  { iyakṣ }	verb	endeavour gain
+इयक्षति { इयक्ष् }	iyakṣati  { iyakṣ }	verb	go towards
+इयक्षति { इयक्ष् }	iyakṣati  { iyakṣ }	verb	long for
+इयक्षति { इयक्ष् }	iyakṣati  { iyakṣ }	verb	request
+इयक्षति { इयक्ष् }	iyakṣati  { iyakṣ }	verb	seek
+इयक्षते { इयक्ष् }	iyakṣate  { iyakṣ }	verb	approach
+इयक्षते { इयक्ष् }	iyakṣate  { iyakṣ }	verb	endeavour gain
+इयक्षते { इयक्ष् }	iyakṣate  { iyakṣ }	verb	go towards
+इयक्षते { इयक्ष् }	iyakṣate  { iyakṣ }	verb	long for
+इयक्षते { इयक्ष् }	iyakṣate  { iyakṣ }	verb	request
+इयक्षते { इयक्ष् }	iyakṣate  { iyakṣ }	verb	seek
+इयस्यते { इयस्य }	iyasyate  { iyasya }	verb	relax
+इयस्यते { इयस्य }	iyasyate  { iyasya }	verb	vanish
+इयस्यते { इयस्य }	iyasyate  { iyasya }	verb	weaken
+इरज्यति { इरज्य }	irajyati  { irajya }	verb	arrange
+इरज्यति { इरज्य }	irajyati  { irajya }	verb	be master of
+इरज्यति { इरज्य }	irajyati  { irajya }	verb	dispose
+इरज्यति { इरज्य }	irajyati  { irajya }	verb	grow
+इरज्यति { इरज्य }	irajyati  { irajya }	verb	lead
+इरज्यति { इरज्य }	irajyati  { irajya }	verb	order
+इरज्यति { इरज्य }	irajyati  { irajya }	verb	prepare
+इरज्यते { इरज्य }	irajyate  { irajya }	verb	arrange
+इरज्यते { इरज्य }	irajyate  { irajya }	verb	be master of
+इरज्यते { इरज्य }	irajyate  { irajya }	verb	dispose
+इरज्यते { इरज्य }	irajyate  { irajya }	verb	grow
+इरज्यते { इरज्य }	irajyate  { irajya }	verb	lead
+इरज्यते { इरज्य }	irajyate  { irajya }	verb	order
+इरज्यते { इरज्य }	irajyate  { irajya }	verb	prepare
+इलति { इल् }	ilati  { il }	verb	cast
+इलति { इल् }	ilati  { il }	verb	come
+इलति { इल् }	ilati  { il }	verb	send
+इलति { इल् }	ilati  { il }	verb	sleep
+इषणयते { इषणय }	iṣaṇayate  { iṣaṇaya }	verb	excite
+इषणयते { इषणय }	iṣaṇayate  { iṣaṇaya }	verb	move
+इषयति { इषय }	iṣayati  { iṣaya }	verb	animate
+इषयति { इषय }	iṣayati  { iṣaya }	verb	be fresh or active or powerful
+इषयति { इषय }	iṣayati  { iṣaya }	verb	be sappy
+इषयति { इषय }	iṣayati  { iṣaya }	verb	refresh
+इषयति { इषय }	iṣayati  { iṣaya }	verb	strengthen
+इषयते { इषय }	iṣayate  { iṣaya }	verb	animate
+इषयते { इषय }	iṣayate  { iṣaya }	verb	be fresh or active or powerful
+इषयते { इषय }	iṣayate  { iṣaya }	verb	be sappy
+इषयते { इषय }	iṣayate  { iṣaya }	verb	refresh
+इषयते { इषय }	iṣayate  { iṣaya }	verb	strengthen
+इषुध्यति { इषुध्य }	iṣudhyati  { iṣudhya }	verb	be a quiver
+इषुध्यति { इषुध्य }	iṣudhyati  { iṣudhya }	verb	contain arrows
+इषुध्यति { इषुध्य }	iṣudhyati  { iṣudhya }	verb	crave for
+इषुध्यति { इषुध्य }	iṣudhyati  { iṣudhya }	verb	implore
+इषुध्यति { इषुध्य }	iṣudhyati  { iṣudhya }	verb	request
+इषुध्यते { इषुध्य }	iṣudhyate  { iṣudhya }	verb	be a quiver
+इषुध्यते { इषुध्य }	iṣudhyate  { iṣudhya }	verb	contain arrows
+इष्करोति { इष्कृ }	iṣkaroti  { iṣkṛ }	verb	arrange
+इष्करोति { इष्कृ }	iṣkaroti  { iṣkṛ }	verb	prepare
+इष्करोति { इष्कृ }	iṣkaroti  { iṣkṛ }	verb	set in order
+ईक्षते { ईक्ष् }	īkṣate  { īkṣ }	verb	behold
+ईक्षते { ईक्ष् }	īkṣate  { īkṣ }	verb	consider
+ईक्षते { ईक्ष् }	īkṣate  { īkṣ }	verb	foretell for
+ईक्षते { ईक्ष् }	īkṣate  { īkṣ }	verb	gaśe at
+ईक्षते { ईक्ष् }	īkṣate  { īkṣ }	verb	have a thought
+ईक्षते { ईक्ष् }	īkṣate  { īkṣ }	verb	look
+ईक्षते { ईक्ष् }	īkṣate  { īkṣ }	verb	look at
+ईक्षते { ईक्ष् }	īkṣate  { īkṣ }	verb	observe
+ईक्षते { ईक्ष् }	īkṣate  { īkṣ }	verb	regard
+ईक्षते { ईक्ष् }	īkṣate  { īkṣ }	verb	see in one's mind
+ईक्षते { ईक्ष् }	īkṣate  { īkṣ }	verb	think
+ईक्षते { ईक्ष् }	īkṣate  { īkṣ }	verb	view
+ईक्षते { ईक्ष् }	īkṣate  { īkṣ }	verb	watch over
+ईङ्खति { ईङ्ख् }	īṅkhati  { īṅkh }	verb	go
+ईङ्खति { ईङ्ख् }	īṅkhati  { īṅkh }	verb	move
+ईङ्खयति { ईङ्ख् }	īṅkhayati  { īṅkh }	verb	move backwards and forwards
+ईङ्खयति { ईङ्ख् }	īṅkhayati  { īṅkh }	verb	move up and down
+ईङ्खयति { ईङ्ख् }	īṅkhayati  { īṅkh }	verb	swing
+ईट्टे { ईड् }	īṭṭe  { īḍ }	verb	ask for
+ईट्टे { ईड् }	īṭṭe  { īḍ }	verb	praise
+ईट्टे { ईड् }	īṭṭe  { īḍ }	verb	request
+ईर्ष्यति { ईर्ष्य् }	īrṣyati  { īrṣy }	verb	feel impatient at another's prosperity
+ईशे { ईश् }	īśe  { īś }	verb	own  [ Ved. ]
+ईषति { एष् }	īṣati  { eṣ }	verb	desire
+ईषति { एष् }	īṣati  { eṣ }	verb	endeavour to reach or obtain
+ईषति { एष् }	īṣati  { eṣ }	verb	fly at
+ईषति { एष् }	īṣati  { eṣ }	verb	hasten near or towards
+ईषति { एष् }	īṣati  { eṣ }	verb	request
+ईषति / -ते	īṣati / -te	verb	attack
+ईषति / -ते	īṣati / -te	verb	collect
+ईषति / -ते	īṣati / -te	verb	escape
+ईषति / -ते	īṣati / -te	verb	fly away
+ईषति / -ते	īṣati / -te	verb	glean
+ईषति / -ते	īṣati / -te	verb	go
+ईष्टे { ईश् }	īṣṭe  { īś }	verb	allow
+ईष्टे { ईश् }	īṣṭe  { īś }	verb	behave like a master
+ईष्टे { ईश् }	īṣṭe  { īś }	verb	belong to
+ईष्टे { ईश् }	īṣṭe  { īś }	verb	be master of
+ईष्टे { ईश् }	īṣṭe  { īś }	verb	be valid or powerful
+ईष्टे { ईश् }	īṣṭe  { īś }	verb	command
+ईष्टे { ईश् }	īṣṭe  { īś }	verb	dispose of
+ईष्टे { ईश् }	īṣṭe  { īś }	verb	possess
+ईष्टे { ईश् }	īṣṭe  { īś }	verb	reign
+ईष्टे { ईश् }	īṣṭe  { īś }	verb	rule
+ईसति { ईष् }	īsati  { īṣ }	verb	collect a few grains
+ईसति { ईष् }	īsati  { īṣ }	verb	escape
+ईसते { ईष् }	īsate  { īṣ }	verb	collect a few grains
+ईसते { ईष् }	īsate  { īṣ }	verb	escape
+ईसते { एष् }	īsate  { eṣ }	verb	desire
+ईसते { एष् }	īsate  { eṣ }	verb	endeavour to reach or obtain
+ईसते { एष् }	īsate  { eṣ }	verb	fly at
+ईसते { एष् }	īsate  { eṣ }	verb	hasten near or towards
+ईसते { एष् }	īsate  { eṣ }	verb	request
+ईहति { ईह् }	īhati  { īh }	verb	aim at
+ईहति { ईह् }	īhati  { īh }	verb	attempt
+ईहति { ईह् }	īhati  { īh }	verb	desire
+ईहति { ईह् }	īhati  { īh }	verb	endeavour to obtain
+ईहति { ईह् }	īhati  { īh }	verb	have in mind
+ईहति { ईह् }	īhati  { īh }	verb	long for
+ईहति { ईह् }	īhati  { īh }	verb	take care of
+ईहति { ईह् }	īhati  { īh }	verb	think of
+ईहते { ईह् }	īhate  { īh }	verb	aim at
+ईहते { ईह् }	īhate  { īh }	verb	attempt
+ईहते { ईह् }	īhate  { īh }	verb	desire
+ईहते { ईह् }	īhate  { īh }	verb	endeavour to obtain
+ईहते { ईह् }	īhate  { īh }	verb	have in mind
+ईहते { ईह् }	īhate  { īh }	verb	long for
+ईहते { ईह् }	īhate  { īh }	verb	take care of
+ईहते { ईह् }	īhate  { īh }	verb	think of
+ईहते { ईह् }	īhate  { īh }	verb	wish
+उक्षण्यति { उक्षण्य }	ukṣaṇyati  { ukṣaṇya }	verb	desire for someone who would bestow riches
+उक्षण्यति { उक्षण्य }	ukṣaṇyati  { ukṣaṇya }	verb	wish for bulls
+उक्षति	ukṣati	verb	scatter
+उक्षति	ukṣati	verb	throw out
+उक्षति { ओक्ष् }	ukṣati  { okṣ }	verb	sprinkle over or upon
+उक्षति / -ते	ukṣati / -te	verb	moisten
+उक्षति / -ते	ukṣati / -te	verb	sprinkle water
+उक्षति / -ते	ukṣati / -te	verb	wet
+उच्चटति { उच्चट् }	uccaṭati  { uccaṭ }	verb	disappear
+उच्चटति { उच्चट् }	uccaṭati  { uccaṭ }	verb	go away
+उच्चरण्यति { उच्चरण्य }	uccaraṇyati  { uccaraṇya }	verb	move out
+उच्चरति { उच्चर् }	uccarati  { uccar }	verb	ascend
+उच्चरति { उच्चर् }	uccarati  { uccar }	verb	be unfaithful to
+उच्चरति { उच्चर् }	uccarati  { uccar }	verb	emit
+उच्चरति { उच्चर् }	uccarati  { uccar }	verb	empty the body by evacuations
+उच्चरति { उच्चर् }	uccarati  { uccar }	verb	go forth
+उच्चरति { उच्चर् }	uccarati  { uccar }	verb	go upwards
+उच्चरति { उच्चर् }	uccarati  { uccar }	verb	issue forth
+उच्चरति { उच्चर् }	uccarati  { uccar }	verb	leave
+उच्चरति { उच्चर् }	uccarati  { uccar }	verb	let the contents issue out
+उच्चरति { उच्चर् }	uccarati  { uccar }	verb	pronounce
+उच्चरति { उच्चर् }	uccarati  { uccar }	verb	quit
+उच्चरति { उच्चर् }	uccarati  { uccar }	verb	rise
+उच्चरति { उच्चर् }	uccarati  { uccar }	verb	sin against
+उच्चरति { उच्चर् }	uccarati  { uccar }	verb	trespass against
+उच्चरति { उच्चर् }	uccarati  { uccar }	verb	utter
+उच्चरते { उच्चर् }	uccarate  { uccar }	verb	ascend
+उच्चरते { उच्चर् }	uccarate  { uccar }	verb	be unfaithful to
+उच्चरते { उच्चर् }	uccarate  { uccar }	verb	emit
+उच्चरते { उच्चर् }	uccarate  { uccar }	verb	empty the body by evacuations
+उच्चरते { उच्चर् }	uccarate  { uccar }	verb	go forth
+उच्चरते { उच्चर् }	uccarate  { uccar }	verb	go upwards
+उच्चरते { उच्चर् }	uccarate  { uccar }	verb	issue forth
+उच्चरते { उच्चर् }	uccarate  { uccar }	verb	leave
+उच्चरते { उच्चर् }	uccarate  { uccar }	verb	let the contents issue out
+उच्चरते { उच्चर् }	uccarate  { uccar }	verb	pronounce
+उच्चरते { उच्चर् }	uccarate  { uccar }	verb	quit
+उच्चरते { उच्चर् }	uccarate  { uccar }	verb	rise
+उच्चरते { उच्चर् }	uccarate  { uccar }	verb	sin against
+उच्चरते { उच्चर् }	uccarate  { uccar }	verb	trespass against
+उच्चरते { उच्चर् }	uccarate  { uccar }	verb	utter
+उच्चारणं करोति { कृ }	uccāraṇaṃ karoti  { kṛ }	verb	pronounce
+उच्चिनोति { उच्चि }	uccinoti  { ucci }	verb	collect
+उच्चिनोति { उच्चि }	uccinoti  { ucci }	verb	gather
+उच्चिनोते { उच्चि }	uccinote  { ucci }	verb	collect
+उच्चिनोते { उच्चि }	uccinote  { ucci }	verb	gather
+उच्चुलुम्पति { उच्चुलुम्प् }	ucculumpati  { ucculump }	verb	drink in
+उच्चुलुम्पति { उच्चुलुम्प् }	ucculumpati  { ucculump }	verb	sip
+उच्छलति { उच्छल् }	ucchalati  { ucchal }	verb	jerk up
+उच्छिनत्ति { उच्छिद् }	ucchinatti  { ucchid }	verb	analyśe
+उच्छिनत्ति { उच्छिद् }	ucchinatti  { ucchid }	verb	cut out
+उच्छिनत्ति { उच्छिद् }	ucchinatti  { ucchid }	verb	cut out or off
+उच्छिनत्ति { उच्छिद् }	ucchinatti  { ucchid }	verb	destroy
+उच्छिनत्ति { उच्छिद् }	ucchinatti  { ucchid }	verb	explain
+उच्छिनत्ति { उच्छिद् }	ucchinatti  { ucchid }	verb	extirpate
+उच्छिनत्ति { उच्छिद् }	ucchinatti  { ucchid }	verb	interfere
+उच्छिनत्ति { उच्छिद् }	ucchinatti  { ucchid }	verb	resolve
+उच्छंसति { उच्छंस् }	ucchaṃsati  { ucchaṃs }	verb	extol
+उच्छंसति { उच्छंस् }	ucchaṃsati  { ucchaṃs }	verb	praise
+उच्छ्रयति { उच्छ्रि }	ucchrayati  { ucchri }	verb	erect
+उच्छ्रयति { उच्छ्रि }	ucchrayati  { ucchri }	verb	extol
+उच्छ्रयति { उच्छ्रि }	ucchrayati  { ucchri }	verb	raise
+उच्छ्रयते { उच्छ्रि }	ucchrayate  { ucchri }	verb	rise
+उच्छ्रयते { उच्छ्रि }	ucchrayate  { ucchri }	verb	stand erect
+उच्छ्रापयति { उच्छ्रि }	ucchrāpayati  { ucchri }	verb	erect
+उच्छ्वञ्चते { उच्छ्वञ्च् }	ucchvañcate  { ucchvañc }	verb	cleave open
+उच्छ्वञ्चते { उच्छ्वञ्च् }	ucchvañcate  { ucchvañc }	verb	gape
+उच्छ्वसिति { उच्छ्वस् }	ucchvasiti  { ucchvas }	verb	begin to bloom
+उच्छ्वसिति { उच्छ्वस् }	ucchvasiti  { ucchvas }	verb	breathe
+उच्छ्वसिति { उच्छ्वस् }	ucchvasiti  { ucchvas }	verb	breathe hard
+उच्छ्वसिति { उच्छ्वस् }	ucchvasiti  { ucchvas }	verb	get breath
+उच्छ्वसिति { उच्छ्वस् }	ucchvasiti  { ucchvas }	verb	heave
+उच्छ्वसिति { उच्छ्वस् }	ucchvasiti  { ucchvas }	verb	open
+उच्छ्वसिति { उच्छ्वस् }	ucchvasiti  { ucchvas }	verb	recover
+उच्छ्वसिति { उच्छ्वस् }	ucchvasiti  { ucchvas }	verb	rest
+उच्छ्वसिति { उच्छ्वस् }	ucchvasiti  { ucchvas }	verb	rise
+उच्छ्वसिति { उच्छ्वस् }	ucchvasiti  { ucchvas }	verb	snort
+उच्छ्वसिति { उच्छ्वस् }	ucchvasiti  { ucchvas }	verb	unfasten one's self
+उज्जनति { उज्जन् }	ujjanati  { ujjan }	verb	beget
+उज्जनति { उज्जन् }	ujjanati  { ujjan }	verb	produce
+उज्जनते { उज्जन् }	ujjanate  { ujjan }	verb	be born or produced
+उज्जनते { उज्जन् }	ujjanate  { ujjan }	verb	originate
+उज्जयति { उज्जि }	ujjayati  { ujji }	verb	acquire by conquest
+उज्जयति { उज्जि }	ujjayati  { ujji }	verb	be victorious
+उज्जयति { उज्जि }	ujjayati  { ujji }	verb	conquer
+उज्जयति { उज्जि }	ujjayati  { ujji }	verb	win
+उज्जागरति { उज्जागृ }	ujjāgarati  { ujjāgṛ }	verb	pass waking
+उज्जृम्भते { उज्जृम्भ् }	ujjṛmbhate  { ujjṛmbh }	verb	arise
+उज्जृम्भते { उज्जृम्भ् }	ujjṛmbhate  { ujjṛmbh }	verb	become visible
+उज्जृम्भते { उज्जृम्भ् }	ujjṛmbhate  { ujjṛmbh }	verb	break forth
+उज्जृम्भते { उज्जृम्भ् }	ujjṛmbhate  { ujjṛmbh }	verb	come forth
+उज्जृम्भते { उज्जृम्भ् }	ujjṛmbhate  { ujjṛmbh }	verb	expand
+उज्जृम्भते { उज्जृम्भ् }	ujjṛmbhate  { ujjṛmbh }	verb	gape
+उज्जृम्भते { उज्जृम्भ् }	ujjṛmbhate  { ujjṛmbh }	verb	open
+उज्जृम्भते { उज्जृम्भ् }	ujjṛmbhate  { ujjṛmbh }	verb	part asunder
+उज्जृम्भते { उज्जृम्भ् }	ujjṛmbhate  { ujjṛmbh }	verb	show one's self
+उज्ज्वलति { उज्ज्वल् }	ujjvalati  { ujjval }	verb	blaśe up
+उज्ज्वलति { उज्ज्वल् }	ujjvalati  { ujjval }	verb	flame
+उज्ज्वलति { उज्ज्वल् }	ujjvalati  { ujjval }	verb	shine
+उज्ज्वलयति { उज्ज्वल् }	ujjvalayati  { ujjval }	verb	cause to shine
+उज्ज्वलयति { उज्ज्वल् }	ujjvalayati  { ujjval }	verb	illuminate
+उज्ज्वलयति { उज्ज्वल् }	ujjvalayati  { ujjval }	verb	light up
+उज्ज्वलिति { उज्ज्वल् }	ujjvaliti  { ujjval }	verb	blaśe up
+उज्ज्वलिति { उज्ज्वल् }	ujjvaliti  { ujjval }	verb	flame
+उज्ज्वलिति { उज्ज्वल् }	ujjvaliti  { ujjval }	verb	shine
+उट्टहासं करोति { कृ }	uṭṭahāsaṃ karoti  { kṛ }	verb	laugh loud
+उड्डयते	uḍḍayate	verb	fly
+उड्डयनं करोति { कृ }	uḍḍayanaṃ karoti  { kṛ }	verb	fly
+उड्डीयते { उड्डी }	uḍḍīyate  { uḍḍī }	verb	fly up
+उड्डीयते { उड्डी }	uḍḍīyate  { uḍḍī }	verb	soar
+उत्कचयति { उत्कचय }	utkacayati  { utkacaya }	verb	coil the hair upwards
+उत्कन्दति { उत्कन्द् }	utkandati  { utkand }	verb	jump over
+उत्कन्दति { उत्कन्द् }	utkandati  { utkand }	verb	leap
+उत्कम्पते { उत्कम्प् }	utkampate  { utkamp }	verb	shudder
+उत्कम्पते { उत्कम्प् }	utkampate  { utkamp }	verb	to tremble
+उत्करोति { उत्कृ }	utkaroti  { utkṛ }	verb	do away with
+उत्करोति { उत्कृ }	utkaroti  { utkṛ }	verb	extirpate
+उत्कर्षति { उत्कृष् }	utkarṣati  { utkṛṣ }	verb	bend
+उत्कर्षति { उत्कृष् }	utkarṣati  { utkṛṣ }	verb	delay
+उत्कर्षति { उत्कृष् }	utkarṣati  { utkṛṣ }	verb	draw or drag or pull up
+उत्कर्षति { उत्कृष् }	utkarṣati  { utkṛṣ }	verb	draw or take out
+उत्कर्षति { उत्कृष् }	utkarṣati  { utkṛṣ }	verb	extract
+उत्कर्षति { उत्कृष् }	utkarṣati  { utkṛṣ }	verb	pull or put off
+उत्कर्षति { उत्कृष् }	utkarṣati  { utkṛṣ }	verb	put off
+उत्कर्षति { उत्कृष् }	utkarṣati  { utkṛṣ }	verb	raise
+उत्कर्षति { उत्कृष् }	utkarṣati  { utkṛṣ }	verb	tear asunder
+उत्कर्षति { उद्- कृष् }	utkarṣati  { ud- kṛṣ }	verb	gnaw
+उत्कर्षते { उत्कृष् }	utkarṣate  { utkṛṣ }	verb	bend
+उत्कर्षते { उत्कृष् }	utkarṣate  { utkṛṣ }	verb	delay
+उत्कर्षते { उत्कृष् }	utkarṣate  { utkṛṣ }	verb	draw or drag or pull up
+उत्कर्षते { उत्कृष् }	utkarṣate  { utkṛṣ }	verb	draw or take out
+उत्कर्षते { उत्कृष् }	utkarṣate  { utkṛṣ }	verb	extract
+उत्कर्षते { उत्कृष् }	utkarṣate  { utkṛṣ }	verb	pull or put off
+उत्कर्षते { उत्कृष् }	utkarṣate  { utkṛṣ }	verb	put off
+उत्कर्षते { उत्कृष् }	utkarṣate  { utkṛṣ }	verb	raise
+उत्कर्षते { उत्कृष् }	utkarṣate  { utkṛṣ }	verb	tear asunder
+उत्कलयति { उत्कल् }	utkalayati  { utkal }	verb	loosen
+उत्कलयति { उत्कल् }	utkalayati  { utkal }	verb	unbind
+उत्कलापयति { उत्कलापय }	utkalāpayati  { utkalāpaya }	verb	bid farewell
+उत्कलापयति { उत्कलापय }	utkalāpayati  { utkalāpaya }	verb	to bring one's wife home from her father's house
+उत्कलापयति { उत्कलापय }	utkalāpayati  { utkalāpaya }	verb	to marry
+उत्कलापयति { उत्कलापय }	utkalāpayati  { utkalāpaya }	verb	to take leave of
+उत्कल्पयति { उत्कॢप् }	utkalpayati  { utklṛp }	verb	create
+उत्कल्पयति { उत्कॢप् }	utkalpayati  { utklṛp }	verb	fashion
+उत्कषति { उत्कष् }	utkaṣati  { utkaṣ }	verb	dye
+उत्कषति { उत्कष् }	utkaṣati  { utkaṣ }	verb	paint
+उत्कषति { उत्कष् }	utkaṣati  { utkaṣ }	verb	tear up
+उत्कषति { उत्कस् }	utkaṣati  { utkas }	verb	gape asunder
+उत्कषति { उत्कस् }	utkaṣati  { utkas }	verb	open
+उत्कालयति { उत्कल् }	utkālayati  { utkal }	verb	expel
+उत्काशते { उत्काश् }	utkāśate  { utkāś }	verb	flash
+उत्काशते { उत्काश् }	utkāśate  { utkāś }	verb	shine forth
+उत्कासते { उत्कास् }	utkāsate  { utkās }	verb	cough up
+उत्कासते { उत्कास् }	utkāsate  { utkās }	verb	expectorate
+उत्कासते { उत्कास् }	utkāsate  { utkās }	verb	hawk
+उत्किरति { उत्कॄ }	utkirati  { utkṛṛ }	verb	dig up or out
+उत्किरति { उत्कॄ }	utkirati  { utkṛṛ }	verb	engrave
+उत्किरति { उत्कॄ }	utkirati  { utkṛṛ }	verb	excavate
+उत्किरति { उत्कॄ }	utkirati  { utkṛṛ }	verb	heap up
+उत्किरति { उत्कॄ }	utkirati  { utkṛṛ }	verb	pile up
+उत्किरति { उत्कॄ }	utkirati  { utkṛṛ }	verb	scatter upwards
+उत्कीर्तयति { उत्कॄत् }	utkīrtayati  { utkṛṛt }	verb	celebrate
+उत्कीर्तयति { उत्कॄत् }	utkīrtayati  { utkṛṛt }	verb	proclaim
+उत्कीर्तयति { उत्कॄत् }	utkīrtayati  { utkṛṛt }	verb	promulgate
+उत्कीलयति { उत्कीलय }	utkīlayati  { utkīlaya }	verb	uproot
+उत्कुचति { उत्कुच् }	utkucati  { utkuc }	verb	crook
+उत्कुरुते { उत्कृ }	utkurute  { utkṛ }	verb	help
+उत्कुरुते { उत्कृ }	utkurute  { utkṛ }	verb	inform against on
+उत्कुरुते { उत्कृ }	utkurute  { utkṛ }	verb	promote
+उत्कूजति { उत्कूज् }	utkūjati  { utkūj }	verb	utter a wailing monotonous note or coo
+उत्कृणत्ति { उत्कृत् }	utkṛṇatti  { utkṛt }	verb	continue spinning
+उत्कोरकयति { उत्कोरकय }	utkorakayati  { utkorakaya }	verb	abound with opening buds
+उत्कोशयति { उत्कोशय }	utkośayati  { utkośaya }	verb	draw out of its scabbard
+उत्कौति { उत्कू }	utkauti  { utkū }	verb	cry out
+उत्क्रमति { उत्क्रम् }	utkramati  { utkram }	verb	ascend
+उत्क्रमति { उत्क्रम् }	utkramati  { utkram }	verb	die
+उत्क्रमति { उत्क्रम् }	utkramati  { utkram }	verb	go out or away
+उत्क्रमति { उत्क्रम् }	utkramati  { utkram }	verb	go over
+उत्क्रमति { उत्क्रम् }	utkramati  { utkram }	verb	go up
+उत्क्रमति { उत्क्रम् }	utkramati  { utkram }	verb	neglect
+उत्क्रमति { उत्क्रम् }	utkramati  { utkram }	verb	not to notice
+उत्क्रमति { उत्क्रम् }	utkramati  { utkram }	verb	omit
+उत्क्रमति { उत्क्रम् }	utkramati  { utkram }	verb	pass away
+उत्क्रमति { उत्क्रम् }	utkramati  { utkram }	verb	pass over
+उत्क्रमति { उत्क्रम् }	utkramati  { utkram }	verb	step out
+उत्क्रमति { उत्क्रम् }	utkramati  { utkram }	verb	step up
+उत्क्रमति { उत्क्रम् }	utkramati  { utkram }	verb	transgress
+उत्क्रमते { उत्क्रम् }	utkramate  { utkram }	verb	go out or away
+उत्क्रमते { उत्क्रम् }	utkramate  { utkram }	verb	go over
+उत्क्रमते { उत्क्रम् }	utkramate  { utkram }	verb	go up
+उत्क्रमते { उत्क्रम् }	utkramate  { utkram }	verb	not to notice
+उत्क्रमते { उत्क्रम् }	utkramate  { utkram }	verb	omit
+उत्क्रमते { उत्क्रम् }	utkramate  { utkram }	verb	pass away
+उत्क्रमते { उत्क्रम् }	utkramate  { utkram }	verb	pass over
+उत्क्रमते { उत्क्रम् }	utkramate  { utkram }	verb	step out
+उत्क्रमते { उत्क्रम् }	utkramate  { utkram }	verb	step up
+उत्क्रमते { उत्क्रम् }	utkramate  { utkram }	verb	transgress
+उत्क्रामते { उत्क्रम् }	utkrāmate  { utkram }	verb	ascend
+उत्क्रामते { उत्क्रम् }	utkrāmate  { utkram }	verb	die
+उत्क्रामते { उत्क्रम् }	utkrāmate  { utkram }	verb	go out or away
+उत्क्रामते { उत्क्रम् }	utkrāmate  { utkram }	verb	go over
+उत्क्रामते { उत्क्रम् }	utkrāmate  { utkram }	verb	go up
+उत्क्रामते { उत्क्रम् }	utkrāmate  { utkram }	verb	neglect
+उत्क्रामते { उत्क्रम् }	utkrāmate  { utkram }	verb	not to notice
+उत्क्रामते { उत्क्रम् }	utkrāmate  { utkram }	verb	omit
+उत्क्रामते { उत्क्रम् }	utkrāmate  { utkram }	verb	pass away
+उत्क्रामते { उत्क्रम् }	utkrāmate  { utkram }	verb	pass over
+उत्क्रामते { उत्क्रम् }	utkrāmate  { utkram }	verb	step out
+उत्क्रामते { उत्क्रम् }	utkrāmate  { utkram }	verb	step up
+उत्क्रामते { उत्क्रम् }	utkrāmate  { utkram }	verb	transgress
+उत्क्रोशति { उत्क्रुश् }	utkrośati  { utkruś }	verb	call to
+उत्क्रोशति { उत्क्रुश् }	utkrośati  { utkruś }	verb	cry out
+उत्क्रोशति { उत्क्रुश् }	utkrośati  { utkruś }	verb	exclaim
+उत्क्रोशति { उत्क्रुश् }	utkrośati  { utkruś }	verb	proclaims
+उत्क्लिश्नाति { उत्क्लिश् }	utkliśnāti  { utkliś }	verb	be uncomfortable or distressed
+उत्क्लिश्नाति { उत्क्लिश् }	utkliśnāti  { utkliś }	verb	feel uneasy
+उत्क्वथति { उत्क्वथ् }	utkvathati  { utkvath }	verb	boil out
+उत्क्षिपति { उत्क्षिप् }	utkṣipati  { utkṣip }	verb	vomit up
+उत्क्षिपते { उत्क्षिप् }	utkṣipate  { utkṣip }	verb	erect
+उत्क्षिपते { उत्क्षिप् }	utkṣipate  { utkṣip }	verb	get rid of
+उत्क्षिपते { उत्क्षिप् }	utkṣipate  { utkṣip }	verb	raise
+उत्क्षिपते { उत्क्षिप् }	utkṣipate  { utkṣip }	verb	reject
+उत्क्षिपते { उत्क्षिप् }	utkṣipate  { utkṣip }	verb	set up
+उत्क्षिपते { उत्क्षिप् }	utkṣipate  { utkṣip }	verb	throw away
+उत्क्षिपते { उत्क्षिप् }	utkṣipate  { utkṣip }	verb	throw up
+उत्क्षिपते { उत्क्षिप् }	utkṣipate  { utkṣip }	verb	vomit up
+उत्खनति { उत्खन् }	utkhanati  { utkhan }	verb	destroy entirely
+उत्खनति { उत्खन् }	utkhanati  { utkhan }	verb	dig up or out
+उत्खनति { उत्खन् }	utkhanati  { utkhan }	verb	draw or tear out
+उत्खनति { उत्खन् }	utkhanati  { utkhan }	verb	excavate
+उत्खनति { उत्खन् }	utkhanati  { utkhan }	verb	root up
+उत्खनति { उत्खन् }	utkhanati  { utkhan }	verb	tear out by the roots
+उत्खिदति { उत्खिद् }	utkhidati  { utkhid }	verb	draw out
+उत्खिदति { उत्खिद् }	utkhidati  { utkhid }	verb	extract
+उत्तपति { उत्तप् }	uttapati  { uttap }	verb	heat thoroughly
+उत्तपति { उत्तप् }	uttapati  { uttap }	verb	make warm or hot
+उत्तपति { उत्तप् }	uttapati  { uttap }	verb	pain
+उत्तपति { उत्तप् }	uttapati  { uttap }	verb	press hard
+उत्तपति { उत्तप् }	uttapati  { uttap }	verb	torment
+उत्तपते { उत्तप् }	uttapate  { uttap }	verb	excite
+उत्तपते { उत्तप् }	uttapate  { uttap }	verb	give out heat
+उत्तपते { उत्तप् }	uttapate  { uttap }	verb	heat
+उत्तपते { उत्तप् }	uttapate  { uttap }	verb	shine forth
+उत्तपते { उत्तप् }	uttapate  { uttap }	verb	urge on
+उत्तपते { उत्तप् }	uttapate  { uttap }	verb	warm one's self or a part of one's body on
+उत्तपते { उत्तप् }	uttapate  { uttap }	verb	warm up
+उत्तरङ्गते	uttaraṅgate	verb	break like a wave
+उत्तरङ्गते	uttaraṅgate	verb	burst
+उत्तरङ्गते	uttaraṅgate	verb	surge like a wave
+उत्तरति	uttarati	verb	pass
+उत्तरति { उत्तॄ }	uttarati  { uttṛṛ }	verb	alight
+उत्तरति { उत्तॄ }	uttarati  { uttṛṛ }	verb	come down
+उत्तरति { उत्तॄ }	uttarati  { uttṛṛ }	verb	come out of
+उत्तरति { उत्तॄ }	uttarati  { uttṛṛ }	verb	cross
+उत्तरति { उत्तॄ }	uttarati  { uttṛṛ }	verb	descend
+उत्तरति { उत्तॄ }	uttarati  { uttṛṛ }	verb	disembark
+उत्तरति { उत्तॄ }	uttarati  { uttṛṛ }	verb	elevate
+उत्तरति { उत्तॄ }	uttarati  { uttṛṛ }	verb	escape from
+उत्तरति { उत्तॄ }	uttarati  { uttṛṛ }	verb	give up
+उत्तरति { उत्तॄ }	uttarati  { uttṛṛ }	verb	increase
+उत्तरति { उत्तॄ }	uttarati  { uttṛṛ }	verb	leave
+उत्तरति { उत्तॄ }	uttarati  { uttṛṛ }	verb	pass out of
+उत्तरति { उत्तॄ }	uttarati  { uttṛṛ }	verb	pass over
+उत्तरति { उत्तॄ }	uttarati  { uttṛṛ }	verb	put up at
+उत्तरति { उत्तॄ }	uttarati  { uttṛṛ }	verb	strengthen
+उत्तरति { उत्तॄ }	uttarati  { uttṛṛ }	verb	vanquish
+उत्तरयति	uttarayati	verb	solve
+उत्तरयति { उत्तरय }	uttarayati  { uttaraya }	verb	defend one's self
+उत्तरयति { उत्तरय }	uttarayati  { uttaraya }	verb	reply
+उत्तरलायते { उत्तरलाय }	uttaralāyate  { uttaralāya }	verb	quiver
+उत्तरलायते { उत्तरलाय }	uttaralāyate  { uttaralāya }	verb	shudder
+उत्तरलायते { उत्तरलाय }	uttaralāyate  { uttaralāya }	verb	tremble
+उत्तरली करोति { उत्तरलीकृ }	uttaralī karoti  { uttaralīkṛ }	verb	cause to skip
+उत्तवीति { उत्तु }	uttavīti  { uttu }	verb	prosper
+उत्ताम्यति { उत्तम् }	uttāmyati  { uttam }	verb	faint
+उत्तिरति { उत्तॄ }	uttirati  { uttṛṛ }	verb	alight
+उत्तिरति { उत्तॄ }	uttirati  { uttṛṛ }	verb	come down
+उत्तिरति { उत्तॄ }	uttirati  { uttṛṛ }	verb	come out of
+उत्तिरति { उत्तॄ }	uttirati  { uttṛṛ }	verb	cross
+उत्तिरति { उत्तॄ }	uttirati  { uttṛṛ }	verb	descend
+उत्तिरति { उत्तॄ }	uttirati  { uttṛṛ }	verb	disembark
+उत्तिरति { उत्तॄ }	uttirati  { uttṛṛ }	verb	elevate
+उत्तिरति { उत्तॄ }	uttirati  { uttṛṛ }	verb	escape from
+उत्तिरति { उत्तॄ }	uttirati  { uttṛṛ }	verb	give up
+उत्तिरति { उत्तॄ }	uttirati  { uttṛṛ }	verb	increase
+उत्तिरति { उत्तॄ }	uttirati  { uttṛṛ }	verb	leave
+उत्तिरति { उत्तॄ }	uttirati  { uttṛṛ }	verb	pass out of
+उत्तिरति { उत्तॄ }	uttirati  { uttṛṛ }	verb	pass over
+उत्तिरति { उत्तॄ }	uttirati  { uttṛṛ }	verb	put up at
+उत्तिरति { उत्तॄ }	uttirati  { uttṛṛ }	verb	strengthen
+उत्तिरति { उत्तॄ }	uttirati  { uttṛṛ }	verb	vanquish
+उत्तिष्ठति { उत्था }	uttiṣṭhati  { utthā }	verb	appear
+उत्तिष्ठति { उत्था }	uttiṣṭhati  { utthā }	verb	arise
+उत्तिष्ठति { उत्था }	uttiṣṭhati  { utthā }	verb	be active or brave
+उत्तिष्ठति { उत्था }	uttiṣṭhati  { utthā }	verb	become visible
+उत्तिष्ठति { उत्था }	uttiṣṭhati  { utthā }	verb	come forth
+उत्तिष्ठति { उत्था }	uttiṣṭhati  { utthā }	verb	come in
+उत्तिष्ठति { उत्था }	uttiṣṭhati  { utthā }	verb	excel
+उत्तिष्ठति { उत्था }	uttiṣṭhati  { utthā }	verb	finish
+उत्तिष्ठति { उत्था }	uttiṣṭhati  { utthā }	verb	leave off
+उत्तिष्ठति { उत्था }	uttiṣṭhati  { utthā }	verb	make efforts
+उत्तिष्ठति { उत्था }	uttiṣṭhati  { utthā }	verb	originate from
+उत्तिष्ठति { उत्था }	uttiṣṭhati  { utthā }	verb	raise one's self
+उत्तिष्ठति { उत्था }	uttiṣṭhati  { utthā }	verb	result
+उत्तिष्ठति { उत्था }	uttiṣṭhati  { utthā }	verb	set out
+उत्तिष्ठति { उत्था }	uttiṣṭhati  { utthā }	verb	spring
+उत्तिष्ठति { उत्था }	uttiṣṭhati  { utthā }	verb	spring up
+उत्तिष्ठति { उत्था }	uttiṣṭhati  { utthā }	verb	stand up
+उत्तिष्ठति { उत्था }	uttiṣṭhati  { utthā }	verb	strive for
+उत्तिष्ठति { उत्था }	uttiṣṭhati  { utthā }	verb	take pains with
+उत्तिष्ठति { उद् - स्था }	uttiṣṭhati  { ud - sthā }	verb	rise  [ from bed ]
+उत्तिष्ठते { उत्था }	uttiṣṭhate  { utthā }	verb	appear
+उत्तिष्ठते { उत्था }	uttiṣṭhate  { utthā }	verb	arise
+उत्तिष्ठते { उत्था }	uttiṣṭhate  { utthā }	verb	be active or brave
+उत्तिष्ठते { उत्था }	uttiṣṭhate  { utthā }	verb	become visible
+उत्तिष्ठते { उत्था }	uttiṣṭhate  { utthā }	verb	come forth
+उत्तिष्ठते { उत्था }	uttiṣṭhate  { utthā }	verb	come in
+उत्तिष्ठते { उत्था }	uttiṣṭhate  { utthā }	verb	excel
+उत्तिष्ठते { उत्था }	uttiṣṭhate  { utthā }	verb	finish
+उत्तिष्ठते { उत्था }	uttiṣṭhate  { utthā }	verb	leave off
+उत्तिष्ठते { उत्था }	uttiṣṭhate  { utthā }	verb	make efforts
+उत्तिष्ठते { उत्था }	uttiṣṭhate  { utthā }	verb	originate from
+उत्तिष्ठते { उत्था }	uttiṣṭhate  { utthā }	verb	raise one's self
+उत्तिष्ठते { उत्था }	uttiṣṭhate  { utthā }	verb	result
+उत्तिष्ठते { उत्था }	uttiṣṭhate  { utthā }	verb	rise
+उत्तिष्ठते { उत्था }	uttiṣṭhate  { utthā }	verb	set out
+उत्तिष्ठते { उत्था }	uttiṣṭhate  { utthā }	verb	spring
+उत्तिष्ठते { उत्था }	uttiṣṭhate  { utthā }	verb	spring up
+उत्तिष्ठते { उत्था }	uttiṣṭhate  { utthā }	verb	stand up
+उत्तिष्ठते { उत्था }	uttiṣṭhate  { utthā }	verb	strive for
+उत्तिष्ठते { उत्था }	uttiṣṭhate  { utthā }	verb	take pains with
+उत्तेजते { उद्- तिज् , उत्तिज् }	uttejate  { ud- tij , uttij }	verb	stimulate
+उत्तोलयति { उत्तुल् }	uttolayati  { uttul }	verb	erect
+उत्तोलयति { उत्तुल् }	uttolayati  { uttul }	verb	excite  [ anger ]
+उत्तोलयति { उत्तुल् }	uttolayati  { uttul }	verb	raise
+उत्तोलयति { उत्तुल् }	uttolayati  { uttul }	verb	raise up  [ by means of a counterpoise ]
+उत्तोलयति { उत्तुल् }	uttolayati  { uttul }	verb	set up
+उत्तोलयति { उत्तुल् }	uttolayati  { uttul }	verb	take up
+उत्तोलयति { उत्तुल् }	uttolayati  { uttul }	verb	weigh
+उत्थापयति	utthāpayati	verb	boot  [ computer ]
+उत्थापयति { उत्था }	utthāpayati  { utthā }	verb	raise
+उत्थापयति { उद्- स्था , उत्थ }	utthāpayati  { ud- sthā , uttha }	verb	animate
+उत्थापयति { उद्- स्था , उत्थ }	utthāpayati  { ud- sthā , uttha }	verb	vitaliśe
+उत्थापयति { उद्- स्था , उत्था }	utthāpayati  { ud- sthā , utthā }	verb	stimulate
+उत्पतति { उत्पत् }	utpatati  { utpat }	verb	ascend
+उत्पतति { उत्पत् }	utpatati  { utpat }	verb	be produced
+उत्पतति { उत्पत् }	utpatati  { utpat }	verb	come out
+उत्पतति { उत्पत् }	utpatati  { utpat }	verb	fly or jump up
+उत्पतति { उत्पत् }	utpatati  { utpat }	verb	fly upwards
+उत्पतति { उत्पत् }	utpatati  { utpat }	verb	hasten out
+उत्पतति { उत्पत् }	utpatati  { utpat }	verb	jump out
+उत्पतति { उत्पत् }	utpatati  { utpat }	verb	leave
+उत्पतति { उत्पत् }	utpatati  { utpat }	verb	originate
+उत्पतति { उत्पत् }	utpatati  { utpat }	verb	rise
+उत्पतति { उत्पत् }	utpatati  { utpat }	verb	run away
+उत्पतति { उत्पत् }	utpatati  { utpat }	verb	shoot up
+उत्पतति { उत्पत् }	utpatati  { utpat }	verb	start from
+उत्पतति { उद्- पत् }	utpatati  { ud- pat }	verb	fly
+उत्पद्यते { उत्पद् }	utpadyate  { utpad }	verb	appear
+उत्पद्यते { उत्पद् }	utpadyate  { utpad }	verb	arise
+उत्पद्यते { उत्पद् }	utpadyate  { utpad }	verb	be born or produced
+उत्पद्यते { उत्पद् }	utpadyate  { utpad }	verb	become visible
+उत्पद्यते { उत्पद् }	utpadyate  { utpad }	verb	begin on
+उत्पद्यते { उत्पद् }	utpadyate  { utpad }	verb	be ready
+उत्पद्यते { उत्पद् }	utpadyate  { utpad }	verb	come forth
+उत्पद्यते { उत्पद् }	utpadyate  { utpad }	verb	originate
+उत्पद्यते { उत्पद् }	utpadyate  { utpad }	verb	rise
+उत्पद्यते { उत्पद् }	utpadyate  { utpad }	verb	take place
+उत्पश्यति { उत्पश् }	utpaśyati  { utpaś }	verb	behold
+उत्पश्यति { उत्पश् }	utpaśyati  { utpaś }	verb	descry
+उत्पश्यति { उत्पश् }	utpaśyati  { utpaś }	verb	descry before or in the future
+उत्पश्यति { उत्पश् }	utpaśyati  { utpaś }	verb	expect
+उत्पश्यति { उत्पश् }	utpaśyati  { utpaś }	verb	foresee
+उत्पश्यति { उत्पश् }	utpaśyati  { utpaś }	verb	perceive
+उत्पश्यति { उत्पश् }	utpaśyati  { utpaś }	verb	see or descry overhead
+उत्पिपीते { उत्पा }	utpipīte  { utpā }	verb	rebel
+उत्पिपीते { उत्पा }	utpipīte  { utpā }	verb	rise against
+उत्पिपीते { उत्पा }	utpipīte  { utpā }	verb	show enmity
+उत्पिबति { उत्पा }	utpibati  { utpā }	verb	devour
+उत्पिबति { उत्पा }	utpibati  { utpā }	verb	drink out
+उत्पिबति { उत्पा }	utpibati  { utpā }	verb	drink up
+उत्पिबति { उत्पा }	utpibati  { utpā }	verb	sip out
+उत्पीडयति { उत्पीड् }	utpīḍayati  { utpīḍ }	verb	squeeśe
+उत्पुनाति { उत्पू }	utpunāti  { utpū }	verb	cleanse
+उत्पुनाति { उत्पू }	utpunāti  { utpū }	verb	extract purified
+उत्पुनाति { उत्पू }	utpunāti  { utpū }	verb	purify
+उत्पुनीते { उत्पू }	utpunīte  { utpū }	verb	cleanse
+उत्पुनीते { उत्पू }	utpunīte  { utpū }	verb	extract purified
+उत्पुनीते { उत्पू }	utpunīte  { utpū }	verb	purify
+उत्प्रवते { उत्प्रु }	utpravate  { utpru }	verb	leap
+उत्प्रवते { उत्प्रु }	utpravate  { utpru }	verb	spring
+उत्प्रासयति { उत्प्रासय }	utprāsayati  { utprāsaya }	verb	mock
+उत्प्रेक्षते { उत्प्रेक्ष् }	utprekṣate  { utprekṣ }	verb	ascribe
+उत्प्रेक्षते { उत्प्रेक्ष् }	utprekṣate  { utprekṣ }	verb	compare one thing with another
+उत्प्रेक्षते { उत्प्रेक्ष् }	utprekṣate  { utprekṣ }	verb	expect
+उत्प्रेक्षते { उत्प्रेक्ष् }	utprekṣate  { utprekṣ }	verb	fancy
+उत्प्रेक्षते { उत्प्रेक्ष् }	utprekṣate  { utprekṣ }	verb	illustrate by a simile
+उत्प्रेक्षते { उत्प्रेक्ष् }	utprekṣate  { utprekṣ }	verb	imagine
+उत्प्रेक्षते { उत्प्रेक्ष् }	utprekṣate  { utprekṣ }	verb	impute
+उत्प्रेक्षते { उत्प्रेक्ष् }	utprekṣate  { utprekṣ }	verb	look out or at
+उत्प्रेक्षते { उत्प्रेक्ष् }	utprekṣate  { utprekṣ }	verb	look up to
+उत्प्रेक्षते { उत्प्रेक्ष् }	utprekṣate  { utprekṣ }	verb	observe
+उत्प्रेक्षते { उत्प्रेक्ष् }	utprekṣate  { utprekṣ }	verb	reflect on the past
+उत्प्रेक्षते { उत्प्रेक्ष् }	utprekṣate  { utprekṣ }	verb	regard
+उत्प्रेक्षते { उत्प्रेक्ष् }	utprekṣate  { utprekṣ }	verb	take anything for another
+उत्प्रेक्षते { उत्प्रेक्ष् }	utprekṣate  { utprekṣ }	verb	transfer
+उत्प्रेक्षते { उत्प्रेक्ष् }	utprekṣate  { utprekṣ }	verb	use figuratively
+उत्प्लवते	utplavate	verb	dive
+उत्प्लवते { उत्प्लु }	utplavate  { utplu }	verb	approach
+उत्प्लवते { उत्प्लु }	utplavate  { utplu }	verb	arise
+उत्प्लवते { उत्प्लु }	utplavate  { utplu }	verb	bound
+उत्प्लवते { उत्प्लु }	utplavate  { utplu }	verb	draw near
+उत्प्लवते { उत्प्लु }	utplavate  { utplu }	verb	jump out
+उत्प्लवते { उत्प्लु }	utplavate  { utplu }	verb	jump over
+उत्प्लवते { उत्प्लु }	utplavate  { utplu }	verb	jump up or upwards
+उत्प्लवते { उत्प्लु }	utplavate  { utplu }	verb	leap up
+उत्प्लवते { उत्प्लु }	utplavate  { utplu }	verb	rise
+उत्प्लवते { उत्प्लु }	utplavate  { utplu }	verb	spring up
+उत्प्लवते { उत्प्लु }	utplavate  { utplu }	verb	spring upon
+उत्प्लवते { उत्प्लु }	utplavate  { utplu }	verb	swim upwards
+उत्फलति { उद्- फल् }	utphalati  { ud- phal }	verb	burst
+उत्फलति { उद्- फल् }	utphalati  { ud- phal }	verb	expand
+उत्फलति { उद्- फल् }	utphalati  { ud- phal }	verb	spring open
+उत्सर्जति { उत्सर्ज् }	utsarjati  { utsarj }	verb	rattle
+उत्सर्पति { उत्सृप् }	utsarpati  { utsṛp }	verb	creep out or upwards
+उत्सर्पति { उत्सृप् }	utsarpati  { utsṛp }	verb	glide along
+उत्सर्पति { उत्सृप् }	utsarpati  { utsṛp }	verb	glide or soar upwards
+उत्सर्पति { उत्सृप् }	utsarpati  { utsṛp }	verb	move on slowly
+उत्सर्पति { उत्सृप् }	utsarpati  { utsṛp }	verb	rise up
+उत्सहते { उत्सह् }	utsahate  { utsah }	verb	act with courage or energy
+उत्सहते { उत्सह् }	utsahate  { utsah }	verb	be adequate
+उत्सहते { उत्सह् }	utsahate  { utsah }	verb	have power
+उत्साहयति { उद्- सह् }	utsāhayati  { ud- sah }	verb	animate
+उत्साहयति { उद्- सह् }	utsāhayati  { ud- sah }	verb	encourage
+उत्साहयति { उद्- सह् }	utsāhayati  { ud- sah }	verb	excite
+उत्सिञ्चति { उत्सिच् }	utsiñcati  { utsic }	verb	cause to flow over
+उत्सिञ्चति { उत्सिच् }	utsiñcati  { utsic }	verb	make full
+उत्सिञ्चति { उत्सिच् }	utsiñcati  { utsic }	verb	make proud or arrogant
+उत्सिञ्चति { उत्सिच् }	utsiñcati  { utsic }	verb	pour upon
+उत्सिञ्चते { उत्सिच् }	utsiñcate  { utsic }	verb	cause to flow over
+उत्सिञ्चते { उत्सिच् }	utsiñcate  { utsic }	verb	make full
+उत्सिञ्चते { उत्सिच् }	utsiñcate  { utsic }	verb	make proud or arrogant
+उत्सिञ्चते { उत्सिच् }	utsiñcate  { utsic }	verb	pour upon

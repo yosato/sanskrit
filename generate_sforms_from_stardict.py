@@ -4,7 +4,7 @@ from collections import defaultdict
 
 imp.reload(sanskrit_morph)
 
-def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCntUpTo=None):
+def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCntUpTo=None,ErrorFP=None):
     StarDictFN=os.path.basename(StarDictFP)
     StarDictFNStem='.'.join(StarDictFN.split('.')[:-1])
     if DoLemmaDict:
@@ -16,9 +16,12 @@ def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCnt
     if OutDir is None:
         Out=sys.stdout
     else:
-        Out=open(OutDir+'/'+StarDictFNStem+'.out','wt')
+        Out=open(os.path.join(OutDir,StarDictFNStem+'.out'),'wt')
     PrvAlph='';AlphCnt=0
-    for Cntr,Wds in enumerate(generate_words_perline(StarDictFP,Delimiter,Debug,OutDir)):
+
+    InfTypeFSw=open(os.path.join(OutDir,StarDictFNStem+'.inftypes'),'wt')
+    
+    for Cntr,Wds in enumerate(generate_words_perline(StarDictFP,Delimiter,Debug,OutDir,ErrorFP)):
         if DoLemmaDict or AlphCntUpTo:
             CurAlph=Wds[0].infform[0]
             if CurAlph!=PrvAlph:
@@ -34,6 +37,9 @@ def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCnt
             if AlphCntUpTo and AlphCntUpTo<AlphCnt:
                 break
         for Wd in Wds:
+            if 'inftype' in Wds[0].__dict__.keys():
+                InfTypeFSw.write(' '.join([Wds[0].lexeme.lemma, Wds[0].lexeme.pos, Wds[0].inftype])+'\n')
+
             if Debug>=2:    sys.stderr.write(Wd.stringify_featvals()+'\n')
             Out.write(Wd.infform+'\t'+Wd.infform+','+Wd.lexeme.lemma+'\n')
             LemmaDict[Wd.infform].add(Wd.lexeme.lemma)
@@ -43,6 +49,9 @@ def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCnt
                 Out.write(SandhiVForm+'\t'+Wd.infform+Wd.lexeme.lemma+'\n')
             for (SandhiForm,_) in SandhiForms:
                 Out.write(SandhiForm+'\t'+Wd.infform+','+Wd.lexeme.lemma+'\n')
+    InfTypeFSw.close()
+                
+                
     if DoLemmaDict:
         LemmaDict=[CurAlph,{Key:list(Set) for (Key,Set) in LemmaDict.items() }]
         LemmaDictJ=json.dumps(LemmaDict)
@@ -57,7 +66,8 @@ def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCnt
         
                 
 
-def generate_words_perline(StarDictFP,Delimiter='\t',Debug=0,OutDir=None):
+def generate_words_perline(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,ErrorFP=None):
+    OutErr=open(ErrorFP,'wt') if ErrorFP else sys.stderr
     Prv=[]
     for Cntr,LiNe in enumerate(open(StarDictFP)):
         LineEls=[ re.sub(r'{.+}$','',El).strip() for El in LiNe.strip().split(Delimiter) if El ][:3]
@@ -78,10 +88,12 @@ def generate_words_perline(StarDictFP,Delimiter='\t',Debug=0,OutDir=None):
             Prv=LineEls
             Wds=lemmaline2wds(LineEls,Delimiter)
             if not Wds:
-                sys.stderr.write('no results returned from '+LiNe)
+                OutErr.write('no results returned from '+LiNe)
                 continue
             else:
                 yield Wds
+    if ErrorFP:
+        OutErr.close
 
 
 def lemmaline2wds(LineEls,Delimiter):
