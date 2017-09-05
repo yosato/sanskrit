@@ -163,10 +163,11 @@ pronoun={
 
 NounInfTypes={
     (('a',),('m',)):'AM',
-    (('a',),('f','n')):'A',
+    (('a',),('n',)):'A',
+    (('ā',),('f',)):'Ā',
     (('i','ī'),('m','f','n')):'i/īAllGender',
         (('u','ū'),('m','f','n')):'u/ūAllGender',
-        (('s',),('m','f','n')):'sAllGender',
+        (('ś','s',),('m','f','n')):'sAllGender',
         (('n',),('m','f','n')):'nAllGender',
             (('at',),('m','f','n')):'atAllGender',
             (('in',),('m','f','n')):'inAllGender',

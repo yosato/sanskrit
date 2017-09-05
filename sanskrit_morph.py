@@ -1,4 +1,4 @@
-import imp,sys
+import imp,sys,time
 from pythonlib_ys import morph_univ
 
 import paradigms,sandhi,sanskrit_phon
@@ -9,7 +9,7 @@ imp.reload(sanskrit_phon)
 def get_stem_suffix(Str):
     if len(Str)==1:
         return Str,Str
-    if any(Str.endswith(End) for End in ('in','at','āt','ḥ','ṛ')):
+    if any(Str.endswith(End) for End in ('in','at','āt')) or (any(Str.endswith(End) for End in ('ḥ','ṛ')) and Str[-2] in sanskrit_phon.Vowels):
         SplitPoint=-2
     else:
         SplitPoint=-1
@@ -200,10 +200,22 @@ class NounLexeme(NominalLexeme):
         super().__init__(Lemma,'noun')
         self.gender=Gender
         InfTypes=paradigms.NounInfTypes
-        self.inftype=InfTypes[next( SuffGen for SuffGen in InfTypes.keys() if Gender in SuffGen[1] and self.suffix in SuffGen[0] )]
+        SuffGens=[ SuffGen for SuffGen in InfTypes.keys() if Gender in SuffGen[1] and self.suffix in SuffGen[0] ]
+        if not SuffGens:
+            sys.stderr.write('\n'+Lemma+': no infcat found\n\n')
+            #time.sleep(4)
+            self.inftype=None
+        elif len(SuffGens)>=2:
+            sys.stderr.write('\n'+Lemma+': multiple infcats found\n\n')
+            self.inftype=None
+            #time.sleep(4)
+        else:
+            self.inftype=InfTypes[SuffGens[0]]
         self.declpar=paradigms.noun
     def decline_all(self):
         NounWds=[]
+        if not self.inftype:
+            return []
         for (Case,NumVarSets) in self.declpar[self.inftype].items():
             for Cnt,NumVarSet in enumerate(NumVarSets):
                 if Cnt==0: Num='sg'

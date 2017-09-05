@@ -22,6 +22,7 @@ def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCnt
     InfTypeFSw=open(os.path.join(OutDir,StarDictFNStem+'.inftypes'),'wt')
     
     for Cntr,Wds in enumerate(generate_words_perline(StarDictFP,Delimiter,Debug,OutDir,ErrorFP)):
+        if Debug: sys.stderr.write('\tLemmaCounter '+str(Cntr)+'\n')
         if DoLemmaDict or AlphCntUpTo:
             CurAlph=Wds[0].infform[0]
             if CurAlph!=PrvAlph:
@@ -84,7 +85,7 @@ def generate_words_perline(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,ErrorFP
         elif LineEls[2]=='phrase':
             continue
         else:
-            if Debug:    sys.stderr.write(str(Cntr)+': '+LiNe)
+            if Debug:    sys.stderr.write('Line '+str(Cntr)+': '+LiNe.strip())
             Prv=LineEls
             Wds=lemmaline2wds(LineEls,Delimiter)
             if not Wds:
@@ -102,7 +103,7 @@ def lemmaline2wds(LineEls,Delimiter):
     Lemma=LineEls[1]
     Cat=(CatStr[:-1] if (len(CatStrSplit)==1 and CatStr.endswith('.')) else CatStr.split()[0])
 #    print(Lemma+'\t'+Cat)
-    if Cat not in InfCats:
+    if (Cat not in InfCats) or (Cat=='n' and Lemma.endswith('id')):
         return [ sanskrit_morph.NonInfWord(Lemma,Cat) ]
     else:
         return get_infl_words(Lemma,Cat)
