@@ -1,0 +1,35 @@
+# this list includes both pronouns and adjectives that follow pronominal declension
+
+	adas	pron.	that
+	adhara	pron.	superior
+अनयोः	anayoḥ	pron.	of these two
+	antara	pron.	inner
+अन्ये	anye	pron.	others
+अन्योन्य	anyonya	pron.	one another
+अस्मद्	asmad	pron.	we
+अस्माकम्	asmākam	pron.	our
+	aham	pron.	I
+	āvām	pron.	the two of us
+	idam	pron.	this
+इतर	itara	pron.	other
+	eka	pron. 	one
+	ena	pron.	he
+	uttara	pron.	superior
+	katama	pron.	how much
+	kim	pron.	who?
+तत्	tad	pron.	that
+	tvam	pron.	you
+	para	pron. 	other
+परस्पर	paraspara	pron.	each other
+	pūrva	pron.	earlier
+	yad	pron	who
+युष्मद्	yuṣmad	pron.	base of the 2nd person pronoun
+युष्मद्	yuṣmad	pron.	base of the cases yuṣmān  [ ṅramm. ]
+	yuvām	pron.	you two
+वयम्	vayam	pron.	we
+	viśva	pron.	all
+स	sa	pron.	the actual base for the nominative case of the 3rd person pronoun  [ tad ]
+सर्व	sarva	pron.	all
+सर्व	sarva	pron.	every
+सा	sā	pron.	she
+	sva	pron.	own
