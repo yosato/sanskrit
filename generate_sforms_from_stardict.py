@@ -4,7 +4,7 @@ from collections import defaultdict
 
 imp.reload(sanskrit_morph)
 
-def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCntUpTo=None,ErrorFP=None):
+def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCntUpTo=None,UpTo=None):
     StarDictFN=os.path.basename(StarDictFP)
     StarDictFNStem='.'.join(StarDictFN.split('.')[:-1])
     if DoLemmaDict:
@@ -13,15 +13,20 @@ def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCnt
         LemmaDict=defaultdict(set)
         LemmaJFSw=open(os.path.join(OutDir,StarDictFNStem+'_lemmadict.json'),'wt')
 
+    OutFPStem=os.path.join(OutDir,StarDictFNStem)
     if OutDir is None:
         Out=sys.stdout
     else:
-        Out=open(os.path.join(OutDir,StarDictFNStem+'.out'),'wt')
+        Out=open(OutFPStem+'.out','wt')
     PrvAlph='';AlphCnt=0
 
-    InfTypeFSw=open(os.path.join(OutDir,StarDictFNStem+'.inftypes'),'wt')
+    InfTypeFSw=open(OutFPStem+'.inftypes','wt')
+
+    ErrorFP=StarDictFP+'.errors'
     
     for Cntr,Wds in enumerate(generate_words_perline(StarDictFP,Delimiter,Debug,OutDir,ErrorFP)):
+        if UpTo and Cntr>UpTo:
+            break
         if Debug: sys.stderr.write('\tLemmaCounter '+str(Cntr)+'\n')
         if DoLemmaDict or AlphCntUpTo:
             CurAlph=Wds[0].infform[0]
@@ -38,9 +43,6 @@ def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCnt
             if AlphCntUpTo and AlphCntUpTo<AlphCnt:
                 break
         for Wd in Wds:
-            if 'inftype' in Wds[0].__dict__.keys():
-                InfTypeFSw.write(' '.join([Wds[0].lexeme.lemma, Wds[0].lexeme.pos, Wds[0].inftype])+'\n')
-
             if Debug>=2:    sys.stderr.write(Wd.stringify_featvals()+'\n')
             Out.write(Wd.infform+'\t'+Wd.infform+','+Wd.lexeme.lemma+'\n')
             LemmaDict[Wd.infform].add(Wd.lexeme.lemma)
@@ -89,7 +91,7 @@ def generate_words_perline(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,ErrorFP
             Prv=LineEls
             Wds=lemmaline2wds(LineEls,Delimiter)
             if not Wds:
-                OutErr.write('no results returned from '+LiNe)
+                OutErr.write('no results returned from this line: '+LiNe)
                 continue
             else:
                 yield Wds
@@ -130,6 +132,7 @@ def main():
     ArgPsr.add_argument('stardict_fps',nargs='+')
     ArgPsr.add_argument('-u','--alphcnt-up-to',type=int)
     ArgPsr.add_argument('-o','--out-dir')
+    ArgPsr.add_argument('--up-to',type=int)
     ArgPsr.add_argument('--debug',type=int,default=0)
     Args=ArgPsr.parse_args()
     RepoDir=os.path.join(os.getenv('HOME'),'myProjects/sanskrit')
@@ -151,7 +154,7 @@ def main():
             FPs.append(FP)
 
         for FP in FPs:
-            main0(FP,AlphCntUpTo=Args.alphcnt_up_to,OutDir=Args.out_dir,Debug=Args.debug)
+            main0(FP,AlphCntUpTo=Args.alphcnt_up_to,OutDir=Args.out_dir,Debug=Args.debug,UpTo=Args.up_to)
     
 if __name__=='__main__':
     main()
