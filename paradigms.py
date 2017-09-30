@@ -171,12 +171,12 @@ NounInfTypes={
         (('n',),('m','f','n')):'nAllGender',
             (('at',),('m','f','n')):'atAllGender',
             (('in',),('m','f','n')):'inAllGender',
-                (('ṛ',),('m','f','n')):'ṛAllGender'
-                    (('t'),('m', 'f')):'tMF'
-                    (('t'),('n')):'tN'
-                    (('d'),('m', 'f')):'dMF'
-                    (('c'),('f')):'cF'
-                    (('j'),('f'):'jF'
+                (('ṛ',),('m','f','n')):'ṛAllGender',
+                    (('t'),('m', 'f')):'tMF',
+                    (('t'),('n')):'tN',
+                    (('d'),('m', 'f')):'dMF',
+                    (('c'),('f')):'cF',
+                    (('j'),('f')):'jF'
 }
 
 
@@ -290,27 +290,27 @@ noun={
 'Abl':(['taḥ'], ['dbhyām'], ['dbhyaḥ', 'dbhyo', 'dbhyaś']),
 'Gen':(['taḥ'], ['toḥ'], ['tām']),
 'Loc':(['ti'], ['toḥ'], ['tsu']),
-}
+},
 'tN':{
 'Nom': (['t'], ['tī'], ['nti']),
-'Voc':((['t'], ['tī'], ['nti']),
+'Voc':(['t'], ['tī'], ['nti']),
 'Acc':(['t'], ['tī'], ['nti']),
 'Inst':(['tā'], ['dbhyām'], ['dbhiḥ', 'dbhir']),
 'Dat':(['te'], ['dbhyām'], ['dbhyaḥ']),
 'Abl':(['taḥ'], ['dbhyām'], ['dbhyaḥ']),
 'Gen':(['taḥ'], ['toḥ'], ['tām']),
 'Loc':(['ti'], ['toḥ'], ['tsu']),
-}
+},
 'adMF':{
 'Nom': (['ad'], ['adau'], ['adaḥ']),
-'Voc':(['ad]', ['adau'], ['adaḥ']),
+'Voc':(['ad'], ['adau'], ['adaḥ']),
 'Acc':(['adam', 'adām'], ['adau'], ['adaḥ', 'ado', 'adāḥ']),
 'Inst':(['adā'], ['adbhyām'], ['adbhiḥ', 'adbhir']),
 'Dat':(['ade'], ['adbhyām'], ['adbhyaḥ', 'adbhyo', 'adbhyaś']),
 'Abl':(['adaḥ'], ['adbhyām'],['adbhyaḥ', 'adbhyo', 'adbhyaś']),
 'Gen':(['adaḥ'], ['adoḥ'], ['adām', 'adānāṃ']),
 'Loc':(['adi'], ['adoḥ'], ['atsu']),
-}
+},
 'cF':{
 'Nom': (['k'], ['cau'], ['caḥ']),
 'Voc':(['k'], ['cau'], ['caḥ']),
@@ -320,7 +320,7 @@ noun={
 'Abl':(['caḥ'], ['gbhyām'], ['gbhyaḥ', 'gbhyo', 'gbhyaś']),
 'Gen':(['caḥ'], ['coḥ'], ['cām']),
 'Loc':(['ci'], ['coḥ'], ['kṣu']),
-}
+},
 'jF':{
 'Nom': (['k'], ['jau'], ['jaḥ']),
 'Voc':(['k'], ['jau'], ['jaḥ']),

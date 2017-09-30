@@ -34,7 +34,7 @@ def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCnt
                 AlphCnt+=1
                 PrvAlph=Wds[0].infform[0]
                 if AlphCnt>=2:
-                    LemmaDict=[PrvAlph,{Key:list(Set) for (Key,Set) in LemmaDict.items() }]
+                    LemmaDict={Key:list(Set) for (Key,Set) in LemmaDict.items() }
                     LemmaDictJ=json.dumps(LemmaDict)
                     LemmaJFSw.write(LemmaDictJ)
                     LemmaJFSw.write('\n')

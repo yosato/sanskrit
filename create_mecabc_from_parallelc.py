@@ -3,22 +3,24 @@ from difflib import SequenceMatcher
 from collections import defaultdict
 #Delims=' ^.'
 
-def main0(FP,OutFP=None,LemmaDicFP=None):
+def main0(FP,OutFP,LemmaDicFP=None,UpTo=None,Debug=0):
     def count_lines(FP):
         for LineCnt,_ in enumerate(open(FP)):
             pass
         return LineCnt
-    OutTmp=sys.stdout if OutFP is None else open(OutFP+'.tmp','wt')
+
+    OutFPTmp=OutFP+'.tmp'
+    OutTmp=open(OutFP,'wt')
     Switched=False
     LineCnt=count_lines(FP)
     for Cntr,LiNe in enumerate(open(FP)):
-        if Cntr>300:
+        if UpTo and Cntr>UpTo:
             break
         if OutFP and not Switched and Cntr>LineCnt*0.8:
             OutTmp.close()
             OutTmp=open(OutFP+'.test','wt')
             Switched=True
-        sys.stderr.write(str(Cntr+1)+': '+LiNe)
+        if Debug:    sys.stderr.write(str(Cntr+1)+': '+LiNe)
         OrgSeg=LiNe.strip().split('\t')
         if len(OrgSeg)!=3:
             print('something wrong with the line '+LiNe)
@@ -37,41 +39,50 @@ def main0(FP,OutFP=None,LemmaDicFP=None):
             for (SForm,InfForm) in WdPairs:
                 OutTmp.write(SForm+'\t'+InfForm+'\n')
             OutTmp.write('EOS\n')
-    if OutFP:
-        OutTmp.close()
-        OccurringLemmaDic=defaultdict(list)
-        FSr=open(OutFP+'.tmp')
-        for LiNeJ in open(LemmaDicFP):
-            InitChar,LemmaDic=json.loads(LiNeJ.strip())
-            #AA=AStuff.intersection(set(LemmaDic.keys()))
-            Successes=0;Failures=0
-            for LiNeC in FSr:
-                LineC=LiNeC.strip()
-                if LineC=='EOS':
-                    continue
-                else:
-                    InfForm=LineC.split('\t')[-1]
-                    if InfForm.startswith(InitChar):
-                        if InfForm in LemmaDic.keys():
-                            OccurringLemmaDic[InfForm]=LemmaDic[InfForm]
-                            Successes+=1
-                        else:
-                            Failures+=1
+    
+    OutTmp.close()
 
-        FSr.seek(0)
-        Out=sys.stdout if OutFP is None else open(OutFP,'wt')
-        for LiNe in FSr:
-            Line=LiNe.strip()
-            if Line=='EOS':
-                Out.write(LiNe)
+    if LemmaDicFP:
+        add_lemmata(OutFPTmp,OutFP,LemmaDicFP)
+    else:
+        os.path.rename(OutFPTmp,OutFP)
+
+def add_lemmata(InFP,OutFP,LemmaDicFP):
+    OccurringLemmaDic=defaultdict(list)
+    FSr=open(InFP)
+    for LiNeJ in open(LemmaDicFP):
+        LemmaDic=json.loads(LiNeJ.strip())
+        InitChar=LemmaDic.values()[0][0][0]
+        #AA=AStuff.intersection(set(LemmaDic.keys()))
+        Successes=0;Failures=0
+        for LiNeC in FSr:
+            LineC=LiNeC.strip()
+            if LineC=='EOS':
+                continue
             else:
-                InfForm=Line.split('\t')[-1]
-                if InfForm in OccurringLemmaDic.keys():
-                    Lemma=OccurringLemmaDic[InfForm][0]
-                else:
-                    Lemma='*'
-                    
-                Out.write(Line+','+Lemma+'\n')
+                InfForm=LineC.split('\t')[-1]
+                if InfForm.startswith(InitChar):
+                    if InfForm in LemmaDic.keys():
+                        OccurringLemmaDic[InfForm]=LemmaDic[InfForm]
+                        Successes+=1
+                    else:
+                        Failures+=1
+
+    FSr.seek(0)
+    Out=open(OutFP,'wt')
+    for LiNe in FSr:
+        Line=LiNe.strip()
+        if Line=='EOS':
+            Out.write(LiNe)
+        else:
+            InfForm=Line.split('\t')[-1]
+            if InfForm in OccurringLemmaDic.keys():
+                Lemma=OccurringLemmaDic[InfForm][0]
+            else:
+                Lemma='*'
+
+            Out.write(Line+','+Lemma+'\n')
+    FSr.close()
                                  
 def check_plausibility(WdPairs):
     CumDist=0;CumWdCnt=0
@@ -124,12 +135,19 @@ def main():
     import argparse
     Psr=argparse.ArgumentParser()
     Psr.add_argument('parallel_fp')
-    Psr.add_argument('-o','--out-fp')
+    Psr.add_argument('out_fp')
     Psr.add_argument('-l','--lemmadic-fp')
+    Psr.add_argument('-u','--up-to',type=int)
     Args=Psr.parse_args()
-    if Args.out_fp and not os.path.dirname(Args.out_fp):
+    if not os.path.dirname(Args.out_fp):
         print('parent of the specified fp '+Args.out_fp+' does not exist')
-    main0(Args.parallel_fp,OutFP=Args.out_fp,LemmaDicFP=Args.lemmadic_fp)
+    if os.path.exists(Args.out_fp):
+        Answer=input('Specified filename exists. Overwrite? (Say y, otherwise it will abort): ')
+        if Answer=='y':
+            pass
+        else:
+            sys.exit()
+    main0(Args.parallel_fp,OutFP=Args.out_fp,LemmaDicFP=Args.lemmadic_fp,UpTo=Args.up_to)
 
 if __name__=='__main__':
     main()
