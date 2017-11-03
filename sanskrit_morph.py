@@ -105,13 +105,16 @@ class InfLexeme(morph_univ.Lexeme):
             if not SuffGens:
                 sys.stderr.write('\n'+self.lemma+': no infcat found\n\n')
                 #time.sleep(4)
-                self.inftype=None
+                #self.inftype=None
+                Type=None
             elif len(SuffGens)>=2:
                 sys.stderr.write('\n'+self.lemma+': multiple infcats found\n\n')
-                self.inftype=None
+                #self.inftype=None
+                Type=None
                 #time.sleep(4)
             else:
-                self.inftype=InfTypes[SuffGens[0]]
+                Type=InfTypes[SuffGens[0]]
+                #self.inftype=
 
         elif self.pos=='verb':
             Type='all'
