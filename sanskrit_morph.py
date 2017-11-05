@@ -197,7 +197,7 @@ class PronounLexeme(NominalLexeme):
         if self.inftype=='others':
             pass
         else:
-            for (Gender,CaseNumVarSets) in self.paradigm[self.inftype].items():
+            for (Gender,CaseNumVarSets) in paradigms.pronoun[self.inftype].items():
                 for (Case, NumVarSets) in CaseNumVarSets.items():
                     for Cnt,NumVarSet in enumerate(NumVarSets):
                         if Cnt==0: Num='sg'

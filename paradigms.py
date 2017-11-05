@@ -162,10 +162,11 @@ pronoun={
 # format: AM:{nom:(['form1','form2','form3'],['dualform'],['pluralform'],),
 
 NounInfTypes={
-    (('a',),('m',)):'AM',
+    (('a','ā',),('m',)):'AM',
     (('a',),('n',)):'A',
     (('ā',),('f',)):'Ā',
     (('i','ī'),('m','f','n')):'i/īAllGender',
+        (('ī'),('m',)):'īM',
         (('u','ū'),('m','f','n')):'u/ūAllGender',
         (('ś','s',),('m','f','n')):'sAllGender',
         (('n',),('m','f','n')):'nAllGender',
@@ -181,7 +182,18 @@ NounInfTypes={
 
 
 noun={
-'AM':{
+'īM':{
+'Nom': (['īḥ','īr'], ['ī'], ['iyaḥ']),
+'Voc':(['ī'], ['ī'], ['iyaḥ']),
+'Acc':(['iyam', 'iyaṃ'], ['ī'], ['iyīn']),
+'Inst':(['iyā'], ['iybhyām'], ['iybhiḥ', 'iybhir']),
+'Dat':(['iye'], ['iybhyām'], ['iybhyaḥ', 'iybhyo', 'iybhyaś']),
+'Abl':(['iyaḥ'], ['iybhyām'], ['iybhyaḥ', 'iybhyo', 'iybhyaś']),
+'Gen':(['iyaḥ'], ['iyoḥ'], ['iyām']),
+'Loc':(['iyau','iyām'], ['iyoḥ'], ['iṣu','īṣu']),
+},
+
+    'AM':{
 'Nom':(['aḥ','o', 'u', 'ū', 'ā', 'e', 'aṃ' ],['au'],['āh', 'ā', 'ām', 'ām', 'ān', 'āni', 'e', 'aḥ', 'o', 'āyo', 'āya'],),
 'Voc': (['a','ā', 'o', 'u', 'e'],['au'],['āh', 'ā', 'āho', 'āvo'],),
 'Acc':(['am', 'u', 'a', 'o', 'e', 'ā', 'āṃ'], ['au'],['ān', 'āṃ', 'am', 'an', 'ā', 'ās', 'āḥ', 'a', 'e', 'i', 'u', 'āni', 'āna'],),
