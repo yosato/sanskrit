@@ -165,11 +165,10 @@ NounInfTypes={
     (('a','ā',),('m',)):'AM',
     (('a',),('n',)):'A',
     (('ā',),('f',)):'Ā',
-    (('i','ī'),('m','f','n')):'i/īAllGender',
-        (('ī'),('m',)):'īM',
+    (('i','ī'),('m','f','n')):'i/īAllGender'
         (('u','ū'),('m','f','n')):'u/ūAllGender',
         (('ś','s',),('m','f','n')):'sAllGender',
-        (('n',),('m','f','n')):'nAllGender',
+        (('an',),('m','f','n')):'nAllGender',
             (('at',),('m','f','n')):'atAllGender',
             (('in',),('m','f','n')):'inAllGender',
                 (('ṛ',),('m','f','n')):'ṛAllGender',
@@ -182,16 +181,7 @@ NounInfTypes={
 
 
 noun={
-'īM':{
-'Nom': (['īḥ','īr'], ['ī'], ['iyaḥ']),
-'Voc':(['ī'], ['ī'], ['iyaḥ']),
-'Acc':(['iyam', 'iyaṃ'], ['ī'], ['iyīn']),
-'Inst':(['iyā'], ['iybhyām'], ['iybhiḥ', 'iybhir']),
-'Dat':(['iye'], ['iybhyām'], ['iybhyaḥ', 'iybhyo', 'iybhyaś']),
-'Abl':(['iyaḥ'], ['iybhyām'], ['iybhyaḥ', 'iybhyo', 'iybhyaś']),
-'Gen':(['iyaḥ'], ['iyoḥ'], ['iyām']),
-'Loc':(['iyau','iyām'], ['iyoḥ'], ['iṣu','īṣu']),
-},
+
 
     'AM':{
 'Nom':(['aḥ','o', 'u', 'ū', 'ā', 'e', 'aṃ' ],['au'],['āh', 'ā', 'ām', 'ām', 'ān', 'āni', 'e', 'aḥ', 'o', 'āyo', 'āya'],),
@@ -224,14 +214,14 @@ noun={
 'Loc': (['āyām', 'āyaṃ', 'e', 'ayām', 'āyaṃ', 'āe', 'āyi', 'aye'], ['ayoḥ'], ['āsu', 'āsū', 'asu'],),
 },
 'i/īAllGender':{
-    'Nom':(['iḥ', 'ī', 'i', 'iṃ', 'im', 'īm', 'is','īs', 'ā'],['ī', 'iṇī', 'yau', 'inau'],['ayaḥ', 'īṇi', 'inā', 'ina', 'īno', 'īna', 'īnī','yas', 'ya','yā', 'yās', 'īn', 'īṃ', 'īs', 'iyas', 'iyo', 'iya', 'iyā', 'īo', 'īyo', 'īyā', 'īya', 'īye', 'iye', 'ī', 'is', 'iḥ']),
-'Voc':(['e', 'i', 'ī'],['ī', 'iṇī', 'yau'], ['yaḥ', 'īṇi', 'ī', 'īho'],),
-'Acc': (['im', 'iṃ', 'i', 'īm', 'īṃ', 'y', 'ī', 'is', 'īnam', 'iya', 'iyaṃ'],['ī', 'iṇī', 'inau'],['in', 'īḥ', 'īṇi', 'inā', 'ina', 'īno', 'īna', 'īnī','yas', 'ya','yā', 'yās', 'īn', 'īṃ', 'īs', 'iyas', 'iyo', 'iya', 'iyā', 'īo', 'īyo', 'īyā', 'īya', 'īye', 'iye', 'ī', 'is', 'iḥ'] ,),
-'Inst':(['inā','yā', 'i', 'yā', 'ina', 'īnā', 'īye', 'īya', 'īyo', 'īyena'],['ibhyām', 'ibhyāṃ'],['ibhiḥ', 'ibḥir', 'ībhiḥ', 'ībhir', 'īhi', 'ībhis', 'ībhi', 'ihi', 'ibhi'],),
-'Dat':(['aye', 'yai', 'iṇe', 'yai', 'ayi', 'īye','iye', 'īyai', 'ye'],['ibhyām', 'ibhyāṃ'], ['ibhyaḥ', 'ībhyaḥ','ibhyas', 'ībhyas'],),
-'Abl':(['eḥ', 'yāḥ', 'iṇaḥ', 'ito', 'iye', 'īya', 'īyo', 'yā', 'īto'],['ibhyām', 'ibhyāṃ'], ['ibhyaḥ', 'ībhyaḥ','ibhyas', 'ībhyas','īhi'],),
-'Gen':(['eḥ', 'yāḥ', 'iṇaḥ', 'yāḥ', 'isya', 'e', 'yus', 'inaḥ', 'īye', 'īya', 'īyu', 'iyo', 'yā', 'yas', 'aye', 'ayi', 'īyaṃ'],['yoḥ', 'yor', 'ṇoḥ'], ['īnām', 'īṇām', 'īnāṃ', 'īṇāṃ', 'inā'],),
-'Loc':(['au', 'yām', 'yāṃ', 'iṇi', 'iṃ', 'yau', 'e', 'esmiṃ','ismiṃ', 'ismi', 'iyi', 'iye', 'iyā', 'īyo', 'ya', 'īyaṃ', 'iyaṃ'],['yoḥ', 'yor', 'ṇoḥ'], ['iṣu', 'īṣu', 'īṣū'],),
+    'Nom':(['iḥ', 'ī', 'i', 'iṃ', 'im', 'īm', 'is','īs', 'ā','īr', 'īḥ'],['ī', 'iṇī', 'yau', 'inau'],['ayaḥ', 'īṇi', 'inā', 'ina', 'īno', 'īna', 'īnī','yas', 'ya','yā', 'yās', 'īn', 'īṃ', 'īs', 'iyas', 'iyaḥ', 'iyo', 'iya', 'iyā', 'īo', 'īyo', 'īyā', 'īya', 'īye', 'iye', 'ī', 'is', 'iḥ']),
+'Voc':(['e', 'i', 'ī'],['ī', 'iṇī', 'yau'], ['yaḥ', 'īṇi', 'ī', 'īho','iyaḥ'],),
+'Acc': (['im', 'iṃ', 'i', 'īm', 'īṃ', 'y', 'ī', 'is', 'īnam', 'iya', 'iyaṃ', 'iyam'],['ī', 'iṇī', 'inau'],['in', 'īḥ', 'īṇi', 'inā', 'ina', 'īno', 'īna', 'īnī','yas', 'ya','yā', 'yās', 'īn', 'īṃ', 'īs', 'iyas', 'iyo', 'iya', 'iyā', 'īo', 'īyo', 'īyā', 'īya', 'īye', 'iye', 'iyīn','ī', 'is', 'iḥ'] ,),
+'Inst':(['inā','yā', 'i', 'yā', 'ina', 'īnā', 'īye', 'īya', 'iyā', 'īyo', 'īyena'],['ibhyām', 'ibhyāṃ', 'iybhyām'],['ibhiḥ', 'ibḥir', 'ībhiḥ', 'ībhir', 'īhi', 'ībhis', 'ībhi', 'ihi', 'ibhi','iybhiḥ', 'iybhir'],),
+'Dat':(['aye', 'yai', 'iṇe', 'yai', 'ayi', 'īye','iye', 'īyai', 'ye'],['ibhyām', 'ibhyāṃ', 'iybhyām'], ['ibhyaḥ', 'ībhyaḥ','ibhyas', 'ībhyas', 'iybhyaḥ', 'ibhyo', 'ībhyo', 'iybhyas','iybhyo'],),
+'Abl':(['eḥ', 'yāḥ', 'iṇaḥ', 'ito', 'iye', 'īya', 'īyo', 'yā', 'īto'],['ibhyām', 'ibhyāṃ','iybhyām'], ['ibhyaḥ', 'ībhyaḥ','ibhyas', 'ībhyas','īhi', 'iybhyaḥ'],),
+'Gen':(['eḥ', 'yāḥ', 'iṇaḥ', 'yāḥ', 'isya', 'e', 'yus', 'inaḥ', 'īye', 'īya', 'īyu', 'iyo','iyaḥ', 'yā', 'yas', 'aye', 'ayi', 'īyaṃ'],['yoḥ', 'iyoḥ', 'yor', 'ṇoḥ'], ['īnām', 'īṇām', 'īnāṃ', 'īṇāṃ', 'inā', 'iyām'],),
+'Loc':(['au', 'yām', 'yāṃ', 'iṇi', 'iṃ', 'yau', 'e', 'esmiṃ','ismiṃ', 'ismi', 'iyi', 'iye', 'iyā', 'īyo', 'iyau', 'iyām', 'ya', 'īyaṃ', 'iyaṃ'],['yoḥ', 'yor', 'ṇoḥ', 'iyoḥ'], ['iṣu', 'īṣu', 'īṣū'],),
 },
 'u/ūAllGender':{
 'Nom':(['uḥ', 'ūḥ', 'u', 'v', 'ū', 'uṃ'],['ū', 'unī','vau'], ['vaḥ', 'ūni', 'avaḥ', 'ava', 'uvaḥ', 'uno', 'ūna', 'ūni', 'uni', 'uṃ', 'um', 'ūs', 'ūḥ', 'uḥ', 'ūyo', 'uyo', 'ū', 'u'],),
@@ -253,7 +243,7 @@ noun={
 'Gen':(['saḥ', 'asya'], ['soḥ', 'sor'], ['sām', 'ṣām', 'ānām', 'asānām'],),
 'Loc':(['si', 'asmi', 'ase'], ['soḥ', 'sor'], ['ḥsu', 'eṣu'],),
 },
-'nAllGender':{
+'anAllGender':{
 'Nom':(['ā', 'ah','o', 'u', 'a', 'ās', 'ānu','nas'],['ānau', 'nī'], ['ānaḥ', 'āni', 'ās', 'ā', 'āna', 'nas', 'ānaḥ', 'āna'],),
 'Voc':(['an', 'a', 'ā','e'], ['nī', 'ānau'], ['ānaḥ', 'āni'],),
 'Acc':(['ānam', 'a', 'aṃ', 'am', 'ā', 'āna', 'anam', 'anu', 'ana'],['ānau', 'nī'], ['aḥ', 'āni', 'ā', 'ānaḥ', 'āna'],),
