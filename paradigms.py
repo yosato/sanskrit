@@ -168,16 +168,20 @@ NounInfTypes={
     (('i','ī'),('m','f','n')):'i/īAllGender'
         (('u','ū'),('m','f','n')):'u/ūAllGender',
         (('ś','s',),('m','f','n')):'sAllGender',
+         (('an',),('m')):'anM'
         (('an',),('m','f','n')):'anAllGender',
             (('vat',),('m','n')):'vatMN',
-            (('mat',),('m','n')):'matMN',
+            (('vat',),('f')):'vatF',
+            (('at',),('m','n')):'atMN'
+            (('at',),('f')):'atF'
             (('in',),('m','f','n')):'inAllGender',
                 (('ṛ',),('m','f','n')):'ṛAllGender',
                     (('t'),('m', 'f')):'tMF',
                     (('t'),('n')):'tN',
                     (('d'),('m', 'f')):'adMF',
                     (('c'),('f')):'cF',
-                    (('j'),('f')):'jF'
+                    (('j'),('f')):'jF',
+                    (('ṃs'),('m')):'ṃsM',
 }
 
 
@@ -244,6 +248,16 @@ noun={
 'Gen':(['saḥ', 'asya'], ['soḥ', 'sor'], ['sām', 'ṣām', 'ānām', 'asānām'],),
 'Loc':(['si', 'asmi', 'ase'], ['soḥ', 'sor'], ['ḥsu', 'eṣu'],),
 },
+'anMN':{
+'No':(['ān', 'an', 'anta', 'antā', 'antu', 'anto', 'antaḥ', 'at', 'atas', 'ata', 'atu', 'tas', 'atā',], ['antau', 'atī'], ['antaḥ', 'anti', 'antās','antā', 'anti', 'antāni'],),
+'Voc':(['an', 'anta', 'at', 'atā'],['antau'], ['antaḥ'],),
+'Acc':(['aṃ', 'a', 'anta', 'at','ānta', 'astā', 'anta', 'antaṃ', 'ata', 'atu', 'atāṃ', 'ata'],['antau', 'atī'],['ataḥ', 'anti','antān','atān', 'antā', 'antā', 'antāni', 'āni', 'ata', 'tā', 'atā', 'atāni' ],),
+'Inst':(['atā', 'antena', 'atena'], ['adbhyā'], ['adhiṛ', 'adbhir', 'antais', 'antebhis'],),
+'Dat':(['ate'], ['adbhyā'],['adhyaḥ', 'antebhyas']),
+'Abl':(['ataḥ'],['adbhyā'],['adbhyaḥ', 'adbhyo'],),
+'Gen':(['ataḥ', 'ato', 'antasya', 'asya', 'atu', 'atasya'], ['atoḥ'],['atā', 'antānā', 'antāna', 'antān', 'antān', 'atānā', 'anta', 'atu'],),
+'Loc':(['ati', 'āyā', 'ate', 'atāyā'], ['atoḥ'], ['atsu', 'anteṣu'],),
+},
 'anAllGender':{
 'Nom':(['ā', 'ah','o', 'u', 'a', 'ās', 'ānu','nas'],['ānau', 'nī'], ['ānaḥ', 'āni', 'ās', 'ā', 'āna', 'nas', 'ānaḥ', 'āna'],),
 'Voc':(['an', 'a', 'ā','e'], ['nī', 'ānau'], ['ānaḥ', 'āni'],),
@@ -257,22 +271,42 @@ noun={
 'vatMN':{
 'Nom':(['vān', 'van', 'vanta', 'vantā', 'vantu', 'vanto', 'vantaḥ', 'vat', 'vatas', 'vata', 'vatu', 'tas', 'vatā',], ['vantau', 'vatī'], ['vantaḥ', 'vanti', 'vantās','vantā', 'vanti', 'vantāni'],),
 'Voc':(['van', 'vanta', 'vat', 'vatā'],['vantau'], ['vantaḥ'],),
-'Acc':(['vaṃ', 'vam', 'vantam', 'vat','vāntam', 'vastām', 'vanta', 'vantaṃ', 'vatam', 'vatu', 'vatāṃ', 'vata'],['vantau', 'vatī'],['vataḥ', 'vanti','vantān','vatān', 'vantām', 'vantā', 'vantāni', 'vāni', 'vata', 'tā', 'vatā', 'vatāni' ],),
-'Inst':(['vatā', 'vantena', 'vatena'], ['vadbhyām'], ['vadhiṛ', 'vadbhir', 'vantais', 'vantebhis'],),
-'Dat':(['vate'], ['vadbhyām'],['vadhyaḥ', 'vantebhyas']),
-'Abl':(['vataḥ'],['vadbhyām'],['vadbhyaḥ', 'vadbhyo'],),
-'Gen':(['vataḥ', 'vato', 'vantasya', 'vasya', 'vatu', 'vatasya'], ['vatoḥ'],['vatām', 'vantānām', 'vantānam', 'vantān', 'vantān', 'vatānām', 'vantam', 'vatu'],),
-'Loc':(['vati', 'vāyām', 'vate', 'vatāyām'], ['vatoḥ'], ['vatsu', 'vanteṣu'],),
+'Acc':(['vaṃ', 'vam', 'vantam', 'vat','vāntam', 'vastām','vāṃsam', 'vanta', 'vantaṃ', 'vatam', 'vatu', 'vatāṃ', 'vata'],['vantau', 'vatī', 'vāṃsau'],['vataḥ', 'vanti','vantān','vatān', 'vantām', 'vantā', 'vantāni', 'vāni', 'vata', 'tā', 'vatā', 'vatāni','uṣaḥ' ],),
+'Inst':(['vatā', 'vantena', 'vatena', 'uṣā'], ['vadbhyām'], ['vadhiṛ', 'vadbhir', 'vantais', 'vantebhis', 'vadbhiḥ'],),
+'Dat':(['vate', 'uṣe'], ['vadbhyām'],['vadbhyaḥ', 'vantebhyas']),
+'Abl':(['vataḥ', 'uṣaḥ'],['vadbhyām'],['vadbhyaḥ', 'vadbhyo'],),
+'Gen':(['vataḥ','uṣaḥ', 'vato', 'vantasya', 'vasya', 'vatu', 'vatasya'], ['vatoḥ', 'uṣoḥ'],['uṣām', 'vatām', 'vantānām', 'vantānam', 'vantān', 'vantān', 'vatānām', 'vantam', 'vatu'],),
+'Loc':(['vati', 'vāyām', 'vate', 'vatāyām', 'uṣi'], ['vatoḥ', 'uṣoḥ'], ['vatsu', 'vanteṣu'],),
 },
-'matMN':{
-'Nom':(['mān', 'man', 'manta', 'mantā', 'mantu', 'manto', 'mantaḥ', 'mat', 'matas', 'mata', 'matu', 'tas', 'matā',], ['mantau', 'matī'], ['mantaḥ', 'manti', 'mantās','mantā', 'manti', 'mantāni'],),
-'Voc':(['man', 'manta', 'mat', 'matā'],['mantau'], ['mantaḥ'],),
-'Acc':(['maṃ', 'mam', 'mantam', 'mat','māntam', 'mastām', 'manta', 'mantaṃ', 'matam', 'matu', 'matāṃ', 'mata'],['mantau', 'matī'],['mataḥ', 'manti','mantān','matān', 'mantām', 'mantā', 'mantāni', 'māni', 'mata', 'tā', 'matā', 'matāni' ],),
-'Inst':(['matā', 'mantena', 'matena'], ['madbhyām'], ['madhiṛ', 'madbhir', 'mantais', 'mantebhis'],),
-'Dat':(['mate'], ['madbhyām'],['madhyaḥ', 'mantebhyas']),
-'Abl':(['mataḥ'],['madbhyām'],['madbhyaḥ', 'madbhyo'],),
-'Gen':(['mataḥ', 'mato', 'mantasya', 'masya', 'matu', 'matasya'], ['matoḥ'],['matām', 'mantānām', 'mantānam', 'mantān', 'mantān', 'matānām', 'mantam', 'matu'],),
-'Loc':(['mati', 'māyām', 'mate', 'matāyām'], ['matoḥ'], ['matsu', 'manteṣu'],),
+'vatF':{
+    'Nom':(['uṣiḥ', 'uṣī', 'uṣi', 'uṣiṃ', 'uṣim', 'uṣīm', 'uṣis','uṣīs', 'uṣā','uṣīr', 'uṣīḥ'],['uṣī', 'uṣiṇī', 'uṣyau', 'uṣinau'],['uṣayaḥ', 'uṣīṇi', 'uṣinā', 'uṣina', 'uṣīno', 'uṣīna', 'uṣīnī','uṣyas', 'uṣya','uṣyā', 'uṣyās', 'uṣīn', 'uṣīṃ', 'uṣīs', 'uṣiyas', 'uṣiyaḥ', 'uṣiyo', 'uṣiya', 'uṣiyā', 'uṣīo', 'uṣīyo', 'uṣīyā', 'uṣīya', 'uṣīye', 'uṣiye', 'uṣī', 'uṣis', 'uṣiḥ']),
+'Voc':(['uṣe', 'uṣi', 'uṣī'],['uṣī', 'uṣiṇī', 'uṣyau'], ['uṣyaḥ', 'uṣīṇi', 'uṣī', 'uṣīho','uṣiyaḥ'],),
+'Acc': (['uṣim', 'uṣiṃ', 'uṣi', 'uṣīm', 'uṣīṃ', 'uṣy', 'uṣī', 'uṣis', 'uṣīnam', 'uṣiya', 'uṣiyaṃ', 'uṣiyam'],['uṣī', 'uṣiṇī', 'uṣinau'],['uṣin', 'uṣīḥ', 'uṣīṇi', 'uṣinā', 'uṣina', 'uṣīno', 'uṣīna', 'uṣīnī','uṣyas', 'uṣya','uṣyā', 'uṣyās', 'uṣīn', 'uṣīṃ', 'uṣīs', 'uṣiyas', 'uṣiyo', 'uṣiya', 'uṣiyā', 'uṣīo', 'uṣīyo', 'uṣīyā', 'uṣīya', 'uṣīye', 'uṣiye', 'uṣiyīn','uṣī', 'uṣis', 'uṣiḥ'] ,),
+'Inst':(['uṣinā','uṣyā', 'uṣi', 'uṣyā', 'uṣina', 'uṣīnā', 'uṣīye', 'uṣīya', 'uṣiyā', 'uṣīyo', 'uṣīyena'],['uṣibhyām', 'uṣibhyāṃ', 'uṣiybhyām'],['uṣibhiḥ', 'uṣibḥir', 'uṣībhiḥ', 'uṣībhir', 'uṣīhi', 'uṣībhis', 'uṣībhi', 'uṣihi', 'uṣibhi','uṣiybhiḥ', 'uṣiybhir'],),
+'Dat':(['uṣaye', 'uṣyai', 'uṣiṇe', 'uṣyai', 'uṣayi', 'uṣīye','uṣiye', 'uṣīyai', 'uṣye'],['uṣibhyām', 'uṣibhyāṃ', 'uṣiybhyām'], ['uṣibhyaḥ', 'uṣībhyaḥ','uṣibhyas', 'uṣībhyas', 'uṣiybhyaḥ', 'uṣibhyo', 'uṣībhyo', 'uṣiybhyas','uṣiybhyo'],),
+'Abl':(['uṣeḥ', 'uṣyāḥ', 'uṣiṇaḥ', 'uṣito', 'uṣiye', 'uṣīya', 'uṣīyo', 'uṣyā', 'uṣīto'],['uṣibhyām', 'uṣibhyāṃ','uṣiybhyām'], ['uṣibhyaḥ', 'uṣībhyaḥ','uṣibhyas', 'uṣībhyas','uṣīhi', 'uṣiybhyaḥ'],),
+'Gen':(['uṣeḥ', 'uṣyāḥ', 'uṣiṇaḥ', 'uṣyāḥ', 'uṣisya', 'uṣe', 'uṣyus', 'uṣinaḥ', 'uṣīye', 'uṣīya', 'uṣīyu', 'uṣiyo','uṣiyaḥ', 'uṣyā', 'uṣyas', 'uṣaye', 'uṣayi', 'uṣīyaṃ'],['uṣyoḥ', 'uṣiyoḥ', 'uṣyor', 'uṣṇoḥ'], ['uṣīnām', 'uṣīṇām', 'uṣīnāṃ', 'uṣīṇāṃ', 'uṣinā', 'uṣiyām'],),
+'Loc':(['uṣau', 'uṣyām', 'uṣyāṃ', 'uṣiṇi', 'uṣiṃ', 'uṣyau', 'uṣe', 'uṣesmiṃ','uṣismiṃ', 'uṣismi', 'uṣiyi', 'uṣiye', 'uṣiyā', 'uṣīyo', 'uṣiyau', 'uṣiyām', 'uṣya', 'uṣīyaṃ', 'uṣiyaṃ'],['uṣyoḥ', 'uṣyor', 'uṣṇoḥ', 'uṣiyoḥ'], ['uṣiṣu', 'uṣīṣu', 'uṣuṣīṣū'],),
+},
+'atMN':{
+'No':(['ān', 'an', 'anta', 'antā', 'antu', 'anto', 'antaḥ', 'at', 'atas', 'ata', 'atu', 'tas', 'atā',], ['antau', 'atī'], ['antaḥ', 'anti', 'antās','antā', 'anti', 'antāni'],),
+'Voc':(['an', 'anta', 'at', 'atā'],['antau'], ['antaḥ'],),
+'Acc':(['aṃ', 'a', 'anta', 'at','ānta', 'astā', 'anta', 'antaṃ', 'ata', 'atu', 'atāṃ', 'ata', 'ataṃ'],['antau', 'atī'],['ataḥ', 'anti','antān','atān', 'antā', 'antā', 'antāni', 'āni', 'ata', 'tā', 'atā', 'atāni' ],),
+'Inst':(['atā', 'antena', 'atena'], ['adbhyā'], ['adhiṛ', 'adbhir', 'antais', 'antebhis'],),
+'Dat':(['ate'], ['adbhyā'],['adhyaḥ', 'antebhyas']),
+'Abl':(['ataḥ'],['adbhyā'],['adbhyaḥ', 'adbhyo'],),
+'Gen':(['ataḥ', 'ato', 'antasya', 'asya', 'atu', 'atasya'], ['atoḥ'],['atā', 'antānā', 'antāna', 'antān', 'antān', 'atānā', 'anta', 'atu'],),
+'Loc':(['ati', 'āyā', 'ate', 'atāyā'], ['atoḥ'], ['atsu', 'anteṣu'],),
+},
+'atF':{
+    'Nom':(['antiḥ', 'antī', 'anti', 'antiṃ', 'antim', 'antīm', 'antis','antīs', 'antā','antīr', 'antīḥ','atiḥ', 'atī', 'ati', 'atiṃ', 'atim', 'atīm', 'atis','atīs', 'atā','atīr', 'atīḥ'],['antī', 'antiṇī', 'antyau', 'antinau', 'atī', 'atiṇī', 'atyau', 'atinau'],['antayaḥ', 'antīṇi', 'antinā', 'antina', 'antīno', 'antīna', 'antīnī','antyas', 'antya','antyā', 'antyās', 'antīn', 'antīṃ', 'antīs', 'antiyas', 'antiyaḥ', 'antiyo', 'antiya', 'antiyā', 'antīo', 'antīyo', 'antīyā', 'antīya', 'antīye', 'antiye', 'antī', 'antis', 'antiḥ','atayaḥ', 'atīṇi', 'atinā', 'atina', 'atīno', 'atīna', 'atīnī','atyas', 'atya','atyā', 'atyās', 'atīn', 'atīṃ', 'atīs', 'atiyas', 'atiyaḥ', 'atiyo', 'atiya', 'atiyā', 'atīo', 'atīyo', 'atīyā', 'atīya', 'atīye', 'atiye', 'atī', 'atis', 'atiḥ']),
+'Voc':(['ante', 'anti', 'antī','ate', 'ati', 'atī'],['antī', 'antiṇī', 'antyau','atī', 'atiṇī', 'atyau'], ['antyaḥ', 'antīṇi', 'antī', 'antīho','antiyaḥ','atyaḥ', 'atīṇi', 'atī', 'atīho','atiyaḥ'],),
+'Acc': (['antim', 'antiṃ', 'anti', 'antīm', 'antīṃ', 'anty', 'antī', 'antis', 'antīnam', 'antiya', 'antiyaṃ', 'antiyam','atim', 'atiṃ', 'ati', 'atīm', 'atīṃ', 'aty', 'atī', 'atis', 'atīnam', 'atiya', 'atiyaṃ', 'atiyam'],['antī', 'antiṇī', 'antinau','atī', 'atiṇī', 'atinau'],['antin', 'antīḥ', 'antīṇi', 'antinā', 'antina', 'antīno', 'antīna', 'antīnī','antyas', 'antya','antyā', 'antyās', 'antīn', 'antīṃ', 'antīs', 'antiyas', 'antiyo', 'antiya', 'antiyā', 'antīo', 'antīyo', 'antīyā', 'antīya', 'antīye', 'antiye', 'antiyīn','antī', 'antis', 'antiḥ','atin', 'atīḥ', 'atīṇi', 'atinā', 'atina', 'atīno', 'atīna', 'atīnī','atyas', 'atya','atyā', 'atyās', 'atīn', 'atīṃ', 'atīs', 'atiyas', 'atiyo', 'atiya', 'atiyā', 'atīo', 'atīyo', 'atīyā', 'atīya', 'atīye', 'atiye', 'atiyīn','atī', 'atis', 'atiḥ'] ,),
+'Inst':(['antinā','antyā', 'anti', 'antyā', 'antina', 'antīnā', 'antīye', 'antīya', 'antiyā', 'antīyo', 'antīyena','atinā','atyā', 'ati', 'atyā', 'atina', 'atīnā', 'atīye', 'atīya', 'atiyā', 'atīyo', 'atīyena'],['antibhyām', 'antibhyāṃ', 'antiybhyām','atibhyām', 'atibhyāṃ', 'atiybhyām'],['antibhiḥ', 'antibḥir', 'antībhiḥ', 'antībhir', 'antīhi', 'antībhis', 'antībhi', 'antihi', 'antibhi','antiybhiḥ', 'antiybhir','atibhiḥ', 'atibḥir', 'atībhiḥ', 'atībhir', 'atīhi', 'atībhis', 'atībhi', 'atihi', 'atibhi','atiybhiḥ', 'atiybhir'],),
+'Dat':(['antaye', 'antyai', 'antiṇe', 'antyai', 'antayi', 'antīye','antiye', 'antīyai', 'antye','ataye', 'atyai', 'atiṇe', 'atyai', 'atayi', 'atīye','atiye', 'atīyai', 'atye'],['antibhyām', 'antibhyāṃ', 'antiybhyām','atibhyām', 'atibhyāṃ', 'atiybhyām'], ['antibhyaḥ', 'antībhyaḥ','antibhyas', 'antībhyas', 'antiybhyaḥ', 'antibhyo', 'antībhyo', 'antiybhyas','antiybhyo','atibhyaḥ', 'atībhyaḥ','atibhyas', 'atībhyas', 'atiybhyaḥ', 'atibhyo', 'atībhyo', 'atiybhyas','atiybhyo'],),
+'Abl':(['anteḥ', 'antyāḥ', 'antiṇaḥ', 'antito', 'antiye', 'antīya', 'antīyo', 'antyā', 'antīto','ateḥ', 'atyāḥ', 'atiṇaḥ', 'atito', 'atiye', 'atīya', 'atīyo', 'atyā', 'atīto'],['antibhyām', 'antibhyāṃ','antiybhyām','atibhyām', 'atibhyāṃ','atiybhyām'], ['antibhyaḥ', 'antībhyaḥ','antibhyas', 'antībhyas','antīhi', 'antiybhyaḥ','atibhyaḥ', 'atībhyaḥ','atibhyas', 'atībhyas','atīhi', 'atiybhyaḥ'],),
+'Gen':(['anteḥ', 'antyāḥ', 'antiṇaḥ', 'antyāḥ', 'antisya', 'ante', 'antyus', 'antinaḥ', 'antīye', 'antīya', 'antīyu', 'antiyo','antiyaḥ', 'antyā', 'antyas', 'antaye', 'antayi', 'antīyaṃ','ateḥ', 'atyāḥ', 'atiṇaḥ', 'atyāḥ', 'atisya', 'ate', 'atyus', 'atinaḥ', 'atīye', 'atīya', 'atīyu', 'atiyo','atiyaḥ', 'atyā', 'atyas', 'ataye', 'atayi', 'atīyaṃ'],['antyoḥ', 'antiyoḥ', 'antyor', 'antṇoḥ','atyoḥ', 'atiyoḥ', 'atyor', 'atṇoḥ'], ['antīnām', 'antīṇām', 'antīnāṃ', 'antīṇāṃ', 'antinā', 'antiyām','atīnām', 'atīṇām', 'atīnāṃ', 'atīṇāṃ', 'atinā', 'atiyām'],),
+'Loc':(['antau', 'antyām', 'antyāṃ', 'antiṇi', 'antiṃ', 'antyau', 'ante', 'antesmiṃ','antismiṃ', 'antismi', 'antiyi', 'antiye', 'antiyā', 'antīyo', 'antiyau', 'antiyām', 'antya', 'antīyaṃ', 'antiyaṃ','atau', 'atyām', 'atyāṃ', 'atiṇi', 'atiṃ', 'atyau', 'ate', 'atesmiṃ','atismiṃ', 'atismi', 'atiyi', 'atiye', 'atiyā', 'atīyo', 'atiyau', 'atiyām', 'atya', 'atīyaṃ', 'atiyaṃ'],['antyoḥ', 'antyor', 'antṇoḥ', 'antiyoḥ','atyoḥ', 'atyor', 'atṇoḥ', 'atiyoḥ'], ['antiṣu', 'antīṣu', 'antīṣū','atiṣu', 'atīṣu', 'atīṣū'],),
 },
 'inAllGender':{
 'Nom':(['ī', 'i'], ['inau', 'inī'],['inaḥ', 'īni'],),
@@ -343,6 +377,16 @@ noun={
 'Abl':(['jaḥ'], ['gbhyām'], ['gbhyaḥ', 'gbhyo', 'gbhyaś']),
 'Gen':(['jaḥ'], ['joḥ'], ['jām']),
 'Loc':(['ji'], ['joḥ'], ['kṣu']),
+},
+'ṃsM':{
+'Nom': (['mān'], ['māṃsau'], ['māṃsaḥ','māṃṣaḥ']]),
+'Voc':(['man'], ['māṃsau'], ['māṃsaḥ','māṃṣaḥ']),
+'Acc':(['māṃsam','mṣam'], ['māṃsau'],['ṃsaḥ','mṣaḥ']),
+'Inst':(['ṃsā','mṣā'], ['ṃbhyām','mbhyām'], ['ṃbhiḥ','mbhiḥ']),
+'Dat':(['ṃse','mṣe'], ['ṃbhyām', 'ṃbhyām'], ['ṃbhyaḥ','mbhyām']),
+'Abl':(['ṃsaḥ','mṣaḥ'], ['ṃbhyām','mbhyām'], ['ṃbhyaḥ','mbhyaḥ']),
+'Gen':(['ṃsaḥ','mṣaḥ'], ['ṃsoḥ','ṃṣoḥ'], ['ṃsām', 'ṃṣāṃ']),
+'Loc':(['ṃsi', 'ṃṣi'], ['ṃsoḥ','ṃṣoḥ'], ['ṃsu','mṣu']),
 }
 }
 def combine_inftypes(Inf1,Inf2):
