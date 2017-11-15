@@ -408,7 +408,7 @@ noun={
 'asAllGender':{
 'Nom': (['at','asas', 'aso', 'asā', 'asaṃ','as', 'o'], ['asau'], ['asaḥ', 'ās']),
 'Voc':(['at', 'asa','asaṃ', 'aṃ'], ['asau'], ['asaḥ']),
-'Acc':(['asam', 'asām'], ['asau'], ['asaḥ', 'āni', ānī', 'a']),
+'Acc':(['asam', 'asām'], ['asau'], ['asaḥ', 'āni', 'ānī', 'a']),
 'Inst':(['asā', 'ena'], ['adbhyām', 'ābhyāṃ'], ['adbhiḥ', 'ais']),
 'Dat':(['ase'], ['adbhyām'], ['adbhyat', 'adbhyo', 'adbhyas']),
 'Abl':(['asaḥ', 'āto', 'ato', 'atu'], ['adbhyām'], ['adbhyat', 'adbhyo', 'adbhyas']),
