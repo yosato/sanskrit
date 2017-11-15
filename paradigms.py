@@ -446,7 +446,7 @@ noun={
 'Loc':(['diśi'], ['diśoḥ'], ['dikṣu']),
 },
 'ṃsM':{
-'Nom': (['mān'], ['māṃsau'], ['māṃsaḥ','māṃṣaḥ']]),
+'Nom': (['mān'], ['māṃsau'], ['māṃsaḥ','māṃṣaḥ']),
 'Voc':(['man'], ['māṃsau'], ['māṃsaḥ','māṃṣaḥ']),
 'Acc':(['māṃsam','mṣam'], ['māṃsau'],['ṃsaḥ','mṣaḥ']),
 'Inst':(['ṃsā','mṣā'], ['ṃbhyām','mbhyām'], ['ṃbhiḥ','mbhiḥ']),
