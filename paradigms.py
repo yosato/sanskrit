@@ -162,10 +162,10 @@ pronoun={
 # format: AM:{nom:(['form1','form2','form3'],['dualform'],['pluralform'],),
 
 NounInfTypes={
-    (('a','ā',),('m',)):'AM',
-    (('a',),('n',)):'A',
-    (('ā',),('f',)):'Ā',
-    (('i','ī'),('m','f','n')):'i/īAllGender',
+    (('a',),('m')):'AM',
+    (('a',),('n')):'A',
+    (('ā',),('f')):'Ā',
+    (('i','ī',),('m','f','n')):'i/īAllGender',
         (('u','ū'),('m','f','n')):'u/ūAllGender',
         (('ś','s',),('m','f','n')):'sAllGender',
          (('an',),('m')):'anM',
@@ -181,7 +181,7 @@ NounInfTypes={
                     (('ad'),('m', 'f')):'adMF',
                     (('d'),('m', 'f')):'dMF',
                     (('d'),('n')):'dN',
-                    (('c'),('f', 'm',)):'cFM',
+                    (('c'),('f', 'm')):'cFM',
                     (('j'),('f', 'm')):'jFM',
                     (('as'),('f', 'm', 'n')):'asAllGender',
                     (('s'),('f', 'm')):'sFM',
