@@ -101,18 +101,18 @@ class InfLexeme(morph_univ.Lexeme):
         
         elif self.pos=='noun':
             InfTypes=paradigms.NounInfTypes
-            SuffGens=[ SuffGen for SuffGen in InfTypes.keys() if self.gender in SuffGen[1] and self.suffix in SuffGen[0] ]
-            if not SuffGens:
+            EndingsGenders=[ EndingGender for EndingGender in InfTypes.keys() if self.gender in EndingGender[1] and self.lemma.endswith(EndingGender[0]) ]
+            if not EndingsGenders:
                 sys.stderr.write('\n'+self.lemma+': no infcat found\n\n')
                 #time.sleep(4)
                 #self.inftype=None
                 Type=None
             else:
-                ChosenSuffGen=SuffGens[0]
-                Type=InfTypes[ChosenSuffGen]                
-            if len(SuffGens)>=2:
+                ChosenEndingGender=EndingsGenders[0]
+                Type=InfTypes[ChosenEndingGender]                
+            if len(EndingsGenders)>=2:
                 sys.stderr.write('\n'+self.lemma+': multiple infcats found, we are taking the first in the list, which is \n')
-                print(ChosenSuffGen)
+                print(ChosenEndingGender)
 
 
         elif self.pos=='verb':

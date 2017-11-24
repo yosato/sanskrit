@@ -168,7 +168,7 @@ NounInfTypes={
     (('i','ī',),('m','f','n')):'i/īAllGender',
         (('u','ū'),('m','f','n')):'u/ūAllGender',
         (('ś','s',),('m','f','n')):'sAllGender',
-         (('an',),('m')):'anM',
+#         (('an',),('m')):'anM',
         (('an',),('m','f','n')):'anAllGender',
             (('vat',),('m','n')):'vatMN',
             (('vat',),('f')):'vatF',

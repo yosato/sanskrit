@@ -44,7 +44,10 @@ def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCnt
                 break
         for Wd in Wds:
             if Debug>=2:    sys.stderr.write(Wd.stringify_featvals()+'\n')
-            Out.write(Wd.infform+'\t'+Wd.infform+','+Wd.lexeme.lemma+'\n')
+            OutLine=Wd.infform+'\t'+Wd.infform+','+Wd.lexeme.lemma+'\n'
+            if Debug>=1:
+                sys.stderr.write(OutLine)
+            Out.write(OutLine)
             LemmaDict[Wd.infform].add(Wd.lexeme.lemma)
             SandhiFormPair=Wd.generate_sandhiforms()
             (SandhiVForm,SandhiForms)=SandhiFormPair
@@ -87,7 +90,7 @@ def generate_words_perline(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,ErrorFP
         elif LineEls[2]=='phrase':
             continue
         else:
-            if Debug:    sys.stderr.write('Line '+str(Cntr)+': '+LiNe.strip())
+            if Debug:    sys.stderr.write('Line '+str(Cntr)+': '+LiNe.strip()+'\n')
             Prv=LineEls
             Wds=lemmaline2wds(LineEls,Delimiter)
             if not Wds:
