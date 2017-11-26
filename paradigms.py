@@ -239,7 +239,7 @@ noun={
 },
 'īF':{
 'Nom':(['ī','īḥ'],['yau', 'iyau'],['yaḥ', 'iyaḥ'],),
-'Voc':(['i', 'īḥ'],['yau', 'iyau'],['yaḥ', 'iyaḥ']),),
+'Voc':(['i', 'īḥ'],['yau', 'iyau'],['yaḥ', 'iyaḥ'],),
 'Acc': (['īṃ','iyam'],['yau', 'iyau'],['īḥ','iyaḥ'],),
 'Inst':(['yā','īya'],['ībhyām', 'ibhyām'],['ībhiḥ'],),
 'Dat':(['yai','iye', 'iyai'],['ībhyām', 'ibhyām'], ['ībhyaḥ'],),
