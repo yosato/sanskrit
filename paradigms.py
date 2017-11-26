@@ -509,7 +509,7 @@ AdjInfTypes=copy.copy(NounInfTypes)
 AdjInfTypes[('a',),('m','f','n')]='AAllGender'
 
 
-AdjExtra=combine_inftypes(noun['A'],noun['AM'])
+AdjExtra=combine_inftypes(noun['AN'],noun['AM'])
 adj=copy.copy(noun)
 adj[('AAllGender')]=AdjExtra
 
