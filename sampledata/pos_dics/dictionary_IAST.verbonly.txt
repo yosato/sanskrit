@@ -8293,13 +8293,13 @@
 ददाति { दा }	dadāti  { dā }	verb	give
 ददामि { दा }	dadāmi  { dā }	verb	ī give
 ददृशुः { दृश् }	dadṛshuḥ  { dṛsh }	verb	saw
-ददृशे { परिदृश् }	dadṛśe  { paridṛś }	verb	behold
-ददृशे { परिदृश् }	dadṛśe  { paridṛś }	verb	consider
-ददृशे { परिदृश् }	dadṛśe  { paridṛś }	verb	find out
-ददृशे { परिदृश् }	dadṛśe  { paridṛś }	verb	know
-ददृशे { परिदृश् }	dadṛśe  { paridṛś }	verb	look at
-ददृशे { परिदृश् }	dadṛśe  { paridṛś }	verb	regard
-ददृशे { परिदृश् }	dadṛśe  { paridṛś }	verb	see
+ददृशे { परिदृश् }	dadṛśe  { dṛś }	verb	behold
+ददृशे { परिदृश् }	dadṛśe  { dṛś }	verb	consider
+ददृशे { परिदृश् }	dadṛśe  { dṛś }	verb	find out
+ददृशे { परिदृश् }	dadṛśe  { dṛś }	verb	know
+ददृशे { परिदृश् }	dadṛśe  { dṛś }	verb	look at
+ददृशे { परिदृश् }	dadṛśe  { dṛś }	verb	regard
+ददृशे { परिदृश् }	dadṛśe  { dṛś }	verb	see
 दधाति { धा }	dadhāti  { dhā }	verb	accept
 दधाति { धा }	dadhāti  { dhā }	verb	appoint
 दधाति { धा }	dadhāti  { dhā }	verb	assume
@@ -8338,6 +8338,7 @@
 दरति { दॄ }	darati  { dṛṛ }	verb	get frightened
 दरयति { दॄ }	darayati  { dṛṛ }	verb	disperse
 दर्शनं करोति { कृ }	darśanaṃkaroti  { kṛ }	verb	see
+दर्शनं करोत { ृ }	darśayati  { dṛś }	verb	appear
 दवति { दु }	davati  { du }	verb	go
 दशति { दंश् }	daśati  { daṃś }	verb	bite
 दशस्यति { दशस्य }	daśasyati  { daśasya }	verb	accord
@@ -8495,7 +8496,7 @@
 दृफति { दृफ् }	dṛphati  { dṛph }	verb	torture
 दृम्फति { दृम्फ् }	dṛmphati  { dṛmph }	verb	pain
 दृम्फति { दृम्फ् }	dṛmphati  { dṛmph }	verb	torture
-दृश्यते	dṛśyate	verb	is seen
+दृश्यते	dṛśyate	  { dṛś }	verb	is seen
 दृष्टान्तयति { दृष्टान्तय }	dṛṣṭāntayati  { dṛṣṭāntaya }	verb	offer as an example
 { देअहसेवां कृ }	{ deahasevāṃ kṛ }	verb	serve the country
 देवयति { देवय }	devayati  { devaya }	verb	divine or shining
