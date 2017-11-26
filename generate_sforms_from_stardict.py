@@ -45,14 +45,14 @@ def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCnt
         for Wd in Wds:
             if Debug>=2:    sys.stderr.write(Wd.stringify_featvals()+'\n')
             OutLine=Wd.infform+'\t'+Wd.infform+','+Wd.lexeme.lemma+'\n'
-            if Debug>=1:
+            if Debug>=2:
                 sys.stderr.write(OutLine)
             Out.write(OutLine)
             LemmaDict[Wd.infform].add(Wd.lexeme.lemma)
             SandhiFormPair=Wd.generate_sandhiforms()
             (SandhiVForm,SandhiForms)=SandhiFormPair
             if SandhiVForm:
-                Out.write(SandhiVForm+'\t'+Wd.infform+Wd.lexeme.lemma+'\n')
+                Out.write(SandhiVForm+'\t'+Wd.infform+','+Wd.lexeme.lemma+'\n')
             for (SandhiForm,_) in SandhiForms:
                 Out.write(SandhiForm+'\t'+Wd.infform+','+Wd.lexeme.lemma+'\n')
     InfTypeFSw.close()
