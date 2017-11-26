@@ -19,9 +19,9 @@
 अगृह्णात्	agṛhṇāt	verb	he took
 अग्निसात्करोति	agnisātkaroti	verb	burn
 अग्निसात्करोति	agnisātkaroti	verb	consign to the flames
-अग्रणी करोति	agraṇī karoti	verb	send something before something else
-अग्रतः करोति	agrataḥ karoti	verb	consider something more important
-अग्रतः करोति	agrataḥ karoti	verb	to place in front of or at the head
+अग्रणी करोति	agraṇīkaroti	verb	send something before something else
+अग्रतः करोति	agrataḥkaroti	verb	consider something more important
+अग्रतः करोति	agrataḥkaroti	verb	to place in front of or at the head
 अघायति	aghāyati	verb	intend to injure
 अघायति	aghāyati	verb	threaten
 अङ्कते	aṅkate	verb	move in a curve
@@ -38,7 +38,7 @@
 अङ्खयति { अङ्ख् }	aṅkhayati  { aṅkh }	verb	cling
 अङ्ख्यति	aṅkhyati	verb	mix
 अङ्गति	aṅgati	verb	go
-अङ्गारसात् करोति	aṅgārasāt karoti	verb	reduce to charcoal
+अङ्गारसात् करोति	aṅgārasātkaroti	verb	reduce to charcoal
 अङ्गीकरोति { अङ्गी- कृ }	aṅgīkaroti  { aṅgī- kṛ }	verb	agree to undertake
 अङ्घते	aṅghate	verb	blame
 अङ्घते	aṅghate	verb	commence
@@ -248,11 +248,11 @@
 अथर्य	atharya	verb	move tremulously
 अदृप्त	adṛpta	verb	not vitiated
 अधिईक्षते { ईक्ष् }	adhiīkṣate  { īkṣ }	verb	expect
-अधिकतमं करोति	adhikatamaṃ karoti	verb	maximiśe  [ computer ]
-अधि करोति	adhi karoti	verb	appoint
-अधि करोति	adhi karoti	verb	refer to
-अधि करोति	adhi karoti	verb	superintend
-अधिकारं करोति { कृ }	adhikāraṃ karoti  { kṛ }	verb	take possession
+अधिकतमं करोति	adhikatamaṃkaroti	verb	maximiśe  [ computer ]
+अधि करोति	adhikaroti	verb	appoint
+अधि करोति	adhikaroti	verb	refer to
+अधि करोति	adhikaroti	verb	superintend
+अधिकारं करोति { कृ }	adhikāraṃkaroti  { kṛ }	verb	take possession
 अधिक्रामति	adhikrāmati	verb	ascend
 अधिगणयति	adhigaṇayati	verb	enumerate
 अधिगणयति	adhigaṇayati	verb	value highly
@@ -317,13 +317,13 @@
 अनति { अन् }	anati  { an }	verb	go
 अनति { अन् }	anati  { an }	verb	live
 अनति { अन् }	anati  { an }	verb	move
-अनर्थं करोति { कृ }	anarthaṃ karoti  { kṛ }	verb	doing wrong
-अनशनं करोति { कृ }	anaśanaṃ karoti  { kṛ }	verb	perform hunger strike
+अनर्थं करोति { कृ }	anarthaṃkaroti  { kṛ }	verb	doing wrong
+अनशनं करोति { कृ }	anaśanaṃkaroti  { kṛ }	verb	perform hunger strike
 अनुकम्पते { अनुकम्प् }	anukampate  { anukamp }	verb	sympathiśe with
 अनुकम्पते { अनु- कम्प् }	anukampate  { anu- kamp }	verb	take pity on
 अनुकम्पयति { अनुकम्प् }	anukampayati  { anukamp }	verb	compassionate
 अनुकम्पयति { अनुकम्प् }	anukampayati  { anukamp }	verb	sympathiśe with
-अनुकरणं करोति { कृ }	anukaraṇaṃ karoti  { kṛ }	verb	imitate
+अनुकरणं करोति { कृ }	anukaraṇaṃkaroti  { kṛ }	verb	imitate
 अनुकरोति { अनुकृ }	anukaroti  { anukṛ }	verb	adopt
 अनुकरोति { अनुकृ }	anukaroti  { anukṛ }	verb	imitate
 अनुकरोति { अनुकृ }	anukaroti  { anukṛ }	verb	requite
@@ -340,7 +340,7 @@
 अनुगृह्णाति { अनुग्रह् }	anugṛhṇāti  { anugrah }	verb	follow in plundering
 अनुगृह्णाति { अनुग्रह् }	anugṛhṇāti  { anugrah }	verb	foster
 अनुगृह्णाति { अनुग्रह् }	anugṛhṇāti  { anugrah }	verb	receive
-अनुग्रहं करोति { कृ }	anugrahaṃ karoti  { kṛ }	verb	do a favour
+अनुग्रहं करोति { कृ }	anugrahaṃkaroti  { kṛ }	verb	do a favour
 अनुघट्टयति	anughaṭṭayati	verb	rub lengthwise
 अनुचरति { अनुचर् }	anucarati  { anucar }	verb	adhere to  [ rules, procedure, etc ]
 अनुचरति { अनुचर् }	anucarati  { anucar }	verb	behave
@@ -521,7 +521,7 @@
 अनुमतिं ददाति { दा }	anumatiṃ dadāti  { dā }	verb	grant permission
 अनुमद्यति / ते { अनुमद् }	anumadyati / te  { anumad }	verb	gladden
 अनुमन्यते { अनुमन् }	anumanyate  { anuman }	verb	assent to
-अनुमानं करोति { कृ }	anumānaṃ karoti  { kṛ }	verb	guess
+अनुमानं करोति { कृ }	anumānaṃkaroti  { kṛ }	verb	guess
 अनुमायते { अनुमा }	anumāyate  { anumā }	verb	be unable to equal
 अनुमायते { अनुमा }	anumāyate  { anumā }	verb	conclude
 अनुमायते { अनुमा }	anumāyate  { anumā }	verb	conjecture
@@ -539,7 +539,7 @@
 अनुमोदते { अनुमुद् }	anumodate  { anumud }	verb	express approval
 अनुमोदते { अनुमुद् }	anumodate  { anumud }	verb	permit
 अनुमोदते { अनुमुद् }	anumodate  { anumud }	verb	sympathiśe with
-अनुमोदनं करोति { कृ }	anumodanaṃ karoti  { kṛ }	verb	approve
+अनुमोदनं करोति { कृ }	anumodanaṃkaroti  { kṛ }	verb	approve
 अनुयच्छति { अनुयम् }	anuyacchati  { anuyam }	verb	follow
 अनुयच्छति { अनुयम् }	anuyacchati  { anuyam }	verb	give a direction to
 अनुयच्छति { अनुयम् }	anuyacchati  { anuyam }	verb	guide
@@ -559,14 +559,14 @@
 अनुरुहते { अनुरुह् }	anuruhate  { anuruh }	verb	mount
 अनुरोदिति { अनुरुद् }	anuroditi  { anurud }	verb	bewail
 अनुरोदिति { अनुरुद् }	anuroditi  { anurud }	verb	lament
-अनुरोधं करोति { कृ }	anurodhaṃ karoti  { kṛ }	verb	request
+अनुरोधं करोति { कृ }	anurodhaṃkaroti  { kṛ }	verb	request
 अनुरोहति { अनुरुह् }	anurohati  { anuruh }	verb	ascend
 अनुरोहति { अनुरुह् }	anurohati  { anuruh }	verb	mount
 अनुरोहते { अनुरुह् }	anurohate  { anuruh }	verb	ascend
 अनुरोहते { अनुरुह् }	anurohate  { anuruh }	verb	grow
 अनुरोहते { अनुरुह् }	anurohate  { anuruh }	verb	mount
-अनुलग्नी करोति { कृ }	anulagnī karoti  { kṛ }	verb	post
-अनुलग्नी करोति { कृ }	anulagnī karoti  { kṛ }	verb	stick
+अनुलग्नी करोति { कृ }	anulagnīkaroti  { kṛ }	verb	post
+अनुलग्नी करोति { कृ }	anulagnīkaroti  { kṛ }	verb	stick
 अनुवदति { अनुवद् }	anuvadati  { anuvad }	verb	imitate  [ in speaking ]
 अनुवदति { अनुवद् }	anuvadati  { anuvad }	verb	repeat the words of
 अनुवर्तते { अनुविवृत् }	anuvartate  { anuvivṛt }	verb	run along
@@ -681,7 +681,7 @@
 अनुसन्दधात्ते { अनुसंधा }	anusandadhātte  { anusaṃdhā }	verb	set in order
 अनुसन्दिशति { अनुसंदिश् }	anusandiśati  { anusaṃdiś }	verb	assign
 अनुसन्दिशति { अनुसंदिश् }	anusandiśati  { anusaṃdiś }	verb	make over
-अनुसन्धानं करोति { कृ }	anusandhānaṃ karoti  { kṛ }	verb	research
+अनुसन्धानं करोति { कृ }	anusandhānaṃkaroti  { kṛ }	verb	research
 अनुसमश्नुते { अनुसमश् }	anusamaśnute  { anusamaś }	verb	overtake
 अनुसमश्नोति { अनुसमश् }	anusamaśnoti  { anusamaś }	verb	overtake
 अनुसमाचरति { अनुसमाचर् }	anusamācarati  { anusamācar }	verb	accomplish
@@ -749,37 +749,37 @@
 अन्तर्भवति { अन्तर्भू }	antarbhavati  { antarbhū }	verb	to be inherent or implied
 अन्तर्वसति { अन्तर्वस् }	antarvasati  { antarvas }	verb	dwell inside
 अन्तर्वसति { अन्तर्वस् }	antarvasati  { antarvas }	verb	stop in the midst of
-अन्तर्हितम् करोति { कृ }	antarhitam karoti  { kṛ }	verb	minimiśe a window  [ computer ]
-अन्ताय करोति	antāya karoti	verb	fight obstinately
+अन्तर्हितम् करोति { कृ }	antarhitamkaroti  { kṛ }	verb	minimiśe a window  [ computer ]
+अन्ताय करोति	antāyakaroti	verb	fight obstinately
 अन्तःख्याति { अन्तःख्या }	antaḥkhyāti  { antaḥkhyā }	verb	deprive of
 अन्दोलयति { अन्दोलय }	andolayati  { andolaya }	verb	agitate
 अन्दोलयति { अन्दोलय }	andolayati  { andolaya }	verb	swing
-अन्यत् करोति { अन्यत्कृ }	anyat karoti  { anyatkṛ }	verb	make a mistake
+अन्यत् करोति { अन्यत्कृ }	anyatkaroti  { anyatkṛ }	verb	make a mistake
 अन्यथयति { अन्यथय }	anyathayati  { anyathaya }	verb	alter
-अन्यथा करोति { अन्यथाकृ }	anyathā karoti  { anyathākṛ }	verb	act otherwise
-अन्यथा करोति { अन्यथाकृ }	anyathā karoti  { anyathākṛ }	verb	alter
-अन्यथा करोति { अन्यथाकृ }	anyathā karoti  { anyathākṛ }	verb	destroy (a hope)
-अन्यथा करोति { अन्यथाकृ }	anyathā karoti  { anyathākṛ }	verb	violate (a law)
-अन्यायं करोति { कृ }	anyāyaṃ karoti  { kṛ }	verb	doing injustice
+अन्यथा करोति { अन्यथाकृ }	anyathākaroti  { anyathākṛ }	verb	act otherwise
+अन्यथा करोति { अन्यथाकृ }	anyathākaroti  { anyathākṛ }	verb	alter
+अन्यथा करोति { अन्यथाकृ }	anyathākaroti  { anyathākṛ }	verb	destroy (a hope)
+अन्यथा करोति { अन्यथाकृ }	anyathākaroti  { anyathākṛ }	verb	violate (a law)
+अन्यायं करोति { कृ }	anyāyaṃkaroti  { kṛ }	verb	doing injustice
 अन्येन सह आचरति { आ- चर् }	anyena saha ācarati  { ā- car }	verb	cooperate
 अन्वनक्ति { अन्वञ्ज् }	anvanakti  { anvañj }	verb	anoint
 अन्वर्चयति { अन्वर्च् }	anvarcayati  { anvarc }	verb	honour with shouts or songs of jubilee
 अन्वर्तते { अन्वर्त् }	anvartate  { anvart }	verb	demand (a girl in marriage)
-अन्वव करोति { अन्ववकृ }	anvava karoti  { anvavakṛ }	verb	despise
-अन्वव करोति { अन्ववकृ }	anvava karoti  { anvavakṛ }	verb	refuse
+अन्वव करोति { अन्ववकृ }	anvavakaroti  { anvavakṛ }	verb	despise
+अन्वव करोति { अन्ववकृ }	anvavakaroti  { anvavakṛ }	verb	refuse
 अन्ववचरति { अन्ववचर् }	anvavacarati  { anvavacar }	verb	enter stealthily
 अन्ववचरति { अन्ववचर् }	anvavacarati  { anvavacar }	verb	insinuate one's self into
 अन्ववति { अन्वव् }	anvavati  { anvav }	verb	encourage
 अन्ववदधाति { अन्ववधा }	anvavadadhāti  { anvavadhā }	verb	place into successively
 अन्वश्नुते { अनुव्यश् }	anvaśnute  { anuvyaś }	verb	overtake
 अन्वश्नोति { अनुव्यश् }	anvaśnoti  { anuvyaś }	verb	overtake
-अन्वा करोति { अन्वाकृ }	anvā karoti  { anvākṛ }	verb	give a portion to a daughter
-अन्वा करोति { अन्वाकृ }	anvā karoti  { anvākṛ }	verb	give to anyone to take with him
+अन्वा करोति { अन्वाकृ }	anvākaroti  { anvākṛ }	verb	give a portion to a daughter
+अन्वा करोति { अन्वाकृ }	anvākaroti  { anvākṛ }	verb	give to anyone to take with him
 अन्वाचमति { अन्वाचम् }	anvācamati  { anvācam }	verb	follow in rinsing the mouth
 अन्वाचरति { अन्वाचर् }	anvācarati  { anvācar }	verb	follow or imitate in doing
-अन्वाजे करोति { अन्वाजे }	anvāje karoti  { anvāje }	verb	aid
-अन्वाजे करोति { अन्वाजे }	anvāje karoti  { anvāje }	verb	assist
-अन्वाजे करोति { अन्वाजे }	anvāje karoti  { anvāje }	verb	support
+अन्वाजे करोति { अन्वाजे }	anvājekaroti  { anvāje }	verb	aid
+अन्वाजे करोति { अन्वाजे }	anvājekaroti  { anvāje }	verb	assist
+अन्वाजे करोति { अन्वाजे }	anvājekaroti  { anvāje }	verb	support
 अन्वारोहति { अन्वारुह् }	anvārohati  { anvāruh }	verb	ascend
 अन्वारोहति { अन्वारुह् }	anvārohati  { anvāruh }	verb	follow or join by ascending
 अन्वाशेते { अन्वाशी }	anvāśete  { anvāśī }	verb	be extended over
@@ -793,7 +793,7 @@
 अन्वेतवे { अन्वि }	anvetave  { anvi }	verb	imitate
 अन्वेतवे { अन्वि }	anvetave  { anvi }	verb	reach or join
 अन्वेतवे { अन्वि }	anvetave  { anvi }	verb	seek  
-अन्वेषणं करोति { कृ }	anveṣaṇaṃ karoti  { kṛ }	verb	search
+अन्वेषणं करोति { कृ }	anveṣaṇaṃkaroti  { kṛ }	verb	search
 अपकिरति { अपकॄ }	apakirati  { apakṛṛ }	verb	throw down
 अपगच्छति { अपगम् }	apagacchati  { apagam }	verb	depart  
 अपगच्छति { अपगम् }	apagacchati  { apagam }	verb	give way
@@ -857,9 +857,9 @@
 अपाश्रयति { अपाश्रि }	apāśrayati  { apāśri }	verb	resort to
 अपाश्रयति { अपाश्रि }	apāśrayati  { apāśri }	verb	use
 अपाश्रयते { अपाश्रि }	apāśrayate  { apāśri }	verb	practise
-अपि करोति { अपिकृ }	api karoti  { apikṛ }	verb	arrange
-अपि करोति { अपिकृ }	api karoti  { apikṛ }	verb	bring into order
-अपि करोति { अपिकृ }	api karoti  { apikṛ }	verb	prepare
+अपि करोति { अपिकृ }	apikaroti  { apikṛ }	verb	arrange
+अपि करोति { अपिकृ }	apikaroti  { apikṛ }	verb	bring into order
+अपि करोति { अपिकृ }	apikaroti  { apikṛ }	verb	prepare
 अपिगृह्णाति { अपिग्रह् }	apigṛhṇāti  { apigrah }	verb	close  [ the mouth , nose , etc. ]
 अपिदधाति { अपिधा }	apidadhāti  { apidhā }	verb	close or cover  [ Ved. Only ]
 अपिम्रिष्यते { अपिमृष् }	apimriṣyate  { apimṛṣ }	verb	forget
@@ -962,7 +962,7 @@
 अभिधावति { अभिधाव् }	abhidhāvati  { abhidhāv }	verb	run up towards
 अभिध्यायति { अभिध्यै }	abhidhyāyati  { abhidhyai }	verb	intend
 अभिध्यायति { अभिध्यै }	abhidhyāyati  { abhidhyai }	verb	meditate
-अभिनन्दनं करोति { कृ }	abhinandanaṃ karoti  { kṛ }	verb	greet
+अभिनन्दनं करोति { कृ }	abhinandanaṃkaroti  { kṛ }	verb	greet
 अभिनयति { अभिनी }	abhinayati  { abhinī }	verb	act  
 अभिनयति { अभिनी }	abhinayati  { abhinī }	verb	adduce
 अभिनयति { अभिनी }	abhinayati  { abhinī }	verb	quote
@@ -1433,7 +1433,7 @@
 अभ्यनुशास्ति { अभ्यनुशास् }	abhyanuśāsti  { abhyanuśās }	verb	denote
 अभ्यनुशास्ति { अभ्यनुशास् }	abhyanuśāsti  { abhyanuśās }	verb	indicate
 अभ्यनुसरति { अभ्यनुसृ }	abhyanusarati  { abhyanusṛ }	verb	learn by investigating
-अभ्यन्तरी करोति	abhyantarī karoti	verb	insert
+अभ्यन्तरी करोति	abhyantarīkaroti	verb	insert
 अभ्यन्तरीकरोति { अभ्यन्तरीकृ }	abhyantarīkaroti  { abhyantarīkṛ }	verb	insert
 अभ्यर्थयते { अभ्यर्थ् }	abhyarthayate  { abhyarth }	verb	ask for
 अभ्यर्दति { अभ्यर्द् }	abhyardati  { abhyard }	verb	afflict
@@ -1508,8 +1508,8 @@
 अभ्यासिदति { अभ्यासद् }	abhyāsidati  { abhyāsad }	verb	attain
 अभ्यासिदति { अभ्यासद् }	abhyāsidati  { abhyāsad }	verb	obtain
 अभ्यासिदति { अभ्यासद् }	abhyāsidati  { abhyāsad }	verb	sit down into
-अभ्यासं करोति { अभ्यासं कृ }	abhyāsaṃ karoti  { abhyāsaṃ kṛ }	verb	practise
-अभ्यासं करोति { कृ }	abhyāsṃ karoti  { kṛ }	verb	practise
+अभ्यासं करोति { अभ्यासं कृ }	abhyāsaṃkaroti  { abhyāsaṃ kṛ }	verb	practise
+अभ्यासं करोति { कृ }	abhyāsṃkaroti  { kṛ }	verb	practise
 अभ्याहते { अभ्याहन् }	abhyāhate  { abhyāhan }	verb	impede
 अभ्याहते { अभ्याहन् }	abhyāhate  { abhyāhan }	verb	strike
 अभ्याहते { अभ्याहन् }	abhyāhate  { abhyāhan }	verb	wound  
@@ -1633,7 +1633,7 @@
 अर्थापयति { अर्थापय }	arthāpayati  { arthāpaya }	verb	esteem highly
 अर्थापयति { अर्थापय }	arthāpayati  { arthāpaya }	verb	hide cautiously
 अर्थापयति { अर्थापय }	arthāpayati  { arthāpaya }	verb	treat as money
-अर्पणं करोति { कृ }	arpaṇaṃ karoti  { kṛ }	verb	offer
+अर्पणं करोति { कृ }	arpaṇaṃkaroti  { kṛ }	verb	offer
 अर्बति { अर्ब् }	arbati  { arb }	verb	go  
 अर्बति { अर्ब् }	arbati  { arb }	verb	hurt
 अलङ्करोति { अलङ्कृ }	alaṅkaroti  { alaṅkṛ }	verb	beautify
@@ -1652,8 +1652,8 @@
 अल्पयति { अल्पय }	alpayati  { alpaya }	verb	diminish
 अल्पयति { अल्पय }	alpayati  { alpaya }	verb	lessen
 अल्पयति { अल्पय }	alpayati  { alpaya }	verb	reduce
-अल्पाहारं करोति { कृ }	alpāhāraṃ karoti  { kṛ }	verb	take a light refreshment
-अल्पी करोति	alpī karoti	verb	lower
+अल्पाहारं करोति { कृ }	alpāhāraṃkaroti  { kṛ }	verb	take a light refreshment
+अल्पी करोति	alpīkaroti	verb	lower
 अल्पीभवति { अल्पीभू }	alpībhavati  { alpībhū }	verb	become smaller
 अवकर्तति { अवकृत् }	avakartati  { avakṛt }	verb	cut off
 अवकर्तति { अवकृत् }	avakartati  { avakṛt }	verb	destroy
@@ -1769,7 +1769,7 @@
 अवतनोति { अव -तन् }	avatanoti  { ava -tan }	verb	undo  [ especially a bowstring ]
 अवतपति { अव- तप् }	avatapati  { ava- tap }	verb	radiate heat downwards
 अवतपति { अव- तप् }	avatapati  { ava- tap }	verb	radiate light downwards
-अवतर्णं करोति { कृ }	avatarṇaṃ karoti  { kṛ }	verb	descend
+अवतर्णं करोति { कृ }	avatarṇaṃkaroti  { kṛ }	verb	descend
 अवतिष्ठति { अव- स्था }	avatiṣṭhati  { ava- sthā }	verb	abide
 अवतिष्ठति { अवस्था }	avatiṣṭhati  { avasthā }	verb	be separated from or deprived of
 अवतिष्ठति { अवस्था }	avatiṣṭhati  { avasthā }	verb	go away from
@@ -2034,8 +2034,8 @@
 अवेति { अवे }	aveti  { ave }	verb	rush down
 अवेति { अवे }	aveti  { ave }	verb	understand
 अवोक्षति { अवोक्ष् }	avokṣati  { avokṣ }	verb	besprinkle
-अशक्तं करोति	aśaktaṃ karoti	verb	comment out  [ computer ]
-अशक्तं करोति	aśaktaṃ karoti	verb	disable  [ computer ]
+अशक्तं करोति	aśaktaṃkaroti	verb	comment out  [ computer ]
+अशक्तं करोति	aśaktaṃkaroti	verb	disable  [ computer ]
 अश्नाति { अश् }	aśnāti  { aś }	verb	consume
 अश्नीतपिबतीयति { अश्नीतपिबतीय }	aśnītapibatīyati  { aśnītapibatīya }	verb	have the intention of inviting to eat and drink
 अश्नुते { अश् }	aśnute  { aś }	verb	accumulate
@@ -3596,7 +3596,7 @@
 उच्चरते { उच्चर् }	uccarate  { uccar }	verb	sin against
 उच्चरते { उच्चर् }	uccarate  { uccar }	verb	trespass against
 उच्चरते { उच्चर् }	uccarate  { uccar }	verb	utter
-उच्चारणं करोति { कृ }	uccāraṇaṃ karoti  { kṛ }	verb	pronounce
+उच्चारणं करोति { कृ }	uccāraṇaṃkaroti  { kṛ }	verb	pronounce
 उच्चिनोति { उच्चि }	uccinoti  { ucci }	verb	collect
 उच्चिनोति { उच्चि }	uccinoti  { ucci }	verb	gather
 उच्चिनोते { उच्चि }	uccinote  { ucci }	verb	collect
@@ -3660,9 +3660,9 @@
 उज्ज्वलिति { उज्ज्वल् }	ujjvaliti  { ujjval }	verb	blaśe up
 उज्ज्वलिति { उज्ज्वल् }	ujjvaliti  { ujjval }	verb	flame
 उज्ज्वलिति { उज्ज्वल् }	ujjvaliti  { ujjval }	verb	shine
-उट्टहासं करोति { कृ }	uṭṭahāsaṃ karoti  { kṛ }	verb	laugh loud
+उट्टहासं करोति { कृ }	uṭṭahāsaṃkaroti  { kṛ }	verb	laugh loud
 उड्डयते	uḍḍayate	verb	fly
-उड्डयनं करोति { कृ }	uḍḍayanaṃ karoti  { kṛ }	verb	fly
+उड्डयनं करोति { कृ }	uḍḍayanaṃkaroti  { kṛ }	verb	fly
 उड्डीयते { उड्डी }	uḍḍīyate  { uḍḍī }	verb	fly up
 उड्डीयते { उड्डी }	uḍḍīyate  { uḍḍī }	verb	soar
 उत्कचयति { उत्कचय }	utkacayati  { utkacaya }	verb	coil the hair upwards
@@ -3827,7 +3827,7 @@
 उत्तरलायते { उत्तरलाय }	uttaralāyate  { uttaralāya }	verb	quiver
 उत्तरलायते { उत्तरलाय }	uttaralāyate  { uttaralāya }	verb	shudder
 उत्तरलायते { उत्तरलाय }	uttaralāyate  { uttaralāya }	verb	tremble
-उत्तरली करोति { उत्तरलीकृ }	uttaralī karoti  { uttaralīkṛ }	verb	cause to skip
+उत्तरली करोति { उत्तरलीकृ }	uttaralīkaroti  { uttaralīkṛ }	verb	cause to skip
 उत्तवीति { उत्तु }	uttavīti  { uttu }	verb	prosper
 उत्ताम्यति { उत्तम् }	uttāmyati  { uttam }	verb	faint
 उत्तिरति { उत्तॄ }	uttirati  { uttṛṛ }	verb	alight
@@ -4560,7 +4560,7 @@
 उद्यच्छते { उद्यम् }	udyacchate  { udyam }	verb	shake up
 उद्यच्छते { उद्यम् }	udyacchate  { udyam }	verb	strive after
 उद्यच्छते { उद्यम् }	udyacchate  { udyam }	verb	undertake
-उद्यमं करोति { उद्यमं कृ }	udyamaṃ karoti  { udyamaṃ kṛ }	verb	make effort
+उद्यमं करोति { उद्यमं कृ }	udyamaṃkaroti  { udyamaṃ kṛ }	verb	make effort
 उद्याति { उद्या }	udyāti  { udyā }	verb	excel
 उद्याति { उद्या }	udyāti  { udyā }	verb	go out or away
 उद्याति { उद्या }	udyāti  { udyā }	verb	originate from
@@ -4896,7 +4896,7 @@
 उपकल्पते { उपकॢप् }	upakalpate  { upaklṛp }	verb	lead to
 उपकल्पते { उपकॢप् }	upakalpate  { upaklṛp }	verb	serve as
 उपकल्पते { उपकॢप् }	upakalpate  { upaklṛp }	verb	take the shape or form of
-उपकारं करोति { कृ }	upakāraṃ karoti  { kṛ }	verb	help
+उपकारं करोति { कृ }	upakāraṃkaroti  { kṛ }	verb	help
 उपकिरति { उपकॄ }	upakirati  { upakṛṛ }	verb	besprinkle
 उपकिरति { उपकॄ }	upakirati  { upakṛṛ }	verb	bestrew
 उपकुरुते { उपकृ }	upakurute  { upakṛ }	verb	add
@@ -6356,26 +6356,26 @@
 उब्जति { उब्ज् }	ubjati  { ubj }	verb	subdue
 उभ्नाति { उभ् }	ubhnāti  { ubh }	verb	hurt
 उभ्नाति { उभ् }	ubhnāti  { ubh }	verb	kill
-उररी करोति { उररीकृ }	urarī karoti  { urarīkṛ }	verb	accept
-उररी करोति { उररीकृ }	urarī karoti  { urarīkṛ }	verb	admit
-उररी करोति { उररीकृ }	urarī karoti  { urarīkṛ }	verb	adopt
-उररी करोति { उररीकृ }	urarī karoti  { urarīkṛ }	verb	agree
-उररी करोति { उररीकृ }	urarī karoti  { urarīkṛ }	verb	allow
-उररी करोति { उररीकृ }	urarī karoti  { urarīkṛ }	verb	assent
-उररी करोति { उररीकृ }	urarī karoti  { urarīkṛ }	verb	assume
-उररी करोति { उररीकृ }	urarī karoti  { urarīkṛ }	verb	begin with
-उररी करोति { उररीकृ }	urarī karoti  { urarīkṛ }	verb	make wide
-उररी करोति { उररीकृ }	urarī karoti  { urarīkṛ }	verb	promise
-उररी करोति { उररीकृ }	urarī karoti  { urarīkṛ }	verb	receive
-उरी करोति { उरीकृ }	urī karoti  { urīkṛ }	verb	accept
-उरी करोति { उरीकृ }	urī karoti  { urīkṛ }	verb	adopt
-उरी करोति { उरीकृ }	urī karoti  { urīkṛ }	verb	agree
-उरी करोति { उरीकृ }	urī karoti  { urīkṛ }	verb	allow
-उरी करोति { उरीकृ }	urī karoti  { urīkṛ }	verb	assume
-उरी करोति { उरीकृ }	urī karoti  { urīkṛ }	verb	grant
-उरी करोति { उरीकृ }	urī karoti  { urīkṛ }	verb	promise
-उरी करोति { उरीकृ }	urī karoti  { urīkṛ }	verb	receive
-उरी करोति { उरीकृ }	urī karoti  { urīkṛ }	verb	take part of
+उररी करोति { उररीकृ }	urarīkaroti  { urarīkṛ }	verb	accept
+उररी करोति { उररीकृ }	urarīkaroti  { urarīkṛ }	verb	admit
+उररी करोति { उररीकृ }	urarīkaroti  { urarīkṛ }	verb	adopt
+उररी करोति { उररीकृ }	urarīkaroti  { urarīkṛ }	verb	agree
+उररी करोति { उररीकृ }	urarīkaroti  { urarīkṛ }	verb	allow
+उररी करोति { उररीकृ }	urarīkaroti  { urarīkṛ }	verb	assent
+उररी करोति { उररीकृ }	urarīkaroti  { urarīkṛ }	verb	assume
+उररी करोति { उररीकृ }	urarīkaroti  { urarīkṛ }	verb	begin with
+उररी करोति { उररीकृ }	urarīkaroti  { urarīkṛ }	verb	make wide
+उररी करोति { उररीकृ }	urarīkaroti  { urarīkṛ }	verb	promise
+उररी करोति { उररीकृ }	urarīkaroti  { urarīkṛ }	verb	receive
+उरी करोति { उरीकृ }	urīkaroti  { urīkṛ }	verb	accept
+उरी करोति { उरीकृ }	urīkaroti  { urīkṛ }	verb	adopt
+उरी करोति { उरीकृ }	urīkaroti  { urīkṛ }	verb	agree
+उरी करोति { उरीकृ }	urīkaroti  { urīkṛ }	verb	allow
+उरी करोति { उरीकृ }	urīkaroti  { urīkṛ }	verb	assume
+उरी करोति { उरीकृ }	urīkaroti  { urīkṛ }	verb	grant
+उरी करोति { उरीकृ }	urīkaroti  { urīkṛ }	verb	promise
+उरी करोति { उरीकृ }	urīkaroti  { urīkṛ }	verb	receive
+उरी करोति { उरीकृ }	urīkaroti  { urīkṛ }	verb	take part of
 { उल्लम्फं कृ }	{ ullamphaṃ kṛ }	verb	jump high
 उल्लसति { उल्लस् }	ullasati  { ullas }	verb	appear
 उल्लसति { उल्लस् }	ullasati  { ullas }	verb	be agitated
@@ -6530,9 +6530,9 @@
 एकचित्तीभवति { एकचित्तीभू }	ekacittībhavati  { ekacittībhū }	verb	to become unanimous
 एकपक्षीभवति { एकपक्षीभू }	ekapakṣībhavati  { ekapakṣībhū }	verb	to be only one side or alternative
 एकायनीभवति { एकायनीभू }	ekāyanībhavati  { ekāyanībhū }	verb	become the centre of union
-एकी करोति { एकीकृ }	ekī karoti  { ekīkṛ }	verb	associate
-एकी करोति { एकीकृ }	ekī karoti  { ekīkṛ }	verb	combine
-एकी करोति { एकीकृ }	ekī karoti  { ekīkṛ }	verb	unite
+एकी करोति { एकीकृ }	ekīkaroti  { ekīkṛ }	verb	associate
+एकी करोति { एकीकृ }	ekīkaroti  { ekīkṛ }	verb	combine
+एकी करोति { एकीकृ }	ekīkaroti  { ekīkṛ }	verb	unite
 एकीभवति { एकीभू }	ekībhavati  { ekībhū }	verb	be blended or combined
 एजति { एज् }	ejati  { ej }	verb	move
 एजति { एज् }	ejati  { ej }	verb	shake
@@ -6589,15 +6589,15 @@
 ओहति { उह् }	ohati  { uh }	verb	hurt
 ओहति { उह् }	ohati  { uh }	verb	kill
 और्वायते { और्वाय }	aurvāyate  { aurvāya }	verb	behave like the submarine fire
-औषधी करोति { औषधीकृ }	auṣadhī karoti  { auṣadhīkṛ }	verb	make into a medicament
+औषधी करोति { औषधीकृ }	auṣadhīkaroti  { auṣadhīkṛ }	verb	make into a medicament
 औष्णीय { उष् }	auṣṇīya  { uṣ }	verb	to be burned
 औष्णीय { उष् }	auṣṇīya  { uṣ }	verb	to be punished or chastiśed
-कक्षी करोति { कक्षीकृ }	kakṣī karoti  { kakṣīkṛ }	verb	accept
-कक्षी करोति { कक्षीकृ }	kakṣī karoti  { kakṣīkṛ }	verb	admit
-कक्षी करोति { कक्षीकृ }	kakṣī karoti  { kakṣīkṛ }	verb	assent to
-कक्षी करोति { कक्षीकृ }	kakṣī karoti  { kakṣīkṛ }	verb	hold
-कक्षी करोति { कक्षीकृ }	kakṣī karoti  { kakṣīkṛ }	verb	recogniśe
-कक्षी करोति { कक्षीकृ }	kakṣī karoti  { kakṣīkṛ }	verb	to put anything under the arm
+कक्षी करोति { कक्षीकृ }	kakṣīkaroti  { kakṣīkṛ }	verb	accept
+कक्षी करोति { कक्षीकृ }	kakṣīkaroti  { kakṣīkṛ }	verb	admit
+कक्षी करोति { कक्षीकृ }	kakṣīkaroti  { kakṣīkṛ }	verb	assent to
+कक्षी करोति { कक्षीकृ }	kakṣīkaroti  { kakṣīkṛ }	verb	hold
+कक्षी करोति { कक्षीकृ }	kakṣīkaroti  { kakṣīkṛ }	verb	recogniśe
+कक्षी करोति { कक्षीकृ }	kakṣīkaroti  { kakṣīkṛ }	verb	to put anything under the arm
 कखति { कख् }	kakhati  { kakh }	verb	laugh
 कखति { कख् }	kakhati  { kakh }	verb	laugh at or deride
 कचति { कच् }	kacati  { kac }	verb	
@@ -6632,8 +6632,8 @@
 कण्ठति { कण्ठ् }	kaṇṭhati  { kaṇṭh }	verb	mourn
 कण्ठते { कण्ठ् }	kaṇṭhate  { kaṇṭh }	verb	mourn
 कण्ठयति { कण्ठ् }	kaṇṭhayati  { kaṇṭh }	verb	mourn
-कण्डी करोति { कण्डीकृ }	kaṇḍī karoti  { kaṇḍīkṛ }	verb	bray
-कण्डी करोति { कण्डीकृ }	kaṇḍī karoti  { kaṇḍīkṛ }	verb	pound
+कण्डी करोति { कण्डीकृ }	kaṇḍīkaroti  { kaṇḍīkṛ }	verb	bray
+कण्डी करोति { कण्डीकृ }	kaṇḍīkaroti  { kaṇḍīkṛ }	verb	pound
 कण्डूयति { कण्डूय }	kaṇḍūyati  { kaṇḍūya }	verb	itch
 कण्डूयति { कण्डूय }	kaṇḍūyati  { kaṇḍūya }	verb	rub
 कण्डूयति { कण्डूय }	kaṇḍūyati  { kaṇḍūya }	verb	scrape
@@ -6643,7 +6643,7 @@
 कण्डूयते { कण्डूय }	kaṇḍūyate  { kaṇḍūya }	verb	rub
 कण्डूयते { कण्डूय }	kaṇḍūyate  { kaṇḍūya }	verb	scrape
 कण्डूयते { कण्डूय }	kaṇḍūyate  { kaṇḍūya }	verb	scratch
-कण्डूयनं करोति { कृ }	kaṇḍūyanaṃ karoti  { kṛ }	verb	itch
+कण्डूयनं करोति { कृ }	kaṇḍūyanaṃkaroti  { kṛ }	verb	itch
 कण्डूयियिषति { कण्डूय }	kaṇḍūyiyiṣati  { kaṇḍūya }	verb	wish to scratch or rub
 कण्वायते { कण्वाय }	kaṇvāyate  { kaṇvāya }	verb	do mischief
 कत्थते { कत्थ् }	katthate  { katth }	verb	abuse
@@ -6683,19 +6683,19 @@
 कदते { कद् }	kadate  { kad }	verb	grieve
 कदते { कद् }	kadate  { kad }	verb	kill or hurt
 कदते { कद् }	kadate  { kad }	verb	suffer mentally
-कदम्बकी करोति { कदम्बकीकृ }	kadambakī karoti  { kadambakīkṛ }	verb	transform into flowers of the kadambaka
+कदम्बकी करोति { कदम्बकीकृ }	kadambakīkaroti  { kadambakīkṛ }	verb	transform into flowers of the kadambaka
 कदर्थयति { कदर्थय }	kadarthayati  { kadarthaya }	verb	consider as a useless thing
 कदर्थयति { कदर्थय }	kadarthayati  { kadarthaya }	verb	despise
 कदर्थयति { कदर्थय }	kadarthayati  { kadarthaya }	verb	estimate lightly
 कदर्थयति { कदर्थय }	kadarthayati  { kadarthaya }	verb	torment
 कदर्थयति { कदर्थय }	kadarthayati  { kadarthaya }	verb	torture
 कदर्थयति { कदर्थय }	kadarthayati  { kadarthaya }	verb	trouble
-कदर्थी करोति { कदर्थीकृ }	kadarthī karoti  { kadarthīkṛ }	verb	despise
-कदर्थी करोति { कदर्थीकृ }	kadarthī karoti  { kadarthīkṛ }	verb	disdain
-कदर्थी करोति { कदर्थीकृ }	kadarthī karoti  { kadarthīkṛ }	verb	disregard
-कदर्थी करोति { कदर्थीकृ }	kadarthī karoti  { kadarthīkṛ }	verb	overlook
-कदर्थी करोति { कदर्थीकृ }	kadarthī karoti  { kadarthīkṛ }	verb	torture
-कदर्थी करोति { कदर्थीकृ }	kadarthī karoti  { kadarthīkṛ }	verb	to torment
+कदर्थी करोति { कदर्थीकृ }	kadarthīkaroti  { kadarthīkṛ }	verb	despise
+कदर्थी करोति { कदर्थीकृ }	kadarthīkaroti  { kadarthīkṛ }	verb	disdain
+कदर्थी करोति { कदर्थीकृ }	kadarthīkaroti  { kadarthīkṛ }	verb	disregard
+कदर्थी करोति { कदर्थीकृ }	kadarthīkaroti  { kadarthīkṛ }	verb	overlook
+कदर्थी करोति { कदर्थीकृ }	kadarthīkaroti  { kadarthīkṛ }	verb	torture
+कदर्थी करोति { कदर्थीकृ }	kadarthīkaroti  { kadarthīkṛ }	verb	to torment
 कनयति { कनय }	kanayati  { kanaya }	verb	diminish
 कनयति { कनय }	kanayati  { kanaya }	verb	make less or smaller
 कन्दति { कन्द् }	kandati  { kand }	verb	be confounded
@@ -6708,8 +6708,8 @@
 { कन्या नाम भू }	{ kanyā nāma bhū }	verb	profess to be one's daughter
 कन्याम् ददाति	kanyām dadāti	verb	consent for one's daughter's marriage  [ to the requester/suitor ]
 कपिलायते { कपिलाय }	kapilāyate  { kapilāya }	verb	be somewhat brown or reddish
-कपिली करोति { कपिलीकृ }	kapilī karoti  { kapilīkṛ }	verb	colour brown or reddish
-कपिशी करोति { कपिशीकृ }	kapiśī karoti  { kapiśīkṛ }	verb	make brown or red
+कपिली करोति { कपिलीकृ }	kapilīkaroti  { kapilīkṛ }	verb	colour brown or reddish
+कपिशी करोति { कपिशीकृ }	kapiśīkaroti  { kapiśīkṛ }	verb	make brown or red
 कफोणिगुडायते { कफोणिगुडाय }	kaphoṇiguḍāyate  { kaphoṇiguḍāya }	verb	be like a ball on the elbow i.e. to be unsteady or uncertain
 कबते { कब् }	kabate  { kab }	verb	colour
 कबते { कब् }	kabate  { kab }	verb	praise
@@ -6717,12 +6717,12 @@
 कमलबालनालयते { कमलबालनालय }	kamalabālanālayate  { kamalabālanālaya }	verb	be like the stalk of a young lotus
 कम्पते { कम्प् }	kampate  { kamp }	verb	shake
 कम्पते { कम्प् }	kampate  { kamp }	verb	tremble
-कम्पनं करोति { कृ }	kampanaṃ karoti  { kṛ }	verb	shake
+कम्पनं करोति { कृ }	kampanaṃkaroti  { kṛ }	verb	shake
 कम्पन्ते	kampante	verb	shiver
 कम्पिष्यते	kampiṣyate	verb	will shake  [ tremble ]
-करदी करोति { करदीकृ }	karadī karoti  { karadīkṛ }	verb	render tributary
+करदी करोति { करदीकृ }	karadīkaroti  { karadīkṛ }	verb	render tributary
 करवानि	karavāni	verb	let me do
-करी करोति { करीकृ }	karī karoti  { karīkṛ }	verb	offer as a tribute
+करी करोति { करीकृ }	karīkaroti  { karīkṛ }	verb	offer as a tribute
 करुणायति { करुणाय }	karuṇāyati  { karuṇāya }	verb	be compassionate
 करुणायति { करुणाय }	karuṇāyati  { karuṇāya }	verb	pity
 करुणायते { करुणाय }	karuṇāyate  { karuṇāya }	verb	be compassionate
@@ -6733,14 +6733,14 @@
 { कर्क् }	{ kark }	verb	laugh  [ used for derivation of a noun , but not used as a verb ]
 कर्जति { कर्ज् }	karjati  { karj }	verb	pain
 कर्जति { कर्ज् }	karjati  { karj }	verb	torment
-कर्णपूरी करोति { कर्णपूरीकृ }	karṇapūrī karoti  { karṇapūrīkṛ }	verb	make an ornament for the ear
+कर्णपूरी करोति { कर्णपूरीकृ }	karṇapūrīkaroti  { karṇapūrīkṛ }	verb	make an ornament for the ear
 कर्णयति { कर्ण् }	karṇayati  { karṇ }	verb	bore
 कर्णयति { कर्ण् }	karṇayati  { karṇ }	verb	pierce
-कर्णावतंसी करोति { कर्णावतंसीकृ }	karṇāvataṃsī karoti  { karṇāvataṃsīkṛ }	verb	make an ornament for the ear
+कर्णावतंसी करोति { कर्णावतंसीकृ }	karṇāvataṃsīkaroti  { karṇāvataṃsīkṛ }	verb	make an ornament for the ear
 कर्तति { कृत् }	kartati  { kṛt }	verb	cut in pieces
 कर्तति { कृत् }	kartati  { kṛt }	verb	destroy
 कर्तति { कृत् }	kartati  { kṛt }	verb	tear asunder
-कर्तनं करोति { कृ }	kartanaṃ karoti  { kṛ }	verb	cut
+कर्तनं करोति { कृ }	kartanaṃkaroti  { kṛ }	verb	cut
 कर्तयति { कर्त् }	kartayati  { kart }	verb	cut
 कर्त्रीयति { कर्त्रीय }	kartrīyati  { kartrīya }	verb	be an agent
 कर्वति { कर्व् }	karvati  { karv }	verb	boast
@@ -6769,7 +6769,7 @@
 कर्षते { कृष् }	karṣate  { kṛṣ }	verb	pull
 कर्षते { कृष् }	karṣate  { kṛṣ }	verb	take away anything from any one
 कर्षते { कृष् }	karṣate  { kṛṣ }	verb	tear
-कर्षनं करोति { कृ }	karṣanaṃ karoti  { kṛ }	verb	drag
+कर्षनं करोति { कृ }	karṣanaṃkaroti  { kṛ }	verb	drag
 कलङ्कयति { कलङ्कय }	kalaṅkayati  { kalaṅkaya }	verb	disgrace
 कलते { कल् }	kalate  { kal }	verb	count
 कलते { कल् }	kalate  { kal }	verb	sound
@@ -6799,11 +6799,11 @@
 कलहायते { कलहाय }	kalahāyate  { kalahāya }	verb	quarrel
 कलुषयति { कलुषय }	kaluṣayati  { kaluṣaya }	verb	make unclean or dirty
 कलुषयति { कलुषाय }	kaluṣayati  { kaluṣāya }	verb	become turbid or unclean
-कलुषी करोति { कलुषीकृ }	kaluṣī karoti  { kaluṣīkṛ }	verb	defile
-कलुषी करोति { कलुषीकृ }	kaluṣī karoti  { kaluṣīkṛ }	verb	dirty
-कलुषी करोति { कलुषीकृ }	kaluṣī karoti  { kaluṣīkṛ }	verb	make turbid or unclean
-कल्की करोति { कल्कीकृ }	kalkī karoti  { kalkīkṛ }	verb	knead
-कल्की करोति { कल्कीकृ }	kalkī karoti  { kalkīkṛ }	verb	render doughy
+कलुषी करोति { कलुषीकृ }	kaluṣīkaroti  { kaluṣīkṛ }	verb	defile
+कलुषी करोति { कलुषीकृ }	kaluṣīkaroti  { kaluṣīkṛ }	verb	dirty
+कलुषी करोति { कलुषीकृ }	kaluṣīkaroti  { kaluṣīkṛ }	verb	make turbid or unclean
+कल्की करोति { कल्कीकृ }	kalkīkaroti  { kalkīkṛ }	verb	knead
+कल्की करोति { कल्कीकृ }	kalkīkaroti  { kalkīkṛ }	verb	render doughy
 कल्की भवति { कल्कीभू }	kalkī bhavati  { kalkībhū }	verb	become doughy
 कल्पते { कॢप् }	kalpate  { klṛp }	verb	accommodate one's self to
 कल्पते { कॢप् }	kalpate  { klṛp }	verb	arrange
@@ -6833,19 +6833,19 @@
 कल्पते { कॢप् }	kalpate  { klṛp }	verb	suitable to
 कल्पशतायते { कल्पशत }	kalpaśatāyate  { kalpaśata }	verb	appear as long as a hundred kalpas
 कल्लते { कल्ल् }	kallate  { kall }	verb	be mute
-कव करोति { कव }	kava karoti  { kava }	verb	express depreciation or deficiency
+कव करोति { कव }	kavakaroti  { kava }	verb	express depreciation or deficiency
 कवते { कव् }	kavate  { kav }	verb	describe
 कवलयति { कवलय }	kavalayati  { kavalaya }	verb	devour
 कवलयति { कवलय }	kavalayati  { kavalaya }	verb	swallow or gulp down
-कवली करोति { कवलीकृ }	kavalī karoti  { kavalīkṛ }	verb	devour
-कवली करोति { कवलीकृ }	kavalī karoti  { kavalīkṛ }	verb	swallow or eat up
+कवली करोति { कवलीकृ }	kavalīkaroti  { kavalīkṛ }	verb	devour
+कवली करोति { कवलीकृ }	kavalīkaroti  { kavalīkṛ }	verb	swallow or eat up
 कशति { कश् }	kaśati  { kaś }	verb	hurt
 कशति { कश् }	kaśati  { kaś }	verb	kill
 कशति { कश् }	kaśati  { kaś }	verb	move
 कशति { कश् }	kaśati  { kaś }	verb	punish
 कशति { कश् }	kaśati  { kaś }	verb	sound
 कशति { कश् }	kaśati  { kaś }	verb	strike
-कषायी करोति { कषायीकृ }	kaṣāyī karoti  { kaṣāyīkṛ }	verb	make red
+कषायी करोति { कषायीकृ }	kaṣāyīkaroti  { kaṣāyīkṛ }	verb	make red
 कष्टायते { कष्टाय }	kaṣṭāyate  { kaṣṭāya }	verb	have wicked intentions
 कसति { कस् }	kasati  { kas }	verb	approach
 कसति { कस् }	kasati  { kas }	verb	beam
@@ -6872,10 +6872,10 @@
 काञ्चते { काञ्च् }	kāñcate  { kāñc }	verb	shine
 काणयति	kāṇayati	verb	destroy the sight
 काणयति	kāṇayati	verb	to make blind
-कात् करोति { कात्कृ }	kāt karoti  { kātkṛ }	verb	dishonor
-कात् करोति { कात्कृ }	kāt karoti  { kātkṛ }	verb	insult
-कान्दिशी करोति	kāndiśī karoti	verb	take to flight
-कामकारं करोति { कामकारंकृ }	kāmakāraṃ karoti  { kāmakāraṃkṛ }	verb	act as one likes
+कात् करोति { कात्कृ }	kātkaroti  { kātkṛ }	verb	dishonor
+कात् करोति { कात्कृ }	kātkaroti  { kātkṛ }	verb	insult
+कान्दिशी करोति	kāndiśīkaroti	verb	take to flight
+कामकारं करोति { कामकारंकृ }	kāmakāraṃkaroti  { kāmakāraṃkṛ }	verb	act as one likes
 काम्यति { काम्य }	kāmyati  { kāmya }	verb	have a desire for
 कारयति / -ते { कृ }	kārayati / -te  { kṛ }	verb	cause someone to do something
 कालयति { कल् }	kālayati  { kal }	verb	announce the time
@@ -6888,7 +6888,7 @@
 कालयति { कल् }	kālayati  { kal }	verb	push on
 कालयति { कल् }	kālayati  { kal }	verb	tell over
 कालयति { कल् }	kālayati  { kal }	verb	throw
-कालं करोति { कालं कृ }	kālaṃ karoti  { kālaṃ kṛ }	verb	die
+कालं करोति { कालं कृ }	kālaṃkaroti  { kālaṃ kṛ }	verb	die
 कावयति / -ते	kāvayati / -te	verb	compose  [ poetry etc ]
 { काव्यं कृ }	{ kāvyaṃ kṛ }	verb	make a poem
 काशते { काश् }	kāśate  { kāś }	verb	be brilliant
@@ -6899,7 +6899,7 @@
 काष्ठी भवति { काष्ठीभू }	kāṣṭhī bhavati  { kāṣṭhībhū }	verb	stand stock still or become immovable like a piece of wood
 कांसते { कांस् }	kāṃsate  { kāṃs }	verb	glitter
 कांसते { कांस् }	kāṃsate  { kāṃs }	verb	shine
-किकिरा करोति	kikirā karoti	verb	rend into rags and tatters
+किकिरा करोति	kikirākaroti	verb	rend into rags and tatters
 किम्पुरुषीकृ { किम्पुरुषीकृ }	kimpuruṣīkṛ  { kimpuruṣīkṛ }	verb	change into a mongrel being
 किरति { कॄ }	kirati  { kṛṛ }	verb	cover with
 किरति { कॄ }	kirati  { kṛṛ }	verb	fill with
@@ -6921,7 +6921,7 @@
 किष्कयते { किष्क् }	kiṣkayate  { kiṣk }	verb	kill
 कीटयति { कीट् }	kīṭayati  { kīṭ }	verb	bind
 कीटयति { कीट् }	kīṭayati  { kīṭ }	verb	tinge or colour
-कीर्तनं करोति { कृ }	kīrtanaṃ karoti  { kṛ }	verb	sing the glory
+कीर्तनं करोति { कृ }	kīrtanaṃkaroti  { kṛ }	verb	sing the glory
 कीर्तयति { कीर्त् }	kīrtayati  { kīrt }	verb	call
 कीर्तयति { कीर्त् }	kīrtayati  { kīrt }	verb	celebrate
 कीर्तयति { कीर्त् }	kīrtayati  { kīrt }	verb	commemorate
@@ -6936,7 +6936,7 @@
 कीर्तयति { कीर्त् }	kīrtayati  { kīrt }	verb	relate
 कीर्तयति { कीर्त् }	kīrtayati  { kīrt }	verb	repeat
 कीर्तयति { कीर्त् }	kīrtayati  { kīrt }	verb	tell
-कुक्षिगती करोति { कुक्षिगतीकृ }	kukṣigatī karoti  { kukṣigatīkṛ }	verb	devour
+कुक्षिगती करोति { कुक्षिगतीकृ }	kukṣigatīkaroti  { kukṣigatīkṛ }	verb	devour
 कुञ्चति { कुञ्च् }	kuñcati  { kuñc }	verb	move crookedly
 कुञ्जति { कुञ्ज् }	kuñjati  { kuñj }	verb	murmur
 कुटति { कुट् }	kuṭati  { kuṭ }	verb	become crooked or curved
@@ -6945,7 +6945,7 @@
 कुटति { कुट् }	kuṭati  { kuṭ }	verb	cheat
 कुटति { कुट् }	kuṭati  { kuṭ }	verb	curl
 कुटति { कुट् }	kuṭati  { kuṭ }	verb	curve
-कुटिली करोति { कुटिलीकृ }	kuṭilī karoti  { kuṭilīkṛ }	verb	distort
+कुटिली करोति { कुटिलीकृ }	kuṭilīkaroti  { kuṭilīkṛ }	verb	distort
 कुडति { कुड् }	kuḍati  { kuḍ }	verb	dive
 कुडति { कुड् }	kuḍati  { kuḍ }	verb	eat
 कुडति { कुड् }	kuḍati  { kuḍ }	verb	heap
@@ -6978,8 +6978,8 @@
 कुरुथः	kuruthaḥ	verb	you (two) do
 कुर्मः	kurmaḥ	verb	we do
 कुर्वन्ति	kurvanti	verb	they (all) do
-कुशली करोति { कुशलीकृ }	kuśalī karoti  { kuśalīkṛ }	verb	arrange in due order
-कुशली करोति { कुशलीकृ }	kuśalī karoti  { kuśalīkṛ }	verb	make right or proper
+कुशली करोति { कुशलीकृ }	kuśalīkaroti  { kuśalīkṛ }	verb	arrange in due order
+कुशली करोति { कुशलीकृ }	kuśalīkaroti  { kuśalīkṛ }	verb	make right or proper
 कुश्यति { कुश् }	kuśyati  { kuś }	verb	enfold
 कुषुभ्यति { कुषुभ्य }	kuṣubhyati  { kuṣubhya }	verb	despise
 कुष्णाति { कुष् }	kuṣṇāti  { kuṣ }	verb	extract
@@ -7028,7 +7028,7 @@
 कूर्दते { कूर्द् }	kūrdate  { kūrd }	verb	jump
 कूर्दते { कूर्द् }	kūrdate  { kūrd }	verb	leap
 कूर्दते { कूर्द् }	kūrdate  { kūrd }	verb	play
-कूर्दनं करोति { कृ }	kūrdanaṃ karoti  { kṛ }	verb	jump
+कूर्दनं करोति { कृ }	kūrdanaṃkaroti  { kṛ }	verb	jump
 कूलति { कूल् }	kūlati  { kūl }	verb	hide
 कूलति { कूल् }	kūlati  { kūl }	verb	obstruct
 कृच्छ्रायते { कृच्छ्राय }	kṛcchrāyate  { kṛcchrāya }	verb	have wicked designs
@@ -7037,9 +7037,9 @@
 कृण्वति { कॄ }	kṛṇvati  { kṛṛ }	verb	inform
 कृण्वति { कॄ }	kṛṇvati  { kṛṛ }	verb	know
 कृतयति { कृतय }	kṛtayati  { kṛtaya }	verb	take the die called kṛta
-कृतार्थी करोति { कृतार्थीकृ }	kṛtārthī karoti  { kṛtārthīkṛ }	verb	content
-कृतार्थी करोति { कृतार्थीकृ }	kṛtārthī karoti  { kṛtārthīkṛ }	verb	render successful
-कृतार्थी करोति { कृतार्थीकृ }	kṛtārthī karoti  { kṛtārthīkṛ }	verb	satisfy
+कृतार्थी करोति { कृतार्थीकृ }	kṛtārthīkaroti  { kṛtārthīkṛ }	verb	content
+कृतार्थी करोति { कृतार्थीकृ }	kṛtārthīkaroti  { kṛtārthīkṛ }	verb	render successful
+कृतार्थी करोति { कृतार्थीकृ }	kṛtārthīkaroti  { kṛtārthīkṛ }	verb	satisfy
 कृतार्थी भवति { कृतार्थीभू }	kṛtārthī bhavati  { kṛtārthībhū }	verb	become successful
 कृतार्थी भवति { कृतार्थीभू }	kṛtārthī bhavati  { kṛtārthībhū }	verb	be contented
 कृन्तते { कृत् }	kṛntate  { kṛt }	verb	cut
@@ -7056,7 +7056,7 @@
 कृपायते { कृपाय }	kṛpāyate  { kṛpāya }	verb	lament
 कृपायते { कृपाय }	kṛpāyate  { kṛpāya }	verb	mourn
 { कृपां कृ }	{ kṛpāṃ kṛ }	verb	be graceful
-कृशी करोति { कृशीकृ }	kṛśī karoti  { kṛśīkṛ }	verb	make lean
+कृशी करोति { कृशीकृ }	kṛśīkaroti  { kṛśīkṛ }	verb	make lean
 कृशी भवति { कृशीभू }	kṛśī bhavati  { kṛśībhū }	verb	become lean or emaciated
 कृशी भवति { कृशीभू }	kṛśī bhavati  { kṛśībhū }	verb	become small
 कृशी भवति { कृशीभू }	kṛśī bhavati  { kṛśībhū }	verb	shrink
@@ -7068,7 +7068,7 @@
 कृषते { कृष् }	kṛṣate  { kṛṣ }	verb	obtain by ploughing
 कृषते { कृष् }	kṛṣate  { kṛṣ }	verb	travel over
 { कृषिं कृ }	{ kṛṣiṃ kṛ }	verb	do agriculture
-कृष्टमती करोति { कृष्टमतीकृ }	kṛṣṭamatī karoti  { kṛṣṭamatīkṛ }	verb	plough and harrow
+कृष्टमती करोति { कृष्टमतीकृ }	kṛṣṭamatīkaroti  { kṛṣṭamatīkṛ }	verb	plough and harrow
 केतयति { केतय }	ketayati  { ketaya }	verb	call or invite
 केतयति { केतय }	ketayati  { ketaya }	verb	counsel or advise
 केतयति { केतय }	ketayati  { ketaya }	verb	fix or appoint a time
@@ -7103,9 +7103,9 @@
 कोपयते { कुप् }	kopayate  { kup }	verb	make angry
 कोपयते { कुप् }	kopayate  { kup }	verb	provoke
 कोपायते { कोपाय }	kopāyate  { kopāya }	verb	rage
-कोलाहलं करोति { कृ }	kolāhalaṃ karoti  { kṛ }	verb	make a big noise
-कोष्ठी करोति { कोष्ठीकृ }	koṣṭhī karoti  { koṣṭhīkṛ }	verb	enclose
-कोष्ठी करोति { कोष्ठीकृ }	koṣṭhī karoti  { koṣṭhīkṛ }	verb	surround
+कोलाहलं करोति { कृ }	kolāhalaṃkaroti  { kṛ }	verb	make a big noise
+कोष्ठी करोति { कोष्ठीकृ }	koṣṭhīkaroti  { koṣṭhīkṛ }	verb	enclose
+कोष्ठी करोति { कोष्ठीकृ }	koṣṭhīkaroti  { koṣṭhīkṛ }	verb	surround
 क्नस्यति { क्नस् }	knasyati  { knas }	verb	be crooked
 क्नस्यति { क्नस् }	knasyati  { knas }	verb	shine
 क्नूयते { क्नूय् }	knūyate  { knūy }	verb	be wet
@@ -7133,7 +7133,7 @@
 क्रन्दते { क्रन्द् }	krandate  { krand }	verb	roar
 क्रन्दते { क्रन्द् }	krandate  { krand }	verb	sound
 क्रन्दते { क्रन्द् }	krandate  { krand }	verb	weep
-क्रन्दनं करोति { कृ }	krandanaṃ karoti  { kṛ }	verb	cry
+क्रन्दनं करोति { कृ }	krandanaṃkaroti  { kṛ }	verb	cry
 क्रमते { क्रम् }	kramate  { kram }	verb	advance
 क्रमते { क्रम् }	kramate  { kram }	verb	approach
 क्रमते { क्रम् }	kramate  { kram }	verb	approach in order to ask for assistance
@@ -7203,12 +7203,12 @@
 क्रुडति { क्रुड् }	kruḍati  { kruḍ }	verb	be or become thick
 क्रुडति { क्रुड् }	kruḍati  { kruḍ }	verb	dive
 क्रुडति { क्रुड् }	kruḍati  { kruḍ }	verb	sink
-क्रूरी करोति { क्रूरीकृ }	krūrī karoti  { krūrīkṛ }	verb	make sore
-क्रूरी करोति { क्रूरीकृ }	krūrī karoti  { krūrīkṛ }	verb	wound
+क्रूरी करोति { क्रूरीकृ }	krūrīkaroti  { krūrīkṛ }	verb	make sore
+क्रूरी करोति { क्रूरीकृ }	krūrīkaroti  { krūrīkṛ }	verb	wound
 क्रेष्यति { क्री }	kreṣyati  { krī }	verb	will buy
 क्रोञ्चति { क्रोञ्च् }	kroñcati  { kroñc }	verb	trumpet  [ as an elephant ]
-क्रोडी करोति { क्रोडीकृ }	kroḍī karoti  { kroḍīkṛ }	verb	become master of
-क्रोडी करोति { क्रोडीकृ }	kroḍī karoti  { kroḍīkṛ }	verb	embrace
+क्रोडी करोति { क्रोडीकृ }	kroḍīkaroti  { kroḍīkṛ }	verb	become master of
+क्रोडी करोति { क्रोडीकृ }	kroḍīkaroti  { kroḍīkṛ }	verb	embrace
 क्रंशति { क्रंश् }	kraṃśati  { kraṃś }	verb	illuminate
 क्लथति { क्लथ् }	klathati  { klath }	verb	be formed into clots or lumps
 क्लन्दति { क्लन्द् }	klandati  { kland }	verb	call
@@ -7220,7 +7220,7 @@
 क्लामति { क्लम् }	klāmati  { klam }	verb	be weary or exhausted
 क्लाम्यति { क्लम् }	klāmyati  { klam }	verb	be or become fatigued
 क्लाम्यति { क्लम् }	klāmyati  { klam }	verb	be weary or exhausted
-क्लिक् करोति	klik karoti	verb	click  [ computer ]
+क्लिक् करोति	klikkaroti	verb	click  [ computer ]
 क्लिन्दति { क्लिन्द् }	klindati  { klind }	verb	lament
 क्लिन्दते { क्लिन्द् }	klindate  { klind }	verb	lament
 क्लिबते { क्लीब् }	klibate  { klīb }	verb	be timorous or modest or unassuming
@@ -7263,10 +7263,10 @@
 क्षरति { क्षर् }	kṣarati  { kṣar }	verb	stream
 क्षरति { क्षर् }	kṣarati  { kṣar }	verb	trickle
 क्षरति { क्षर् }	kṣarati  { kṣar }	verb	wane
-क्षामी करोति { क्षामीकृ }	kṣāmī karoti  { kṣāmīkṛ }	verb	shorten
+क्षामी करोति { क्षामीकृ }	kṣāmīkaroti  { kṣāmīkṛ }	verb	shorten
 क्षायति { क्षै }	kṣāyati  { kṣai }	verb	burn
 क्षायति { क्षै }	kṣāyati  { kṣai }	verb	catch or take fire
-क्षालनं करोति { कृ }	kṣālanṃ karoti  { kṛ }	verb	wash
+क्षालनं करोति { कृ }	kṣālanṃkaroti  { kṛ }	verb	wash
 क्षालयति { क्षल् }	kṣālayati  { kṣal }	verb	clean
 क्षालयति { क्षल् }	kṣālayati  { kṣal }	verb	cleanse
 क्षालयति { क्षल् }	kṣālayati  { kṣal }	verb	purify
@@ -7345,10 +7345,10 @@
 क्षुरति { क्षुर् }	kṣurati  { kṣur }	verb	dig
 क्षुरति { क्षुर् }	kṣurati  { kṣur }	verb	make lines or furrows
 क्षुरति { क्षुर् }	kṣurati  { kṣur }	verb	scratch
-क्षेत्री करोति { क्षेत्रीकृ }	kṣetrī karoti  { kṣetrīkṛ }	verb	occupy
-क्षेत्री करोति { क्षेत्रीकृ }	kṣetrī karoti  { kṣetrīkṛ }	verb	take possession or become master of
+क्षेत्री करोति { क्षेत्रीकृ }	kṣetrīkaroti  { kṣetrīkṛ }	verb	occupy
+क्षेत्री करोति { क्षेत्रीकृ }	kṣetrīkaroti  { kṣetrīkṛ }	verb	take possession or become master of
 क्षेत्रीयति { क्षेत्रीय }	kṣetrīyati  { kṣetrīya }	verb	desire another man's wife
-क्षेपनं करोति { कृ }	kṣepanaṃ karoti  { kṛ }	verb	throw
+क्षेपनं करोति { कृ }	kṣepanaṃkaroti  { kṛ }	verb	throw
 क्षेपायते { क्षेपाय }	kṣepāyate  { kṣepāya }	verb	revile
 क्षेवति { क्षिव् }	kṣevati  { kṣiv }	verb	eject from the mouth
 क्षेवति { क्षिव् }	kṣevati  { kṣiv }	verb	spit
@@ -7384,7 +7384,7 @@
 खट्टयति { खट्ट् }	khaṭṭayati  { khaṭṭ }	verb	screen
 खट्वीयति { खट्वीय }	khaṭvīyati  { khaṭvīya }	verb	treat as a bedstead
 खणखणायते { खणखणाय }	khaṇakhaṇāyate  { khaṇakhaṇāya }	verb	crack
-खण्डशः करोति { खण्डशःकृ }	khaṇḍaśaḥ karoti  { khaṇḍaśaḥkṛ }	verb	divide or cut into pieces
+खण्डशः करोति { खण्डशःकृ }	khaṇḍaśaḥkaroti  { khaṇḍaśaḥkṛ }	verb	divide or cut into pieces
 खदति { खद् }	khadati  { khad }	verb	strike
 खनति { खन् }	khanati  { khan }	verb	delve
 खनति { खन् }	khanati  { khan }	verb	pierce
@@ -7402,11 +7402,11 @@
 खर्दति { खर्द् }	khardati  { khard }	verb	sting venomously
 खलति { खल् }	khalati  { khal }	verb	gather
 खलति { खल् }	khalati  { khal }	verb	move or shake
-खली करोति { खलीकृ }	khalī karoti  { khalīkṛ }	verb	crush
-खली करोति { खलीकृ }	khalī karoti  { khalīkṛ }	verb	hurt
-खली करोति { खलीकृ }	khalī karoti  { khalīkṛ }	verb	injure
-खली करोति { खलीकृ }	khalī karoti  { khalīkṛ }	verb	reduce to sediment
-खली करोति { खलीकृ }	khalī karoti  { khalīkṛ }	verb	treat ill
+खली करोति { खलीकृ }	khalīkaroti  { khalīkṛ }	verb	crush
+खली करोति { खलीकृ }	khalīkaroti  { khalīkṛ }	verb	hurt
+खली करोति { खलीकृ }	khalīkaroti  { khalīkṛ }	verb	injure
+खली करोति { खलीकृ }	khalīkaroti  { khalīkṛ }	verb	reduce to sediment
+खली करोति { खलीकृ }	khalīkaroti  { khalīkṛ }	verb	treat ill
 खल्लते { खल्ल् }	khallate  { khall }	verb	be loose
 खल्लते { खल्ल् }	khallate  { khall }	verb	shake
 खषति { खष् }	khaṣati  { khaṣ }	verb	hurt
@@ -7414,7 +7414,7 @@
 खषति { खष् }	khaṣati  { khaṣ }	verb	kill
 खाडयति { खड् }	khāḍayati  { khaḍ }	verb	break
 खाडयति { खड् }	khāḍayati  { khaḍ }	verb	divide
-खिली करोति { खिलीकृ }	khilī karoti  { khilīkṛ }	verb	make vain or powerless
+खिली करोति { खिलीकृ }	khilīkaroti  { khilīkṛ }	verb	make vain or powerless
 खुण्डते { खुण्ड् }	khuṇḍate  { khuṇḍ }	verb	limp
 खुदति { खुद् }	khudati  { khud }	verb	sport wantonly or amorously
 खुरति { खुर् }	khurati  { khur }	verb	break in pieces
@@ -7431,14 +7431,14 @@
 खोरति { खोर् }	khorati  { khor }	verb	limp
 ख्याति { ख्या }	khyāti  { khyā }	verb	declare
 ख्याति { ख्या }	khyāti  { khyā }	verb	tell
-ख्रीष्टीयं करोति	khrīṣṭīyaṃ karoti	verb	Christianiśe
+ख्रीष्टीयं करोति	khrīṣṭīyaṃkaroti	verb	Christianiśe
 गङ्गूयति { गङ्गूय }	gaṅgūyati  { gaṅgūya }	verb	give a shout
 गङ्गूयति { गङ्गूय }	gaṅgūyati  { gaṅgūya }	verb	shout
 गच्छामि { गम् }	gacchāmi  { gam }	verb	ī go.
 गजति { गज् }	gajati  { gaj }	verb	be drunk or confused
 गजति { गज् }	gajati  { gaj }	verb	roar
 गजति { गज् }	gajati  { gaj }	verb	sound
-गणनां करोति { कृ }	gaṇanāṃ karoti  { kṛ }	verb	count
+गणनां करोति { कृ }	gaṇanāṃkaroti  { kṛ }	verb	count
 गणयति	gaṇayati	verb	think worthy of
 गणयति { गण् }	gaṇayati  { gaṇ }	verb	add up
 गणयति { गण् }	gaṇayati  { gaṇ }	verb	ascribe
@@ -7462,7 +7462,7 @@
 गण्डूषयति { गण्डूषय }	gaṇḍūṣayati  { gaṇḍūṣaya }	verb	sip
 गण्डूषयति { गण्डूषय }	gaṇḍūṣayati  { gaṇḍūṣaya }	verb	sup
 गण्डूषयति { गण्डूषय }	gaṇḍūṣayati  { gaṇḍūṣaya }	verb	swallow
-गतागतं करोति	gatāgataṃ karoti	verb	enter into a negotiation or treaty
+गतागतं करोति	gatāgataṃkaroti	verb	enter into a negotiation or treaty
 गदति { गद् }	gadati  { gad }	verb	speak articulately
 गदायते { गदाय }	gadāyate  { gadāya }	verb	become laśy or idle
 गदायते { गदाय }	gadāyate  { gadāya }	verb	become sick
@@ -7474,7 +7474,7 @@
 गर्जति { गर्ज् }	garjati  { garj }	verb	roar
 गर्जति { गर्ज् }	garjati  { garj }	verb	sound as distant thunder
 गर्जति { गर्ज् }	garjati  { garj }	verb	thunder
-गर्जनं करोति { कृ }	garjanaṃ karoti  { kṛ }	verb	roar
+गर्जनं करोति { कृ }	garjanaṃkaroti  { kṛ }	verb	roar
 { गर्तं कृ }	{ gartaṃ kṛ }	verb	make a hole
 गर्दति { गर्द् }	gardati  { gard }	verb	emit any sound
 गर्दति { गर्द् }	gardati  { gard }	verb	give shouts of joy
@@ -7549,7 +7549,7 @@
 गुप्यति { गुप् }	gupyati  { gup }	verb	hide
 गुप्यति { गुप् }	gupyati  { gup }	verb	preserve
 गुप्यति { गुप् }	gupyati  { gup }	verb	protect
-गुरू करोति { गुरूकृ }	gurū karoti  { gurūkṛ }	verb	make anyone one's ṅuru
+गुरू करोति { गुरूकृ }	gurūkaroti  { gurūkṛ }	verb	make anyone one's ṅuru
 गुवति { गु }	guvati  { gu }	verb	void by stool
 गूहति { गुह् }	gūhati  { guh }	verb	cover
 गूहति { गुह् }	gūhati  { guh }	verb	keep secret
@@ -7644,7 +7644,7 @@
 ग्रसते { ग्रस् }	grasate  { gras }	verb	take into the mouth
 ग्रामयति { ग्रामय }	grāmayati  { grāmaya }	verb	invite
 ग्रासपात्रीकरोति { ग्रासपात्रीकृ }	grāsapātrīkaroti  { grāsapātrīkṛ }	verb	swallow anything as a good morsel
-ग्रासी करोति { ग्रासीकृ }	grāsī karoti  { grāsīkṛ }	verb	swallow
+ग्रासी करोति { ग्रासीकृ }	grāsīkaroti  { grāsīkṛ }	verb	swallow
 ग्रोचति { ग्रुच् }	grocati  { gruc }	verb	steal
 ग्लहते { ग्लह् }	glahate  { glah }	verb	gamble
 ग्लहते { ग्लह् }	glahate  { glah }	verb	play with anyone at dice for
@@ -7685,8 +7685,8 @@
 घटते { घट् }	ghaṭate  { ghaṭ }	verb	take effect
 घटते { घट् }	ghaṭate  { ghaṭ }	verb	take place
 घनायते { घनाय }	ghanāyate  { ghanāya }	verb	be found in great numbers
-घनी करोति { घनीकृ }	ghanī karoti  { ghanīkṛ }	verb	intensify
-घनी करोति { घनीकृ }	ghanī karoti  { ghanīkṛ }	verb	thicken
+घनी करोति { घनीकृ }	ghanīkaroti  { ghanīkṛ }	verb	intensify
+घनी करोति { घनीकृ }	ghanīkaroti  { ghanīkṛ }	verb	thicken
 घनीभवति	ghanībhavati	verb	freeśe
 घरति { घृ }	gharati  { ghṛ }	verb	moisten
 घरति { घृ }	gharati  { ghṛ }	verb	sprinkle
@@ -7780,26 +7780,26 @@
 चणति { चण् }	caṇati  { caṇ }	verb	injure
 चणति { चण् }	caṇati  { caṇ }	verb	sound
 चण्डकरायते { चण्डकराय }	caṇḍakarāyate  { caṇḍakarāya }	verb	resemble the sun
-चतुरश्री करोति { चतुरश्रीकृ }	caturaśrī karoti  { caturaśrīkṛ }	verb	make quadrangular
+चतुरश्री करोति { चतुरश्रीकृ }	caturaśrīkaroti  { caturaśrīkṛ }	verb	make quadrangular
 चनसयति { चनसय }	canasayati  { canasaya }	verb	address with the word canasita
 चनस्यति { चनस्य }	canasyati  { canasya }	verb	delight in
 चनस्यति { चनस्य }	canasyati  { canasya }	verb	enjoy
 चन्दनायते { चन्दनाय }	candanāyate  { candanāya }	verb	become a sandal-tree
 चपलयति	capalayati	verb	cause someone to be rude
-चमत् करोति { चमत्कृ }	camat karoti  { camatkṛ }	verb	express astonishment
-चमत् करोति { चमत्कृ }	camat karoti  { camatkṛ }	verb	produce astonishment
-चयनं करोति { कृ }	cayanaṃ karoti  { kṛ }	verb	choose
+चमत् करोति { चमत्कृ }	camatkaroti  { camatkṛ }	verb	express astonishment
+चमत् करोति { चमत्कृ }	camatkaroti  { camatkṛ }	verb	produce astonishment
+चयनं करोति { कृ }	cayanaṃkaroti  { kṛ }	verb	choose
 चरति { चर् }	carati  { car }	verb	walk
 चरसि { चर् }	carasi  { car }	verb	you walk
 चरितार्थयति { चरितार्थय }	caritārthayati  { caritārthaya }	verb	satisfy
 चर्चयति { चर्च् }	carcayati  { carc }	verb	pursue
 चर्चयति { चर्च् }	carcayati  { carc }	verb	study
 चर्चायते { चर्चाय }	carcāyate  { carcāya }	verb	be repeated
-चर्वणं करोति { कृ }	carvaṇaṃ karoti  { kṛ }	verb	chew
+चर्वणं करोति { कृ }	carvaṇaṃkaroti  { kṛ }	verb	chew
 चलति	calati	verb	walk
 चलति { चल् }	calati  { cal }	verb	shake
 चलितुम्	calitum	verb	to move to and fro
-चली करोति { चलीकृ }	calī karoti  { calīkṛ }	verb	cause to move
+चली करोति { चलीकृ }	calīkaroti  { calīkṛ }	verb	cause to move
 चष्टे { चक्ष् }	caṣṭe  { cakṣ }	verb	appear
 चष्टे { चक्ष् }	caṣṭe  { cakṣ }	verb	become visible
 चष्टे { चक्ष् }	caṣṭe  { cakṣ }	verb	inform
@@ -7811,14 +7811,14 @@
 चष्टे { चक्ष् }	caṣṭe  { cakṣ }	verb	tell
 चालयति	cālayati	verb	execute  [ computer ]
 चालयति	cālayati	verb	run  [ computer ]
-चिकित्सा करोति { कृ }	cikitsā karoti  { kṛ }	verb	undergo medical treatment
+चिकित्सा करोति { कृ }	cikitsākaroti  { kṛ }	verb	undergo medical treatment
 चिकेति	ciketi	verb	control
 चिटिचिटायते { चिटिचिटाय }	ciṭiciṭāyate  { ciṭiciṭāya }	verb	make a hissing noise
-चित्रणम् करोति { कृ }	citraṇam karoti  { kṛ }	verb	draw
+चित्रणम् करोति { कृ }	citraṇamkaroti  { kṛ }	verb	draw
 चित्रयति { चित्रय }	citrayati  { citraya }	verb	decorate
 चित्रयति { चित्रय }	citrayati  { citraya }	verb	throw a momentary glance
 चित्रीयते { चित्रीय }	citrīyate  { citrīya }	verb	be surprised
-चित्रं करोति { चित्रं कृ }	citraṃ karoti  { citraṃ kṛ }	verb	picture
+चित्रं करोति { चित्रं कृ }	citraṃkaroti  { citraṃ kṛ }	verb	picture
 चिनुते	cinute	verb	choose  [ computer ]
 चिनोति	cinoti	verb	choose  [ computer ]
 चिनोति	cinoti	verb	select  [ computer ]
@@ -7863,11 +7863,11 @@
 छन्दयति { छद् }	chandayati  { chad }	verb	try seduce anyone
 छर्दति { छृद् }	chardati  { chṛd }	verb	kindle
 छर्दयते { छृद् }	chardayate  { chṛd }	verb	vomit
-छिद्रं करोति { कृ }	chidraṃ karoti  { kṛ }	verb	tap  [ barrel, tree ]
-छिन्नमस्तकी करोति { छिन्नमस्तकीकृ }	chinnamastakī karoti  { chinnamastakīkṛ }	verb	decapitate
+छिद्रं करोति { कृ }	chidraṃkaroti  { kṛ }	verb	tap  [ barrel, tree ]
+छिन्नमस्तकी करोति { छिन्नमस्तकीकृ }	chinnamastakīkaroti  { chinnamastakīkṛ }	verb	decapitate
 छृन्त्ते { छृद् }	chṛntte  { chṛd }	verb	play
 छृन्त्ते { छृद् }	chṛntte  { chṛd }	verb	shine
-छेदनं करोति { कृ }	chedanaṃ karoti  { kṛ }	verb	cut
+छेदनं करोति { कृ }	chedanaṃkaroti  { kṛ }	verb	cut
 जञ्जभीति { जभ् }	jañjabhīti  { jabh }	verb	opening the jaws wide
 जञ्जभीति { जभ् }	jañjabhīti  { jabh }	verb	snapping at
 जञ्जभ्यते { जभ् }	jañjabhyate  { jabh }	verb	opening the jaws wide
@@ -7875,11 +7875,11 @@
 जटिलयति { जटिलय }	jaṭilayati  { jaṭilaya }	verb	crest or fill with
 जटिलयति { जटिलय }	jaṭilayati  { jaṭilaya }	verb	form into a clotted mass
 जटिलयति { जटिलय }	jaṭilayati  { jaṭilaya }	verb	twist together
-जटिली Kअरोति { जटिलीकृ }	jaṭilī Karoti  { jaṭilīkṛ }	verb	crest or fill with
-जटिली Kअरोति { जटिलीकृ }	jaṭilī Karoti  { jaṭilīkṛ }	verb	form into a clotted mass
-जटिली Kअरोति { जटिलीकृ }	jaṭilī Karoti  { jaṭilīkṛ }	verb	twist together
+जटिली Kअरोति { जटिलीकृ }	jaṭilīkaroti  { jaṭilīkṛ }	verb	crest or fill with
+जटिली Kअरोति { जटिलीकृ }	jaṭilīkaroti  { jaṭilīkṛ }	verb	form into a clotted mass
+जटिली Kअरोति { जटिलीकृ }	jaṭilīkaroti  { jaṭilīkṛ }	verb	twist together
 जडयते { जडाय }	jaḍayate  { jaḍāya }	verb	be stiff
-जडी करोति { जडीकृ }	jaḍī karoti  { jaḍīkṛ }	verb	stupefy
+जडी करोति { जडीकृ }	jaḍīkaroti  { jaḍīkṛ }	verb	stupefy
 जडीभवति	jaḍībhavati	verb	hang  [ computer ]
 जनति { जन् }	janati  { jan }	verb	beget
 जनति { जन् }	janati  { jan }	verb	cause
@@ -7889,7 +7889,7 @@
 जयति { जि }	jayati  { ji }	verb	vanquish anyone in a game
 जल्पति { जल्प् }	jalpati  { jalp }	verb	patter
 जल्पति { जल्प् }	jalpati  { jalp }	verb	speak
-जल्पनं करोति { कृ }	jalpanaṃ karoti  { kṛ }	verb	prattle
+जल्पनं करोति { कृ }	jalpanaṃkaroti  { kṛ }	verb	prattle
 जसति { जस् }	jasati  { jas }	verb	go
 जसते { जस् }	jasate  { jas }	verb	be exhausted or starved
 जहाति { हा }	jahāti  { hā }	verb	be deprived of
@@ -7975,7 +7975,7 @@
 जीर्णम् भवति	jīrṇam bhavati	verb	wear out
 जीवति { जीव् }	jīvati  { jīv }	verb	to live
 जीवति { जीव् }	jīvati  { jīv }	verb	to nourish
-जीविका करोति { जीविकाकृ }	jīvikā karoti  { jīvikākṛ }	verb	make a livelihood
+जीविका करोति { जीविकाकृ }	jīvikākaroti  { jīvikākṛ }	verb	make a livelihood
 जीवितं धारयति	jīvitaṃ dhārayati	verb	support oneself
 जुहोति { हु }	juhoti  { hu }	verb	eat
 जुहोति { हु }	juhoti  { hu }	verb	offer or present an oblation to or in
@@ -7995,9 +7995,9 @@
 जंहति { जंह् }	jaṃhati  { jaṃh }	verb	move quickly
 जंहति { जंह् }	jaṃhati  { jaṃh }	verb	sprawl
 ज्यवते { ज्युत् }	jyavate  { jyut }	verb	shine
-ज्योक् करोति { ज्योक्कृ }	jyok karoti  { jyokkṛ }	verb	be long about anything
-ज्योक् करोति { ज्योक्कृ }	jyok karoti  { jyokkṛ }	verb	delay
-ज्योक् करोति { ज्योक्कृ }	jyok karoti  { jyokkṛ }	verb	say farewell
+ज्योक् करोति { ज्योक्कृ }	jyokkaroti  { jyokkṛ }	verb	be long about anything
+ज्योक् करोति { ज्योक्कृ }	jyokkaroti  { jyokkṛ }	verb	delay
+ज्योक् करोति { ज्योक्कृ }	jyokkaroti  { jyokkṛ }	verb	say farewell
 ज्रयति { ज्रि }	jrayati  { jri }	verb	go
 ज्रयति { ज्रि }	jrayati  { jri }	verb	overpower
 ज्राययति { ज्रि }	jrāyayati  { jri }	verb	grow old
@@ -8059,9 +8059,9 @@
 तनुते { तन् }	tanute  { tan }	verb	spread
 तनुते { तन् }	tanute  { tan }	verb	stretch
 तनुते { तन् }	tanute  { tan }	verb	weave
-तनू करोति { तनूकृ }	tanū karoti  { tanūkṛ }	verb	diminish
-तनू करोति { तनूकृ }	tanū karoti  { tanūkṛ }	verb	discard
-तनू करोति { तनूकृ }	tanū karoti  { tanūkṛ }	verb	make thin
+तनू करोति { तनूकृ }	tanūkaroti  { tanūkṛ }	verb	diminish
+तनू करोति { तनूकृ }	tanūkaroti  { tanūkṛ }	verb	discard
+तनू करोति { तनूकृ }	tanūkaroti  { tanūkṛ }	verb	make thin
 तनोति { तन् }	tanoti  { tan }	verb	augment
 तनोति { तन् }	tanoti  { tan }	verb	compose
 तनोति { तन् }	tanoti  { tan }	verb	direct towards
@@ -8125,15 +8125,15 @@
 तरुते { तॄ }	tarute  { tṛṛ }	verb	swim
 तर्जति { तर्ज् }	tarjati  { tarj }	verb	menace
 तर्जति { तर्ज् }	tarjati  { tarj }	verb	threaten
-तर्जनं करोति { कृ }	tarjanaṃ karoti  { kṛ }	verb	threaten
+तर्जनं करोति { कृ }	tarjanaṃkaroti  { kṛ }	verb	threaten
 तर्जयति { तर्ज् }	tarjayati  { tarj }	verb	to abuse
 तर्जयति { तर्ज् }	tarjayati  { tarj }	verb	to scold
 तविषीयते { तविषीय }	taviṣīyate  { taviṣīya }	verb	be strong or violent or courageous
-ताडङ्की करोति { ताडङ्की- कृ }	tāḍaṅkī karoti  { tāḍaṅkī- kṛ }	verb	make an ear-ornament out of
-ताडनं करोति { कृ }	tāḍanaṃ karoti  { kṛ }	verb	hit
+ताडङ्की करोति { ताडङ्की- कृ }	tāḍaṅkīkaroti  { tāḍaṅkī- kṛ }	verb	make an ear-ornament out of
+ताडनं करोति { कृ }	tāḍanaṃkaroti  { kṛ }	verb	hit
 ताडयति { तड् }	tāḍayati  { taḍ }	verb	hit
 ताडयति { तड् }	tāḍayati  { taḍ }	verb	knock
-ताम्री करोति { ताम्रीकृ }	tāmrī karoti  { tāmrīkṛ }	verb	dye dark-red
+ताम्री करोति { ताम्रीकृ }	tāmrīkaroti  { tāmrīkṛ }	verb	dye dark-red
 तारयति { तॄ }	tārayati  { tṛṛ }	verb	fulfill
 तितर्ति { तॄ }	titarti  { tṛṛ }	verb	accomplish
 तितर्ति { तॄ }	titarti  { tṛṛ }	verb	acquire
@@ -8186,8 +8186,8 @@
 तिल्विलायते { तिल्विलाय }	tilvilāyate  { tilvilāya }	verb	be fertile
 तीरयति { तीरय }	tīrayati  { tīraya }	verb	finish
 तीव्रयति { तीव्रय }	tīvrayati  { tīvraya }	verb	strengthen
-तीव्री करोति { तीव्रीकृ }	tīvrī karoti  { tīvrīkṛ }	verb	make sharp
-तीव्री करोति { तीव्रीकृ }	tīvrī karoti  { tīvrīkṛ }	verb	strengthen
+तीव्री करोति { तीव्रीकृ }	tīvrīkaroti  { tīvrīkṛ }	verb	make sharp
+तीव्री करोति { तीव्रीकृ }	tīvrīkaroti  { tīvrīkṛ }	verb	strengthen
 तीव्री भवति { तीव्रीभु }	tīvrī bhavati  { tīvrībhu }	verb	become stronger
 तीव्री भवति { तीव्रीभु }	tīvrī bhavati  { tīvrībhu }	verb	increase
 तुणति { तुण् }	tuṇati  { tuṇ }	verb	act fraudulently
@@ -8236,8 +8236,8 @@
 तूर्वति { तुर्व् }	tūrvati  { turv }	verb	overpower
 तूर्वति { तुर्व् }	tūrvati  { turv }	verb	save
 तृणयति { तृणय }	tṛṇayati  { tṛṇaya }	verb	esteem as lightly as straw
-तृप्ती करोति { तृप्तीकृ }	tṛptī karoti  { tṛptīkṛ }	verb	gladden
-तृप्ती करोति { तृप्तीकृ }	tṛptī karoti  { tṛptīkṛ }	verb	satisfy
+तृप्ती करोति { तृप्तीकृ }	tṛptīkaroti  { tṛptīkṛ }	verb	gladden
+तृप्ती करोति { तृप्तीकृ }	tṛptīkaroti  { tṛptīkṛ }	verb	satisfy
 तेपति { तिप् }	tepati  { tip }	verb	sprinkle
 तोडते { तोड् }	toḍate  { toḍ }	verb	disregard
 तोलति / -ते { तुल् }	tolati / -te  { tul }	verb	bear up
@@ -8257,9 +8257,9 @@
 तोलयति { तुल् }	tolayati  { tul }	verb	ponder
 तोलयिष्यते { तुल् }	tolayiṣyate  { tul }	verb	will measure or weight  [ ṣee also - tolayati ]
 तोसति { तुस् }	tosati  { tus }	verb	make sound
-त्यग्व्यधनम् करोति	tyagvyadhanam karoti	verb	stick
+त्यग्व्यधनम् करोति	tyagvyadhanamkaroti	verb	stick
 त्यजति { त्यज् }	tyajati  { tyaj }	verb	quit
-त्यागं करोति { कृ }	tyāgaṃ karoti  { kṛ }	verb	renunciate
+त्यागं करोति { कृ }	tyāgaṃkaroti  { kṛ }	verb	renunciate
 त्रसति	trasati	verb	be afraid of
 त्रसति	trasati	verb	quiver
 त्रसति	trasati	verb	tremble
@@ -8268,7 +8268,7 @@
 त्रस्यति	trasyati	verb	tremble
 त्रासयति { त्रस् }	trāsayati  { tras }	verb	prevent
 त्रासयति { त्रस् }	trāsayati  { tras }	verb	seiśe
-त्रिधा करोति	tridhā karoti	verb	treble
+त्रिधा करोति	tridhākaroti	verb	treble
 त्रिशूलायति { त्रिशूलाय }	triśūlāyati  { triśūlāya }	verb	resemble śiva's trident
 त्वक्षति { त्वाक्ष् }	tvakṣati  { tvākṣ }	verb	produce
 त्वङ्गति	tvaṅgati	verb	leap
@@ -8326,7 +8326,7 @@
 दधाते { धा }	dadhāte  { dhā }	verb	strive after
 दधाते { धा }	dadhāte  { dhā }	verb	wish to gain
 { दन्तमार्जनं कृ }	{ dantamārjanaṃ kṛ }	verb	brush the teeth
-दमनं करोति { कृ }	damanaṃ karoti  { kṛ }	verb	subdue
+दमनं करोति { कृ }	damanaṃkaroti  { kṛ }	verb	subdue
 दमन्यति { दमन्य }	damanyati  { damanya }	verb	subdue
 दमायति { दमाय }	damāyati  { damāya }	verb	control one's self
 दम्भोलिपातायते { दम्भोलिपाताय }	dambholipātāyate  { dambholipātāya }	verb	fall down like īndra's thunderbolt
@@ -8337,7 +8337,7 @@
 दयते { दे }	dayate  { de }	verb	protect
 दरति { दॄ }	darati  { dṛṛ }	verb	get frightened
 दरयति { दॄ }	darayati  { dṛṛ }	verb	disperse
-दर्शनं करोति { कृ }	darśanaṃ karoti  { kṛ }	verb	see
+दर्शनं करोति { कृ }	darśanaṃkaroti  { kṛ }	verb	see
 दवति { दु }	davati  { du }	verb	go
 दशति { दंश् }	daśati  { daṃś }	verb	bite
 दशस्यति { दशस्य }	daśasyati  { daśasya }	verb	accord
@@ -8347,10 +8347,10 @@
 दशस्यति { दशस्य }	daśasyati  { daśasya }	verb	render service
 दशस्यति { दशस्य }	daśasyati  { daśasya }	verb	serve
 दशस्यति { दशस्य }	daśasyati  { daśasya }	verb	worship
-दस्मत् करोति { दस्मत्कृ }	dasmat karoti  { dasmatkṛ }	verb	make wonderful
+दस्मत् करोति { दस्मत्कृ }	dasmatkaroti  { dasmatkṛ }	verb	make wonderful
 दस्युसाद् भवति { दस्युसाद्भु }	dasyusād bhavati  { dasyusādbhu }	verb	become a prey to robbers
 दानप्रति भवति { दानप्रतिभू }	dānaprati bhavati  { dānapratibhū }	verb	surety for payment
-दानवशी करोति { दानवशीकृ }	dānavaśī karoti  { dānavaśīkṛ }	verb	make subject by bribery
+दानवशी करोति { दानवशीकृ }	dānavaśīkaroti  { dānavaśīkṛ }	verb	make subject by bribery
 दाम्यति { दम् }	dāmyati  { dam }	verb	conquer
 दाम्यति { दम् }	dāmyati  { dam }	verb	subdue
 दाम्यति { दम् }	dāmyati  { dam }	verb	tame
@@ -8369,17 +8369,17 @@
 दारयते { दॄ }	dārayate  { dṛṛ }	verb	tear asunder
 दारुणायते { दारुणाय }	dāruṇāyate  { dāruṇāya }	verb	act harshly or cruelly
 दावदहनज्वालाकलापयते { दावदहनज्वालाकलापय }	dāvadahanajvālākalāpayate  { dāvadahanajvālākalāpaya }	verb	resemble the sheet of flame in a burning forest
-दासी करोति { दासीकृ }	dāsī karoti  { dāsīkṛ }	verb	enslave
-दासी करोति { दासीकृ }	dāsī karoti  { dāsīkṛ }	verb	make any one a slave
+दासी करोति { दासीकृ }	dāsīkaroti  { dāsīkṛ }	verb	enslave
+दासी करोति { दासीकृ }	dāsīkaroti  { dāsīkṛ }	verb	make any one a slave
 दासी भवति { दासीभू }	dāsī bhavati  { dāsībhū }	verb	become the slave of
 दिदेष्टि { दिश् }	dideṣṭi  { diś }	verb	allocate
 दिदेष्टि { दिश् }	dideṣṭi  { diś }	verb	assign
 दिधीते { दीधी }	didhīte  { dīdhī }	verb	resemble
 दिधेष्टि { धिष् }	didheṣṭi  { dhiṣ }	verb	sound
-दिनी करोति { दिनीकृ }	dinī karoti  { dinīkṛ }	verb	reduce to days
+दिनी करोति { दिनीकृ }	dinīkaroti  { dinīkṛ }	verb	reduce to days
 दिन्वति { दिन्व् }	dinvati  { dinv }	verb	gladden
 दिम्पयते { दिम्प् }	dimpayate  { dimp }	verb	accumulate
-दिवसी करोति { दिवसीकृ }	divasī karoti  { divasīkṛ }	verb	convert the night into day
+दिवसी करोति { दिवसीकृ }	divasīkaroti  { divasīkṛ }	verb	convert the night into day
 दिव्यति { दिव्य }	divyati  { divya }	verb	long for heaven
 दीक्षते { दीक्ष् }	dīkṣate  { dīkṣ }	verb	consecrate or dedicate one's self
 दीक्षते { दीक्ष् }	dīkṣate  { dīkṣ }	verb	dedicate one's self to a monastic order
@@ -8402,8 +8402,8 @@
 दीयति { डि }	dīyati  { ḍi }	verb	fly  [ away ]
 दीयते { डी }	dīyate  { ḍī }	verb	decay
 दीयते { डी }	dīyate  { ḍī }	verb	perish
-दीर्घी करोति { दीर्घीKऋ }	dīrghī karoti  { dīrghīKṛ }	verb	lengthen
-दीर्घी करोति { दीर्घीKऋ }	dīrghī karoti  { dīrghīKṛ }	verb	prolong
+दीर्घी करोति { दीर्घीKऋ }	dīrghīkaroti  { dīrghīKṛ }	verb	lengthen
+दीर्घी करोति { दीर्घीKऋ }	dīrghīkaroti  { dīrghīKṛ }	verb	prolong
 दीर्घी भवति { दीर्घीकृ }	dīrghī bhavati  { dīrghīkṛ }	verb	become lengthen
 दीर्यति { दॄ }	dīryati  { dṛṛ }	verb	burst
 दीर्यते { दॄ }	dīryate  { dṛṛ }	verb	be afraid
@@ -8423,7 +8423,7 @@
 { दुर्नीतिं कृ }	{ durnītiṃ kṛ }	verb	be corrupt
 दुर्बली भवति { दुर्बलीभू }	durbalī bhavati  { durbalībhū }	verb	become weak or ineffective
 दुर्हणायति { दुर्हणाय }	durhaṇāyati  { durhaṇāya }	verb	contemplating harm
-दुवस् करोति { दुवस्कृ }	duvas karoti  { duvaskṛ }	verb	worship
+दुवस् करोति { दुवस्कृ }	duvaskaroti  { duvaskṛ }	verb	worship
 दुवस्यति { दुवस्य }	duvasyati  { duvasya }	verb	celebrate
 { दुश्चिन्तां कृ }	{ duścintāṃ kṛ }	verb	think evil
 { दुष्टतां कृ }	{ duṣṭatāṃ kṛ }	verb	be wicked
@@ -8443,12 +8443,12 @@
 दुहे { दुह् }	duhe  { duh }	verb	milk or squeeśe out
 दुहे { दुह् }	duhe  { duh }	verb	yield any desired object
 दुःखाकरोति { कृ }	duḥkhākaroti  { kṛ }	verb	afflict
-दुःखा करोति { दुःखाकृ }	duḥkhā karoti  { duḥkhākṛ }	verb	afflict
-दूरी करोति { दूरीकृ }	dūrī karoti  { dūrīkṛ }	verb	distance
-दूरी करोति { दूरीकृ }	dūrī karoti  { dūrīkṛ }	verb	make distant
-दूरी करोति { दूरीकृ }	dūrī karoti  { dūrīkṛ }	verb	remove
-दूरी करोति { दूरीकृ }	dūrī karoti  { dūrīkṛ }	verb	repel
-दूरी करोति { दूरीकृ }	dūrī karoti  { dūrīkṛ }	verb	surpass
+दुःखा करोति { दुःखाकृ }	duḥkhākaroti  { duḥkhākṛ }	verb	afflict
+दूरी करोति { दूरीकृ }	dūrīkaroti  { dūrīkṛ }	verb	distance
+दूरी करोति { दूरीकृ }	dūrīkaroti  { dūrīkṛ }	verb	make distant
+दूरी करोति { दूरीकृ }	dūrīkaroti  { dūrīkṛ }	verb	remove
+दूरी करोति { दूरीकृ }	dūrīkaroti  { dūrīkṛ }	verb	repel
+दूरी करोति { दूरीकृ }	dūrīkaroti  { dūrīkṛ }	verb	surpass
 दूरी भवति { दूरीभू }	dūrī bhavati  { dūrībhū }	verb	retire
 दूरी भवति { दूरीभू }	dūrī bhavati  { dūrībhū }	verb	stand back
 दूरी भवति { दूरीभू }	dūrī bhavati  { dūrībhū }	verb	withdraw
@@ -8473,11 +8473,11 @@
 दूषयति { दूषय }	dūṣayati  { dūṣaya }	verb	refute
 दूषयति { दूषय }	dūṣayati  { dūṣaya }	verb	retract or break
 दूषयति { दूषय }	dūṣayati  { dūṣaya }	verb	vitiate
-दृढतरी करोति { दृढतरीकृ }	dṛḍhatarī karoti  { dṛḍhatarīkṛ }	verb	confirm
-दृढतरी करोति { दृढतरीकृ }	dṛḍhatarī karoti  { dṛḍhatarīkṛ }	verb	strengthen
+दृढतरी करोति { दृढतरीकृ }	dṛḍhatarīkaroti  { dṛḍhatarīkṛ }	verb	confirm
+दृढतरी करोति { दृढतरीकृ }	dṛḍhatarīkaroti  { dṛḍhatarīkṛ }	verb	strengthen
 दृढीकरोति	dṛḍhīkaroti	verb	fix
-दृढी करोति { दृढीकृ }	dṛḍhī karoti  { dṛḍhīkṛ }	verb	confirm
-दृढी करोति { दृढीकृ }	dṛḍhī karoti  { dṛḍhīkṛ }	verb	strengthen
+दृढी करोति { दृढीकृ }	dṛḍhīkaroti  { dṛḍhīkṛ }	verb	confirm
+दृढी करोति { दृढीकृ }	dṛḍhīkaroti  { dṛḍhīkṛ }	verb	strengthen
 दृणाति { दॄ }	dṛṇāti  { dṛṛ }	verb	break asunder
 दृणाति { दॄ }	dṛṇāti  { dṛṛ }	verb	cause to burst
 दृणाति { दॄ }	dṛṇāti  { dṛṛ }	verb	divide
@@ -8515,7 +8515,7 @@
 दोहति { दुह् }	dohati  { duh }	verb	pain
 दंशति { दंश् }	daṃśati  { daṃś }	verb	bite
 दंशति { दंश् }	daṃśati  { daṃś }	verb	sting
-दंशनं करोति { कृ }	daṃśanaṃ karoti  { kṛ }	verb	sting
+दंशनं करोति { कृ }	daṃśanaṃkaroti  { kṛ }	verb	sting
 द्यति { दा }	dyati  { dā }	verb	bind
 द्यायति { द्यै }	dyāyati  { dyai }	verb	despise
 द्यायति { द्यै }	dyāyati  { dyai }	verb	ill-treat
@@ -8551,7 +8551,7 @@
 द्रवस्यति { द्रवस्य }	dravasyati  { dravasya }	verb	harass one's self
 द्रवस्यति { द्रवस्य }	dravasyati  { dravasya }	verb	serve
 द्रवस्यति { द्रवस्य }	dravasyati  { dravasya }	verb	toil
-द्रवी करोति { द्रवीकृ }	dravī karoti  { dravīkṛ }	verb	liquefy
+द्रवी करोति { द्रवीकृ }	dravīkaroti  { dravīkṛ }	verb	liquefy
 द्रवी भवति { द्रवीभू }	dravī bhavati  { dravībhū }	verb	become fluid
 द्राखति { द्राख् }	drākhati  { drākh }	verb	adorn
 द्राखति { द्राख् }	drākhati  { drākh }	verb	be able or competent
@@ -8594,17 +8594,17 @@
 द्वन्द्वी भवति { द्वंद्वीभू }	dvandvī bhavati  { dvaṃdvībhū }	verb	become joined in couples
 द्वन्द्वी भवति { द्वंद्वीभू }	dvandvī bhavati  { dvaṃdvībhū }	verb	hesitate or be doubtful
 द्वरति { द्वृ }	dvarati  { dvṛ }	verb	obstruct
-द्वारी करोति { द्वारीकृ }	dvārī karoti  { dvārīkṛ }	verb	employ as a medium or means or mediator
+द्वारी करोति { द्वारीकृ }	dvārīkaroti  { dvārīkṛ }	verb	employ as a medium or means or mediator
 { द्वारं बन्ध् }	{ dvāraṃ bandh }	verb	lock (room)
 द्विगुणति	dviguṇati	verb	double
 द्विगुणयति { द्विगुणय }	dviguṇayati  { dviguṇaya }	verb	double
 द्विगुणयति { द्विगुणय }	dviguṇayati  { dviguṇaya }	verb	multiply by 2
-द्विगुणी करोति	dviguṇī karoti	verb	make twofold
+द्विगुणी करोति	dviguṇīkaroti	verb	make twofold
 द्विगुणी भवति { द्विगुणीभू }	dviguṇī bhavati  { dviguṇībhū }	verb	become double
 द्विगुणी भवति { द्विगुणीभू }	dviguṇī bhavati  { dviguṇībhū }	verb	grow
-द्विजाति करोति { द्विजातिकृ }	dvijāti karoti  { dvijātikṛ }	verb	make a present of for Brahmans
+द्विजाति करोति { द्विजातिकृ }	dvijātikaroti  { dvijātikṛ }	verb	make a present of for Brahmans
 द्विजी भवति { द्विजीभू }	dvijī bhavati  { dvijībhū }	verb	make one's self a Brahman
-द्विधा करोति { द्विधाकृ }	dvidhā karoti  { dvidhākṛ }	verb	divide
+द्विधा करोति { द्विधाकृ }	dvidhākaroti  { dvidhākṛ }	verb	divide
 द्विवृन्तायते { द्विवृन्ताय }	dvivṛntāyate  { dvivṛntāya }	verb	appear to have 2 stalks
 द्वेक्ष्यति { द्विष् }	dvekṣyati  { dviṣ }	verb	will hate
 द्वैधी भवति { द्वैधीभू }	dvaidhī bhavati  { dvaidhībhū }	verb	be disunited
@@ -8656,10 +8656,10 @@
 धावते { धाव् }	dhāvate  { dhāv }	verb	stream
 धावते { धाव् }	dhāvate  { dhāv }	verb	swim
 धावते { धाव् }	dhāvate  { dhāv }	verb	wash
-धावनं करोति { कृ }	dhāvanaṃ karoti  { kṛ }	verb	run
-धिक् करोति { धिक्कृ }	dhik karoti  { dhikkṛ }	verb	curse
-धिक् करोति { धिक्कृ }	dhik karoti  { dhikkṛ }	verb	reprimand
-धिक् करोति { धिक्कृ }	dhik karoti  { dhikkṛ }	verb	reproach
+धावनं करोति { कृ }	dhāvanaṃkaroti  { kṛ }	verb	run
+धिक् करोति { धिक्कृ }	dhikkaroti  { dhikkṛ }	verb	curse
+धिक् करोति { धिक्कृ }	dhikkaroti  { dhikkṛ }	verb	reprimand
+धिक् करोति { धिक्कृ }	dhikkaroti  { dhikkṛ }	verb	reproach
 धिक्षते { धिक्ष् }	dhikṣate  { dhikṣ }	verb	be weary or harassed
 धिक्षते { धिक्ष् }	dhikṣate  { dhikṣ }	verb	kindle
 धिक्षते { धिक्ष् }	dhikṣate  { dhikṣ }	verb	live
@@ -8677,12 +8677,12 @@
 धूमायति { धूमाय }	dhūmāyati  { dhūmāya }	verb	steam
 धूमायते { धूमाय }	dhūmāyate  { dhūmāya }	verb	steam
 धूम्रयति { धूम्रय }	dhūmrayati  { dhūmraya }	verb	make dark-coloured or grey
-धूम्री करोति { धूम्रीकृ }	dhūmrī karoti  { dhūmrīkṛ }	verb	make dark-coloured or grey
+धूम्री करोति { धूम्रीकृ }	dhūmrīkaroti  { dhūmrīkṛ }	verb	make dark-coloured or grey
 धृष्णोति { धृष् }	dhṛṣṇoti  { dhṛṣ }	verb	be bold and confident
 धोरति { धोर् }	dhorati  { dhor }	verb	be quick or alert
 धोरति { धोर् }	dhorati  { dhor }	verb	run
 धोरति { धोर् }	dhorati  { dhor }	verb	trot
-ध्यामली करोति { ध्यामलीकृ }	dhyāmalī karoti  { dhyāmalīkṛ }	verb	pollute
+ध्यामली करोति { ध्यामलीकृ }	dhyāmalīkaroti  { dhyāmalīkṛ }	verb	pollute
 ध्यायति { ध्यै }	dhyāyati  { dhyai }	verb	be thoughtful or meditative
 ध्यायति { ध्यै }	dhyāyati  { dhyai }	verb	brood mischief against
 ध्यायति { ध्यै }	dhyāyati  { dhyai }	verb	call to mind
@@ -8693,8 +8693,8 @@
 ध्यायति { ध्यै }	dhyāyati  { dhyai }	verb	recollect
 ध्यायति { ध्यै }	dhyāyati  { dhyai }	verb	think
 ध्यायति { ध्यै }	dhyāyati  { dhyai }	verb	think of
-ध्वजी करोति { ध्वजीकृ }	dhvajī karoti  { dhvajīkṛ }	verb	make a plea or pretext
-ध्वजी करोति { ध्वजीकृ }	dhvajī karoti  { dhvajīkṛ }	verb	raise a standard
+ध्वजी करोति { ध्वजीकृ }	dhvajīkaroti  { dhvajīkṛ }	verb	make a plea or pretext
+ध्वजी करोति { ध्वजीकृ }	dhvajīkaroti  { dhvajīkṛ }	verb	raise a standard
 ध्वनति { ध्वन् }	dhvanati  { dhvan }	verb	become covered or extinguished  [ as anger ]
 ध्वनति { ध्वन् }	dhvanati  { dhvan }	verb	echo
 ध्वनति { ध्वन् }	dhvanati  { dhvan }	verb	imply
@@ -8814,8 +8814,8 @@
 नर्दति { नर्द् }	nardati  { nard }	verb	shriek
 नर्दति { नर्द् }	nardati  { nard }	verb	sound
 नर्मयति { नर्मय }	narmayati  { narmaya }	verb	gladden or exhilarate by jests or sports
-नवी करोति	navī karoti	verb	renovate
-नवी करोति { नवीकृ }	navī karoti  { navīkṛ }	verb	revive
+नवी करोति	navīkaroti	verb	renovate
+नवी करोति { नवीकृ }	navīkaroti  { navīkṛ }	verb	revive
 नवी भवति { नवीभू }	navī bhavati  { navībhū }	verb	be renewed or revived
 नसते { नस् }	nasate  { nas }	verb	approach
 नसते { नस् }	nasate  { nas }	verb	be crooked or fraudulent
@@ -8832,7 +8832,7 @@
 नह्यते { नह् }	nahyate  { nah }	verb	fasten
 नह्यते { नह् }	nahyate  { nah }	verb	put on
 नह्यते { नह् }	nahyate  { nah }	verb	tie
-नाटकी करोति { नाटकीकृ }	nāṭakī karoti  { nāṭakīkṛ }	verb	make into a play
+नाटकी करोति { नाटकीकृ }	nāṭakīkaroti  { nāṭakīkṛ }	verb	make into a play
 नाथते { नाथ् }	nāthate  { nāth }	verb	approach with prayers or requests
 नाथते { नाथ् }	nāthate  { nāth }	verb	ask
 नाथते { नाथ् }	nāthate  { nāth }	verb	beg for
@@ -9363,7 +9363,7 @@
 निरर्जति { निरृज् }	nirarjati  { nirṛj }	verb	deliver
 निरर्जति { निरृज् }	nirarjati  { nirṛj }	verb	let out
 निरवयजते { निरवयज् }	niravayajate  { niravayaj }	verb	satisfy a god by means of sacrifice in preference to another god
-निरसनं करोति	nirasanaṃ karoti	verb	flush  [ computer ]
+निरसनं करोति	nirasanaṃkaroti	verb	flush  [ computer ]
 निरस्यति { निरस् }	nirasyati  { niras }	verb	annihilate
 निरस्यति { निरस् }	nirasyati  { niras }	verb	banish from
 निरस्यति { निरस् }	nirasyati  { niras }	verb	decline
@@ -9442,8 +9442,8 @@
 निरुणद्धि { निरुध् }	niruṇaddhi  { nirudh }	verb	suppress
 निरुणद्धि { निरुध् }	niruṇaddhi  { nirudh }	verb	surround or invest
 निरुणद्धि { निरुध् }	niruṇaddhi  { nirudh }	verb	ward off
-निरुत्तरी करोति { निरुत्तरीकृ }	niruttarī karoti  { niruttarīkṛ }	verb	make unable to answer
-निरुत्तरी करोति { निरुत्तरीकृ }	niruttarī karoti  { niruttarīkṛ }	verb	silence
+निरुत्तरी करोति { निरुत्तरीकृ }	niruttarīkaroti  { niruttarīkṛ }	verb	make unable to answer
+निरुत्तरी करोति { निरुत्तरीकृ }	niruttarīkaroti  { niruttarīkṛ }	verb	silence
 { नि- रुध् }	{ ni- rudh }	verb	be checked
 निरुन्द्धे { निरुध् }	nirunddhe  { nirudh }	verb	catch or overtake
 निरुन्द्धे { निरुध् }	nirunddhe  { nirudh }	verb	check
@@ -9559,7 +9559,7 @@
 निर्दिशति { निर्दिश् }	nirdiśati  { nirdiś }	verb	take for
 निर्दृणाति { निर्दॄ }	nirdṛṇāti  { nirdṛṛ }	verb	tear or rend asunder
 निर्द्रवति { निर्द्रु }	nirdravati  { nirdru }	verb	run out or away
-निर्धनी करोति { निर्धनीकृ }	nirdhanī karoti  { nirdhanīkṛ }	verb	cause poverty
+निर्धनी करोति { निर्धनीकृ }	nirdhanīkaroti  { nirdhanīkṛ }	verb	cause poverty
 निर्धनी भवति { निर्धनीभू }	nirdhanī bhavati  { nirdhanībhū }	verb	become poor
 निर्धयति { निर्धे }	nirdhayati  { nirdhe }	verb	absorb
 निर्धरति { निर्धृ }	nirdharati  { nirdhṛ }	verb	ascertain
@@ -9585,7 +9585,7 @@
 निर्बध्नाति { निर्बन्ध् }	nirbadhnāti  { nirbandh }	verb	insist upon
 निर्बध्नाति { निर्बन्ध् }	nirbadhnāti  { nirbandh }	verb	persist in
 निर्बध्नाति { निर्बन्ध् }	nirbadhnāti  { nirbandh }	verb	urge
-निर्बली करोति	nirbalī karoti	verb	damp  [ psych. ]
+निर्बली करोति	nirbalīkaroti	verb	damp  [ psych. ]
 निर्ब्रवीति { निर्ब्रू }	nirbravīti  { nirbrū }	verb	explain
 निर्ब्रवीति { निर्ब्रू }	nirbravīti  { nirbrū }	verb	interpret
 निर्ब्रवीति { निर्ब्रू }	nirbravīti  { nirbrū }	verb	pronounce
@@ -9827,8 +9827,8 @@
 निर्विध्यति { निर्व्यध् }	nirvidhyati  { nirvyadh }	verb	wound
 निर्विन्दति { निर्विद् }	nirvindati  { nirvid }	verb	do away with
 निर्विन्दति { निर्विद् }	nirvindati  { nirvid }	verb	find out to get rid of
-निर्विवादी करोति { निर्विवादीकृ }	nirvivādī karoti  { nirvivādīkṛ }	verb	cause to agree
-निर्विवादी करोति { निर्विवादीकृ }	nirvivādī karoti  { nirvivādīkṛ }	verb	conciliate
+निर्विवादी करोति { निर्विवादीकृ }	nirvivādīkaroti  { nirvivādīkṛ }	verb	cause to agree
+निर्विवादी करोति { निर्विवादीकृ }	nirvivādīkaroti  { nirvivādīkṛ }	verb	conciliate
 निर्विशति { निर्विश् }	nirviśati  { nirviś }	verb	become a householder
 निर्विशति { निर्विश् }	nirviśati  { nirviś }	verb	delight in
 निर्विशति { निर्विश् }	nirviśati  { nirviś }	verb	embellish
@@ -9998,7 +9998,7 @@
 निशिशाति { निशि }	niśiśāti  { niśi }	verb	strengthen
 निशिशाति { निशि }	niśiśāti  { niśi }	verb	whet
 निशुम्भति { निशुभ् }	niśumbhati  { niśubh }	verb	tread down
-निश्चयं करोति { कृ }	niścayaṃ karoti  { kṛ }	verb	decide
+निश्चयं करोति { कृ }	niścayaṃkaroti  { kṛ }	verb	decide
 निश्चरति { निश्चर् }	niścarati  { niścar }	verb	appear
 निश्चरति { निश्चर् }	niścarati  { niścar }	verb	come forth
 निश्चरति { निश्चर् }	niścarati  { niścar }	verb	go out
@@ -10068,7 +10068,7 @@
 निषेवते { निषेव् }	niṣevate  { niṣev }	verb	use
 निषेवते { निषेव् }	niṣevate  { niṣev }	verb	visit
 निषेवते { निषेव् }	niṣevate  { niṣev }	verb	worship
-निष्करुणी करोति { निष्करुणीकृ }	niṣkaruṇī karoti  { niṣkaruṇīkṛ }	verb	make pitiless or cruel
+निष्करुणी करोति { निष्करुणीकृ }	niṣkaruṇīkaroti  { niṣkaruṇīkṛ }	verb	make pitiless or cruel
 निष्करोति { निष्कृ }	niṣkaroti  { niṣkṛ }	verb	arrange
 निष्करोति { निष्कृ }	niṣkaroti  { niṣkṛ }	verb	break in pieces
 निष्करोति { निष्कृ }	niṣkaroti  { niṣkṛ }	verb	bring out
@@ -10095,8 +10095,8 @@
 निष्कुरुते { निष्कृ }	niṣkurute  { niṣkṛ }	verb	remove
 निष्कुरुते { निष्कृ }	niṣkurute  { niṣkṛ }	verb	restore
 निष्कुरुते { निष्कृ }	niṣkurute  { niṣkṛ }	verb	set in order
-निष्कुला करोति { निष्कुलाकृ }	niṣkulā karoti  { niṣkulākṛ }	verb	husk
-निष्कुली करोति { निष्कुलीकृ }	niṣkulī karoti  { niṣkulīkṛ }	verb	husk
+निष्कुला करोति { निष्कुलाकृ }	niṣkulākaroti  { niṣkulākṛ }	verb	husk
+निष्कुली करोति { निष्कुलीकृ }	niṣkulīkaroti  { niṣkulīkṛ }	verb	husk
 निष्कुषति { निष्कुष् }	niṣkuṣati  { niṣkuṣ }	verb	extract
 निष्कुषति { निष्कुष् }	niṣkuṣati  { niṣkuṣ }	verb	husk
 निष्कुषति { निष्कुष् }	niṣkuṣati  { niṣkuṣ }	verb	injure or hurt by tearing
@@ -10113,7 +10113,7 @@
 निष्क्रामति { निष्क्रम् }	niṣkrāmati  { niṣkram }	verb	go out
 निष्क्रामति { निष्क्रम् }	niṣkrāmati  { niṣkram }	verb	leave
 निष्क्रामति { निष्क्रम् }	niṣkrāmati  { niṣkram }	verb	make an exit
-निष्क्रियं करोति	niṣkriyaṃ karoti	verb	disable  [ computer ]
+निष्क्रियं करोति	niṣkriyaṃkaroti	verb	disable  [ computer ]
 निष्क्रियं भवति	niṣkriyaṃ bhavati	verb	hang  [ computer ]
 निष्क्रीणाति { निष्क्री }	niṣkrīṇāti  { niṣkrī }	verb	buy off
 निष्क्रीणाति { निष्क्री }	niṣkrīṇāti  { niṣkrī }	verb	redeem or ransom from
@@ -10140,7 +10140,7 @@
 निष्पतति { निष्पत् }	niṣpatati  { niṣpat }	verb	jump out
 निष्पतति { निष्पत् }	niṣpatati  { niṣpat }	verb	rush out
 निष्पत्त्रयति { निष्पत्त्रय }	niṣpattrayati  { niṣpattraya }	verb	deprive of leaves
-निष्पत्त्रा करोति { निष्पत्त्राकृ }	niṣpattrā karoti  { niṣpattrākṛ }	verb	wound severely
+निष्पत्त्रा करोति { निष्पत्त्राकृ }	niṣpattrākaroti  { niṣpattrākṛ }	verb	wound severely
 निष्पन्दतरी भवति { निष्पन्दतरीभू }	niṣpandatarī bhavati  { niṣpandatarībhū }	verb	become more or quite motionless
 निष्पिनष्टि { निष्पिष् }	niṣpinaṣṭi  { niṣpiṣ }	verb	crush
 निष्पिनष्टि { निष्पिष् }	niṣpinaṣṭi  { niṣpiṣ }	verb	grind
@@ -10153,7 +10153,7 @@
 निष्पुनाति { निष्पू }	niṣpunāti  { niṣpū }	verb	purify
 निष्पुनाति { निष्पू }	niṣpunāti  { niṣpū }	verb	winnow
 निष्फलयति { निष्फलय }	niṣphalayati  { niṣphalaya }	verb	render fruitless
-निष्फली करोति { निष्फलीकृ }	niṣphalī karoti  { niṣphalīkṛ }	verb	make fruitless
+निष्फली करोति { निष्फलीकृ }	niṣphalīkaroti  { niṣphalīkṛ }	verb	make fruitless
 निष्यति { निष्क् }	niṣyati  { niṣk }	verb	measure
 निष्यति { निष्क् }	niṣyati  { niṣk }	verb	same as niṣkayate
 निष्यति { निष्क् }	niṣyati  { niṣk }	verb	weigh
@@ -10182,10 +10182,10 @@
 निस्तुदति { निस्तुद् }	nistudati  { nistud }	verb	pierce
 निस्तुदति { निस्तुद् }	nistudati  { nistud }	verb	prick
 निस्तुदति { निस्तुद् }	nistudati  { nistud }	verb	sting
-निस्तुषी करोति { निस्तुषीकृ }	nistuṣī karoti  { nistuṣīkṛ }	verb	diminish
-निस्तुषी करोति { निस्तुषीकृ }	nistuṣī karoti  { nistuṣīkṛ }	verb	free from husk i.e. lessen
+निस्तुषी करोति { निस्तुषीकृ }	nistuṣīkaroti  { nistuṣīkṛ }	verb	diminish
+निस्तुषी करोति { निस्तुषीकृ }	nistuṣīkaroti  { nistuṣīkṛ }	verb	free from husk i.e. lessen
 निस्तृणोति { निस्तृ }	nistṛṇoti  { nistṛ }	verb	overthrow
-निस्त्वचि करोति	nistvaci karoti	verb	peel
+निस्त्वचि करोति	nistvacikaroti	verb	peel
 निस्पृशति { निस्पृश् }	nispṛśati  { nispṛś }	verb	caress
 निस्पृशति { निस्पृश् }	nispṛśati  { nispṛś }	verb	fondle
 निस्पृशति { निस्पृश् }	nispṛśati  { nispṛś }	verb	touch softly
@@ -10219,7 +10219,7 @@
 निह्नवते { निह्नु }	nihnavate  { nihnu }	verb	evade
 निह्नवते { निह्नु }	nihnavate  { nihnu }	verb	make reparation or amends to for
 निह्वयते { निह्वे }	nihvayate  { nihve }	verb	invoke
-निःशाखी करोति { निःशाखीकृ }	niḥśākhī karoti  { niḥśākhīkṛ }	verb	deprive of branches
+निःशाखी करोति { निःशाखीकृ }	niḥśākhīkaroti  { niḥśākhīkṛ }	verb	deprive of branches
 निःशास्ति { निःशास् }	niḥśāsti  { niḥśās }	verb	expel
 निःशृणाति { निःशॄ }	niḥśṛṇāti  { niḥśṛṛ }	verb	break
 निःशृणाति { निःशॄ }	niḥśṛṇāti  { niḥśṛṛ }	verb	crush
@@ -10250,7 +10250,7 @@
 नीरिन्णीते { नीरी }	nīrinṇīte  { nīrī }	verb	seduce
 नीलायति { नीलाय }	nīlāyati  { nīlāya }	verb	begin to become blue or dark-coloured
 नीलायते { नीलाय }	nīlāyate  { nīlāya }	verb	begin to become blue or dark-coloured
-नीहारी करोति { नीहारीकृ }	nīhārī karoti  { nīhārīkṛ }	verb	convert into mist
+नीहारी करोति { नीहारीकृ }	nīhārīkaroti  { nīhārīkṛ }	verb	convert into mist
 नुदति / -ते { नुद् }	nudati / -te  { nud }	verb	impel
 नुदति / -ते { नुद् }	nudati / -te  { nud }	verb	push  [ light switch ]
 नुदति { नुद् }	nudati  { nud }	verb	impel
@@ -10269,7 +10269,7 @@
 नृत्यति { नृत् }	nṛtyati  { nṛt }	verb	dance
 नृत्यति { नृत् }	nṛtyati  { nṛt }	verb	dance about
 नृत्यति { नृत् }	nṛtyati  { nṛt }	verb	represent
-नृपत्वं करोति { नृपत्वंकृ }	nṛpatvaṃ karoti  { nṛpatvaṃkṛ }	verb	reign
+नृपत्वं करोति { नृपत्वंकृ }	nṛpatvaṃkaroti  { nṛpatvaṃkṛ }	verb	reign
 नेत्रे निमीलयति	netre nimīlayati	verb	shut the eye
 नेदति { नेद् }	nedati  { ned }	verb	be near
 नेदति { नेद् }	nedati  { ned }	verb	blame
@@ -10289,8 +10289,8 @@
 नौति { नु }	nauti  { nu }	verb	shout
 नौति { नु }	nauti  { nu }	verb	sound
 नौ भवति { नौभू }	nau bhavati  { naubhū }	verb	be or become a ship
-न्यक् करोति { न्यक् }	nyak karoti  { nyak }	verb	bring down
-न्यक् करोति { न्यक् }	nyak karoti  { nyak }	verb	humble
+न्यक् करोति { न्यक् }	nyakkaroti  { nyak }	verb	bring down
+न्यक् करोति { न्यक् }	nyakkaroti  { nyak }	verb	humble
 न्यक् भवति { न्यक् }	nyak bhavati  { nyak }	verb	be humble or modest
 न्यक् भवति { न्यक् }	nyak bhavati  { nyak }	verb	humble one's self
 न्यञ्चति { न्यञ्च् }	nyañcati  { nyañc }	verb	bend or hang down
@@ -10334,15 +10334,15 @@
 न्युब्जति { न्युब्ज् }	nyubjati  { nyubj }	verb	overthrow
 न्युब्जति { न्युब्ज् }	nyubjati  { nyubj }	verb	upset
 न्यूङ्खयति { न्यूङ्खय }	nyūṅkhayati  { nyūṅkhaya }	verb	growl  [ as a hungry animal ]
-न्यूनतमं करोति	nyūnatamaṃ karoti	verb	minimiśe  [ computer ]
+न्यूनतमं करोति	nyūnatamaṃkaroti	verb	minimiśe  [ computer ]
 न्यूनयति { न्यूनय }	nyūnayati  { nyūnaya }	verb	diminish
 न्यूनयति { न्यूनय }	nyūnayati  { nyūnaya }	verb	lessen
-न्यूनी करोति	nyūnī karoti	verb	lower
-न्यूनी करोति	nyūnī karoti	verb	minimiśe  [ computer ]
-न्यूनी करोति	nyūnī karoti	verb	weaken
-न्यूनी करोति { न्यूनीकृ }	nyūnī karoti  { nyūnīkṛ }	verb	diminish
-न्यूनी करोति { न्यूनीकृ }	nyūnī karoti  { nyūnīkṛ }	verb	lessen
-न्यूनी करोति { न्यूनीकृ }	nyūnī karoti  { nyūnīkṛ }	verb	make less
+न्यूनी करोति	nyūnīkaroti	verb	lower
+न्यूनी करोति	nyūnīkaroti	verb	minimiśe  [ computer ]
+न्यूनी करोति	nyūnīkaroti	verb	weaken
+न्यूनी करोति { न्यूनीकृ }	nyūnīkaroti  { nyūnīkṛ }	verb	diminish
+न्यूनी करोति { न्यूनीकृ }	nyūnīkaroti  { nyūnīkṛ }	verb	lessen
+न्यूनी करोति { न्यूनीकृ }	nyūnīkaroti  { nyūnīkṛ }	verb	make less
 न्यृञ्जते { न्यृञ्ज् }	nyṛñjate  { nyṛñj }	verb	attain
 न्यृञ्जते { न्यृञ्ज् }	nyṛñjate  { nyṛñj }	verb	overpower
 न्यृञ्जते { न्यृञ्ज् }	nyṛñjate  { nyṛñj }	verb	reach
@@ -10391,8 +10391,8 @@
 पञ्चतां याति	pañcatāṃ yāti	verb	die  [ return to basic five elements ]
 पटूकरोति	paṭūkaroti	verb	sharpen
 पटूकरोति	paṭūkaroti	verb	stimulate
-पटू करोति { पटूकृ }	paṭū karoti  { paṭūkṛ }	verb	sharpen
-पटू करोति { पटूकृ }	paṭū karoti  { paṭūkṛ }	verb	stimulate
+पटू करोति { पटूकृ }	paṭūkaroti  { paṭūkṛ }	verb	sharpen
+पटू करोति { पटूकृ }	paṭūkaroti  { paṭūkṛ }	verb	stimulate
 पठति { पठ् }	paṭhati  { paṭh }	verb	cite
 पठति { पठ् }	paṭhati  { paṭh }	verb	declare
 पठति { पठ् }	paṭhati  { paṭh }	verb	express
@@ -10450,8 +10450,8 @@
 पत्यते { पत् }	patyate  { pat }	verb	possess
 पत्यते { पत् }	patyate  { pat }	verb	reign
 पत्यते { पत् }	patyate  { pat }	verb	rule
-पदविन्यसणम् करोति	padavinyasaṇam karoti	verb	stride
-पदी करोति { पदीकृ }	padī karoti  { padīkṛ }	verb	raise to the square root
+पदविन्यसणम् करोति	padavinyasaṇamkaroti	verb	stride
+पदी करोति { पदीकृ }	padīkaroti  { padīkṛ }	verb	raise to the square root
 पदं निदधाति { निधा }	padaṃ nidadhāti  { nidhā }	verb	make impression on
 पद्यते { पद् }	padyate  { pad }	verb	fall down or out
 पद्यते { पद् }	padyate  { pad }	verb	keep
@@ -10491,8 +10491,8 @@
 परागच्छति { परागम् }	parāgacchati  { parāgam }	verb	depart
 परागच्छति { परागम् }	parāgacchati  { parāgam }	verb	die
 परागच्छति { परागम् }	parāgacchati  { parāgam }	verb	go away
-पराङ्मुखी करोति { पराङ्मुखीकृ }	parāṅmukhī karoti  { parāṅmukhīkṛ }	verb	cause any one to avert the face
-पराङ्मुखी करोति { पराङ्मुखीकृ }	parāṅmukhī karoti  { parāṅmukhīkṛ }	verb	put to flight
+पराङ्मुखी करोति { पराङ्मुखीकृ }	parāṅmukhīkaroti  { parāṅmukhīkṛ }	verb	cause any one to avert the face
+पराङ्मुखी करोति { पराङ्मुखीकृ }	parāṅmukhīkaroti  { parāṅmukhīkṛ }	verb	put to flight
 पराङ्मुखी भवति { पराङ्मुखीभू }	parāṅmukhī bhavati  { parāṅmukhībhū }	verb	become averted
 पराङ्मुखी भवति { पराङ्मुखीभू }	parāṅmukhī bhavati  { parāṅmukhībhū }	verb	retreat
 पराङ्मुखी भवति { पराङ्मुखीभू }	parāṅmukhī bhavati  { parāṅmukhībhū }	verb	take to flight
@@ -11073,7 +11073,7 @@
 परिपश्यति { परिपश् }	paripaśyati  { paripaś }	verb	recognise as
 परिपश्यति { परिपश् }	paripaśyati  { paripaś }	verb	see
 परिपश्यति { परिपश् }	paripaśyati  { paripaś }	verb	survey
-परिपिङ्ग करोति { परिपिङ्गकृ }	paripiṅga karoti  { paripiṅgakṛ }	verb	dye anything reddish-brown
+परिपिङ्ग करोति { परिपिङ्गकृ }	paripiṅgakaroti  { paripiṅgakṛ }	verb	dye anything reddish-brown
 परिपिनष्टि { परिपिष् }	paripinaṣṭi  { paripiṣ }	verb	crush
 परिपिनष्टि { परिपिष् }	paripinaṣṭi  { paripiṣ }	verb	pound
 परिपिनष्टि { परिपिष् }	paripinaṣṭi  { paripiṣ }	verb	strike
@@ -11509,7 +11509,7 @@
 परिशीलयति { परिशील् }	pariśīlayati  { pariśīl }	verb	practise
 परिशीलयति { परिशील् }	pariśīlayati  { pariśīl }	verb	treat well
 परिशीलयति { परिशील् }	pariśīlayati  { pariśīl }	verb	use frequently
-परिशुद्धिं करोति	pariśuddhiṃ karoti	verb	prove one's innocence
+परिशुद्धिं करोति	pariśuddhiṃkaroti	verb	prove one's innocence
 परिशुध्यति { परिशुध् }	pariśudhyati  { pariśudh }	verb	become clean or purified
 परिशुध्यति { परिशुध् }	pariśudhyati  { pariśudh }	verb	be washed off
 परिशुध्यति { परिशुध् }	pariśudhyati  { pariśudh }	verb	prove one's innocence
@@ -11704,7 +11704,7 @@
 परिहसति { परिहस् }	parihasati  { parihas }	verb	laugh
 परिहसति { परिहस् }	parihasati  { parihas }	verb	laugh at
 परिहसति { परिहस् }	parihasati  { parihas }	verb	ridicule
-परिहासं करोति { कृ }	parihāsaṃ karoti  { kṛ }	verb	joke
+परिहासं करोति { कृ }	parihāsaṃkaroti  { kṛ }	verb	joke
 परीक्षते	parīkṣate	verb	verify  [ computer ]
 परीध्यायति { परीध्यै }	parīdhyāyati  { parīdhyai }	verb	meditate
 परीध्यायति { परीध्यै }	parīdhyāyati  { parīdhyai }	verb	ponder
@@ -11767,7 +11767,7 @@
 पर्यस्यते { पर्यस् }	paryasyate  { paryas }	verb	turn round
 पर्यस्यते { पर्यस् }	paryasyate  { paryas }	verb	upset
 पर्यस्यते { पर्यस् }	paryasyate  { paryas }	verb	wallow
-पर्या करोति { पर्याकृ }	paryā karoti  { paryākṛ }	verb	turn round
+पर्या करोति { पर्याकृ }	paryākaroti  { paryākṛ }	verb	turn round
 पर्याकुलयति { पर्याकुलय }	paryākulayati  { paryākulaya }	verb	bewilder
 पर्याकुलयति { पर्याकुलय }	paryākulayati  { paryākulaya }	verb	disturb
 पर्याकुलयति { पर्याकुलय }	paryākulayati  { paryākulaya }	verb	excite
@@ -11866,8 +11866,8 @@
 पवित्रयति { पवित्रय }	pavitrayati  { pavitraya }	verb	cleanse
 पवित्रयति { पवित्रय }	pavitrayati  { pavitraya }	verb	purify
 पवित्रयति { पवित्रय }	pavitrayati  { pavitraya }	verb	render happy
-पवित्री करोति { पवित्रीकृ }	pavitrī karoti  { pavitrīkṛ }	verb	cleanse
-पवित्री करोति { पवित्रीकृ }	pavitrī karoti  { pavitrīkṛ }	verb	purify
+पवित्री करोति { पवित्रीकृ }	pavitrīkaroti  { pavitrīkṛ }	verb	cleanse
+पवित्री करोति { पवित्रीकृ }	pavitrīkaroti  { pavitrīkṛ }	verb	purify
 पवित्री भवति { पवित्रीभू }	pavitrī bhavati  { pavitrībhū }	verb	become pure or clean
 पश्यति { पश् }	paśyati  { paś }	verb	be a spectator
 पश्यति { पश् }	paśyati  { paś }	verb	behold
@@ -11929,7 +11929,7 @@
 पषयति { पष् }	paṣayati  { paṣ }	verb	go
 पषयति { पष् }	paṣayati  { paṣ }	verb	hinder
 पषयति { पष् }	paṣayati  { paṣ }	verb	touch
-पाटली करोति { पाटलीकृ }	pāṭalī karoti  { pāṭalīkṛ }	verb	dye pale red
+पाटली करोति { पाटलीकृ }	pāṭalīkaroti  { pāṭalīkṛ }	verb	dye pale red
 पाठयति / ते { पठ् }	pāṭhayati / te  { paṭh }	verb	teach
 पातयति { पत् }	pātayati  { pat }	verb	pour
 पाति { पा }	pāti  { pā }	verb	absorb
@@ -11958,9 +11958,9 @@
 पाति { पा }	pāti  { pā }	verb	swallow
 पाति { पा }	pāti  { pā }	verb	watch
 पात्रयति { पात्रय }	pātrayati  { pātraya }	verb	use as a drinking vessel
-पात्री करोति { पात्रीकृ }	pātrī karoti  { pātrīkṛ }	verb	dignify
-पात्री करोति { पात्रीकृ }	pātrī karoti  { pātrīkṛ }	verb	make anything a recipient or object of
-पात्री करोति { पात्रीकृ }	pātrī karoti  { pātrīkṛ }	verb	promote to honour
+पात्री करोति { पात्रीकृ }	pātrīkaroti  { pātrīkṛ }	verb	dignify
+पात्री करोति { पात्रीकृ }	pātrīkaroti  { pātrīkṛ }	verb	make anything a recipient or object of
+पात्री करोति { पात्रीकृ }	pātrīkaroti  { pātrīkṛ }	verb	promote to honour
 पात्री भवति { पात्रीभू }	pātrī bhavati  { pātrībhū }	verb	become a fitting recipient or worthy object
 पादाभ्यां व्रजति	pādābhyāṃ vrajati	verb	go on foot
 पापयते { पापय }	pāpayate  { pāpaya }	verb	suffer a person to fall into misery on account of
@@ -11989,7 +11989,7 @@
 पिच्चयति { पिच्च् }	piccayati  { picc }	verb	squeeśe
 पिच्छयति { पिछ् }	picchayati  { pich }	verb	expand
 पिच्छयति { पिछ् }	picchayati  { pich }	verb	squeeśe
-पिच्छिली करोति { पिच्छिलीकृ }	picchilī karoti  { picchilīkṛ }	verb	make slippery or smeary
+पिच्छिली करोति { पिच्छिलीकृ }	picchilīkaroti  { picchilīkṛ }	verb	make slippery or smeary
 पिण्डते { पिण्ड् }	piṇḍate  { piṇḍ }	verb	assemble
 पिण्डते { पिण्ड् }	piṇḍate  { piṇḍ }	verb	gather
 पिण्डते { पिण्ड् }	piṇḍate  { piṇḍ }	verb	join
@@ -12002,12 +12002,12 @@
 पिण्डयति { पिण्ड् }	piṇḍayati  { piṇḍ }	verb	put together
 पिण्डयति { पिण्ड् }	piṇḍayati  { piṇḍ }	verb	roll into a lump or ball
 पिण्डयति { पिण्ड् }	piṇḍayati  { piṇḍ }	verb	unite
-पिण्डी करोति { पिण्डीकृ }	piṇḍī karoti  { piṇḍīkṛ }	verb	concentrate
-पिण्डी करोति { पिण्डीकृ }	piṇḍī karoti  { piṇḍīkṛ }	verb	identify with
-पिण्डी करोति { पिण्डीकृ }	piṇḍī karoti  { piṇḍīkṛ }	verb	join
-पिण्डी करोति { पिण्डीकृ }	piṇḍī karoti  { piṇḍīkṛ }	verb	make into a lump or ball
-पिण्डी करोति { पिण्डीकृ }	piṇḍī karoti  { piṇḍīkṛ }	verb	press together
-पिण्डी करोति { पिण्डीकृ }	piṇḍī karoti  { piṇḍīkṛ }	verb	unite
+पिण्डी करोति { पिण्डीकृ }	piṇḍīkaroti  { piṇḍīkṛ }	verb	concentrate
+पिण्डी करोति { पिण्डीकृ }	piṇḍīkaroti  { piṇḍīkṛ }	verb	identify with
+पिण्डी करोति { पिण्डीकृ }	piṇḍīkaroti  { piṇḍīkṛ }	verb	join
+पिण्डी करोति { पिण्डीकृ }	piṇḍīkaroti  { piṇḍīkṛ }	verb	make into a lump or ball
+पिण्डी करोति { पिण्डीकृ }	piṇḍīkaroti  { piṇḍīkṛ }	verb	press together
+पिण्डी करोति { पिण्डीकृ }	piṇḍīkaroti  { piṇḍīkṛ }	verb	unite
 पिण्डी भवति { पिण्डीभू }	piṇḍī bhavati  { piṇḍībhū }	verb	become a solid body
 पिण्डी भवति { पिण्डीभू }	piṇḍī bhavati  { piṇḍībhū }	verb	be made into a lump or ball
 पिनयति { पिनी }	pinayati  { pinī }	verb	introduce
@@ -12079,7 +12079,7 @@
 पुआरोहति { उपारुह् }	puārohati  { upāruh }	verb	ascend or go up to
 पुआरोहति { उपारुह् }	puārohati  { upāruh }	verb	mount
 पुआरोहति { उपारुह् }	puārohati  { upāruh }	verb	reach
-पुटचिह्नं करोति	puṭacihnaṃ karoti	verb	bookmark  [ computer ]
+पुटचिह्नं करोति	puṭacihnaṃkaroti	verb	bookmark  [ computer ]
 पुटति { पुट् }	puṭati  { puṭ }	verb	clasp
 पुटति { पुट् }	puṭati  { puṭ }	verb	envelop in
 पुटति { पुट् }	puṭati  { puṭ }	verb	fold
@@ -12093,19 +12093,19 @@
 पुण्डति { पुण्ड् }	puṇḍati  { puṇḍ }	verb	grind
 पुण्डति { पुण्ड् }	puṇḍati  { puṇḍ }	verb	reduce to powder
 पुण्डति { पुण्ड् }	puṇḍati  { puṇḍ }	verb	rub
-पुण्यी करोति { पुण्यीकृ }	puṇyī karoti  { puṇyīkṛ }	verb	consecrate
+पुण्यी करोति { पुण्यीकृ }	puṇyīkaroti  { puṇyīkṛ }	verb	consecrate
 पुत्री भवति { पुत्रीभू }	putrī bhavati  { putrībhū }	verb	become a son
 पुन:प्रवर्तयति	puna:pravartayati	verb	reboot  [ computer ]
 पुनरादधाति	punarādadhāti	verb	replace  [ computer ]
-पुनरुक्ती करोति { पुनरुक्तीकृ }	punaruktī karoti  { punaruktīkṛ }	verb	render superfluous or useless
+पुनरुक्ती करोति { पुनरुक्तीकृ }	punaruktīkaroti  { punaruktīkṛ }	verb	render superfluous or useless
 पुनरुत्थापयति	punarutthāpayati	verb	reboot  [ computer ]
 पुनर्निवेशयति	punarniveśayati	verb	replace  [ computer ]
 पुनर् याचति { याच् }	punar yācati  { yāc }	verb	reclaim
 { पुनर्- वेष्ट् }	{ punar- veṣṭ }	verb	rewind
 पुरति { पुर् }	purati  { pur }	verb	precede
-पुरतः करोति { पुरतःकृ }	purataḥ karoti  { purataḥkṛ }	verb	cause to precede
-पुरतः करोति { पुरतःकृ }	purataḥ karoti  { purataḥkṛ }	verb	honour
-पुरतः करोति { पुरतःकृ }	purataḥ karoti  { purataḥkṛ }	verb	place in front
+पुरतः करोति { पुरतःकृ }	purataḥkaroti  { purataḥkṛ }	verb	cause to precede
+पुरतः करोति { पुरतःकृ }	purataḥkaroti  { purataḥkṛ }	verb	honour
+पुरतः करोति { पुरतःकृ }	purataḥkaroti  { purataḥkṛ }	verb	place in front
 पुरस्करोति	puraskaroti	verb	upholding
 पुरस्करोति { पुरस्कृ }	puraskaroti  { puraskṛ }	verb	attend to
 पुरस्करोति { पुरस्कृ }	puraskaroti  { puraskṛ }	verb	cause to precede
@@ -12147,7 +12147,7 @@
 { पुर् }	{ pur }	verb	lead
 पुष्करायते { पुष्कराय }	puṣkarāyate  { puṣkarāya }	verb	act as or represent a drum
 पुष्णाति { पुष् }	puṣṇāti  { puṣ }	verb	prosper
-पुष्पमेघी करोति { पुष्पमेघीकृ }	puṣpameghī karoti  { puṣpameghīkṛ }	verb	turn into a cloud raining flower
+पुष्पमेघी करोति { पुष्पमेघीकृ }	puṣpameghīkaroti  { puṣpameghīkṛ }	verb	turn into a cloud raining flower
 पुष्पायति { पुष्प्य }	puṣpāyati  { puṣpya }	verb	bear flowers
 पुष्पायति { पुष्प्य }	puṣpāyati  { puṣpya }	verb	bloom
 पुष्पायति { पुष्प्य }	puṣpāyati  { puṣpya }	verb	blossom
@@ -12213,32 +12213,32 @@
 पृतन्यति { पृतन्य }	pṛtanyati  { pṛtanya }	verb	assail
 पृतन्यति { पृतन्य }	pṛtanyati  { pṛtanya }	verb	attack
 पृतन्यति { पृतन्य }	pṛtanyati  { pṛtanya }	verb	fight against
-पृथक् करोति	pṛthak karoti	verb	partition off
-पृथक् करोति	pṛthak karoti	verb	separate from
-पृथक् करोति	pṛthak karoti	verb	split off
-पृथक् करोति { पृथक्कृ }	pṛthak karoti  { pṛthakkṛ }	verb	avert
-पृथक् करोति { पृथक्कृ }	pṛthak karoti  { pṛthakkṛ }	verb	keep off
-पृथक् करोति { पृथक्कृ }	pṛthak karoti  { pṛthakkṛ }	verb	make separate
-पृथक् करोति { पृथक्कृ }	pṛthak karoti  { pṛthakkṛ }	verb	sunder
-पृथू करोति { पृथूकृ }	pṛthū karoti  { pṛthūkṛ }	verb	enlarge
-पृथू करोति { पृथूकृ }	pṛthū karoti  { pṛthūkṛ }	verb	expand
-पृथू करोति { पृथूकृ }	pṛthū karoti  { pṛthūkṛ }	verb	extend
-पृथू करोति { पृथूकृ }	pṛthū karoti  { pṛthūkṛ }	verb	spread out
+पृथक् करोति	pṛthakkaroti	verb	partition off
+पृथक् करोति	pṛthakkaroti	verb	separate from
+पृथक् करोति	pṛthakkaroti	verb	split off
+पृथक् करोति { पृथक्कृ }	pṛthakkaroti  { pṛthakkṛ }	verb	avert
+पृथक् करोति { पृथक्कृ }	pṛthakkaroti  { pṛthakkṛ }	verb	keep off
+पृथक् करोति { पृथक्कृ }	pṛthakkaroti  { pṛthakkṛ }	verb	make separate
+पृथक् करोति { पृथक्कृ }	pṛthakkaroti  { pṛthakkṛ }	verb	sunder
+पृथू करोति { पृथूकृ }	pṛthūkaroti  { pṛthūkṛ }	verb	enlarge
+पृथू करोति { पृथूकृ }	pṛthūkaroti  { pṛthūkṛ }	verb	expand
+पृथू करोति { पृथूकृ }	pṛthūkaroti  { pṛthūkṛ }	verb	extend
+पृथू करोति { पृथूकृ }	pṛthūkaroti  { pṛthūkṛ }	verb	spread out
 पृष्ठकेकरोति { पृष्ठकेकृ }	pṛṣṭhakekaroti  { pṛṣṭhakekṛ }	verb	postpone
 पृष्ठकेकरोति { पृष्ठकेकृ }	pṛṣṭhakekaroti  { pṛṣṭhakekṛ }	verb	resign
-पृष्ठचिह्नं करोति	pṛṣṭhacihnaṃ karoti	verb	bookmark  [ computer ]
+पृष्ठचिह्नं करोति	pṛṣṭhacihnaṃkaroti	verb	bookmark  [ computer ]
 पेणति { पेण् }	peṇati  { peṇ }	verb	grind
 पेलयति { पिल् }	pelayati  { pil }	verb	impel
 पेलयति { पिल् }	pelayati  { pil }	verb	incite
 पेलयति { पिल् }	pelayati  { pil }	verb	send
 पेलयति { पिल् }	pelayati  { pil }	verb	throw
 पेषते { पेष् }	peṣate  { peṣ }	verb	strive diligently
-पेषी करोति { पेषीकृ }	peṣī karoti  { peṣīkṛ }	verb	crush
-पेषी करोति { पेषीकृ }	peṣī karoti  { peṣīkṛ }	verb	pound
+पेषी करोति { पेषीकृ }	peṣīkaroti  { peṣīkṛ }	verb	crush
+पेषी करोति { पेषीकृ }	peṣīkaroti  { peṣīkṛ }	verb	pound
 पैणति { पैण् }	paiṇati  { paiṇ }	verb	embrace
 पैणति { पैण् }	paiṇati  { paiṇ }	verb	go
 पैणति { पैण् }	paiṇati  { paiṇ }	verb	send
-पोट्टली करोति { पोट्टलीकृ }	poṭṭalī karoti  { poṭṭalīkṛ }	verb	put together into a bundle or packet
+पोट्टली करोति { पोट्टलीकृ }	poṭṭalīkaroti  { poṭṭalīkṛ }	verb	put together into a bundle or packet
 पोसयति { पुस् }	posayati  { pus }	verb	emit
 प्रकटयति	prakaṭayati	verb	appear
 प्रकटयति { प्रकट }	prakaṭayati  { prakaṭa }	verb	disclose
@@ -12248,10 +12248,10 @@
 प्रकटायति { प्रकटाय }	prakaṭāyati  { prakaṭāya }	verb	proclaim
 प्रकटायति { प्रकटाय }	prakaṭāyati  { prakaṭāya }	verb	reveal
 प्रकटीकरोति	prakaṭīkaroti	verb	reveal
-प्रकटी करोति { कृ }	prakaṭī karoti  { kṛ }	verb	present  [ show ]
-प्रकटी करोति { प्रकटीकृ }	prakaṭī karoti  { prakaṭīkṛ }	verb	display
-प्रकटी करोति { प्रकटीकृ }	prakaṭī karoti  { prakaṭīkṛ }	verb	manifest
-प्रकटी करोति { प्रकटीकृ }	prakaṭī karoti  { prakaṭīkṛ }	verb	unfold
+प्रकटी करोति { कृ }	prakaṭīkaroti  { kṛ }	verb	present  [ show ]
+प्रकटी करोति { प्रकटीकृ }	prakaṭīkaroti  { prakaṭīkṛ }	verb	display
+प्रकटी करोति { प्रकटीकृ }	prakaṭīkaroti  { prakaṭīkṛ }	verb	manifest
+प्रकटी करोति { प्रकटीकृ }	prakaṭīkaroti  { prakaṭīkṛ }	verb	unfold
 प्रकटी भवति { प्रकटीभू }	prakaṭī bhavati  { prakaṭībhū }	verb	appear
 प्रकटी भवति { प्रकटीभू }	prakaṭī bhavati  { prakaṭībhū }	verb	become manifest
 प्रकथयति { प्रकथ् }	prakathayati  { prakath }	verb	announce
@@ -12308,10 +12308,10 @@
 प्रकालयति { प्रकल् }	prakālayati  { prakal }	verb	urge on
 प्रकाशते { प्रकाश् }	prakāśate  { prakāś }	verb	become evident or manifest
 प्रकाशते { प्रकाश् }	prakāśate  { prakāś }	verb	become visible
-प्रकाशी करोति { प्रकाशीकृ }	prakāśī karoti  { prakāśīkṛ }	verb	give light
-प्रकाशी करोति { प्रकाशीकृ }	prakāśī karoti  { prakāśīkṛ }	verb	illumine
-प्रकाशी करोति { प्रकाशीकृ }	prakāśī karoti  { prakāśīkṛ }	verb	make known
-प्रकाशी करोति { प्रकाशीकृ }	prakāśī karoti  { prakāśīkṛ }	verb	publish
+प्रकाशी करोति { प्रकाशीकृ }	prakāśīkaroti  { prakāśīkṛ }	verb	give light
+प्रकाशी करोति { प्रकाशीकृ }	prakāśīkaroti  { prakāśīkṛ }	verb	illumine
+प्रकाशी करोति { प्रकाशीकृ }	prakāśīkaroti  { prakāśīkṛ }	verb	make known
+प्रकाशी करोति { प्रकाशीकृ }	prakāśīkaroti  { prakāśīkṛ }	verb	publish
 प्रकिरति { प्रकॄ }	prakirati  { prakṛṛ }	verb	strew
 प्रकीर्तयति { प्रकीर्त् }	prakīrtayati  { prakīrt }	verb	announce
 प्रकीर्तयति { प्रकीर्त् }	prakīrtayati  { prakīrt }	verb	approve
@@ -12540,11 +12540,11 @@
 प्रगाहते { प्रगाह् }	pragāhate  { pragāh }	verb	penetrate
 प्रगाहते { प्रगाह् }	pragāhate  { pragāh }	verb	pervade
 प्रगुणयति { प्रगुणय }	praguṇayati  { praguṇaya }	verb	exhibit
-प्रगुणी करोति { प्रगुणीकृ }	praguṇī karoti  { praguṇīkṛ }	verb	bring up
-प्रगुणी करोति { प्रगुणीकृ }	praguṇī karoti  { praguṇīkṛ }	verb	make amenable to
-प्रगुणी करोति { प्रगुणीकृ }	praguṇī karoti  { praguṇīkṛ }	verb	make smooth or even
-प्रगुणी करोति { प्रगुणीकृ }	praguṇī karoti  { praguṇīkṛ }	verb	nourish
-प्रगुणी करोति { प्रगुणीकृ }	praguṇī karoti  { praguṇīkṛ }	verb	put straight or in order
+प्रगुणी करोति { प्रगुणीकृ }	praguṇīkaroti  { praguṇīkṛ }	verb	bring up
+प्रगुणी करोति { प्रगुणीकृ }	praguṇīkaroti  { praguṇīkṛ }	verb	make amenable to
+प्रगुणी करोति { प्रगुणीकृ }	praguṇīkaroti  { praguṇīkṛ }	verb	make smooth or even
+प्रगुणी करोति { प्रगुणीकृ }	praguṇīkaroti  { praguṇīkṛ }	verb	nourish
+प्रगुणी करोति { प्रगुणीकृ }	praguṇīkaroti  { praguṇīkṛ }	verb	put straight or in order
 प्रगुरते { प्रगुर् }	pragurate  { pragur }	verb	cry aloud
 प्रगृणाति { प्रगॄ }	pragṛṇāti  { pragṛṛ }	verb	announce to
 प्रगृणाति { प्रगॄ }	pragṛṇāti  { pragṛṛ }	verb	extol
@@ -12638,7 +12638,7 @@
 प्रचातयते { प्रचत् }	pracātayate  { pracat }	verb	destroy
 प्रचातयते { प्रचत् }	pracātayate  { pracat }	verb	drive or scare away
 प्रचातयते { प्रचत् }	pracātayate  { pracat }	verb	remove
-प्रचारलोपं करोति	pracāralopaṃ karoti	verb	abolish
+प्रचारलोपं करोति	pracāralopaṃkaroti	verb	abolish
 प्रचिनुते { प्रचि }	pracinute  { praci }	verb	augment
 प्रचिनुते { प्रचि }	pracinute  { praci }	verb	collect
 प्रचिनुते { प्रचि }	pracinute  { praci }	verb	enhance
@@ -12866,8 +12866,8 @@
 प्रतक्षति { प्रतक्ष् }	pratakṣati  { pratakṣ }	verb	build
 प्रतक्षति { प्रतक्ष् }	pratakṣati  { pratakṣ }	verb	make
 प्रतक्षति { प्रतक्ष् }	pratakṣati  { pratakṣ }	verb	produce
-प्रतनु करोति	pratanu karoti	verb	tender thin
-प्रतनु करोति	pratanu karoti	verb	weaken
+प्रतनु करोति	pratanukaroti	verb	tender thin
+प्रतनु करोति	pratanukaroti	verb	weaken
 प्रतनुते { प्रतन् }	pratanute  { pratan }	verb	begin
 प्रतनुते { प्रतन् }	pratanute  { pratan }	verb	cause
 प्रतनुते { प्रतन् }	pratanute  { pratan }	verb	continue
@@ -12887,10 +12887,10 @@
 प्रतनुते { प्रतन् }	pratanute  { pratan }	verb	spread
 प्रतनुते { प्रतन् }	pratanute  { pratan }	verb	spread or extend over
 प्रतनुते { प्रतन् }	pratanute  { pratan }	verb	undertake
-प्रतनू करोति { प्रतनूकृ }	pratanū karoti  { pratanūkṛ }	verb	diminish
-प्रतनू करोति { प्रतनूकृ }	pratanū karoti  { pratanūkṛ }	verb	emaciate
-प्रतनू करोति { प्रतनूकृ }	pratanū karoti  { pratanūkṛ }	verb	render thin
-प्रतनू करोति { प्रतनूकृ }	pratanū karoti  { pratanūkṛ }	verb	weaken
+प्रतनू करोति { प्रतनूकृ }	pratanūkaroti  { pratanūkṛ }	verb	diminish
+प्रतनू करोति { प्रतनूकृ }	pratanūkaroti  { pratanūkṛ }	verb	emaciate
+प्रतनू करोति { प्रतनूकृ }	pratanūkaroti  { pratanūkṛ }	verb	render thin
+प्रतनू करोति { प्रतनूकृ }	pratanūkaroti  { pratanūkṛ }	verb	weaken
 प्रतनोति { प्रतन् }	pratanoti  { pratan }	verb	begin
 प्रतनोति { प्रतन् }	pratanoti  { pratan }	verb	cause
 प्रतनोति { प्रतन् }	pratanoti  { pratan }	verb	continue
@@ -13356,9 +13356,9 @@
 प्रतिबाधते { प्रतिबाध् }	pratibādhate  { pratibādh }	verb	vex
 प्रतिबिम्बयति { प्रतिबिम्बय }	pratibimbayati  { pratibimbaya }	verb	mirror
 प्रतिबिम्बयति { प्रतिबिम्बय }	pratibimbayati  { pratibimbaya }	verb	reflect
-प्रतिबिम्बी करोति { प्रतिबिम्बीकृ }	pratibimbī karoti  { pratibimbīkṛ }	verb	equal
-प्रतिबिम्बी करोति { प्रतिबिम्बीकृ }	pratibimbī karoti  { pratibimbīkṛ }	verb	reflect
-प्रतिबिम्बी करोति { प्रतिबिम्बीकृ }	pratibimbī karoti  { pratibimbīkṛ }	verb	represent
+प्रतिबिम्बी करोति { प्रतिबिम्बीकृ }	pratibimbīkaroti  { pratibimbīkṛ }	verb	equal
+प्रतिबिम्बी करोति { प्रतिबिम्बीकृ }	pratibimbīkaroti  { pratibimbīkṛ }	verb	reflect
+प्रतिबिम्बी करोति { प्रतिबिम्बीकृ }	pratibimbīkaroti  { pratibimbīkṛ }	verb	represent
 प्रतिबुध्यते { प्रतिबुध् }	pratibudhyate  { pratibudh }	verb	awaken
 प्रतिब्रवीति { प्रतिब्रू }	pratibravīti  { pratibrū }	verb	answer
 प्रतिब्रवीति { प्रतिब्रू }	pratibravīti  { pratibrū }	verb	answer i.e. return
@@ -13739,9 +13739,9 @@
 प्रतुदति { प्रतुद् }	pratudati  { pratud }	verb	cut through
 प्रतुदति { प्रतुद् }	pratudati  { pratud }	verb	pierce
 प्रतुदति { प्रतुद् }	pratudati  { pratud }	verb	strike at
-प्रत्यक्षी करोति { प्रत्यक्षीकृ }	pratyakṣī karoti  { pratyakṣīkṛ }	verb	inspect
-प्रत्यक्षी करोति { प्रत्यक्षीकृ }	pratyakṣī karoti  { pratyakṣīkṛ }	verb	look at or with one's own eyes
-प्रत्यक्षी करोति { प्रत्यक्षीकृ }	pratyakṣī karoti  { pratyakṣīkṛ }	verb	make visible or evident
+प्रत्यक्षी करोति { प्रत्यक्षीकृ }	pratyakṣīkaroti  { pratyakṣīkṛ }	verb	inspect
+प्रत्यक्षी करोति { प्रत्यक्षीकृ }	pratyakṣīkaroti  { pratyakṣīkṛ }	verb	look at or with one's own eyes
+प्रत्यक्षी करोति { प्रत्यक्षीकृ }	pratyakṣīkaroti  { pratyakṣīkṛ }	verb	make visible or evident
 प्रत्यक्षी भवति { प्रत्यक्षीभू }	pratyakṣī bhavati  { pratyakṣībhū }	verb	appear in person
 प्रत्यक्षी भवति { प्रत्यक्षीभू }	pratyakṣī bhavati  { pratyakṣībhū }	verb	be visible
 प्रत्यक्षी भवति { प्रत्यक्षीभू }	pratyakṣī bhavati  { pratyakṣībhū }	verb	come before the eyes
@@ -13761,7 +13761,7 @@
 प्रत्यनुनयते { प्रत्यनुनी }	pratyanunayate  { pratyanunī }	verb	persuade
 प्रत्यनुनयते { प्रत्यनुनी }	pratyanunayate  { pratyanunī }	verb	speak friendly words
 प्रत्यनुभवति { प्रत्यनुभू }	pratyanubhavati  { pratyanubhū }	verb	enjoy singly or severally
-प्रत्यप करोति { प्रत्यपकृ }	pratyapa karoti  { pratyapakṛ }	verb	take vengeance on
+प्रत्यप करोति { प्रत्यपकृ }	pratyapakaroti  { pratyapakṛ }	verb	take vengeance on
 प्रत्यपयाति { प्रत्यपया }	pratyapayāti  { pratyapayā }	verb	flee into
 प्रत्यपयाति { प्रत्यपया }	pratyapayāti  { pratyapayā }	verb	go back
 प्रत्यपयाति { प्रत्यपया }	pratyapayāti  { pratyapayā }	verb	retreat
@@ -13859,7 +13859,7 @@
 प्रत्याद्दिशति { प्रति- आ- दिश् }	pratyāddiśati  { prati- ā- diś }	verb	recall
 प्रत्यानयति { प्रत्यानी }	pratyānayati  { pratyānī }	verb	recover
 प्रत्यानयते { प्रत्यानी }	pratyānayate  { pratyānī }	verb	recover
-प्रत्यार्द्री करोति { प्रत्यार्द्रीकृ }	pratyārdrī karoti  { pratyārdrīkṛ }	verb	efface
+प्रत्यार्द्री करोति { प्रत्यार्द्रीकृ }	pratyārdrīkaroti  { pratyārdrīkṛ }	verb	efface
 प्रत्यालभते { प्रत्यालभ् }	pratyālabhate  { pratyālabh }	verb	seiśe by the opposite side
 प्रत्यालभते { प्रत्यालभ् }	pratyālabhate  { pratyālabh }	verb	take up an attitude of resistance
 प्रत्याश्वसिति { प्रत्याश्वस् }	pratyāśvasiti  { pratyāśvas }	verb	revive
@@ -14353,7 +14353,7 @@
 प्रमाणयति { प्र- माणय् }	pramāṇayati  { pra- māṇay }	verb	prove
 प्रमाणयति { प्र- माणय् }	pramāṇayati  { pra- māṇay }	verb	take as authority
 प्रमाणीकरोति	pramāṇīkaroti	verb	authenticate  [ computer ]
-प्रमाणी करोति { कृ }	pramāṇī karoti  { kṛ }	verb	regard as an authority
+प्रमाणी करोति { कृ }	pramāṇīkaroti  { kṛ }	verb	regard as an authority
 प्रमादयते { प्रमद् }	pramādayate  { pramad }	verb	enjoy
 प्रमादयते { प्रमद् }	pramādayate  { pramad }	verb	indulge in
 प्रमाद्यति { प्रमद् }	pramādyati  { pramad }	verb	be careless or negligent
@@ -14728,7 +14728,7 @@
 प्रवक्ति { प्रवच् }	pravakti  { pravac }	verb	tell
 प्रवक्ति { प्रवच् }	pravakti  { pravac }	verb	tell of betray
 प्रवणविधेयी भवति { प्रवणविधेयीभू }	pravaṇavidheyī bhavati  { pravaṇavidheyībhū }	verb	obey gladly
-प्रवणी करोति { प्रवणीकृ }	pravaṇī karoti  { pravaṇīkṛ }	verb	dispose favourably
+प्रवणी करोति { प्रवणीकृ }	pravaṇīkaroti  { pravaṇīkṛ }	verb	dispose favourably
 प्रवणी भवति { प्रवणीभू }	pravaṇī bhavati  { pravaṇībhū }	verb	become favourably disposed
 प्रवदति / -ते { प्रवद् }	pravadati / -te  { pravad }	verb	assert
 प्रवदति / -ते { प्रवद् }	pravadati / -te  { pravad }	verb	offer for sale
@@ -15577,7 +15577,7 @@
 प्रेर्ते { प्रेर् }	prerte  { prer }	verb	arise
 प्रेर्ते { प्रेर् }	prerte  { prer }	verb	come forth
 प्रेर्ते { प्रेर् }	prerte  { prer }	verb	move
-प्रेषणं करोति { कृ }	preṣaṇaṃ karoti  { kṛ }	verb	send
+प्रेषणं करोति { कृ }	preṣaṇaṃkaroti  { kṛ }	verb	send
 प्रेषति { प्र- इष् }	preṣati  { pra- iṣ }	verb	drive on
 प्रेषति { प्र- इष् }	preṣati  { pra- iṣ }	verb	impel
 प्रेषति { प्र- इष् }	preṣati  { pra- iṣ }	verb	send forth
@@ -15954,9 +15954,9 @@
 बिभेति { भी }	bibheti  { bhī }	verb	be afraid of
 बिभेति { भी }	bibheti  { bhī }	verb	be anxious about
 बिभेति { भी }	bibheti  { bhī }	verb	fear for
-बीजा करोति { बीजाकृ }	bījā karoti  { bījākṛ }	verb	sow
-बीजा करोति { बीजाकृ }	bījā karoti  { bījākṛ }	verb	sow with seed
-बीभत्सं करोति { कृ }	bībhatsaṃ karoti  { kṛ }	verb	disgust
+बीजा करोति { बीजाकृ }	bījākaroti  { bījākṛ }	verb	sow
+बीजा करोति { बीजाकृ }	bījākaroti  { bījākṛ }	verb	sow with seed
+बीभत्सं करोति { कृ }	bībhatsaṃkaroti  { kṛ }	verb	disgust
 बुङ्गति { बुङ्ग् }	buṅgati  { buṅg }	verb	abandon
 बुङ्गति { बुङ्ग् }	buṅgati  { buṅg }	verb	forsake
 बुडति { बुड् }	buḍati  { buḍ }	verb	emit
@@ -16022,7 +16022,7 @@
 ब्रूते { ब्रू }	brūte  { brū }	verb	speak or decide or judge wrongly
 ब्रूते { ब्रू }	brūte  { brū }	verb	tell
 ब्रूते { ब्रू }	brūte  { brū }	verb	tell itself
-भक्षणं करोति { कृ }	bhakṣaṇaṃ karoti  { kṛ }	verb	eat
+भक्षणं करोति { कृ }	bhakṣaṇaṃkaroti  { kṛ }	verb	eat
 भक्षिवन्	bhakṣivan	verb	eating
 भङ्गुरयति { भङ्गुरय }	bhaṅgurayati  { bhaṅguraya }	verb	crisp
 भङ्गुरयति { भङ्गुरय }	bhaṅgurayati  { bhaṅguraya }	verb	curl
@@ -16095,7 +16095,7 @@
 भजते { भज् }	bhajate  { bhaj }	verb	supply
 भजते { भज् }	bhajate  { bhaj }	verb	turn or resort to
 भजते { भज् }	bhajate  { bhaj }	verb	undergo
-भजनं करोति { कृ }	bhajanaṃ karoti  { kṛ }	verb	adore
+भजनं करोति { कृ }	bhajanaṃkaroti  { kṛ }	verb	adore
 भटति { भट् }	bhaṭati  { bhaṭ }	verb	hire
 भटति { भट् }	bhaṭati  { bhaṭ }	verb	maintain
 भटति { भट् }	bhaṭati  { bhaṭ }	verb	nourish
@@ -16110,8 +16110,8 @@
 भत्सते { बाध् }	bhatsate  { bādh }	verb	feel an aversion for
 भत्सते { बाध् }	bhatsate  { bādh }	verb	shrink from
 भद्राकरोति { भद्राकृ }	bhadrākaroti  { bhadrākṛ }	verb	shave
-भद्रं करोति { भद्रंकृ }	bhadraṃ karoti  { bhadraṃkṛ }	verb	bless
-भद्रं करोति { भद्रंकृ }	bhadraṃ karoti  { bhadraṃkṛ }	verb	grant welfare
+भद्रं करोति { भद्रंकृ }	bhadraṃkaroti  { bhadraṃkṛ }	verb	bless
+भद्रं करोति { भद्रंकृ }	bhadraṃkaroti  { bhadraṃkṛ }	verb	grant welfare
 भनक्ति { भञ्ज् }	bhanakti  { bhañj }	verb	arrest
 भनक्ति { भञ्ज् }	bhanakti  { bhañj }	verb	bend
 भनक्ति { भञ्ज् }	bhanakti  { bhañj }	verb	break into
@@ -16247,7 +16247,7 @@
 भर्ति { भृ }	bharti  { bhṛ }	verb	take care of
 भर्ति { भृ }	bharti  { bhṛ }	verb	undergo
 भर्ति { भृ }	bharti  { bhṛ }	verb	wear  [ i.e. let grow ]
-भर्त्सनं करोति { कृ }	bhartsanaṃ karoti  { kṛ }	verb	scold
+भर्त्सनं करोति { कृ }	bhartsanaṃkaroti  { kṛ }	verb	scold
 भर्त्सयते { भर्त्स् }	bhartsayate  { bharts }	verb	abuse
 भर्त्सयते { भर्त्स् }	bhartsayate  { bharts }	verb	revile
 भर्वति { भर्व् }	bharvati  { bharv }	verb	chew
@@ -16276,7 +16276,7 @@
 भस्मीकुरुते { भस्मीकृ }	bhasmīkurute  { bhasmīkṛ }	verb	make into ashes
 भस्मीकुरुते { भस्मीकृ }	bhasmīkurute  { bhasmīkṛ }	verb	reduce to ashes
 भस्मीभवति { भस्मीभू }	bhasmībhavati  { bhasmībhū }	verb	become ashes
-भागं करोति { कृ }	bhāgaṃ karoti  { kṛ }	verb	divide
+भागं करोति { कृ }	bhāgaṃkaroti  { kṛ }	verb	divide
 भाजयते { भज् }	bhājayate  { bhaj }	verb	deal out
 भाजयते { भज् }	bhājayate  { bhaj }	verb	distribute
 भाटकेन गृह्णाति { गृह् }	bhāṭakena gṛhṇāti  { gṛh }	verb	hire
@@ -16295,7 +16295,7 @@
 भायते { भा }	bhāyate  { bhā }	verb	radiance is put forth by  [ impersonal passive form ]
 भार्गवायते { भार्गवाय }	bhārgavāyate  { bhārgavāya }	verb	resemble śukra
 भावुक	bhāvuka	verb	full of passion and feelings
-भाषणं करोति { कृ }	bhāṣaṇaṃ karoti  { kṛ }	verb	lecture
+भाषणं करोति { कृ }	bhāṣaṇaṃkaroti  { kṛ }	verb	lecture
 भाषते	bhāṣate	verb	talk
 भाषते { भाष् }	bhāṣate  { bhāṣ }	verb	announce
 भाषते { भाष् }	bhāṣate  { bhāṣ }	verb	call
@@ -16401,7 +16401,7 @@
 भृज्जते { भ्रज्ज् }	bhṛjjate  { bhrajj }	verb	roast
 भृडति { भृड् }	bhṛḍati  { bhṛḍ }	verb	dive
 भृडति { भृड् }	bhṛḍati  { bhṛḍ }	verb	plunge
-भोजनं करोति { कृ }	bhojanaṃ karoti  { kṛ }	verb	take food
+भोजनं करोति { कृ }	bhojanaṃkaroti  { kṛ }	verb	take food
 भ्रमति	bhramati	verb	spin
 भ्रमति { भ्रम् }	bhramati  { bhram }	verb	be current
 भ्रमति { भ्रम् }	bhramati  { bhram }	verb	be perplexed
@@ -16491,7 +16491,7 @@
 मज्जति { मज्ज् }	majjati  { majj }	verb	go to hell
 मज्जति { मज्ज् }	majjati  { majj }	verb	perish
 मज्जति { मज्ज् }	majjati  { majj }	verb	plunge or throw one's self into
-मज्जनं करोति { कृ }	majjanaṃ karoti  { kṛ }	verb	dive
+मज्जनं करोति { कृ }	majjanaṃkaroti  { kṛ }	verb	dive
 मज्जयति	majjayati	verb	dip
 मञ्चते { मञ्च् }	mañcate  { mañc }	verb	adore
 मञ्चते { मञ्च् }	mañcate  { mañc }	verb	cheat
@@ -16501,7 +16501,7 @@
 मञ्चते { मञ्च् }	mañcate  { mañc }	verb	move
 मञ्चते { मञ्च् }	mañcate  { mañc }	verb	shine
 मञ्जरयति { मञ्जरय }	mañjarayati  { mañjaraya }	verb	adorn with clusters of blossoms
-मञ्जरी करोति { मञ्जरीकृ }	mañjarī karoti  { mañjarīkṛ }	verb	turn into flowerbuds
+मञ्जरी करोति { मञ्जरीकृ }	mañjarīkaroti  { mañjarīkṛ }	verb	turn into flowerbuds
 मठयति { मठय }	maṭhayati  { maṭhaya }	verb	build
 मठयति { मठय }	maṭhayati  { maṭhaya }	verb	erect
 मडमडति	maḍamaḍati	verb	crack
@@ -16513,25 +16513,25 @@
 मण्डति { मण्ड् }	maṇḍati  { maṇḍ }	verb	deck
 मण्डलायते { मण्डलाय }	maṇḍalāyate  { maṇḍalāya }	verb	become or form one's self into a circle or ring
 मण्डलायते { मण्डलाय }	maṇḍalāyate  { maṇḍalāya }	verb	coil one's self
-मती करोति { मतीकृ }	matī karoti  { matīkṛ }	verb	harrow
-मती करोति { मतीकृ }	matī karoti  { matīkṛ }	verb	make even by rolling
-मती करोति { मतीकृ }	matī karoti  { matīkṛ }	verb	roll
+मती करोति { मतीकृ }	matīkaroti  { matīkṛ }	verb	harrow
+मती करोति { मतीकृ }	matīkaroti  { matīkṛ }	verb	make even by rolling
+मती करोति { मतीकृ }	matīkaroti  { matīkṛ }	verb	roll
 मद्यति / ते { मद् }	madyati / te  { mad }	verb	animate
 मद्यति / ते { मद् }	madyati / te  { mad }	verb	boil
 मद्यति / ते { मद् }	madyati / te  { mad }	verb	enjoy heavenly bliss
 मद्यति / ते { मद् }	madyati / te  { mad }	verb	gladden
 मद्यति / ते { मद् }	madyati / te  { mad }	verb	intoxicate
 मद्यति { मद्य }	madyati  { madya }	verb	intoxicate
-मद्रा करोति { मद्राकृ }	madrā karoti  { madrākṛ }	verb	shave
-मद्रा करोति { मद्राकृ }	madrā karoti  { madrākṛ }	verb	shear
+मद्रा करोति { मद्राकृ }	madrākaroti  { madrākṛ }	verb	shave
+मद्रा करोति { मद्राकृ }	madrākaroti  { madrākṛ }	verb	shear
 मद्रायते { मद्राय }	madrāyate  { madrāya }	verb	be glad
 मद्रायते { मद्राय }	madrāyate  { madrāya }	verb	rejoice
 मद्रिकायते { मद्रिकाय }	madrikāyate  { madrikāya }	verb	be like a madra woman
 मधुरयति { मधुरय }	madhurayati  { madhuraya }	verb	sweeten
-मध्ये करोति	madhye karoti	verb	count among
-मध्ये करोति	madhye karoti	verb	make an intermediary of
-मध्ये करोति	madhye karoti	verb	place in the middle
-मननं करोति { कृ }	mananaṃ karoti  { kṛ }	verb	think
+मध्ये करोति	madhyekaroti	verb	count among
+मध्ये करोति	madhyekaroti	verb	make an intermediary of
+मध्ये करोति	madhyekaroti	verb	place in the middle
+मननं करोति { कृ }	mananaṃkaroti  { kṛ }	verb	think
 मनसा गमति	manasā gamati	verb	observe
 मनसा गमति	manasā gamati	verb	perceive
 मनसा सङ्कल्पयति { सङ्कॢप् }	manasā saṅkalpayati  { saṅklṛp }	verb	resolve or strive for
@@ -16545,7 +16545,7 @@
 मनस्यते { मनस्य }	manasyate  { manasya }	verb	think
 मन्तूयति { मन्तूय }	mantūyati  { mantūya }	verb	be offended or be jealous
 मन्तूयते { मन्तूय }	mantūyate  { mantūya }	verb	be offended or be jealous
-मन्थनं करोति { कृ }	manthanaṃ karoti  { kṛ }	verb	churn
+मन्थनं करोति { कृ }	manthanaṃkaroti  { kṛ }	verb	churn
 मन्दते { मन्द् }	mandate  { mand }	verb	be drunk or intoxicated
 मन्दते { मन्द् }	mandate  { mand }	verb	be glad or delighted
 मन्दते { मन्द् }	mandate  { mand }	verb	be splendid or beautiful
@@ -16570,8 +16570,8 @@
 मन्दायते { मन्दाय }	mandāyate  { mandāya }	verb	go slowly
 मन्दायते { मन्दाय }	mandāyate  { mandāya }	verb	linger
 मन्दायते { मन्दाय }	mandāyate  { mandāya }	verb	loiter
-मन्दी करोति { मन्दीकृ }	mandī karoti  { mandīkṛ }	verb	diminish
-मन्दी करोति { मन्दीकृ }	mandī karoti  { mandīkṛ }	verb	weaken
+मन्दी करोति { मन्दीकृ }	mandīkaroti  { mandīkṛ }	verb	diminish
+मन्दी करोति { मन्दीकृ }	mandīkaroti  { mandīkṛ }	verb	weaken
 मन्दी भवति { मन्दीभू }	mandī bhavati  { mandībhū }	verb	become weak or faint
 मन्दी भवति { मन्दीभू }	mandī bhavati  { mandībhū }	verb	move on more slowly
 मन्यति { मन् }	manyati  { man }	verb	believe in
@@ -16584,7 +16584,7 @@
 मरू भवति { मरूभू }	marū bhavati  { marūbhū }	verb	become a wilderness or sandy desert
 मर्चयति { मृच् }	marcayati  { mṛc }	verb	annoy
 मर्जयते { मृज् }	marjayate  { mṛj }	verb	roam
-मर्दनं करोति { कृ }	mardanaṃ karoti  { kṛ }	verb	massage
+मर्दनं करोति { कृ }	mardanaṃkaroti  { kṛ }	verb	massage
 मर्दयति	mardayati	verb	knead
 मर्धति { मृध् }	mardhati  { mṛdh }	verb	abandon
 मर्धति { मृध् }	mardhati  { mṛdh }	verb	be moist or moisten or
@@ -16601,11 +16601,11 @@
 मर्षते { मृष् }	marṣate  { mṛṣ }	verb	pour out
 मर्षते { मृष् }	marṣate  { mṛṣ }	verb	sprinkle
 मलिनयति { मलिनय }	malinayati  { malinaya }	verb	defile
-मलिनी करोति { मलिनीकृ }	malinī karoti  { malinīkṛ }	verb	darken
-मलिनी करोति { मलिनीकृ }	malinī karoti  { malinīkṛ }	verb	make dirty
-मलिनी करोति { मलिनीकृ }	malinī karoti  { malinīkṛ }	verb	make obscure
-मलिनी करोति { मलिनीकृ }	malinī karoti  { malinīkṛ }	verb	soil
-मलिनी करोति { मलिनीकृ }	malinī karoti  { malinīkṛ }	verb	stain
+मलिनी करोति { मलिनीकृ }	malinīkaroti  { malinīkṛ }	verb	darken
+मलिनी करोति { मलिनीकृ }	malinīkaroti  { malinīkṛ }	verb	make dirty
+मलिनी करोति { मलिनीकृ }	malinīkaroti  { malinīkṛ }	verb	make obscure
+मलिनी करोति { मलिनीकृ }	malinīkaroti  { malinīkṛ }	verb	soil
+मलिनी करोति { मलिनीकृ }	malinīkaroti  { malinīkṛ }	verb	stain
 मलिनी भवति { मलिनीभू }	malinī bhavati  { malinībhū }	verb	become dirty
 मलिनी भवति { मलिनीभू }	malinī bhavati  { malinībhū }	verb	pass away
 मलिनी भवति { मलिनीभू }	malinī bhavati  { malinībhū }	verb	vanish
@@ -16614,15 +16614,15 @@
 मवते { मू }	mavate  { mū }	verb	fix
 मवते { मू }	mavate  { mū }	verb	tie
 मव्यति { मव्य् }	mavyati  { mavy }	verb	bind
-मष्मषा करोति { मष्मषाकृ }	maṣmaṣā karoti  { maṣmaṣākṛ }	verb	grind to powder
-मष्मषा करोति { मष्मषाकृ }	maṣmaṣā karoti  { maṣmaṣākṛ }	verb	reduce to dust
+मष्मषा करोति { मष्मषाकृ }	maṣmaṣākaroti  { maṣmaṣākṛ }	verb	grind to powder
+मष्मषा करोति { मष्मषाकृ }	maṣmaṣākaroti  { maṣmaṣākṛ }	verb	reduce to dust
 मस्कते { मस्क् }	maskate  { mask }	verb	go
 मस्कते { मस्क् }	maskate  { mask }	verb	move
 मस्यति { मस् }	masyati  { mas }	verb	measure
 मस्यति { मस् }	masyati  { mas }	verb	mete
-मही करोति { महीकृ }	mahī karoti  { mahīkṛ }	verb	exalt
-मही करोति { महीकृ }	mahī karoti  { mahīkṛ }	verb	magnify
-मही करोति { महीकृ }	mahī karoti  { mahīkṛ }	verb	make great
+मही करोति { महीकृ }	mahīkaroti  { mahīkṛ }	verb	exalt
+मही करोति { महीकृ }	mahīkaroti  { mahīkṛ }	verb	magnify
+मही करोति { महीकृ }	mahīkaroti  { mahīkṛ }	verb	make great
 महीयते { महीय }	mahīyate  { mahīya }	verb	be exalted
 महीयते { महीय }	mahīyate  { mahīya }	verb	be highly esteemed or honoured
 महीयते { महीय }	mahīyate  { mahīya }	verb	be joyous or happy
@@ -16655,13 +16655,13 @@
 मायते { मा }	māyate  { mā }	verb	measure
 मायते { मा }	māyate  { mā }	verb	pray
 मायते { मा }	māyate  { mā }	verb	prepare
-मार्जनं करोति { कृ }	mārjanaṃ karoti  { kṛ }	verb	rub
+मार्जनं करोति { कृ }	mārjanaṃkaroti  { kṛ }	verb	rub
 मार्जयति	mārjayati	verb	clear  [ computer ]
 मार्जयति { मार्ज् }	mārjayati  { mārj }	verb	purify
 मार्जयति { मार्ज् }	mārjayati  { mārj }	verb	sound
 मार्जयति { मार्ज् }	mārjayati  { mārj }	verb	wipe
 मार्जयति { मृज् }	mārjayati  { mṛj }	verb	cleanse
-मार्दवी करोति { मार्दवीकृ }	mārdavī karoti  { mārdavīkṛ }	verb	make soft or weak or indulgent
+मार्दवी करोति { मार्दवीकृ }	mārdavīkaroti  { mārdavīkṛ }	verb	make soft or weak or indulgent
 मार्ष्टि { मृज् }	mārṣṭi  { mṛj }	verb	adorn
 मार्ष्टि { मृज् }	mārṣṭi  { mṛj }	verb	carry away
 मार्ष्टि { मृज् }	mārṣṭi  { mṛj }	verb	cleanse
@@ -16678,7 +16678,7 @@
 मार्ष्टि { मृज् }	mārṣṭi  { mṛj }	verb	wipe off or out
 मार्ष्टि { मृज् }	mārṣṭi  { mṛj }	verb	wipe off or transfer from one's self upon
 मालयति { मालय }	mālayati  { mālaya }	verb	crown or wreathe
-मासी करोति { मासीकृ }	māsī karoti  { māsīkṛ }	verb	turn into months
+मासी करोति { मासीकृ }	māsīkaroti  { māsīkṛ }	verb	turn into months
 माहति { माह् }	māhati  { māh }	verb	measure
 माहति { माह् }	māhati  { māh }	verb	mete
 माहते { माह् }	māhate  { māh }	verb	measure
@@ -16686,8 +16686,8 @@
 मिच्छति { मिछ् }	micchati  { mich }	verb	annoy
 मिथुनायते { मिथुनाय }	mithunāyate  { mithunāya }	verb	cohabit sexually
 मिथुनायते { मिथुनाय }	mithunāyate  { mithunāya }	verb	pair  [ copulate ]
-मिथुनी करोति { मिथुनीकृ }	mithunī karoti  { mithunīkṛ }	verb	cause the union of the sexes
-मिथुनी करोति { मिथुनीकृ }	mithunī karoti  { mithunīkṛ }	verb	cause to pair
+मिथुनी करोति { मिथुनीकृ }	mithunīkaroti  { mithunīkṛ }	verb	cause the union of the sexes
+मिथुनी करोति { मिथुनीकृ }	mithunīkaroti  { mithunīkṛ }	verb	cause to pair
 मिथुनी भवति { मिथुनीभू }	mithunī bhavati  { mithunībhū }	verb	be joined or arranged in pairs
 मिथ्या सम्भवति	mithyā sambhavati	verb	misunderstand
 मिमाति { मा }	mimāti  { mā }	verb	bellow
@@ -16708,10 +16708,10 @@
 मिलते { मिल् }	milate  { mil }	verb	fall in with
 मिलते { मिल् }	milate  { mil }	verb	join
 मिलते { मिल् }	milate  { mil }	verb	meet
-मिश्रणं करोति { कृ }	miśraṇaṃ karoti  { kṛ }	verb	mix
-मिश्री करोति { मिश्रीकृ }	miśrī karoti  { miśrīkṛ }	verb	
-मिश्री करोति { मिश्रीकृ }	miśrī karoti  { miśrīkṛ }	verb	mingle with
-मिश्री करोति { मिश्रीकृ }	miśrī karoti  { miśrīkṛ }	verb	mixing
+मिश्रणं करोति { कृ }	miśraṇaṃkaroti  { kṛ }	verb	mix
+मिश्री करोति { मिश्रीकृ }	miśrīkaroti  { miśrīkṛ }	verb	
+मिश्री करोति { मिश्रीकृ }	miśrīkaroti  { miśrīkṛ }	verb	mingle with
+मिश्री करोति { मिश्रीकृ }	miśrīkaroti  { miśrīkṛ }	verb	mixing
 मिश्री भवति { मिश्रीभू }	miśrī bhavati  { miśrībhū }	verb	become mixed
 मिश्री भवति { मिश्रीभू }	miśrī bhavati  { miśrībhū }	verb	intertwine
 मिश्री भवति { मिश्रीभू }	miśrī bhavati  { miśrībhū }	verb	meet together
@@ -16755,7 +16755,7 @@
 मुखरयति { मुखरय }	mukharayati  { mukharaya }	verb	make noisy or resonant
 मुखरयति { मुखरय }	mukharayati  { mukharaya }	verb	make talkative
 मुखरयति { मुखरय }	mukharayati  { mukharaya }	verb	notify
-मुखरी करोति { मुखरीकृ }	mukharī karoti  { mukharīkṛ }	verb	make resonant
+मुखरी करोति { मुखरीकृ }	mukharīkaroti  { mukharīkṛ }	verb	make resonant
 मुञ्चति { मुच् }	muñcati  { muc }	verb	abandon
 मुञ्चति { मुच् }	muñcati  { muc }	verb	allow to depart
 मुञ्चति { मुच् }	muñcati  { muc }	verb	bestow
@@ -16823,7 +16823,7 @@
 मुञ्चते { मुच् }	muñcate  { muc }	verb	yield
 मुञ्चते { मुञ्च् }	muñcate  { muñc }	verb	be wicked
 मुञ्चते { मुञ्च् }	muñcate  { muñc }	verb	cheat
-मुञ्जी करोति { मुञ्जीकृ }	muñjī karoti  { muñjīkṛ }	verb	reduce to muñja-grass
+मुञ्जी करोति { मुञ्जीकृ }	muñjīkaroti  { muñjīkṛ }	verb	reduce to muñja-grass
 मुण्टति { मुण्ट् }	muṇṭati  { muṇṭ }	verb	grind
 मुण्डति { मुण्ड् }	muṇḍati  { muṇḍ }	verb	grind
 मुण्डते { मुण्ड् }	muṇḍate  { muṇḍ }	verb	cleanse or to sink or to shave
@@ -16831,11 +16831,11 @@
 मुण्डयति { मुण्डय }	muṇḍayati  { muṇḍaya }	verb	shear
 मुद्रयति { मुद्रय }	mudrayati  { mudraya }	verb	mark
 मुद्रयति { मुद्रय }	mudrayati  { mudraya }	verb	seal
-मुद्राङ्कनं करोति	mudrāṅkanaṃ karoti	verb	emboss  [ mint ]
+मुद्राङ्कनं करोति	mudrāṅkanaṃkaroti	verb	emboss  [ mint ]
 मुरति { मुर् }	murati  { mur }	verb	encompass
 मुषायति { मुषाय }	muṣāyati  { muṣāya }	verb	rob
 मुषायति { मुषाय }	muṣāyati  { muṣāya }	verb	steal
-मुष्टी करोति { मुष्टीकृ }	muṣṭī karoti  { muṣṭīkṛ }	verb	clench the fist
+मुष्टी करोति { मुष्टीकृ }	muṣṭīkaroti  { muṣṭīkṛ }	verb	clench the fist
 मुष्णाति { मुष् }	muṣṇāti  { muṣ }	verb	blind
 मुष्णाति { मुष् }	muṣṇāti  { muṣ }	verb	break
 मुष्णाति { मुष् }	muṣṇāti  { muṣ }	verb	captivate
@@ -16859,11 +16859,11 @@
 मुह्यति { मुह् }	muhyati  { muh }	verb	fail
 मुह्यति { मुह् }	muhyati  { muh }	verb	go astray
 मुह्यति { मुह् }	muhyati  { muh }	verb	miscarry
-मूकी करोति { मूकीकृ }	mūkī karoti  { mūkīkṛ }	verb	make dumb
-मूकी करोति { मूकीकृ }	mūkī karoti  { mūkīkṛ }	verb	put to silence
+मूकी करोति { मूकीकृ }	mūkīkaroti  { mūkīkṛ }	verb	make dumb
+मूकी करोति { मूकीकृ }	mūkīkaroti  { mūkīkṛ }	verb	put to silence
 मूर्छां कलयति	mūrchāṃ kalayati	verb	faint
 मूलति { मूल् }	mūlati  { mūl }	verb	be rooted or firm
-मूली करोति { मूलीकृ }	mūlī karoti  { mūlīkṛ }	verb	extract the square-root from
+मूली करोति { मूलीकृ }	mūlīkaroti  { mūlīkṛ }	verb	extract the square-root from
 मूल्यम् आरोपयति	mūlyam āropayati	verb	initialiśe  [ computer ]
 मूषति	mūṣati	verb	plunder
 मूषति	mūṣati	verb	rob
@@ -16937,7 +16937,7 @@
 मृषायते { मृषाय }	mṛṣāyate  { mṛṣāya }	verb	be mistaken
 मृषायते { मृषाय }	mṛṣāyate  { mṛṣāya }	verb	err
 मृषायते { मृषाय }	mṛṣāyate  { mṛṣāya }	verb	hold a wrong notion or opinion
-मृषावादं करोति { कृ }	mṛṣāvādaṃ karoti  { kṛ }	verb	lie
+मृषावादं करोति { कृ }	mṛṣāvādaṃkaroti  { kṛ }	verb	lie
 मृष्यति { मृष् }	mṛṣyati  { mṛṣ }	verb	bear patiently
 मृष्यति { मृष् }	mṛṣyati  { mṛṣ }	verb	bear with
 मृष्यति { मृष् }	mṛṣyati  { mṛṣ }	verb	disregard
@@ -16990,7 +16990,7 @@
 मेदते { मिद् }	medate  { mid }	verb	grow fat
 मेमीयते { मील् }	memīyate  { mīl }	verb	firmly close the eyes
 मेमील्ति { मील् }	memīlti  { mīl }	verb	firmly close one's eyes
-मेलनं करोति { कृ }	melanaṃ karoti  { kṛ }	verb	meet
+मेलनं करोति { कृ }	melanaṃkaroti  { kṛ }	verb	meet
 मेलयति	melayati	verb	join  [ computer ]
 मेलानन्दायते { मेलानन्दाय }	melānandāyate  { melānandāya }	verb	become an ink-bottle
 मेषति { मिष् }	meṣati  { miṣ }	verb	moisten
@@ -17004,8 +17004,8 @@
 मोक्षते { मोक्ष् }	mokṣate  { mokṣ }	verb	shake off
 मोक्षते { मोक्ष् }	mokṣate  { mokṣ }	verb	wish to free one's self
 मोघीकरोति	moghīkaroti	verb	comment out  [ computer ]
-मोघी करोति { मोघीकृ }	moghī karoti  { moghīkṛ }	verb	disappoint
-मोघी करोति { मोघीकृ }	moghī karoti  { moghīkṛ }	verb	frustrate
+मोघी करोति { मोघीकृ }	moghīkaroti  { moghīkṛ }	verb	disappoint
+मोघी करोति { मोघीकृ }	moghīkaroti  { moghīkṛ }	verb	frustrate
 मोचते { मुच् }	mocate  { muc }	verb	cheat
 मोदते { मुद् }	modate  { mud }	verb	be merry or glad or happy
 मोदते { मुद् }	modate  { mud }	verb	delight in
@@ -17130,9 +17130,9 @@
 याचते { याच् }	yācate  { yāc }	verb	solicit
 याति { या }	yāti  { yā }	verb	achieve
 याति { या }	yāti  { yā }	verb	go
-यात्रम् करोति { कृ }	yātram karoti  { kṛ }	verb	travel
+यात्रम् करोति { कृ }	yātramkaroti  { kṛ }	verb	travel
 { यात्रां कृ }	{ yātrāṃ kṛ }	verb	make a journey
-यानी करोति { यानीकृ }	yānī karoti  { yānīkṛ }	verb	make one's self familiar with
+यानी करोति { यानीकृ }	yānīkaroti  { yānīkṛ }	verb	make one's self familiar with
 यायते { या }	yāyate  { yā }	verb	be gone
 यायते { या }	yāyate  { yā }	verb	be moved
 यास्यति { यस् }	yāsyati  { yas }	verb	foam
@@ -17230,7 +17230,7 @@
 युप्यति { युप् }	yupyati  { yup }	verb	remove
 युप्यति { युप् }	yupyati  { yup }	verb	trouble
 युयोति { यु }	yuyoti  { yu }	verb	keep or drive away
-यूपी करोति { यूपीकृ }	yūpī karoti  { yūpīkṛ }	verb	make into a sacrificial post
+यूपी करोति { यूपीकृ }	yūpīkaroti  { yūpīkṛ }	verb	make into a sacrificial post
 येषति { येष् }	yeṣati  { yeṣ }	verb	boil up
 येषति { येष् }	yeṣati  { yeṣ }	verb	bubble
 येषते { येष् }	yeṣate  { yeṣ }	verb	endeavour
@@ -17252,7 +17252,7 @@
 यौति { यु }	yauti  { yu }	verb	worship
 यौति { यु }	yauti  { yu }	verb	yoke
 रक्तं मुञ्चति { मुच् }	raktaṃ muñcati  { muc }	verb	bleed
-रक्षणं करोति { कृ }	rakṣaṇaṃ karoti  { kṛ }	verb	protect
+रक्षणं करोति { कृ }	rakṣaṇaṃkaroti  { kṛ }	verb	protect
 रक्षति	rakṣati	verb	defend
 रक्षति	rakṣati	verb	rescue
 रगति { रग् }	ragati  { rag }	verb	doubt
@@ -17283,7 +17283,7 @@
 रटति { रट् }	raṭati  { raṭ }	verb	shout
 रटति { रट् }	raṭati  { raṭ }	verb	wail
 रटति { रट् }	raṭati  { raṭ }	verb	yell
-रटनं करोति { कृ }	raṭanaṃ karoti  { kṛ }	verb	repeat
+रटनं करोति { कृ }	raṭanaṃkaroti  { kṛ }	verb	repeat
 रणति { रण् }	raṇati  { raṇ }	verb	jingle
 रणति { रण् }	raṇati  { raṇ }	verb	rattle
 रथकाम्यति { रथकाम्य }	rathakāmyati  { rathakāmya }	verb	wish to be yoked
@@ -17361,7 +17361,7 @@
 रहति { रह् }	rahati  { rah }	verb	part
 रहति { रह् }	rahati  { rah }	verb	separate
 रहायते { रहाय }	rahāyate  { rahāya }	verb	be lonely or private
-रही करोति { रहीकृ }	rahī karoti  { rahīkṛ }	verb	withdraw to a solitary place
+रही करोति { रहीकृ }	rahīkaroti  { rahīkṛ }	verb	withdraw to a solitary place
 रही भवति { रहीभू }	rahī bhavati  { rahībhū }	verb	make someone lonely
 राघते { राघ् }	rāghate  { rāgh }	verb	be able or competent
 राजति { राज् }	rājati  { rāj }	verb	appear as or like
@@ -17387,7 +17387,7 @@
 राजहंसीयति { राजहंसीय }	rājahaṃsīyati  { rājahaṃsīya }	verb	behave like a rājahaṃsa bird
 राजायते { राजाय }	rājāyate  { rājāya }	verb	act or behave like a king
 राजायते { राजाय }	rājāyate  { rājāya }	verb	consider one's self a king
-राज्यं करोति	rājyaṃ karoti	verb	rule
+राज्यं करोति	rājyaṃkaroti	verb	rule
 रायति { रै }	rāyati  { rai }	verb	bark
 रायति { रै }	rāyati  { rai }	verb	bark at
 रारास्यते { रास् }	rārāsyate  { rās }	verb	utter loud lamentations
@@ -17400,10 +17400,10 @@
 राशीभवति { राशीभू }	rāśībhavati  { rāśībhū }	verb	become a heap or mass
 राशीभवति { राशीभू }	rāśībhavati  { rāśībhū }	verb	be piled up or accumulated
 रासते { रास् }	rāsate  { rās }	verb	howl
-रिक्ती करोति { कृ }	riktī karoti  { kṛ }	verb	evacuate
-रिक्ती करोति { रिक्तीकृ }	riktī karoti  { riktīkṛ }	verb	quit
-रिक्ती करोति { रिक्तीकृ }	riktī karoti  { riktīkṛ }	verb	recover
-रिक्ती करोति { रिक्तीकृ }	riktī karoti  { riktīkṛ }	verb	steal
+रिक्ती करोति { कृ }	riktīkaroti  { kṛ }	verb	evacuate
+रिक्ती करोति { रिक्तीकृ }	riktīkaroti  { riktīkṛ }	verb	quit
+रिक्ती करोति { रिक्तीकृ }	riktīkaroti  { riktīkṛ }	verb	recover
+रिक्ती करोति { रिक्तीकृ }	riktīkaroti  { riktīkṛ }	verb	steal
 रिङ्गति { रिङ्ग् }	riṅgati  { riṅg }	verb	creep
 रिणाति	riṇāti	verb	melt
 रिणाति	riṇāti	verb	release
@@ -17556,8 +17556,8 @@
 रेषते { रेष् }	reṣate  { reṣ }	verb	howl
 रेषते { रेष् }	reṣate  { reṣ }	verb	roar
 रेषते { रेष् }	reṣate  { reṣ }	verb	yell
-रै करोति { रैकृ }	rai karoti  { raikṛ }	verb	convert into property
-रै करोति { रैय }	rai karoti  { raiya }	verb	desire riches
+रै करोति { रैकृ }	raikaroti  { raikṛ }	verb	convert into property
+रै करोति { रैय }	raikaroti  { raiya }	verb	desire riches
 रोचते	rocate	verb	like
 रोचते { रुच् }	rocate  { ruc }	verb	be agreeable to
 रोचते { रुच् }	rocate  { ruc }	verb	be bright or radiant or resplendent
@@ -17570,7 +17570,7 @@
 रोठति { रुठ् }	roṭhati  { ruṭh }	verb	pain
 रोठति { रुठ् }	roṭhati  { ruṭh }	verb	strike down
 रोठति { रुठ् }	roṭhati  { ruṭh }	verb	torment
-रोदनं करोति { कृ }	rodanaṃ karoti  { kṛ }	verb	cry
+रोदनं करोति { कृ }	rodanaṃkaroti  { kṛ }	verb	cry
 रोदिति { रुद् }	roditi  { rud }	verb	bewail
 रोदिति { रुद् }	roditi  { rud }	verb	cry
 रोदिति { रुद् }	roditi  { rud }	verb	deplore
@@ -17617,14 +17617,14 @@
 रौति { रु }	rauti  { ru }	verb	yelp
 लक्षते { लक्ष् }	lakṣate  { lakṣ }	verb	observe
 लक्षते { लक्ष् }	lakṣate  { lakṣ }	verb	recognise
-लक्षी करोति { लक्षीकृ }	lakṣī karoti  { lakṣīkṛ }	verb	aim or point or look at
-लक्षी करोति { लक्षीकृ }	lakṣī karoti  { lakṣīkṛ }	verb	calculate
-लक्षी करोति { लक्षीकृ }	lakṣī karoti  { lakṣīkṛ }	verb	make a mark or object
-लक्षी करोति { लक्षीकृ }	lakṣī karoti  { lakṣīkṛ }	verb	set out towards
-लक्षी कुरुते { लक्षीकृ }	lakṣī kurute  { lakṣīkṛ }	verb	aim or point or look at
-लक्षी कुरुते { लक्षीकृ }	lakṣī kurute  { lakṣīkṛ }	verb	calculate
-लक्षी कुरुते { लक्षीकृ }	lakṣī kurute  { lakṣīkṛ }	verb	make a mark or object
-लक्षी कुरुते { लक्षीकृ }	lakṣī kurute  { lakṣīkṛ }	verb	set out towards
+लक्षी करोति { लक्षीकृ }	lakṣīkaroti  { lakṣīkṛ }	verb	aim or point or look at
+लक्षी करोति { लक्षीकृ }	lakṣīkaroti  { lakṣīkṛ }	verb	calculate
+लक्षी करोति { लक्षीकृ }	lakṣīkaroti  { lakṣīkṛ }	verb	make a mark or object
+लक्षी करोति { लक्षीकृ }	lakṣīkaroti  { lakṣīkṛ }	verb	set out towards
+लक्षी कुरुते { लक्षीकृ }	lakṣīkurute  { lakṣīkṛ }	verb	aim or point or look at
+लक्षी कुरुते { लक्षीकृ }	lakṣīkurute  { lakṣīkṛ }	verb	calculate
+लक्षी कुरुते { लक्षीकृ }	lakṣīkurute  { lakṣīkṛ }	verb	make a mark or object
+लक्षी कुरुते { लक्षीकृ }	lakṣīkurute  { lakṣīkṛ }	verb	set out towards
 लक्षी भवति { लक्षीभू }	lakṣī bhavati  { lakṣībhū }	verb	become a mark or aim or object
 लगति { लग् }	lagati  { lag }	verb	cling or attach one's self to
 लगति { लग् }	lagati  { lag }	verb	come in contact
@@ -17647,17 +17647,17 @@
 लघयति { लघय }	laghayati  { laghaya }	verb	soften
 लघयति { लघय }	laghayati  { laghaya }	verb	surpass
 लघु मन्यते { मन् }	laghu manyate  { man }	verb	think little of something
-लघू करोति { लघूकृ }	laghū karoti  { laghūkṛ }	verb	alleviate
-लघू करोति { लघूकृ }	laghū karoti  { laghūkṛ }	verb	despise
-लघू करोति { लघूकृ }	laghū karoti  { laghūkṛ }	verb	diminish
-लघू करोति { लघूकृ }	laghū karoti  { laghūkṛ }	verb	humiliate
-लघू करोति { लघूकृ }	laghū karoti  { laghūkṛ }	verb	lessen
-लघू करोति { लघूकृ }	laghū karoti  { laghūkṛ }	verb	make light
-लघू करोति { लघूकृ }	laghū karoti  { laghūkṛ }	verb	reduce in importance
-लघू करोति { लघूकृ }	laghū karoti  { laghūkṛ }	verb	reduce in weight
-लघू करोति { लघूकृ }	laghū karoti  { laghūkṛ }	verb	shorten
-लघू करोति { लघूकृ }	laghū karoti  { laghūkṛ }	verb	slight
-लघू करोति { लघूकृ }	laghū karoti  { laghūkṛ }	verb	think lightly of
+लघू करोति { लघूकृ }	laghūkaroti  { laghūkṛ }	verb	alleviate
+लघू करोति { लघूकृ }	laghūkaroti  { laghūkṛ }	verb	despise
+लघू करोति { लघूकृ }	laghūkaroti  { laghūkṛ }	verb	diminish
+लघू करोति { लघूकृ }	laghūkaroti  { laghūkṛ }	verb	humiliate
+लघू करोति { लघूकृ }	laghūkaroti  { laghūkṛ }	verb	lessen
+लघू करोति { लघूकृ }	laghūkaroti  { laghūkṛ }	verb	make light
+लघू करोति { लघूकृ }	laghūkaroti  { laghūkṛ }	verb	reduce in importance
+लघू करोति { लघूकृ }	laghūkaroti  { laghūkṛ }	verb	reduce in weight
+लघू करोति { लघूकृ }	laghūkaroti  { laghūkṛ }	verb	shorten
+लघू करोति { लघूकृ }	laghūkaroti  { laghūkṛ }	verb	slight
+लघू करोति { लघूकृ }	laghūkaroti  { laghūkṛ }	verb	think lightly of
 लघूयति { लघूय }	laghūyati  { laghūya }	verb	despise
 लघूयति { लघूय }	laghūyati  { laghūya }	verb	think lightly of
 लङ्गति { लङ्ग् }	laṅgati  { laṅg }	verb	limp
@@ -17688,7 +17688,7 @@
 लङ्घते { लङ्घ् }	laṅghate  { laṅgh }	verb	mount upon
 लङ्घते { लङ्घ् }	laṅghate  { laṅgh }	verb	pass over meals
 लङ्घते { लङ्घ् }	laṅghate  { laṅgh }	verb	waste
-लङ्घनं करोति { कृ }	laṅghanaṃ karoti  { kṛ }	verb	cross
+लङ्घनं करोति { कृ }	laṅghanaṃkaroti  { kṛ }	verb	cross
 { लज्जां कृ }	{ lajjāṃ kṛ }	verb	be shy
 लञ्जति { लञ्ज् }	lañjati  { lañj }	verb	fry or to blame
 लञ्जयति { लञ्ज् }	lañjayati  { lañj }	verb	be strong
@@ -17801,7 +17801,7 @@
 लिनाति	lināti	verb	humble
 लिनाति	lināti	verb	obtain
 लिनाति	lināti	verb	obtain honor
-लिप्ती करोति { लिप्तीकृ }	liptī karoti  { liptīkṛ }	verb	reduce to minutes
+लिप्ती करोति { लिप्तीकृ }	liptīkaroti  { liptīkṛ }	verb	reduce to minutes
 लीढे { लिह् }	līḍhe  { lih }	verb	lap
 लीढे { लिह् }	līḍhe  { lih }	verb	lick
 लीढे { लिह् }	līḍhe  { lih }	verb	lick at
@@ -17872,7 +17872,7 @@
 लुभ्यति { लुभ् }	lubhyati  { lubh }	verb	go astray
 लुम्बति { लुम्ब् }	lumbati  { lumb }	verb	harass
 लूषति { लूष् }	lūṣati  { lūṣ }	verb	decorate
-लेखनं करोति { कृ }	lekhanaṃ karoti  { kṛ }	verb	write
+लेखनं करोति { कृ }	lekhanaṃkaroti  { kṛ }	verb	write
 लेखागारे रक्षति	lekhāgāre rakṣati	verb	archive  [ computer ]
 लेखायति { लेखाय }	lekhāyati  { lekhāya }	verb	be wanton or to waver
 लेख्ये समारोहति { आ- रुह् }	lekhye samārohati  { ā- ruh }	verb	register
@@ -17883,7 +17883,7 @@
 लेढि { लिह् }	leḍhi  { lih }	verb	sip
 लेढि { लिह् }	leḍhi  { lih }	verb	taste
 लेपयति	lepayati	verb	paste
-लेहनं करोति { कृ }	lehanaṃ karoti  { kṛ }	verb	lick
+लेहनं करोति { कृ }	lehanaṃkaroti  { kṛ }	verb	lick
 लैणति { लैण् }	laiṇati  { laiṇ }	verb	embrace
 लैणति { लैण् }	laiṇati  { laiṇ }	verb	go
 लैणति { लैण् }	laiṇati  { laiṇ }	verb	send
@@ -17936,7 +17936,7 @@
 वचस्यते { वचस्य }	vacasyate  { vacasya }	verb	be audible
 वचस्यते { वचस्य }	vacasyate  { vacasya }	verb	murmur
 वज्रलेपायते { वज्रलेपाय }	vajralepāyate  { vajralepāya }	verb	be like vajralepa i.e. as hard as cement
-वज्रसारी करोति { वज्रसारीकृ }	vajrasārī karoti  { vajrasārīkṛ }	verb	make as hard as adamant
+वज्रसारी करोति { वज्रसारीकृ }	vajrasārīkaroti  { vajrasārīkṛ }	verb	make as hard as adamant
 वञ्चति { वञ्च् }	vañcati  { vañc }	verb	arrive at
 वञ्चति { वञ्च् }	vañcati  { vañc }	verb	go
 वञ्चति { वञ्च् }	vañcati  { vañc }	verb	go astray
@@ -17958,7 +17958,7 @@
 वटयति { वट् }	vaṭayati  { vaṭ }	verb	speak
 वटयति { वट् }	vaṭayati  { vaṭ }	verb	string
 वटयति { वट् }	vaṭayati  { vaṭ }	verb	tie
-वण्टनम् करोति { कृ }	vaṇṭanam karoti  { kṛ }	verb	distribute
+वण्टनम् करोति { कृ }	vaṇṭanamkaroti  { kṛ }	verb	distribute
 वण्ठते { वण्ठ् }	vaṇṭhate  { vaṇṭh }	verb	go unaccompanied
 वण्डते { वण्ड् }	vaṇḍate  { vaṇḍ }	verb	partition
 वदति { वद् }	vadati  { vad }	verb	affirm
@@ -18012,7 +18012,7 @@
 वदते { वद् }	vadate  { vad }	verb	utter a cry
 वदन्ति	vadanti	verb	they say
 वदामि { वद् }	vadāmi  { vad }	verb	ī say
-वधम् करोति	vadham karoti	verb	kill
+वधम् करोति	vadhamkaroti	verb	kill
 वनीयति { वनीय }	vanīyati  { vanīya }	verb	ask alms
 वनीयति { वनीय }	vanīyati  { vanīya }	verb	beg
 वनुष्यति { वनुष्य }	vanuṣyati  { vanuṣya }	verb	assail
@@ -18062,7 +18062,7 @@
 वपते { वप् }	vapate  { vap }	verb	strew
 वपते { वप् }	vapate  { vap }	verb	throw
 वपते { वप् }	vapate  { vap }	verb	throw or heap up
-वपनं करोति { कृ }	vapanaṃ karoti  { kṛ }	verb	sow
+वपनं करोति { कृ }	vapanaṃkaroti  { kṛ }	verb	sow
 वपुष्यति { वपुष्य }	vapuṣyati  { vapuṣya }	verb	wonder be astonished
 वभ्रति { वभ्र् }	vabhrati  { vabhr }	verb	go
 वभ्रति { वभ्र् }	vabhrati  { vabhr }	verb	go astray
@@ -18070,7 +18070,7 @@
 वमति { वम् }	vamati  { vam }	verb	give out
 वमति { वम् }	vamati  { vam }	verb	reject i.e. repent
 वमति { वम् }	vamati  { vam }	verb	send forth
-वमनं करोति { कृ }	vamanaṃ karoti  { kṛ }	verb	vomit
+वमनं करोति { कृ }	vamanaṃkaroti  { kṛ }	verb	vomit
 वयति { वे }	vayati  { ve }	verb	braid
 वयति { वे }	vayati  { ve }	verb	interweave
 वयति { वे }	vayati  { ve }	verb	into a web or web-like covering
@@ -18087,7 +18087,7 @@
 वयते { वे }	vayate  { ve }	verb	overspread as with a web
 वयते { वे }	vayate  { ve }	verb	plait
 वयते { वे }	vayate  { ve }	verb	weave
-वयनं करोति { कृ }	vayanaṃ karoti  { kṛ }	verb	weave
+वयनं करोति { कृ }	vayanaṃkaroti  { kṛ }	verb	weave
 वरिवस्यति { वरिवस्य }	varivasyati  { varivasya }	verb	cherish
 वरिवस्यति { वरिवस्य }	varivasyati  { varivasya }	verb	give relief. concede
 वरिवस्यति { वरिवस्य }	varivasyati  { varivasya }	verb	grant room or space
@@ -18096,7 +18096,7 @@
 वरिवस्यति { वरिवस्य }	varivasyati  { varivasya }	verb	tend
 वरिवस्यति { वरिवस्य }	varivasyati  { varivasya }	verb	wait upon
 वरेयति { वरेय }	vareyati  { vareya }	verb	be a suitor
-वर्जनं करोति { कृ }	varjanaṃ karoti  { kṛ }	verb	quit
+वर्जनं करोति { कृ }	varjanaṃkaroti  { kṛ }	verb	quit
 वर्णयति	varṇayati	verb	narrate
 वर्णयति { वर्ण् }	varṇayati  { varṇ }	verb	colour
 वर्णयति { वर्ण् }	varṇayati  { varṇ }	verb	consider
@@ -18107,14 +18107,14 @@
 वर्णयति { वर्ण् }	varṇayati  { varṇ }	verb	proclaim qualities
 वर्णयति { वर्ण् }	varṇayati  { varṇ }	verb	regard
 वर्णयति { वर्ण् }	varṇayati  { varṇ }	verb	spread
-वर्णयोजनां करोति	varṇayojanāṃ karoti	verb	spell characters
+वर्णयोजनां करोति	varṇayojanāṃkaroti	verb	spell characters
 वर्णी भवति { वर्णीभू }	varṇī bhavati  { varṇībhū }	verb	become or be changed into an articulate sound
 वर्तयति / -ते	vartayati / -te	verb	shine
 वर्तयति { वृत् }	vartayati  { vṛt }	verb	perform
 वर्तयति { वृत् }	vartayati  { vṛt }	verb	shed  [ e.g. tears ]
 वर्तसे	vartase	verb	you are
 वर्तामहे { वृत् }	vartāmahe  { vṛt }	verb	we are
-वर्ती करोति { वर्तीकृ }	vartī karoti  { vartīkṛ }	verb	make into a paste or pill
+वर्ती करोति { वर्तीकृ }	vartīkaroti  { vartīkṛ }	verb	make into a paste or pill
 वर्तेथे	vartethe	verb	you two are
 वर्धते { वृध् }	vardhate  { vṛdh }	verb	ascend
 वर्धते { वृध् }	vardhate  { vṛdh }	verb	augment
@@ -18135,7 +18135,7 @@
 वर्धते { वृध् }	vardhate  { vṛdh }	verb	rise
 वर्धते { वृध् }	vardhate  { vṛdh }	verb	strengthen
 वर्धते { वृध् }	vardhate  { vṛdh }	verb	succeed
-वर्धनं करोति { कृ }	vardhanaṃ karoti  { kṛ }	verb	increase
+वर्धनं करोति { कृ }	vardhanaṃkaroti  { kṛ }	verb	increase
 वर्धयति	vardhayati	verb	raise
 वर्धयति { वर्ध् }	vardhayati  { vardh }	verb	cut
 वर्धयति { वर्ध् }	vardhayati  { vardh }	verb	cut off
@@ -18171,7 +18171,7 @@
 वलते { वल् }	valate  { val }	verb	turn
 वलते { वल् }	valate  { val }	verb	turn round
 वलते { वल् }	valate  { val }	verb	turn to
-वलयी करोति { वलयीकृ }	valayī karoti  { valayīkṛ }	verb	make into or use as a bracelet
+वलयी करोति { वलयीकृ }	valayīkaroti  { valayīkṛ }	verb	make into or use as a bracelet
 वलयी भवति { वलयीभू }	valayī bhavati  { valayībhū }	verb	become a circle or circular enclosure
 वल्गति { वल्ग् }	valgati  { valg }	verb	bound
 वल्गति { वल्ग् }	valgati  { valg }	verb	dance
@@ -18186,8 +18186,8 @@
 ववियोजयति	vaviyojayati	verb	disconnect  [ computer ]
 वव्रयते { वव्रय }	vavrayate  { vavraya }	verb	keep aloof
 वव्रयते { वव्रय }	vavrayate  { vavraya }	verb	retire or shrink from
-वशी कुरुते { वशीकृ }	vaśī kurute  { vaśīkṛ }	verb	reduce to subjection
-वशी कुरुते { वशीकृ }	vaśī kurute  { vaśīkṛ }	verb	subdue
+वशी कुरुते { वशीकृ }	vaśīkurute  { vaśīkṛ }	verb	reduce to subjection
+वशी कुरुते { वशीकृ }	vaśīkurute  { vaśīkṛ }	verb	subdue
 वसति { वस् }	vasati  { vas }	verb	abide with or in
 वसति { वस् }	vasati  { vas }	verb	charge or entrust with
 वसति { वस् }	vasati  { vas }	verb	dwell
@@ -18283,9 +18283,9 @@
 वाजयते { वाजय }	vājayate  { vājaya }	verb	urge on
 वाजयते { वाजय }	vājayate  { vājaya }	verb	vie
 वाजयते { वाजय }	vājayate  { vājaya }	verb	worship
-वाजी करोति { वाजीकृ }	vājī karoti  { vājīkṛ }	verb	excite
-वाजी करोति { वाजीकृ }	vājī karoti  { vājīkṛ }	verb	produce virility
-वाजी करोति { वाजीकृ }	vājī karoti  { vājīkṛ }	verb	strengthen
+वाजी करोति { वाजीकृ }	vājīkaroti  { vājīkṛ }	verb	excite
+वाजी करोति { वाजीकृ }	vājīkaroti  { vājīkṛ }	verb	produce virility
+वाजी करोति { वाजीकृ }	vājīkaroti  { vājīkṛ }	verb	strengthen
 वाञ्छति { वाञ्छ् }	vāñchati  { vāñch }	verb	ask for
 वाञ्छति { वाञ्छ् }	vāñchati  { vāñch }	verb	assert
 वाञ्छति { वाञ्छ् }	vāñchati  { vāñch }	verb	assume
@@ -18301,8 +18301,8 @@
 वाति { वा }	vāti  { vā }	verb	emit an odour
 वाति { वा }	vāti  { vā }	verb	smell
 वात्यायते { वात्याय }	vātyāyate  { vātyāya }	verb	resemble a storm
-वान्ती करोति { वान्तीकृ }	vāntī karoti  { vāntīkṛ }	verb	resign
-वामी करोति { वामीकृ }	vāmī karoti  { vāmīkṛ }	verb	turn or direct towards the left side
+वान्ती करोति { वान्तीकृ }	vāntīkaroti  { vāntīkṛ }	verb	resign
+वामी करोति { वामीकृ }	vāmīkaroti  { vāmīkṛ }	verb	turn or direct towards the left side
 वायति { वै }	vāyati  { vai }	verb	become languid or weary or exhausted
 वायति { वै }	vāyati  { vai }	verb	be deprived of
 वायति { वै }	vāyati  { vai }	verb	blow
@@ -18392,7 +18392,7 @@
 विकर्षति { विकृष् }	vikarṣati  { vikṛṣ }	verb	withdraw
 विकलयति { विकलय }	vikalayati  { vikalaya }	verb	ill-treat
 विकलयति { विकलय }	vikalayati  { vikalaya }	verb	mutilate
-विकली करोति { विकलीकृ }	vikalī karoti  { vikalīkṛ }	verb	perplex
+विकली करोति { विकलीकृ }	vikalīkaroti  { vikalīkṛ }	verb	perplex
 विकल्पते { विकॢप् }	vikalpate  { viklṛp }	verb	be doubtful or irresolute
 विकल्पते { विकॢप् }	vikalpate  { viklṛp }	verb	be undecided or questionable or optionable
 विकल्पते { विकॢप् }	vikalpate  { viklṛp }	verb	change or alternate
@@ -18512,7 +18512,7 @@
 विक्रोशति { विक्रुश् }	vikrośati  { vikruś }	verb	invoke
 विक्लवयति { विक्लवय }	viklavayati  { viklavaya }	verb	depress
 विक्लवयति { विक्लवय }	viklavayati  { viklavaya }	verb	render despondent
-विक्लवी करोति { विक्लवीकृ }	viklavī karoti  { viklavīkṛ }	verb	depress
+विक्लवी करोति { विक्लवीकृ }	viklavīkaroti  { viklavīkṛ }	verb	depress
 विक्लवी भवति { विक्लवीभू }	viklavī bhavati  { viklavībhū }	verb	grow despondent
 विक्षिपति { विक्षिप् }	vikṣipati  { vikṣip }	verb	bend
 विक्षिपति { विक्षिप् }	vikṣipati  { vikṣip }	verb	cast hither and thither
@@ -18779,9 +18779,9 @@
 विजते { विज् }	vijate  { vij }	verb	recoil
 विजते { विज् }	vijate  { vij }	verb	speed
 विजते { विज् }	vijate  { vij }	verb	start back
-विजनी करोति { विजनीकृ }	vijanī karoti  { vijanīkṛ }	verb	remove all witnesses
-विजर्जरी करोति { विजर्जरीकृ }	vijarjarī karoti  { vijarjarīkṛ }	verb	make old or infirm
-विजर्जरी करोति { विजर्जरीकृ }	vijarjarī karoti  { vijarjarīkṛ }	verb	weaken
+विजनी करोति { विजनीकृ }	vijanīkaroti  { vijanīkṛ }	verb	remove all witnesses
+विजर्जरी करोति { विजर्जरीकृ }	vijarjarīkaroti  { vijarjarīkṛ }	verb	make old or infirm
+विजर्जरी करोति { विजर्जरीकृ }	vijarjarīkaroti  { vijarjarīkṛ }	verb	weaken
 विजहाति { विहा }	vijahāti  { vihā }	verb	be deprived of
 विजहाति { विहा }	vijahāti  { vihā }	verb	cast off
 विजहाति { विहा }	vijahāti  { vihā }	verb	desist from
@@ -18868,10 +18868,10 @@
 वितत्यते { वितत्य }	vitatyate  { vitatya }	verb	expand
 वितत्यते { वितत्य }	vitatyate  { vitatya }	verb	stretch
 वितथयति { वितथय }	vitathayati  { vitathaya }	verb	render untrue
-वितथी करोति { वितथीकृ }	vitathī karoti  { vitathīkṛ }	verb	render vain or futile
-वितथं करोति { कृ }	vitathaṃ karoti  { kṛ }	verb	annul
-वितथं करोति { कृ }	vitathaṃ karoti  { kṛ }	verb	cancel
-वितथं करोति { कृ }	vitathaṃ karoti  { kṛ }	verb	nullify
+वितथी करोति { वितथीकृ }	vitathīkaroti  { vitathīkṛ }	verb	render vain or futile
+वितथं करोति { कृ }	vitathaṃkaroti  { kṛ }	verb	annul
+वितथं करोति { कृ }	vitathaṃkaroti  { kṛ }	verb	cancel
+वितथं करोति { कृ }	vitathaṃkaroti  { kṛ }	verb	nullify
 वितनुते { वितन् }	vitanute  { vitan }	verb	accomplish
 वितनुते { वितन् }	vitanute  { vitan }	verb	apply
 वितनुते { वितन् }	vitanute  { vitan }	verb	carry out
@@ -18928,8 +18928,8 @@
 वितपते { वितप् }	vitapate  { vitap }	verb	penetrate
 वितपते { वितप् }	vitapate  { vitap }	verb	tear
 वितपते { वितप् }	vitapate  { vitap }	verb	warm one's self or any member of the body
-वितरणं करोति { वि-तॄ }	vitaraṇaṃ karoti  { vi-tṛṛ }	verb	donate
-वितरणं करोति { वि-तॄ }	vitaraṇaṃ karoti  { vi-tṛṛ }	verb	give away
+वितरणं करोति { वि-तॄ }	vitaraṇaṃkaroti  { vi-tṛṛ }	verb	donate
+वितरणं करोति { वि-तॄ }	vitaraṇaṃkaroti  { vi-tṛṛ }	verb	give away
 वितरति { वितॄ }	vitarati  { vitṛṛ }	verb	accomplish
 वितरति { वितॄ }	vitarati  { vitṛṛ }	verb	afford
 वितरति { वितॄ }	vitarati  { vitṛṛ }	verb	apply
@@ -18963,8 +18963,8 @@
 वितर्कयति { वितर्क् }	vitarkayati  { vitark }	verb	think
 विताडयति { वितड् }	vitāḍayati  { vitaḍ }	verb	dash to pieces
 वितानायति { वितानाय }	vitānāyati  { vitānāya }	verb	represent an awning or canopy
-वितानी करोति { वितानीकृ }	vitānī karoti  { vitānīkṛ }	verb	overshadow
-वितानी करोति { वितानीकृ }	vitānī karoti  { vitānīkṛ }	verb	spread or extend over
+वितानी करोति { वितानीकृ }	vitānīkaroti  { vitānīkṛ }	verb	overshadow
+वितानी करोति { वितानीकृ }	vitānīkaroti  { vitānīkṛ }	verb	spread or extend over
 वितानी भवति { वितानीभू }	vitānī bhavati  { vitānībhū }	verb	represent a canopy
 वितिरति { वितॄ }	vitirati  { vitṛṛ }	verb	accomplish
 वितिरति { वितॄ }	vitirati  { vitṛṛ }	verb	afford
@@ -19148,7 +19148,7 @@
 विधत्ते { विधा }	vidhatte  { vidhā }	verb	supply
 विधत्ते { विधा }	vidhatte  { vidhā }	verb	take trouble with
 विधत्ते { विधा }	vidhatte  { vidhā }	verb	treat
-विधनी करोति { विधनीकृ }	vidhanī karoti  { vidhanīkṛ }	verb	impoverish
+विधनी करोति { विधनीकृ }	vidhanīkaroti  { vidhanīkṛ }	verb	impoverish
 विधमति { विधम् }	vidhamati  { vidham }	verb	blow away
 विधमति { विधम् }	vidhamati  { vidham }	verb	destroy
 विधमति { विधम् }	vidhamati  { vidham }	verb	disperse
@@ -19506,7 +19506,7 @@
 विन्यस्यति { विन्यस् }	vinyasyati  { vinyas }	verb	put or place down in different places
 विन्यस्यति { विन्यस् }	vinyasyati  { vinyas }	verb	turn or direct towards
 विपक्षयति { विपक्षय }	vipakṣayati  { vipakṣaya }	verb	make enemies
-विपक्षी करोति { विपक्षीकृ }	vipakṣī karoti  { vipakṣīkṛ }	verb	deprive of wings
+विपक्षी करोति { विपक्षीकृ }	vipakṣīkaroti  { vipakṣīkṛ }	verb	deprive of wings
 विपचति { विपच् }	vipacati  { vipac }	verb	cook thoroughly
 विपचति { विपच् }	vipacati  { vipac }	verb	dissolve by cooking or boiling
 विपञ्चयति { विपञ्चय }	vipañcayati  { vipañcaya }	verb	divulge
@@ -19557,7 +19557,7 @@
 विपर्यस्यति	viparyasyati	verb	transpose  [ computer ]
 विपर्यस्यते { विपर्यस् }	viparyasyate  { viparyas }	verb	interchange
 विपर्यस्यते { विपर्यस् }	viparyasyate  { viparyas }	verb	invert
-विपर्यासं करोति	viparyāsaṃ karoti	verb	transpose  [ computer ]
+विपर्यासं करोति	viparyāsaṃkaroti	verb	transpose  [ computer ]
 विपल्यङ्गयते { विपल्यङ्ग् }	vipalyaṅgayate  { vipalyaṅg }	verb	envelop
 विपश्यति { विपश् }	vipaśyati  { vipaś }	verb	discern
 विपश्यति { विपश् }	vipaśyati  { vipaś }	verb	distinguish
@@ -19750,8 +19750,8 @@
 विभवति { विभू }	vibhavati  { vibhū }	verb	fill
 विभवति { विभू }	vibhavati  { vibhū }	verb	pervade
 विभवति { विभू }	vibhavati  { vibhū }	verb	suffice
-विभागी करोति { विभागीकृ }	vibhāgī karoti  { vibhāgīkṛ }	verb	divide
-विभागी करोति { विभागीकृ }	vibhāgī karoti  { vibhāgīkṛ }	verb	parcel out
+विभागी करोति { विभागीकृ }	vibhāgīkaroti  { vibhāgīkṛ }	verb	divide
+विभागी करोति { विभागीकृ }	vibhāgīkaroti  { vibhāgīkṛ }	verb	parcel out
 विभाति	vibhāti	verb	become visible
 विभाति	vibhāti	verb	shine or gleam forth
 विभाति	vibhāti	verb	strike the ear  [ be heard ]
@@ -19908,8 +19908,8 @@
 विमिमीते { विमा }	vimimīte  { vimā }	verb	ordain
 विमिमीते { विमा }	vimimīte  { vimā }	verb	traverse
 विमुखयति { विमुखय }	vimukhayati  { vimukhaya }	verb	render averse
-विमुखी करोति { विमुखीकृ }	vimukhī karoti  { vimukhīkṛ }	verb	put to flight
-विमुखी करोति { विमुखीकृ }	vimukhī karoti  { vimukhīkṛ }	verb	render averse or indifferent to
+विमुखी करोति { विमुखीकृ }	vimukhīkaroti  { vimukhīkṛ }	verb	put to flight
+विमुखी करोति { विमुखीकृ }	vimukhīkaroti  { vimukhīkṛ }	verb	render averse or indifferent to
 विमुखी भवति { विमुखीभू }	vimukhī bhavati  { vimukhībhū }	verb	flee
 विमुखी भवति { विमुखीभू }	vimukhī bhavati  { vimukhībhū }	verb	turn away from
 विमुखी भवति { विमुखीभू }	vimukhī bhavati  { vimukhībhū }	verb	turn the back
@@ -19996,7 +19996,7 @@
 वियाति { विया }	viyāti  { viyā }	verb	destroy
 वियाति { विया }	viyāti  { viyā }	verb	go or pass through
 वियाति { विया }	viyāti  { viyā }	verb	turn away
-वियुक्तं करोति	viyuktaṃ karoti	verb	disconnect  [ computer ]
+वियुक्तं करोति	viyuktaṃkaroti	verb	disconnect  [ computer ]
 वियुङ्क्ते { वियुज् }	viyuṅkte  { viyuj }	verb	abandon
 वियुङ्क्ते { वियुज् }	viyuṅkte  { viyuj }	verb	abate
 वियुङ्क्ते { वियुज् }	viyuṅkte  { viyuj }	verb	detach
@@ -20055,7 +20055,7 @@
 विरचयति { विरच् }	viracayati  { virac }	verb	put on
 विरचयति { विरच् }	viracayati  { virac }	verb	wear
 विरचयति { विरच् }	viracayati  { virac }	verb	write
-विरजी कुरुते { विरजीकृ }	virajī kurute  { virajīkṛ }	verb	render free from dust or passion
+विरजी कुरुते { विरजीकृ }	virajīkurute  { virajīkṛ }	verb	render free from dust or passion
 विरज्यति { विरञ्ज् }	virajyati  { virañj }	verb	be changed in colour
 विरज्यति { विरञ्ज् }	virajyati  { virañj }	verb	become changed in disposition or affection
 विरज्यति { विरञ्ज् }	virajyati  { virañj }	verb	become indifferent to
@@ -20093,7 +20093,7 @@
 विरसति	virasati	verb	shriek
 विरसति	virasati	verb	yell
 विरसति { विरस् }	virasati  { viras }	verb	cry out
-विरसी करोति { विरसीकृ }	virasī karoti  { virasīkṛ }	verb	affect unpleasantly
+विरसी करोति { विरसीकृ }	virasīkaroti  { virasīkṛ }	verb	affect unpleasantly
 विरसी भवति { विरसीभू }	virasī bhavati  { virasībhū }	verb	become sapless or insipid
 विरसी भवति { विरसीभू }	virasī bhavati  { virasībhū }	verb	be unpleasantly affected
 विरहयति { रह् }	virahayati  { rah }	verb	desert
@@ -20344,7 +20344,7 @@
 विवर्धते { विवृध् }	vivardhate  { vivṛdh }	verb	thrive
 विवर्धयति { विवर्ध् }	vivardhayati  { vivardh }	verb	cut off
 विवर्धयति { विवर्ध् }	vivardhayati  { vivardh }	verb	sever
-विवशी करोति { विवशीकृ }	vivaśī karoti  { vivaśīkṛ }	verb	render helpless
+विवशी करोति { विवशीकृ }	vivaśīkaroti  { vivaśīkṛ }	verb	render helpless
 विवसति { विवस् }	vivasati  { vivas }	verb	abide
 विवसति { विवस् }	vivasati  { vivas }	verb	become a pupil
 विवसति { विवस् }	vivasati  { vivas }	verb	change an abode
@@ -20422,9 +20422,9 @@
 विशङ्कते { विशङ्क् }	viśaṅkate  { viśaṅk }	verb	fear
 विशङ्कते { विशङ्क् }	viśaṅkate  { viśaṅk }	verb	judge wrongly
 विशङ्कते { विशङ्क् }	viśaṅkate  { viśaṅk }	verb	misjudge
-विशदी करोति { विशदीकृ }	viśadī karoti  { viśadīkṛ }	verb	explain
-विशदी करोति { विशदीकृ }	viśadī karoti  { viśadīkṛ }	verb	illustrate
-विशदी करोति { विशदीकृ }	viśadī karoti  { viśadīkṛ }	verb	make clear
+विशदी करोति { विशदीकृ }	viśadīkaroti  { viśadīkṛ }	verb	explain
+विशदी करोति { विशदीकृ }	viśadīkaroti  { viśadīkṛ }	verb	illustrate
+विशदी करोति { विशदीकृ }	viśadīkaroti  { viśadīkṛ }	verb	make clear
 विशसति { विशस् }	viśasati  { viśas }	verb	dissect
 विशस्ति { विशस् }	viśasti  { viśas }	verb	dissect
 विशातयति { विशातय }	viśātayati  { viśātaya }	verb	cut down or off
@@ -20455,7 +20455,7 @@
 विशुध्यते { विशुध् }	viśudhyate  { viśudh }	verb	remain naught
 विशृणोति { विश्रु }	viśṛṇoti  { viśru }	verb	hear distinctly
 विशेते { विशी }	viśete  { viśī }	verb	lie outstretched
-विशेषणी करोति { विशेषणीकृ }	viśeṣaṇī karoti  { viśeṣaṇīkṛ }	verb	predicate
+विशेषणी करोति { विशेषणीकृ }	viśeṣaṇīkaroti  { viśeṣaṇīkṛ }	verb	predicate
 विशंसति { विशंस् }	viśaṃsati  { viśaṃs }	verb	comprise in words
 विशंसति { विशंस् }	viśaṃsati  { viśaṃs }	verb	divide in parts for recitation
 विशंसति { विशंस् }	viśaṃsati  { viśaṃs }	verb	recite
@@ -20563,7 +20563,7 @@
 विष्टौति { विष्टु }	viṣṭauti  { viṣṭu }	verb	extol with praises
 विष्टौति { विष्टु }	viṣṭauti  { viṣṭu }	verb	praise very much
 विष्ठा	viṣṭhā	verb	stop ; to keep ground
-विष्ठा करोति { विष्ठाकृ }	viṣṭhā karoti  { viṣṭhākṛ }	verb	void excrement
+विष्ठा करोति { विष्ठाकृ }	viṣṭhākaroti  { viṣṭhākṛ }	verb	void excrement
 विष्णाति { विष् }	viṣṇāti  { viṣ }	verb	disjoin
 विष्णाति { विष् }	viṣṇāti  { viṣ }	verb	separate
 विष्फुरति { विस्फुर् }	viṣphurati  { visphur }	verb	appear
@@ -20888,7 +20888,7 @@
 वेवीते { वेवी }	vevīte  { vevī }	verb	go
 वेवीते { वेवी }	vevīte  { vevī }	verb	pervade
 वेवीते { वेवी }	vevīte  { vevī }	verb	throw
-वेश्यायत्ती करोति { वेश्यायत्तीकृ }	veśyāyattī karoti  { veśyāyattīkṛ }	verb	make dependent on harlots
+वेश्यायत्ती करोति { वेश्यायत्तीकृ }	veśyāyattīkaroti  { veśyāyattīkṛ }	verb	make dependent on harlots
 वेष्टते { वेष्ट् }	veṣṭate  { veṣṭ }	verb	adhere or cling to
 वेष्टते { वेष्ट् }	veṣṭate  { veṣṭ }	verb	cast the skin
 वेष्टते { वेष्ट् }	veṣṭate  { veṣṭ }	verb	dress
@@ -21080,7 +21080,7 @@
 व्ययीकरोति { व्ययीकृ }	vyayīkaroti  { vyayīkṛ }	verb	waste
 व्ययीकुरुते { व्ययीकृ }	vyayīkurute  { vyayīkṛ }	verb	expend
 व्यर्थयति { व्यर्थय }	vyarthayati  { vyarthaya }	verb	make useless or superfluous
-व्यर्थी करोति { व्यर्थीकृ }	vyarthī karoti  { vyarthīkṛ }	verb	make useless or superfluous
+व्यर्थी करोति { व्यर्थीकृ }	vyarthīkaroti  { vyarthīkṛ }	verb	make useless or superfluous
 व्यर्दति { व्यर्द् }	vyardati  { vyard }	verb	oppress
 व्यवकर्षति { व्यवकृष् }	vyavakarṣati  { vyavakṛṣ }	verb	alienate
 व्यवकलयति	vyavakalayati	verb	deduct
@@ -21246,7 +21246,7 @@
 व्यश्नोति { व्यश् }	vyaśnoti  { vyaś }	verb	pervade
 व्यश्नोति { व्यश् }	vyaśnoti  { vyaś }	verb	reach
 व्यश्नोति { व्यश् }	vyaśnoti  { vyaś }	verb	take possession of
-व्यसनी करोति { व्यसनीकृ }	vyasanī karoti  { vyasanīkṛ }	verb	consider or characteriśe as a vice
+व्यसनी करोति { व्यसनीकृ }	vyasanīkaroti  { vyasanīkṛ }	verb	consider or characteriśe as a vice
 व्यस्यति { व्यस् }	vyasyati  { vyas }	verb	dispose
 व्याकरोति { व्याकृ }	vyākaroti  { vyākṛ }	verb	declare
 व्याकरोति { व्याकृ }	vyākaroti  { vyākṛ }	verb	divide
@@ -21267,9 +21267,9 @@
 व्याकुरुते { व्याकृ }	vyākurute  { vyākṛ }	verb	separate from
 व्याकुरुते { व्याकृ }	vyākurute  { vyākṛ }	verb	sever
 व्याकुरुते { व्याकृ }	vyākurute  { vyākṛ }	verb	undo
-व्याकुली करोति { व्याकुलीकृ }	vyākulī karoti  { vyākulīkṛ }	verb	bewilder
-व्याकुली करोति { व्याकुलीकृ }	vyākulī karoti  { vyākulīkṛ }	verb	confound
-व्याकुली करोति { व्याकुलीकृ }	vyākulī karoti  { vyākulīkṛ }	verb	perplex
+व्याकुली करोति { व्याकुलीकृ }	vyākulīkaroti  { vyākulīkṛ }	verb	bewilder
+व्याकुली करोति { व्याकुलीकृ }	vyākulīkaroti  { vyākulīkṛ }	verb	confound
+व्याकुली करोति { व्याकुलीकृ }	vyākulīkaroti  { vyākulīkṛ }	verb	perplex
 व्याक्षिपति { व्याक्षिप् }	vyākṣipati  { vyākṣip }	verb	captivate
 व्याक्षिपते { व्याक्षिप् }	vyākṣipate  { vyākṣip }	verb	captivate
 व्याख्याति { व्याख्या }	vyākhyāti  { vyākhyā }	verb	call
@@ -21289,7 +21289,7 @@
 व्याजयति { व्याजय }	vyājayati  { vyājaya }	verb	deceive
 व्याजिघ्रति { व्याघ्रा }	vyājighrati  { vyāghrā }	verb	scent or smell at on
 व्याजिघ्रति { व्याघ्रा }	vyājighrati  { vyāghrā }	verb	scent out
-व्याजी करोति { व्याजीकृ }	vyājī karoti  { vyājīkṛ }	verb	hold out as a pretence or pretext
+व्याजी करोति { व्याजीकृ }	vyājīkaroti  { vyājīkṛ }	verb	hold out as a pretence or pretext
 व्याजृम्भते { व्याजृम्भ् }	vyājṛmbhate  { vyājṛmbh }	verb	gape
 व्याजृम्भते { व्याजृम्भ् }	vyājṛmbhate  { vyājṛmbh }	verb	open wide
 व्याति { व्यपया }	vyāti  { vyapayā }	verb	retire
@@ -21351,7 +21351,7 @@
 व्यायच्छते { व्यायम् }	vyāyacchate  { vyāyam }	verb	strive
 व्यायच्छते { व्यायम् }	vyāyacchate  { vyāyam }	verb	struggle or contend about
 व्याययति { व्यय् }	vyāyayati  { vyay }	verb	throw
-व्यायामं करोति { कृ }	vyāyāmaṃ karoti  { kṛ }	verb	do physical exercise
+व्यायामं करोति { कृ }	vyāyāmaṃkaroti  { kṛ }	verb	do physical exercise
 व्यायुनक्ति { व्यायुज् }	vyāyunakti  { vyāyuj }	verb	disjoin or separate
 व्यालिखति { व्यालिख् }	vyālikhati  { vyālikh }	verb	draw lines
 व्यालिखति { व्यालिख् }	vyālikhati  { vyālikh }	verb	graśe
@@ -21497,7 +21497,7 @@
 व्यूहति { व्यूह् }	vyūhati  { vyūh }	verb	separate
 व्यूहति { व्यूह् }	vyūhati  { vyūh }	verb	shift
 व्यूहति { व्यूह् }	vyūhati  { vyūh }	verb	transpose
-व्यूही करोति { व्यूहीकृ }	vyūhī karoti  { vyūhīkṛ }	verb	draw up in battle-array
+व्यूही करोति { व्यूहीकृ }	vyūhīkaroti  { vyūhīkṛ }	verb	draw up in battle-array
 व्येति { वी }	vyeti  { vī }	verb	be diffused or scattered or distributed or divided or extended
 व्येति { वी }	vyeti  { vī }	verb	be lost
 व्येति { वी }	vyeti  { vī }	verb	disappear
@@ -22217,8 +22217,8 @@
 सज्जयति { सज्जय }	sajjayati  { sajjaya }	verb	equip
 सज्जयति { सज्जय }	sajjayati  { sajjaya }	verb	make ready
 सज्जयति { सज्जय }	sajjayati  { sajjaya }	verb	prepare
-सज्जी करोति { कृ }	sajjī karoti  { kṛ }	verb	attempt a piece of work
-सज्जी करोति { कृ }	sajjī karoti  { kṛ }	verb	try on
+सज्जी करोति { कृ }	sajjīkaroti  { kṛ }	verb	attempt a piece of work
+सज्जी करोति { कृ }	sajjīkaroti  { kṛ }	verb	try on
 सज्जीकरोति { सज्जीकृ }	sajjīkaroti  { sajjīkṛ }	verb	arm
 सज्जीकरोति { सज्जीकृ }	sajjīkaroti  { sajjīkṛ }	verb	equip
 सज्जीकरोति { सज्जीकृ }	sajjīkaroti  { sajjīkṛ }	verb	make ready
@@ -22425,7 +22425,7 @@
 सत्याकरोति { सत्याकृ }	satyākaroti  { satyākṛ }	verb	conclude an agreement or bargain
 सत्याकरोति { सत्याकृ }	satyākaroti  { satyākṛ }	verb	make true
 सत्यापयति { सत्यापय }	satyāpayati  { satyāpaya }	verb	ratify
-सत्यी करोति { कृ }	satyī karoti  { kṛ }	verb	realiśe
+सत्यी करोति { कृ }	satyīkaroti  { kṛ }	verb	realiśe
 सनति / -ते	sanati / -te	verb	acquire
 सनति / -ते	sanati / -te	verb	enjoy
 सनति / -ते	sanati / -te	verb	gain
@@ -22841,7 +22841,7 @@
 समर्चति { समर्च् }	samarcati  { samarc }	verb	fix
 समर्चति { समर्च् }	samarcati  { samarc }	verb	honour
 समर्चति { समर्च् }	samarcati  { samarc }	verb	worship
-समर्थनं करोति { कृ }	samarthanaṃ karoti  { kṛ }	verb	support
+समर्थनं करोति { कृ }	samarthanaṃkaroti  { kṛ }	verb	support
 समर्थयते { समर्थ् }	samarthayate  { samarth }	verb	approve
 समर्थयते { समर्थ् }	samarthayate  { samarth }	verb	cheer up
 समर्थयते { समर्थ् }	samarthayate  { samarth }	verb	close
@@ -22939,8 +22939,8 @@
 समस्ति { समस् }	samasti  { samas }	verb	be united with
 समस्ति { समस् }	samasti  { samas }	verb	equal
 समस्ति { समस् }	samasti  { samas }	verb	exist
-समस्थली करोति { समस्थलीकृ }	samasthalī karoti  { samasthalīkṛ }	verb	make level with the ground
-समस्थली करोति { समस्थलीकृ }	samasthalī karoti  { samasthalīkṛ }	verb	turn into level ground
+समस्थली करोति { समस्थलीकृ }	samasthalīkaroti  { samasthalīkṛ }	verb	make level with the ground
+समस्थली करोति { समस्थलीकृ }	samasthalīkaroti  { samasthalīkṛ }	verb	turn into level ground
 समस्यति { समस् }	samasyati  { samas }	verb	add
 समस्यति { समस् }	samasyati  { samas }	verb	combine
 समस्यति { समस् }	samasyati  { samas }	verb	compound
@@ -23196,7 +23196,7 @@
 समाधत्ते { समाधा }	samādhatte  { samādhā }	verb	show
 समाधत्ते { समाधा }	samādhatte  { samādhā }	verb	stir
 समाधत्ते { समाधा }	samādhatte  { samādhā }	verb	take to or upon one's self
-समाधानं करोति	samādhānaṃ karoti	verb	give a solution
+समाधानं करोति	samādhānaṃkaroti	verb	give a solution
 समानयति { समानय }	samānayati  { samānaya }	verb	equalise
 समानयति { समानय }	samānayati  { samānaya }	verb	make equal or similar
 समानयति { समानी }	samānayati  { samānī }	verb	lead or conduct together
@@ -23224,7 +23224,7 @@
 समापद्यते { समापद् }	samāpadyate  { samāpad }	verb	take place
 समापद्यते { समापद् }	samāpadyate  { samāpad }	verb	undergo
 समापद्यते { समापद् }	samāpadyate  { samāpad }	verb	undertake
-समापनं करोति { कृ }	samāpanaṃ karoti  { kṛ }	verb	finish
+समापनं करोति { कृ }	samāpanaṃkaroti  { kṛ }	verb	finish
 समापिबति { समापा }	samāpibati  { samāpā }	verb	absorb
 समापिबति { समापा }	samāpibati  { samāpā }	verb	suck in
 समापुनाति { समापू }	samāpunāti  { samāpū }	verb	purge
@@ -23987,9 +23987,9 @@
 समेधते { समेध् }	samedhate  { samedh }	verb	thrive
 समैति { समे }	samaiti  { same }	verb	cope with
 समैति { समे }	samaiti  { same }	verb	emulate
-समं करोति { समंकृ }	samaṃ karoti  { samaṃkṛ }	verb	balance
-समं करोति { समंकृ }	samaṃ karoti  { samaṃkṛ }	verb	make equal
-समं करोति { समंकृ }	samaṃ karoti  { samaṃkṛ }	verb	put right or in order
+समं करोति { समंकृ }	samaṃkaroti  { samaṃkṛ }	verb	balance
+समं करोति { समंकृ }	samaṃkaroti  { samaṃkṛ }	verb	make equal
+समं करोति { समंकृ }	samaṃkaroti  { samaṃkṛ }	verb	put right or in order
 सम्पठति { सम्पठ् }	sampaṭhati  { sampaṭh }	verb	read aloud or recite or repeat thoroughly or continuously
 सम्पतति { सम्पत् }	sampatati  { sampat }	verb	alight on
 सम्पतति { सम्पत् }	sampatati  { sampat }	verb	arrive at
@@ -24440,7 +24440,7 @@
 सम्बुध्यते { सम्बुध् }	sambudhyate  { sambudh }	verb	observe
 सम्बुध्यते { सम्बुध् }	sambudhyate  { sambudh }	verb	perceive or understand thoroughly
 सम्बुध्यते { सम्बुध् }	sambudhyate  { sambudh }	verb	wake up
-सम्बोधनम् करोति { कृ }	sambodhanam karoti  { kṛ }	verb	address
+सम्बोधनम् करोति { कृ }	sambodhanamkaroti  { kṛ }	verb	address
 सम्ब्रवीति { सम्ब्रू }	sambravīti  { sambrū }	verb	agree
 सम्ब्रवीति { सम्ब्रू }	sambravīti  { sambrū }	verb	converse
 सम्ब्रवीति { सम्ब्रू }	sambravīti  { sambrū }	verb	say anything to
@@ -24742,7 +24742,7 @@
 सम्मृशते { सम्मृश् }	sammṛśate  { sammṛś }	verb	take hold of
 सम्मृशते { सम्मृश् }	sammṛśate  { sammṛś }	verb	touch
 सम्मृशते { सम्मृश् }	sammṛśate  { sammṛś }	verb	touch mentally
-सम्मेलनं करोति { कृ }	sammelanaṃ karoti  { kṛ }	verb	hold a meeting
+सम्मेलनं करोति { कृ }	sammelanaṃkaroti  { kṛ }	verb	hold a meeting
 सम्यक् कारयति	samyak kārayati	verb	repair
 सम्राजति	samrājati	verb	reign over
 सम्रिच्छति { समृ }	samricchati  { samṛ }	verb	be brought about
@@ -24764,7 +24764,7 @@
 सरति { सृ }	sarati  { sṛ }	verb	move
 सरलीकरोति { सरलीकृ }	saralīkaroti  { saralīkṛ }	verb	make straight
 सरलीकरोति { सरलीकृ }	saralīkaroti  { saralīkṛ }	verb	reduce something to bare essentials
-सरली करोति { सरलीकृ }	saralī karoti  { saralīkṛ }	verb	simplify
+सरली करोति { सरलीकृ }	saralīkaroti  { saralīkṛ }	verb	simplify
 सरसरायते { सरसराय }	sarasarāyate  { sarasarāya }	verb	move hither and thither
 सरसीकरोति { सरसीकृ }	sarasīkaroti  { sarasīkṛ }	verb	comfort
 सरसीकरोति { सरसीकृ }	sarasīkaroti  { sarasīkṛ }	verb	moisten
@@ -24786,7 +24786,7 @@
 सवते { सु }	savate  { su }	verb	go
 सवते { सु }	savate  { su }	verb	move
 सवर्णयति { सवर्णय }	savarṇayati  { savarṇaya }	verb	reduce to the same denominator
-सशक्तं करोति	saśaktaṃ karoti	verb	enable  [ computer ]
+सशक्तं करोति	saśaktaṃkaroti	verb	enable  [ computer ]
 सस्ति { सस् }	sasti  { sas }	verb	be inactive or idle
 सहते { सह् }	sahate  { sah }	verb	approve anything
 सहते { सह् }	sahate  { sah }	verb	be able to or capable of
@@ -24811,15 +24811,15 @@
 सहते { सह् }	sahate  { sah }	verb	suppress
 सहते { सह् }	sahate  { sah }	verb	vanquish
 सहते { सह् }	sahate  { sah }	verb	win
-सहनं करोति { कृ }	sahanaṃ karoti  { kṛ }	verb	tolerate
+सहनं करोति { कृ }	sahanaṃkaroti  { kṛ }	verb	tolerate
 सहसा निवर्तते { सहसा निवृत् }	sahasā nivartate  { sahasā nivṛt }	verb	shy at
 सा एकं शिरस्त्रं ग्रहीतवती	sā ekaṃ śirastraṃ grahītavatī	verb	ṣhe picked up a hat
-साक्षात् करोति { साक्षात्कृ }	sākṣāt karoti  { sākṣātkṛ }	verb	look at with the eyes
-साक्षात् करोति { साक्षात्कृ }	sākṣāt karoti  { sākṣātkṛ }	verb	make visibly present before the eyes
-साक्षात् करोति { साक्षात्कृ }	sākṣāt karoti  { sākṣātkṛ }	verb	realiśe
+साक्षात् करोति { साक्षात्कृ }	sākṣātkaroti  { sākṣātkṛ }	verb	look at with the eyes
+साक्षात् करोति { साक्षात्कृ }	sākṣātkaroti  { sākṣātkṛ }	verb	make visibly present before the eyes
+साक्षात् करोति { साक्षात्कृ }	sākṣātkaroti  { sākṣātkṛ }	verb	realiśe
 साक्षाद्भवति { साक्षाद्भू }	sākṣādbhavati  { sākṣādbhū }	verb	appear before the eyes
 साक्षाद्भवति { साक्षाद्भू }	sākṣādbhavati  { sākṣādbhū }	verb	appear personally
-साक्षिमात्र करोति { साक्षिमात्रकृ }	sākṣimātra karoti  { sākṣimātrakṛ }	verb	become a neutral eyewitness
+साक्षिमात्र करोति { साक्षिमात्रकृ }	sākṣimātrakaroti  { sākṣimātrakṛ }	verb	become a neutral eyewitness
 साक्षीभवति { साक्षीभू }	sākṣībhavati  { sākṣībhū }	verb	be an eye-witness
 साचीकरोति { साचीकृ }	sācīkaroti  { sācīkṛ }	verb	distort
 सात्मीभवति { सात्मीभू }	sātmībhavati  { sātmībhū }	verb	become suitable or salutary
@@ -24874,7 +24874,7 @@
 सारयति	sārayati	verb	set in motion
 सारयति { सारय }	sārayati  { sāraya }	verb	be weak
 सावधानीकरोति { सावधानीकृ }	sāvadhānīkaroti  { sāvadhānīkṛ }	verb	caution
-साहाय्यं करोति { कृ }	sāhāyyaṃ karoti  { kṛ }	verb	succour
+साहाय्यं करोति { कृ }	sāhāyyaṃkaroti  { kṛ }	verb	succour
 सिञ्चति { सिच् }	siñcati  { sic }	verb	besprinkle or moisten with
 सिञ्चति { सिच् }	siñcati  { sic }	verb	cast or form anything out of molten metal
 सिञ्चति { सिच् }	siñcati  { sic }	verb	dip
@@ -24934,8 +24934,8 @@
 सुगन्धयति	sugandhayati	verb	make something fragrant
 सुगन्धयति	sugandhayati	verb	scent
 सुगन्धयति { सुगन्धय }	sugandhayati  { sugandhaya }	verb	make fragrant
-सुगुप्ति करोति	sugupti karoti	verb	guard well
-सुगुप्ति करोति	sugupti karoti	verb	preserve safely
+सुगुप्ति करोति	suguptikaroti	verb	guard well
+सुगुप्ति करोति	suguptikaroti	verb	preserve safely
 सुगुप्तीकरोति { सुगुप्तीकृ }	suguptīkaroti  { suguptīkṛ }	verb	guard carefully
 सुगुप्तीकरोति { सुगुप्तीकृ }	suguptīkaroti  { suguptīkṛ }	verb	keep well
 सुट्टयति { सुट्ट् }	suṭṭayati  { suṭṭ }	verb	be small or low or shallow
@@ -25768,7 +25768,7 @@
 संशम्यति { संशम् }	saṃśamyati  { saṃśam }	verb	calm
 संशम्यति { संशम् }	saṃśamyati  { saṃśam }	verb	cease
 संशम्यति { संशम् }	saṃśamyati  { saṃśam }	verb	make peace with
-संशयस्थं करोति { कृ }	saṃśayasthaṃ karoti  { kṛ }	verb	take a chance
+संशयस्थं करोति { कृ }	saṃśayasthaṃkaroti  { kṛ }	verb	take a chance
 संशास्ति { संशास् }	saṃśāsti  { saṃśās }	verb	arrange or put in order with
 संशास्ति { संशास् }	saṃśāsti  { saṃśās }	verb	call upon
 संशास्ति { संशास् }	saṃśāsti  { saṃśās }	verb	direct
@@ -25812,7 +25812,7 @@
 संशोचति { संशुच् }	saṃśocati  { saṃśuc }	verb	cause pain to
 संशोचति { संशुच् }	saṃśocati  { saṃśuc }	verb	flame or blaśe together
 संशोचति { संशुच् }	saṃśocati  { saṃśuc }	verb	mourn
-संशोधनं करोति { कृ }	saṃśodhanaṃ karoti  { kṛ }	verb	correct
+संशोधनं करोति { कृ }	saṃśodhanaṃkaroti  { kṛ }	verb	correct
 संश्रयति { सम्- श्रि }	saṃśrayati  { sam- śri }	verb	betake one's self to
 संश्रयति { सम्- श्रि }	saṃśrayati  { sam- śri }	verb	go for succour to
 संश्रयति { सम्- श्रि }	saṃśrayati  { sam- śri }	verb	resort to
@@ -26244,7 +26244,7 @@
 स्थूलयते { स्थूल् }	sthūlayate  { sthūl }	verb	become big or stout or bulky
 स्थूलयते { स्थूल् }	sthūlayate  { sthūl }	verb	grow fat
 स्थूलयते { स्थूल् }	sthūlayate  { sthūl }	verb	increase
-स्नानम् करोति { कृ }	snānam karoti  { kṛ }	verb	taking bath
+स्नानम् करोति { कृ }	snānamkaroti  { kṛ }	verb	taking bath
 स्नायति { स्नै }	snāyati  { snai }	verb	adorn
 स्नायति { स्नै }	snāyati  { snai }	verb	clothe
 स्नायति { स्नै }	snāyati  { snai }	verb	envelop
@@ -26279,9 +26279,9 @@
 स्पर्धते { स्पर्ध् }	spardhate  { spardh }	verb	rival
 स्पर्धते { स्पर्ध् }	spardhate  { spardh }	verb	vie or cope with
 स्पष्टयति	spaṣṭayati	verb	clarify
-स्पष्टी करोति	spaṣṭī karoti	verb	clarify
-स्पष्टी करोति	spaṣṭī karoti	verb	correct  [ calculation ]
-स्पष्टी करोति	spaṣṭī karoti	verb	rectify  [ errors ]
+स्पष्टी करोति	spaṣṭīkaroti	verb	clarify
+स्पष्टी करोति	spaṣṭīkaroti	verb	correct  [ calculation ]
+स्पष्टी करोति	spaṣṭīkaroti	verb	rectify  [ errors ]
 स्पृणोति { स्पृ }	spṛṇoti  { spṛ }	verb	extricate or deliver from
 स्पृणोति { स्पृ }	spṛṇoti  { spṛ }	verb	gain
 स्पृणोति { स्पृ }	spṛṇoti  { spṛ }	verb	release
@@ -26353,9 +26353,9 @@
 स्फीतीकरोति { स्फीतीकृ }	sphītīkaroti  { sphītīkṛ }	verb	augment
 स्फीतीकरोति { स्फीतीकृ }	sphītīkaroti  { sphītīkṛ }	verb	enlarge
 स्फुटबुद्बुदति { स्फुटबुद्बुद }	sphuṭabudbudati  { sphuṭabudbuda }	verb	apparently resemble a water-bubble
-स्फुटी करोति	sphuṭī karoti	verb	make clear
-स्फुटी करोति	sphuṭī karoti	verb	make evident
-स्फुटी करोति	sphuṭī karoti	verb	sharpen senses
+स्फुटी करोति	sphuṭīkaroti	verb	make clear
+स्फुटी करोति	sphuṭīkaroti	verb	make evident
+स्फुटी करोति	sphuṭīkaroti	verb	sharpen senses
 स्फुटीकरोति { स्फुटीकृ }	sphuṭīkaroti  { sphuṭīkṛ }	verb	sharpen
 स्फुण्टति { स्फुण्ट् }	sphuṇṭati  { sphuṇṭ }	verb	open
 स्फुरति { स्फुर् }	sphurati  { sphur }	verb	be brilliant or distinguished
