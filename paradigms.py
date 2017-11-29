@@ -524,101 +524,105 @@ adj[('AAllGender')]=AdjExtra
 
 # please add to the wordlist the following forms: 'avocat', 'avocanti', 'āha', āhuḥ. they are frequently occurring 'aorists', no need to conjugate 'them', other persons do not occur.
 
+VerbInfTypes={
+    ('ati','oti','āti'):'ati/oti'
+}
+
 verb={
-#atiVerb:{
-'PresentActive':{
-('1','sg',):[ 'āmi'],
-('2','sg',):[ 'asi'],
-('3','sg',):['ati'],
-('1','dl',):['āvaḥ'],
-('2','dl',):['athaḥ'],
-('3','dl',):['ataḥ'],
-('1','pl',):['āmaḥ'],
-('2','pl',):['atha'],
-('3','pl',):['anti'],
-},
-'PresentMiddlePassive':{
-('1','sg',):[ 'e'],
-('2','sg',):[ 'ase'],
-('3','sg',):['ate'],
-('1','dl',):['āvahe'],
-('2','dl',):['ethe'],
-('3','dl',):['ate'],
-('1','pl',):['āmahe'],
-('2','pl',):['adhve'],
-('3','pl',):['ante'],
-},
-'ImpfActive':{  # for the imperfect put an 'a' before the stem:['e'.g. 'bhavati'> 'abhavan', when stem starts in 'vowl', sandhi applies:[  'akṣati' > ākṣan
-('1','sg',):['am'],
-('2','sg',):[ 'aḥ'],
-('3','sg',):['at'],
-('1','dl',):[ 'āva'],
-('2','dl',):[ 'atam'],
-('3','dl',):[ 'atām'],
-('1','pl',):['āma'],
-('2','pl',):['ata'],
-('3','pl',):['an'],
-},
-'ImpfMiddlePassive':{  # for the imperfect put an 'a' before the stem:['e'.g. 'bhavati'> 'abhavan', when stem starts in 'vowl', sandhi applies:[  'akṣati' > ākṣan
-('1','sg',):[ 'e'],
-('2','sg',):['athāḥ'],
-('3','sg',):['ata'],
-('1','dl',):[ 'āvahi'],
-('2','dl',):['ethām'],
-('3','dl',):['etām'],
-('1','pl',):['āmahi'],
-('2','pl',):['adhvam'],
-('3','pl',):['nta'],
-},
-'OptativeActive':{
-('1','sg',):['eyam'],
-('2','sg',):['eḥ'],
-('3','sg',):['et'],
-('1','dl',):['eva'],
-('2','dl',):['etam'],
-('3','dl',):['etām'],
-('1','pl',):['ema'],
-('2','pl',):['eta'],
-('3','pl',):['yuḥ'],
-},
-'OptativeMiddlePassive':{ 
-('1','sg',):['eya'],
-('2','sg',):['ethāḥ'],
-('3','sg',):['eta'],
-('1','dl',):['evahi'],
-('2','dl',):['eyāthām'],
-('3','dl',):['eyātam'],
-('1','pl',):['emahi'],
-('2','pl',):['edhvam'],
-('3','pl',):['eran'],
-},
-'ImperativeActiv':{
+'ati/oti':{
+    'PresentActive':{
+    ('1','sg',):[ 'āmi'],
+    ('2','sg',):[ 'asi'],
+    ('3','sg',):['ati'],
+    ('1','dl',):['āvaḥ'],
+    ('2','dl',):['athaḥ'],
+    ('3','dl',):['ataḥ'],
+    ('1','pl',):['āmaḥ'],
+    ('2','pl',):['atha'],
+    ('3','pl',):['anti'],
+    },
+    'PresentMiddlePassive':{
+    ('1','sg',):[ 'e'],
+    ('2','sg',):[ 'ase'],
+    ('3','sg',):['ate'],
+    ('1','dl',):['āvahe'],
+    ('2','dl',):['ethe'],
+    ('3','dl',):['ate'],
+    ('1','pl',):['āmahe'],
+    ('2','pl',):['adhve'],
+    ('3','pl',):['ante'],
+    },
+    'ImpfActive':{  # for the imperfect put an 'a' before the stem:['e'.g. 'bhavati'> 'abhavan', when stem starts in 'vowl', sandhi applies:[  'akṣati' > ākṣan
+    ('1','sg',):['am'],
+    ('2','sg',):[ 'aḥ'],
+    ('3','sg',):['at'],
+    ('1','dl',):[ 'āva'],
+    ('2','dl',):[ 'atam'],
+    ('3','dl',):[ 'atām'],
+    ('1','pl',):['āma'],
+    ('2','pl',):['ata'],
+    ('3','pl',):['an'],
+    },
+    'ImpfMiddlePassive':{  # for the imperfect put an 'a' before the stem:['e'.g. 'bhavati'> 'abhavan', when stem starts in 'vowl', sandhi applies:[  'akṣati' > ākṣan
+    ('1','sg',):[ 'e'],
+    ('2','sg',):['athāḥ'],
+    ('3','sg',):['ata'],
+    ('1','dl',):[ 'āvahi'],
+    ('2','dl',):['ethām'],
+    ('3','dl',):['etām'],
+    ('1','pl',):['āmahi'],
+    ('2','pl',):['adhvam'],
+    ('3','pl',):['nta'],
+    },
+    'OptativeActive':{
+    ('1','sg',):['eyam'],
+    ('2','sg',):['eḥ'],
+    ('3','sg',):['et'],
+    ('1','dl',):['eva'],
+    ('2','dl',):['etam'],
+    ('3','dl',):['etām'],
+    ('1','pl',):['ema'],
+    ('2','pl',):['eta'],
+    ('3','pl',):['yuḥ'],
+    },
+    'OptativeMiddlePassive':{ 
+    ('1','sg',):['eya'],
+    ('2','sg',):['ethāḥ'],
+    ('3','sg',):['eta'],
+    ('1','dl',):['evahi'],
+    ('2','dl',):['eyāthām'],
+    ('3','dl',):['eyātam'],
+    ('1','pl',):['emahi'],
+    ('2','pl',):['edhvam'],
+    ('3','pl',):['eran'],
+    },
+    'ImperativeActiv':{
 
-('1','sg',):['āni'],
-('2','sg',):['a'],
-('3','sg',):['atu'],
-('1','dl',):['āva'],
-('2','dl',):['atam'],
-('3','dl',):['atām'],
-('1','pl',):['āma'],
-('2','pl',):['ata'],
-('3','pl',):['antu'],
-},
-'ImperativeMiddlepassiv':{
+    ('1','sg',):['āni'],
+    ('2','sg',):['a'],
+    ('3','sg',):['atu'],
+    ('1','dl',):['āva'],
+    ('2','dl',):['atam'],
+    ('3','dl',):['atām'],
+    ('1','pl',):['āma'],
+    ('2','pl',):['ata'],
+    ('3','pl',):['antu'],
+    },
+    'ImperativeMiddlepassiv':{
 
-('1','sg',):[ 'ai'],
-('2','sg',):[ 'asva'],
-('3','sg',):['atām'],
-('1','dl',):['āvahai'],
-('2','dl',):['ethām'],
-('3','dl',):['etām'],
-('1','pl',):[ 'āmahai'],
-('2','pl',):['adhvam'],
-('3','pl',):['antām'],
+    ('1','sg',):[ 'ai'],
+    ('2','sg',):[ 'asva'],
+    ('3','sg',):['atām'],
+    ('1','dl',):['āvahai'],
+    ('2','dl',):['ethām'],
+    ('3','dl',):['etām'],
+    ('1','pl',):[ 'āmahai'],
+    ('2','pl',):['adhvam'],
+    ('3','pl',):['antām'],
+    }
+
+
 }
-
-
 }
-
 
  

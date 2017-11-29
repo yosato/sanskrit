@@ -116,7 +116,19 @@ class InfLexeme(morph_univ.Lexeme):
 
 
         elif self.pos=='verb':
-            Type='all'
+            InfTypes=paradigms.VerbInfTypes
+            Endings= [ Ending for Ending in InfTypes.keys() if self.lemma.endswith(Ending) ]
+            if not Endings:
+                sys.stderr.write('\n'+self.lemma+': no infcat found\n\n')
+                #time.sleep(4)
+                #self.inftype=None
+                Type=None
+            else:
+                ChosenEnding=Endings[0]
+                Type=InfTypes[ChosenEnding]                
+            if len(Endings)>=2:
+                sys.stderr.write('\n'+self.lemma+': multiple infcats found, we are taking the first in the list, which is \n')
+                print(ChosenEndingGender)
             
         if Type is None:
             sys.stderr.write('[WARNING] no inftype identified for '+self.lemma+' ('+self.pos+')\n')
@@ -136,8 +148,13 @@ class NonInfWord(Word):
 class VerbLexeme(InfLexeme):
     def __init__(self,Lemma):
         super().__init__(Lemma,'verb')
-        self.conjpar=paradigms.verb
+        self.inftype=self.determine_inftype()
+        if self.inftype:
+            self.conjpar=paradigms.verb[self.inftype]
+
     def conjugate_all(self):
+        if not self.inftype:
+            return []
         VerbWds=[]
         for (Tense,Table) in self.conjpar.items():
             for ((Pers,Num),Forms) in Table.items():
@@ -227,12 +244,13 @@ class NounLexeme(NominalLexeme):
         super().__init__(Lemma,'noun')
         self.gender=Gender
         self.inftype=self.determine_inftype()
-        self.declpar=paradigms.noun
+        if self.inftype:
+            self.declpar=paradigms.noun[self.inftype]
     def decline_all(self):
         NounWds=[]
         if not self.inftype:
             return []
-        for (Case,NumVarSets) in self.declpar[self.inftype].items():
+        for (Case,NumVarSets) in self.declpar.items():
             for Cnt,NumVarSet in enumerate(NumVarSets):
                 if Cnt==0: Num='sg'
                 elif Cnt==1: Num='dl'

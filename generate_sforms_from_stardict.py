@@ -9,7 +9,7 @@ def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCnt
     StarDictFNStem='.'.join(StarDictFN.split('.')[:-1])
     if DoLemmaDict:
         if OutDir is None:
-            sys.exit('Lemma dict requires out dir\n')
+            OutDir=os.path.dirname(StarDictFP)
         LemmaDict=defaultdict(set)
         LemmaJFSw=open(os.path.join(OutDir,StarDictFNStem+'_lemmadict.json'),'wt')
 
@@ -146,8 +146,7 @@ def main():
         if Args.out_dir:
             if not os.path.isdir(Args.out_dir):
                 sys.exit('\ndir for out-dir '+Args.out_dir+' does not exist\n')
-        else:
-            print('out dir not specified, to output in stdout\n')
+
         FPs=[]
         for FP in Args.stardict_fps:
             if '/' not in FP:
