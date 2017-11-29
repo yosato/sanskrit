@@ -78,8 +78,8 @@ class InfLexeme(morph_univ.Lexeme):
         if self.pos=='adj':
             InfTypes=paradigms.AdjInfTypes
             try:
-                TypeHash=next( (Suffixes,('m','f','n')) for (Suffixes,_) in InfTypes.keys() if self.suffix in Suffixes )
-                Type=paradigms.AdjInfTypes[TypeHash]
+                TypeHashes=[ (Suffixes,_) for (Suffixes,_) in InfTypes.keys() if any(self.lemma.endswith(Ending) for Ending in Suffixes) ]
+                Type=paradigms.AdjInfTypes[TypeHashes[0]]
             except:
                 Type=None
                 
