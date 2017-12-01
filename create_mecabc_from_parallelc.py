@@ -10,16 +10,16 @@ def main0(FP,OutFP,LemmaDicFP=None,UpTo=None,Debug=0):
         return LineCnt
 
     OutFPTmp=OutFP+'.tmp'
-    OutTmp=open(OutFP,'wt')
-    Switched=False
+    OutTmp=open(OutFPTmp,'wt')
+#    Switched=False
     LineCnt=count_lines(FP)
     for Cntr,LiNe in enumerate(open(FP)):
         if UpTo and Cntr>UpTo:
             break
-        if OutFP and not Switched and Cntr>LineCnt*0.8:
-            OutTmp.close()
-            OutTmp=open(OutFP+'.test','wt')
-            Switched=True
+ #       if OutFP and not Switched and Cntr>LineCnt*0.8:
+  #          OutTmp.close()
+   #         OutTmp=open(OutFP+'.test','wt')
+    #        Switched=True
         if Debug:    sys.stderr.write(str(Cntr+1)+': '+LiNe)
         OrgSeg=LiNe.strip().split('\t')
         if len(OrgSeg)!=3:
@@ -48,11 +48,13 @@ def main0(FP,OutFP,LemmaDicFP=None,UpTo=None,Debug=0):
         os.path.rename(OutFPTmp,OutFP)
 
 def add_lemmata(InFP,OutFP,LemmaDicFP):
+    # OccurringLemmaDic is a reduced dictionary that only contains occurring items
     OccurringLemmaDic=defaultdict(list)
     FSr=open(InFP)
+    # lemma dic consists of 2-tuples with alphabet and dict
     for LiNeJ in open(LemmaDicFP):
-        LemmaDic=json.loads(LiNeJ.strip())
-        InitChar=LemmaDic.values()[0][0][0]
+        InitChar,LemmaDic=json.loads(LiNeJ.strip())
+        #InitChar=LemmaDic.values()[0][0][0]
         #AA=AStuff.intersection(set(LemmaDic.keys()))
         Successes=0;Failures=0
         for LiNeC in FSr:
@@ -135,18 +137,28 @@ def main():
     import argparse
     Psr=argparse.ArgumentParser()
     Psr.add_argument('parallel_fp')
-    Psr.add_argument('out_fp')
+    Psr.add_argument('--out-fp')
     Psr.add_argument('-l','--lemmadic-fp')
     Psr.add_argument('-u','--up-to',type=int)
     Args=Psr.parse_args()
+    if Args.out_fp is None:
+        Args.out_fp=os.path.join(os.path.dirname(Args.parallel_fp),os.path.basename(Args.parallel_fp)+'.out')
     if not os.path.dirname(Args.out_fp):
         print('parent of the specified fp '+Args.out_fp+' does not exist')
+
     if os.path.exists(Args.out_fp):
-        Answer=input('Specified filename exists. Overwrite? (Say y, otherwise it will abort): ')
-        if Answer=='y':
-            pass
-        else:
-            sys.exit()
+        LowerAnswer=None
+        while not any(LowerAnswer==Ans for Ans in ('yes','y','n','no')):
+            LowerAnswer=input('Specified filename exists. Overwrite? (Say y, otherwise it will abort): ').lower()
+
+        if LowerAnswer.startswith('n'):
+            sys.exit('rename the file and restart')
+        
+
+    if Args.lemmadic_fp and (not os.path.isfile(Args.lemmadic_fp) or not Args.lemmadic_fp.endswith('.json')):
+        sys.exit('lemma dic, in json format, has to be there')
+        
+    
     main0(Args.parallel_fp,OutFP=Args.out_fp,LemmaDicFP=Args.lemmadic_fp,UpTo=Args.up_to)
 
 if __name__=='__main__':
