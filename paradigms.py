@@ -660,7 +660,7 @@ verb={
 ('3','pl',):['antām'],
 }
 },
-ātiVerb:{
+'ātiVerb':{
 'PresentActive':{
 ('1','sg',):[ 'āmi'],
 ('2','sg',):[ 'āsi'],
@@ -752,7 +752,7 @@ verb={
 ('3','pl',):['āntām'],
 }
 },
-karotiVerb:{
+'karotiVerb':{
 'karPresentActive':{
 ('1','sg'):['karomi'],
 ('2','sg'):['karoṣi'],
@@ -845,7 +845,7 @@ karotiVerb:{
 }
 },
 
-otiVerb:{
+'otiVerb':{
 'PresentActive':{
 ('1','sg',):['omi'],
 ('2','sg',):['osi'],
@@ -937,7 +937,7 @@ otiVerb:{
 ('3','pl',):['vatām'],
 }
 },
-addhiVerb:{
+'addhiVerb':{
 'PresentActive':{
 ('1','sg',):['adhmi'],
 ('2','sg',):['atsi'],
@@ -1029,7 +1029,7 @@ addhiVerb:{
 ('3','pl',):['dhatām'],
 }
 },
-aktiVerb:{
+'aktiVerb':{
 'PresentActive':{
 ('1','sg',):['ajmi'],
 ('2','sg',):['akṣi'],
@@ -1121,7 +1121,7 @@ aktiVerb:{
 ('3','pl',):['jatām'],
 }
 },
-tiVerb:{
+'tiVerb':{
 'PresentActive':{
 ('1','sg',):['mi'],
 ('2','sg',):['si'],
