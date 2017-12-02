@@ -764,7 +764,7 @@ verb={
 ('2','pl'):['kurutha'],
 ('3','pl'):['karvanti'],
 },
-'karPresentMiddlePassive':{
+'PresentMiddlePassive':{
 ('1','sg'):['kurve'],
 ('2','sg'):['kuruṣe'],
 ('3','sg'):['kurute'],
@@ -775,7 +775,7 @@ verb={
 ('2','pl'):['kurdhve'],
 ('3','pl'):['karvate'],
 },
-'karImpfActive':{  # for the imperfect put an 'karā' before the stem:['kare'.g. 'karbhavati'> 'karābhavan', when stem starts in 'karvowl', sandhi applies:[  'karākṣati' > ākṣan
+'ImpfActive':{  # for the imperfect put an 'karā' before the stem:['kare'.g. 'karbhavati'> 'karābhavan', when stem starts in 'karvowl', sandhi applies:[  'karākṣati' > ākṣan
 ('1','sg'):['akaravam'],
 ('2','sg'):['akaroḥ'],
 ('3','sg'):['akarot'],
@@ -786,7 +786,7 @@ verb={
 ('2','pl'):['akuruta'],
 ('3','pl'):['akarvan'],
 },
-'karImpfMiddlePassive':{  # for the imperfect put an 'karā' before the stem:['kare'.g. 'karbhavati'> 'karābhavan', when stem starts in 'karvowl', sandhi applies:[  'karākṣati' > ākṣan
+'ImpfMiddlePassive':{  # for the imperfect put an 'karā' before the stem:['kare'.g. 'karbhavati'> 'karābhavan', when stem starts in 'karvowl', sandhi applies:[  'karākṣati' > ākṣan
 ('1','sg'):['akurvi'],
 ('2','sg'):['akuruthāḥ'],
 ('3','sg'):['akuruta'],
@@ -797,7 +797,7 @@ verb={
 ('2','pl'):['akurdhvam'],
 ('3','pl'):['akurvata'],
 },
-'karOptativeActive':{
+'OptativeActive':{
 ('1','sg'):['kuryām'],
 ('2','sg'):['kuryāḥ'],
 ('3','sg'):['kuryāt'],
@@ -808,7 +808,7 @@ verb={
 ('2','pl'):['kuryāta'],
 ('3','pl'):['kuryuḥ'],
 },
-'karOptativeMiddlePassive':{
+'OptativeMiddlePassive':{
 ('1','sg'):['kurvīya'],
 ('2','sg'):['kurvīthāḥ'],
 ('3','sg'):['kurvīta'],
@@ -819,7 +819,7 @@ verb={
 ('2','pl'):['kurvīdhvam'],
 ('3','pl'):['kurvīran'],
 },
-'karImperativeActiv':{
+'ImperativeActiv':{
 
 ('1','sg'):['karavāṇi'],
 ('2','sg'):['kuru'],
@@ -831,7 +831,7 @@ verb={
 ('2','pl'):['kuruta'],
 ('3','pl'):['kurvantu'],
 },
-'karImperativeMiddlepassiv':{
+'ImperativeMiddlepassiv':{
 
 ('1','sg'):['karavai'],
 ('2','sg'):['kuruṣva'],
