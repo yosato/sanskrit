@@ -128,7 +128,7 @@ class InfLexeme(morph_univ.Lexeme):
                 Type=InfTypes[ChosenEnding]                
             if len(Endings)>=2:
                 sys.stderr.write('\n'+self.lemma+': multiple infcats found, we are taking the first in the list, which is \n')
-                print(ChosenEndingGender)
+                print(ChosenEnding)
             
         if Type is None:
             sys.stderr.write('[WARNING] no inftype identified for '+self.lemma+' ('+self.pos+')\n')

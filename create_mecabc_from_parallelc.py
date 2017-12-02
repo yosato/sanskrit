@@ -53,8 +53,10 @@ def add_lemmata(InFP,OutFP,LemmaDicFP):
     FSr=open(InFP)
     # lemma dic consists of 2-tuples with alphabet and dict
     for LiNeJ in open(LemmaDicFP):
-        InitChar,LemmaDic=json.loads(LiNeJ.strip())
-        #InitChar=LemmaDic.values()[0][0][0]
+        LemmaDic=json.loads(LiNeJ.strip())
+        if len(LemmaDic)==2:
+            InitChar,LemmaDic=LemmaDic
+        InitChar=list(LemmaDic.values())[0][0][0]
         #AA=AStuff.intersection(set(LemmaDic.keys()))
         Successes=0;Failures=0
         for LiNeC in FSr:
