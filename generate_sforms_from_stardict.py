@@ -4,7 +4,15 @@ from collections import defaultdict
 
 imp.reload(sanskrit_morph)
 
-def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCntUpTo=None,UpTo=None):
+def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,AlphCntUpTo=None,UpTo=None):
+    def populate_lemmadict(CurAlph,LemmaDict,LemmmaJFSw):
+        LemmaDict=[CurAlph,{Key:list(Set) for (Key,Set) in LemmaDict.items() }]
+        LemmaDictJ=json.dumps(LemmaDict)
+        LemmaJFSw.write(LemmaDictJ)
+        LemmaJFSw.write('\n')
+        LemmaDict=defaultdict(set)
+        
+
     StarDictFN=os.path.basename(StarDictFP)
     StarDictFNStem='.'.join(StarDictFN.split('.')[:-1])
     if DoLemmaDict:
@@ -28,27 +36,22 @@ def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCnt
         if UpTo and Cntr>UpTo:
             break
         if Debug: sys.stderr.write('\tLemmaCounter '+str(Cntr)+'\n')
-        if DoLemmaDict or AlphCntUpTo:
-            CurAlph=Wds[0].infform[0]
-            if CurAlph!=PrvAlph:
-                AlphCnt+=1
-                PrvAlph=Wds[0].infform[0]
-                if AlphCnt>=2:
-                    LemmaDict={Key:list(Set) for (Key,Set) in LemmaDict.items() }
-                    LemmaDictJ=json.dumps(LemmaDict)
-                    LemmaJFSw.write(LemmaDictJ)
-                    LemmaJFSw.write('\n')
-                    LemmaDict=defaultdict(set)
+        CurAlph=Wds[0].infform[0]
+        if CurAlph!=PrvAlph:
+            AlphCnt+=1
+            PrvAlph=Wds[0].infform[0]
+            if AlphCnt>=2:
+                populate_lemmadict(CurAlph,LemmaDict,LemmaJFSw)
             
-            if AlphCntUpTo and AlphCntUpTo<AlphCnt:
-                break
+        if AlphCntUpTo and AlphCntUpTo<AlphCnt:
+            break
         for Wd in Wds:
             if Debug>=2:    sys.stderr.write(Wd.stringify_featvals()+'\n')
             OutLine=Wd.infform+'\t'+Wd.infform+','+Wd.lexeme.lemma+'\n'
             if Debug>=2:
                 sys.stderr.write(OutLine)
             Out.write(OutLine)
-            LemmaDict[Wd.infform].add(Wd.lexeme.lemma)
+            LemmaDict[Wd.infform].add((Wd.lexeme.lemma,Wd.lexeme.pos))
             SandhiFormPair=Wd.generate_sandhiforms()
             (SandhiVForm,SandhiForms)=SandhiFormPair
             if SandhiVForm:
@@ -57,12 +60,8 @@ def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,DoLemmaDict=True,AlphCnt
                 Out.write(SandhiForm+'\t'+Wd.infform+','+Wd.lexeme.lemma+'\n')
     InfTypeFSw.close()
                 
-                
-    if DoLemmaDict:
-        LemmaDict=[CurAlph,{Key:list(Set) for (Key,Set) in LemmaDict.items() }]
-        LemmaDictJ=json.dumps(LemmaDict)
-        LemmaJFSw.write(LemmaDictJ)
-        LemmaJFSw.write('\n')
+    populate_lemmadict(CurAlph,LemmaDict,LemmaJFSw)
+
     Size=sys.getsizeof(LemmaDict)
     Len=len(LemmaDict)
     print(Size)

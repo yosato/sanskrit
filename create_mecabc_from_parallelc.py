@@ -81,11 +81,11 @@ def add_lemmata(InFP,OutFP,LemmaDicFP):
         else:
             InfForm=Line.split('\t')[-1]
             if InfForm in OccurringLemmaDic.keys():
-                Lemma=OccurringLemmaDic[InfForm][0]
+                LemmaPoS=','.join(OccurringLemmaDic[InfForm][0])
             else:
-                Lemma='*'
+                LemmaPoS='*,*'
 
-            Out.write(Line+','+Lemma+'\n')
+            Out.write(Line+','+LemmaPoS+'\n')
     FSr.close()
                                  
 def check_plausibility(WdPairs):
