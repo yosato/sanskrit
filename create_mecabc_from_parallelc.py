@@ -3,7 +3,7 @@ from difflib import SequenceMatcher
 from collections import defaultdict
 #Delims=' ^.'
 
-def main0(FP,OutFP,LemmaDicFP=None,UpTo=None,Debug=0):
+def main0(FP,OutFP,LemmaDicDir,UpTo=None,Debug=0):
     def count_lines(FP):
         for LineCnt,_ in enumerate(open(FP)):
             pass
@@ -42,12 +42,10 @@ def main0(FP,OutFP,LemmaDicFP=None,UpTo=None,Debug=0):
     
     OutTmp.close()
 
-    if LemmaDicFP:
-        add_lemmata(OutFPTmp,OutFP,LemmaDicFP)
-    else:
-        os.path.rename(OutFPTmp,OutFP)
+    add_lemmata(OutFPTmp,OutFP,LemmaDicDir)
+    
 
-def add_lemmata(InFP,OutFP,LemmaDicFP):
+def add_lemmata(InFP,OutFP,LemmaDicDir):
     # OccurringLemmaDic is a reduced dictionary that only contains occurring items
     OccurringLemmaDic=defaultdict(list)
     FSr=open(InFP)

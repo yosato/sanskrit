@@ -100,7 +100,7 @@ class InfLexeme(morph_univ.Lexeme):
         elif self.pos=='noun':
             InfTypes=paradigms.NounInfTypes
             EndingsGenders=[ EndingGender for EndingGender in InfTypes.keys() if self.gender in EndingGender[1] and self.lemma.endswith(EndingGender[0]) ]
-            Typse=[InfTypes[EndingGender] for EndingGender in EndingsGenders ]                
+            Types=[InfTypes[EndingGender] for EndingGender in EndingsGenders ]                
     #        if len(EndingsGenders)>=2:
   #              sys.stderr.write('\n'+self.lemma+': multiple infcats found, we are taking the first in the list, which is \n')
    #             print(ChosenEndingGender)
@@ -115,11 +115,12 @@ class InfLexeme(morph_univ.Lexeme):
 class NonInfLexeme(morph_univ.Lexeme):
     def __init__(self,Lemma,PoS):
         super().__init__(Lemma,PoS)
+    def inflect_all(self):
+        return [ NonInfWord(self.lemma,self.pos) ]
 
 class NonInfWord(Word):
     def __init__(self,Lemma,PoS):
         super().__init__(NonInfLexeme(Lemma,PoS),Lemma)
-        
 
         
 

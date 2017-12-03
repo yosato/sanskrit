@@ -72,6 +72,7 @@ def writeout_lemmadict(StarDictFNStem,OutDir,LemmaDics,Debug=0):
                 for (SandhiForm,_) in SandhiForms:
                     Out.write(SandhiForm+'\t'+','.join([Wd.infform,Wd.lexeme.lemma,Wd.lexeme.pos,'sandhi'])+'\n')
         Out.close()
+    sys.stderr.write('lemmadict writeouts finished\n\n')
 
 def create_lemmadict(StarDictFNStem,InDir,OutDir,LemmaDicDir,LineCnt,Delimiter,AlphCntUpTo,UpTo,Debug):
     def populate_lemmadict(Wds,LemmaDicDir):
@@ -92,12 +93,12 @@ def create_lemmadict(StarDictFNStem,InDir,OutDir,LemmaDicDir,LineCnt,Delimiter,A
     Wds=[]
     for Cntr,Lex in enumerate(generate_words_perline(os.path.join(InDir,StarDictFNStem+'.txt'),Delimiter,Debug,OutDir,ErrorFSw)):
         WdCnt=Cntr+1
-        if WdCnt%5000==0:
-            sys.stderr.write(str(WdCnt)+' words done\n')
+        if WdCnt%10000==0:
+            sys.stderr.write(str(WdCnt)+' lexemes done\n')
             time.sleep(2)
         if UpTo and Cntr>UpTo:
             break
-        if not Lex.inftype:
+        if type(Lex).__name__!='NonInfLexeme' and not Lex.inftype:
             ErrorMsg='no inftype for '+Lex.lemma+'\n'
             if Debug:
                 sys.stderr.write(ErrorMsg)
@@ -120,7 +121,7 @@ def create_lemmadict(StarDictFNStem,InDir,OutDir,LemmaDicDir,LineCnt,Delimiter,A
                 
     populate_lemmadict(Wds,LemmaDicDir)
 
-    sys.stderr.write('Total '+str(WdCnt)+' words done for '+StarDictFNStem+'(out of total '+str(LineCnt)+' lines)'+'\n')
+    sys.stderr.write('Total '+str(WdCnt)+' lexemes done for '+StarDictFNStem+' (out of total '+str(LineCnt)+' lines)'+'\n\n')
 
 def generate_words_perline(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,ErrorFSw=None):
     OutErr=ErrorFSw if ErrorFSw else sys.stderr
@@ -144,41 +145,32 @@ def generate_words_perline(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,ErrorFS
         else:
             if Debug:    sys.stderr.write('Line '+str(Cntr)+': '+LiNe.strip()+'\n')
             Prv=LineEls
-            Wds=lemmaline2wds(LineEls,Delimiter)
-            if not Wds:
+            Lex=lemmaline2lexeme(LineEls,Delimiter)
+            if not Lex:
                 OutErr.write('no results returned from this line: '+LiNe)
                 continue
             else:
-                yield Wds
+                yield Lex
 
 
 
-def lemmaline2wds(LineEls,Delimiter):
+def lemmaline2lexeme(LineEls,Delimiter):
     InfCats=['n','m','f','pron','verb','adj']
     CatStr=LineEls[2];CatStrSplit=CatStr.split()
     Lemma=LineEls[1]
     Cat=(CatStr[:-1] if (len(CatStrSplit)==1 and CatStr.endswith('.')) else CatStr.split()[0])
 #    print(Lemma+'\t'+Cat)
     if (Cat not in InfCats) or (Cat=='n' and Lemma.endswith('id')):
-        return [ sanskrit_morph.NonInfWord(Lemma,Cat) ]
+        return sanskrit_morph.NonInfLexeme(Lemma,Cat)
     else:
-        return get_infl_words(Lemma,Cat)
-
-def get_infl_words(Lemma,Cat):
-    Nouns=['n','m','f']
-    if Cat in Nouns:
-        return sanskrit_morph.NounLexeme(Lemma,Cat)
-        #return NounLex.decline_all()
-    elif Cat == 'adj':
-        return sanskrit_morph.AdjLexeme(Lemma)
-        #return AdjLex.decline_all()
-    elif Cat == 'pron':
-        return sanskrit_morph.PronounLexeme(Lemma)
-        #return ronLex.decline_all()
-    elif Cat == 'verb':
-        return sanskrit_morph.VerbLexeme(Lemma)
-        #return VLex.conjugate_all()
-    
+        if Cat in ['n','m','f']:
+            return sanskrit_morph.NounLexeme(Lemma,Cat)
+        elif Cat == 'adj':
+            return sanskrit_morph.AdjLexeme(Lemma)
+        elif Cat == 'pron':
+            return sanskrit_morph.PronounLexeme(Lemma)
+        elif Cat == 'verb':
+            return sanskrit_morph.VerbLexeme(Lemma)
 
 def main():
     import argparse
