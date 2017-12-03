@@ -1,6 +1,7 @@
-import re,os,sys,copy,glob,json
+import re,os,sys,copy,glob
 from difflib import SequenceMatcher
 from collections import defaultdict
+from pythonlib_ys import main as myModule
 #Delims=' ^.'
 
 def main0(FP,OutFP,LemmaDicDir,UpTo=None,Debug=0):
@@ -12,7 +13,7 @@ def main0(FP,OutFP,LemmaDicDir,UpTo=None,Debug=0):
     OutFPTmp=OutFP+'.tmp'
     OutTmp=open(OutFPTmp,'wt')
 #    Switched=False
-    LineCnt=count_lines(FP)
+#    LineCnt=count_lines(FP)
     for Cntr,LiNe in enumerate(open(FP)):
         if UpTo and Cntr>UpTo:
             break
@@ -46,31 +47,9 @@ def main0(FP,OutFP,LemmaDicDir,UpTo=None,Debug=0):
     
 
 def add_lemmata(InFP,OutFP,LemmaDicDir):
-    # OccurringLemmaDic is a reduced dictionary that only contains occurring items
-    OccurringLemmaDic=defaultdict(list)
-    FSr=open(InFP)
-    # lemma dic consists of 2-tuples with alphabet and dict
-    for LiNeJ in open(LemmaDicFP):
-        LemmaDic=json.loads(LiNeJ.strip())
-        if len(LemmaDic)==2:
-            InitChar,LemmaDic=LemmaDic
-        InitChar=list(LemmaDic.values())[0][0][0]
-        #AA=AStuff.intersection(set(LemmaDic.keys()))
-        Successes=0;Failures=0
-        for LiNeC in FSr:
-            LineC=LiNeC.strip()
-            if LineC=='EOS':
-                continue
-            else:
-                InfForm=LineC.split('\t')[-1]
-                if InfForm.startswith(InitChar):
-                    if InfForm in LemmaDic.keys():
-                        OccurringLemmaDic[InfForm]=LemmaDic[InfForm]
-                        Successes+=1
-                    else:
-                        Failures+=1
+    OccurringLemmaDic=make_occurring_lemmadic(InFP,LemmaDicDir)
 
-    FSr.seek(0)
+    FSr=open(InFP)
     Out=open(OutFP,'wt')
     for LiNe in FSr:
         Line=LiNe.strip()
@@ -85,6 +64,37 @@ def add_lemmata(InFP,OutFP,LemmaDicDir):
 
             Out.write(Line+','+LemmaPoS+'\n')
     FSr.close()
+
+def make_occurring_lemmadic(InFP,LemmaDicDir):
+    def make_occurring_alphinfdic(FP):
+        Dict=defaultdict(set)
+        with open(FP) as FSr:
+            for LiNe in FSr:
+                if LiNe!='EOS\n':
+                    LineEls=LiNe.strip().split('\t')
+                    if len(LineEls)!=2:
+                        print('strange line, '+LiNe)
+                    else:
+                        InfForm=LineEls[1]
+                        Dict[InfForm[0]].add(InfForm)
+        return Dict
+            
+    OccurringAlphsInfforms=make_occurring_alphinfdic(InFP)
+    LemmaDicFPs=glob.glob(LemmaDicDir+'/*.pickle')
+    # OccurringLemmaDic is a reduced dictionary that only contains occurring items
+    OccurringLemmaDic=defaultdict(list)
+    # lemma dic consists of 2-tuples with alphabet and dict
+    for LemmaDicFP in LemmaDicFPs:
+        Lexs=myModule.load_pickle(LemmaDicFP)
+        Alph=Lexs[0].lemma[0]
+        OccurringInfs=OccurringAlphsInfforms[Alph]
+        for OccurringInf in OccurringInfs:
+            PotOccurringLexs=[ Lex for Lex in Lexs if OccurringInf.startswith(Lex.stem)  ]
+            for PotOccurringLex in PotOccurringLexs:
+                if OccurringInf in PotOccurringLex.inflect_all(FormOnly=True):
+                    OccurringLemmaDic[OccurringInf]=PotOccurringLex.lemma
+
+    return OccurringLemmaDic
                                  
 def check_plausibility(WdPairs):
     CumDist=0;CumWdCnt=0
@@ -138,7 +148,7 @@ def main():
     Psr=argparse.ArgumentParser()
     Psr.add_argument('parallel_fp')
     Psr.add_argument('--out-fp')
-    Psr.add_argument('-l','--lemmadic-fp')
+    Psr.add_argument('-l','--lemmadic-dir',required=True)
     Psr.add_argument('-u','--up-to',type=int)
     Args=Psr.parse_args()
     if Args.out_fp is None:
@@ -155,11 +165,11 @@ def main():
             sys.exit('rename the file and restart')
         
 
-    if Args.lemmadic_fp and (not os.path.isfile(Args.lemmadic_fp) or not Args.lemmadic_fp.endswith('.json')):
-        sys.exit('lemma dic, in json format, has to be there')
+    if not glob.glob(Args.lemmadic_dir+'/*.pickle'):
+        sys.exit('lemma dics, in pickle, have to be there')
         
     
-    main0(Args.parallel_fp,OutFP=Args.out_fp,LemmaDicFP=Args.lemmadic_fp,UpTo=Args.up_to)
+    main0(Args.parallel_fp,OutFP=Args.out_fp,LemmaDicDir=Args.lemmadic_dir,UpTo=Args.up_to)
 
 if __name__=='__main__':
     main()

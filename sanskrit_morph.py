@@ -121,7 +121,6 @@ class NonInfLexeme(morph_univ.Lexeme):
 class NonInfWord(Word):
     def __init__(self,Lemma,PoS):
         super().__init__(NonInfLexeme(Lemma,PoS),Lemma)
-
         
 
 class VerbLexeme(InfLexeme):
@@ -132,7 +131,7 @@ class VerbLexeme(InfLexeme):
         if self.inftype:
             self.conjpar=paradigms.verb[self.inftype]
 
-    def inflect_all(self):
+    def inflect_all(self,FormOnly=False):
         if not self.inftype:
 #            sys.stderr.write('no inftype for this verb, lemma: '+self.lemma+'\n')
             return []
@@ -140,7 +139,10 @@ class VerbLexeme(InfLexeme):
         for (Tense,Table) in self.conjpar.items():
             for ((Pers,Num),Forms) in Table.items():
                 for Form in Forms:
-                    VerbWds.append(VerbWord(self,self.stem+Form,Pers,Num))
+                    if not FormOnly:
+                        VerbWds.append(VerbWord(self,self.stem+Form,Pers,Num))
+                    else:
+                        VerbWds.append(self.stem+Form)
         return VerbWds
 
 class VerbWord(Word):
@@ -171,7 +173,7 @@ class AdjLexeme(NominalLexeme):
         PotInfTypes=self.determine_inftypes()
         self.inftype=PotInfTypes[0] if PotInfTypes else None
         
-    def inflect_all(self):
+    def inflect_all(self,FormOnly=False):
         AdjWds=[]
         if self.inftype is None:
             return AdjWds
@@ -182,7 +184,11 @@ class AdjLexeme(NominalLexeme):
                 else: Num='pl'
                 for NumVar in NumVarSet:
                     for Gender in 'm','f','n':
-                        AdjWds.append(AdjWord(self,self.stem+NumVar,Gender,Case,Num,self.person))
+                        if not FormOnly:
+                            AdjWds.append(AdjWord(self,self.stem+NumVar,Gender,Case,Num,self.person))
+                        else:
+                            AdjWds.append(self.stem+NumVar)
+                    
         return AdjWds
 
 class PronounLexeme(NominalLexeme):
@@ -191,7 +197,7 @@ class PronounLexeme(NominalLexeme):
         PotInfTypes=self.determine_inftypes()
         self.inftype=PotInfTypes[0] if PotInfTypes else None
 
-    def inflect_all(self):
+    def inflect_all(self,FormOnly=False):
         Wds=[]
 
         if self.inftype=='others':
@@ -205,7 +211,10 @@ class PronounLexeme(NominalLexeme):
                         else: Num='pl'
                         for NumVar in NumVarSet:
                             try:
-                                Wds.append(PronounWord(self,self.stem+NumVar,Gender,Case,Num))
+                                if not FormOnly:
+                                    Wds.append(PronounWord(self,self.stem+NumVar,Gender,Case,Num))
+                                else:
+                                    Wds.append(self.stem+NumVar)
                             except:
                                 PronounWord(self,self.stem+NumVar,Gender,Case,Num)
                                 
@@ -231,7 +240,7 @@ class NounLexeme(NominalLexeme):
         self.inftype=PotInfTypes[0] if PotInfTypes else None
         if self.inftype:
             self.declpar=paradigms.noun[self.inftype]
-    def inflect_all(self):
+    def inflect_all(self,FormOnly=False):
         NounWds=[]
         if not self.inftype:
             return []
@@ -241,7 +250,11 @@ class NounLexeme(NominalLexeme):
                 elif Cnt==1: Num='dl'
                 else: Num='pl'
                 for NumVar in NumVarSet:
-                    NounWds.append(NounWord(self,self.stem+NumVar,self.gender,Case,Num,'3'))
+                    if not FormOnly:
+                        NounWds.append(NounWord(self,self.stem+NumVar,self.gender,Case,Num,'3'))
+                    else:
+                        NounWds.append(self.stem+NumVar)
+                    
         return NounWds                     
 
 
