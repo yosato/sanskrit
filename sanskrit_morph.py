@@ -74,14 +74,11 @@ class InfLexeme(morph_univ.Lexeme):
         self.suffix=StemSuffix[1]
         #self.paradigm=paradigms.__dict__[PoS]
         
-    def determine_inftype(self):
+    def determine_inftypes(self):
         if self.pos=='adj':
             InfTypes=paradigms.AdjInfTypes
-            try:
-                TypeHashes=[ (Suffixes,_) for (Suffixes,_) in InfTypes.keys() if any(self.lemma.endswith(Ending) for Ending in Suffixes) ]
-                Type=paradigms.AdjInfTypes[TypeHashes[0]]
-            except:
-                Type=None
+            EndingsGenders=[ (Suffixes,_) for (Suffixes,_) in InfTypes.keys() if any(self.lemma.endswith(Ending) for Ending in Suffixes) ]
+            Types=[InfTypes[EndingGender] for EndingGender in EndingsGenders]
                 
         elif self.pos=='pronoun':
             if self.lemma=='adas':
@@ -98,41 +95,22 @@ class InfLexeme(morph_univ.Lexeme):
                 Type='PPron1p'
             else:
                 Type='others'
+            Types=[Type]
         
         elif self.pos=='noun':
             InfTypes=paradigms.NounInfTypes
             EndingsGenders=[ EndingGender for EndingGender in InfTypes.keys() if self.gender in EndingGender[1] and self.lemma.endswith(EndingGender[0]) ]
-            if not EndingsGenders:
-                sys.stderr.write('\n'+self.lemma+': no infcat found\n\n')
-                #time.sleep(4)
-                #self.inftype=None
-                Type=None
-            else:
-                ChosenEndingGender=EndingsGenders[0]
-                Type=InfTypes[ChosenEndingGender]                
-            if len(EndingsGenders)>=2:
-                sys.stderr.write('\n'+self.lemma+': multiple infcats found, we are taking the first in the list, which is \n')
-                print(ChosenEndingGender)
-
+            Typse=[InfTypes[EndingGender] for EndingGender in EndingsGenders ]                
+    #        if len(EndingsGenders)>=2:
+  #              sys.stderr.write('\n'+self.lemma+': multiple infcats found, we are taking the first in the list, which is \n')
+   #             print(ChosenEndingGender)
 
         elif self.pos=='verb':
             InfTypes=paradigms.VerbInfTypes
             Endings= [ Ending for Ending in InfTypes.keys() if self.lemma.endswith(Ending) ]
-            if not Endings:
-                sys.stderr.write('\n'+self.lemma+': no infcat found\n\n')
-                #time.sleep(4)
-                #self.inftype=None
-                Type=None
-            else:
-                ChosenEnding=Endings[0]
-                Type=InfTypes[ChosenEnding]                
-            if len(Endings)>=2:
-                sys.stderr.write('\n'+self.lemma+': multiple infcats found, we are taking the first in the list, which is \n')
-                print(ChosenEnding)
-            
-        if Type is None:
-            sys.stderr.write('[WARNING] no inftype identified for '+self.lemma+' ('+self.pos+')\n')
-        return Type
+            Types=[InfTypes[Ending] for Ending in Endings]
+                
+        return Types
     
 class NonInfLexeme(morph_univ.Lexeme):
     def __init__(self,Lemma,PoS):
@@ -148,12 +126,14 @@ class NonInfWord(Word):
 class VerbLexeme(InfLexeme):
     def __init__(self,Lemma):
         super().__init__(Lemma,'verb')
-        self.inftype=self.determine_inftype()
+        PotInfTypes=self.determine_inftypes()
+        self.inftype=PotInfTypes[0] if PotInfTypes else None
         if self.inftype:
             self.conjpar=paradigms.verb[self.inftype]
 
-    def conjugate_all(self):
+    def inflect_all(self):
         if not self.inftype:
+#            sys.stderr.write('no inftype for this verb, lemma: '+self.lemma+'\n')
             return []
         VerbWds=[]
         for (Tense,Table) in self.conjpar.items():
@@ -187,8 +167,10 @@ class AdjLexeme(NominalLexeme):
     def __init__(self,Lemma):
         super().__init__(Lemma,'adj')
         self.declpar=paradigms.adj
-        self.inftype=self.determine_inftype()
-    def decline_all(self):
+        PotInfTypes=self.determine_inftypes()
+        self.inftype=PotInfTypes[0] if PotInfTypes else None
+        
+    def inflect_all(self):
         AdjWds=[]
         if self.inftype is None:
             return AdjWds
@@ -205,9 +187,10 @@ class AdjLexeme(NominalLexeme):
 class PronounLexeme(NominalLexeme):
     def __init__(self,Lemma):
         super().__init__(Lemma,'pronoun')
-        self.inftype=self.determine_inftype()
+        PotInfTypes=self.determine_inftypes()
+        self.inftype=PotInfTypes[0] if PotInfTypes else None
 
-    def decline_all(self):
+    def inflect_all(self):
         Wds=[]
 
         if self.inftype=='others':
@@ -243,10 +226,11 @@ class NounLexeme(NominalLexeme):
     def __init__(self,Lemma,Gender):
         super().__init__(Lemma,'noun')
         self.gender=Gender
-        self.inftype=self.determine_inftype()
+        PotInfTypes=self.determine_inftypes()
+        self.inftype=PotInfTypes[0] if PotInfTypes else None
         if self.inftype:
             self.declpar=paradigms.noun[self.inftype]
-    def decline_all(self):
+    def inflect_all(self):
         NounWds=[]
         if not self.inftype:
             return []

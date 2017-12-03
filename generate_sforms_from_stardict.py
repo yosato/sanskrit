@@ -1,78 +1,129 @@
-import imp,os,sys,re,json
+import imp,os,sys,re,pickle,time,glob,shutil
 import sanskrit_morph
+from pythonlib_ys import main as myModule 
 from collections import defaultdict
 
 imp.reload(sanskrit_morph)
 
-def main0(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,AlphCntUpTo=None,UpTo=None):
-    def populate_lemmadict(CurAlph,LemmaDict,LemmmaJFSw):
-        LemmaDict=[CurAlph,{Key:list(Set) for (Key,Set) in LemmaDict.items() }]
-        LemmaDictJ=json.dumps(LemmaDict)
-        LemmaJFSw.write(LemmaDictJ)
-        LemmaJFSw.write('\n')
-        LemmaDict=defaultdict(set)
-        
-
+def main0(StarDictFP,Debug=0,Delimiter='\t',OutDir=None,AlphCntUpTo=None,UpTo=None):
+    LineCnt=myModule.get_linecount(StarDictFP)
     StarDictFN=os.path.basename(StarDictFP)
     StarDictFNStem='.'.join(StarDictFN.split('.')[:-1])
-    if DoLemmaDict:
-        if OutDir is None:
-            OutDir=os.path.dirname(StarDictFP)
-        LemmaDict=defaultdict(set)
-        LemmaJFSw=open(os.path.join(OutDir,StarDictFNStem+'_lemmadict.json'),'wt')
+    InDir=os.path.dirname(StarDictFP)
 
-    OutFPStem=os.path.join(OutDir,StarDictFNStem)
     if OutDir is None:
-        Out=sys.stdout
+        OutDir=os.path.dirname(StarDictFP)
+    # PFP=pickle fp
+    LemmaDicDir=os.path.join(OutDir,StarDictFNStem+'_lemmadics')
+    if not os.path.isdir(LemmaDicDir):
+        os.makedirs(LemmaDicDir)
+
+    LemmaDics=glob.glob(LemmaDicDir+'/*.pickle')
+    if LemmaDics:
+        Message='Lemmadics already exist. Overwrite? ([y]es or [n]o): '
+        Ans=input(Message)
+        while all(Ans.lower() != RightAns for RightAns in ('y','yes','no', 'n')):
+            print('answer yes or no')
+            Ans=input(Message)
+        if Ans.startswith('y'):
+            OW=True
+        else:
+            OW=False
     else:
-        Out=open(OutFPStem+'.out','wt')
+        OW=True
+
+    AlphWriteOutDir=LemmaDicDir+'/alph_writeouts'
+    if OW:
+        for LemmaDic in LemmaDics:
+            os.remove(LemmaDic)
+        if os.path.isdir(AlphWriteOutDir):
+            shutil.rmtree(AlphWriteOutDir)
+        sys.stderr.write('Creating lemma dicts for '+StarDictFP+' in '+LemmaDicDir+'\n')  
+        create_lemmadict(StarDictFNStem,InDir,OutDir,LemmaDicDir,LineCnt,Delimiter,AlphCntUpTo,UpTo,Debug)
+        LemmaDics=glob.glob(LemmaDicDir+'/*.pickle')
+
+    if not os.path.isdir(AlphWriteOutDir):
+        os.makedirs(AlphWriteOutDir)
+
+    sys.stderr.write('Writing out lemma dicts for '+StarDictFP+' in '+AlphWriteOutDir+'\n')          
+    writeout_lemmadict(StarDictFNStem,AlphWriteOutDir,LemmaDics,Debug=Debug)
+
+def writeout_lemmadict(StarDictFNStem,OutDir,LemmaDics,Debug=0):
+    for PFP in LemmaDics:
+        FSrP=open(PFP,'rb')
+        Lexs=pickle.load(FSrP)
+        Alph=Lexs[0].lemma[0]
+        FSrP.close()
+        OutFP=os.path.join(OutDir,Alph+'.writeout')
+        Out=open(OutFP,'wt')
+        sys.stderr.write('doing alphabetical writeout with '+Alph+'\n')
+
+        for Lex in Lexs:
+            Wds=Lex.inflect_all()
+            for Wd in Wds:
+                OutLine=Wd.infform+'\t'+Wd.infform+','.join([Wd.lexeme.lemma,Wd.lexeme.pos,'no_sandhi'])+'\n'
+                if Debug>=2:
+                    sys.stderr.write(OutLine)
+                Out.write(OutLine)
+                SandhiFormPair=Wd.generate_sandhiforms()
+                (SandhiVForm,SandhiForms)=SandhiFormPair
+                if SandhiVForm:
+                    Out.write(SandhiVForm+'\t'+','.join([Wd.infform,Wd.lexeme.lemma,Wd.lexeme.pos,'sandhi'])+'\n')
+                for (SandhiForm,_) in SandhiForms:
+                    Out.write(SandhiForm+'\t'+','.join([Wd.infform,Wd.lexeme.lemma,Wd.lexeme.pos,'sandhi'])+'\n')
+        Out.close()
+
+def create_lemmadict(StarDictFNStem,InDir,OutDir,LemmaDicDir,LineCnt,Delimiter,AlphCntUpTo,UpTo,Debug):
+    def populate_lemmadict(Wds,LemmaDicDir):
+        FstWdAlph=Wds[0].lemma[0]
+        LstWdAlph=Wds[-1].lemma[0]
+        assert FstWdAlph==LstWdAlph
+        LemmaFP=os.path.join(LemmaDicDir,FstWdAlph+'.pickle')
+        LemmaFSw=open(LemmaFP,'bw')
+        pickle.dump(Wds,LemmaFSw)
+        LemmaFSw.close()
+
     PrvAlph='';AlphCnt=0
 
-    InfTypeFSw=open(OutFPStem+'.inftypes','wt')
-
-    ErrorFP=StarDictFP+'.errors'
+    OutFPStem=os.path.join(OutDir,StarDictFNStem)
+    #InfTypeFSw=open(OutFPStem+'.inftypes','wt')
+    ErrorFSw=open(OutFPStem+'.errors','wt')  
     
-    for Cntr,Wds in enumerate(generate_words_perline(StarDictFP,Delimiter,Debug,OutDir,ErrorFP)):
+    Wds=[]
+    for Cntr,Lex in enumerate(generate_words_perline(os.path.join(InDir,StarDictFNStem+'.txt'),Delimiter,Debug,OutDir,ErrorFSw)):
+        WdCnt=Cntr+1
+        if WdCnt%5000==0:
+            sys.stderr.write(str(WdCnt)+' words done\n')
+            time.sleep(2)
         if UpTo and Cntr>UpTo:
             break
-        if Debug: sys.stderr.write('\tLemmaCounter '+str(Cntr)+'\n')
-        CurAlph=Wds[0].infform[0]
+        if not Lex.inftype:
+            ErrorMsg='no inftype for '+Lex.lemma+'\n'
+            if Debug:
+                sys.stderr.write(ErrorMsg)
+            ErrorFSw.write(ErrorMsg)
+            continue
+        CurAlph=Lex.lemma[0]
         if CurAlph!=PrvAlph:
             AlphCnt+=1
-            PrvAlph=Wds[0].infform[0]
             if AlphCnt>=2:
-                populate_lemmadict(CurAlph,LemmaDict,LemmaJFSw)
+                if Wds:
+                    populate_lemmadict(Wds,LemmaDicDir)
+                else:
+                    sys.stderr.write('wds for'+CurAlph+' empty')
+                Wds=[]
+            PrvAlph=CurAlph
+        Wds.append(Lex)
             
         if AlphCntUpTo and AlphCntUpTo<AlphCnt:
             break
-        for Wd in Wds:
-            if Debug>=2:    sys.stderr.write(Wd.stringify_featvals()+'\n')
-            OutLine=Wd.infform+'\t'+Wd.infform+','+Wd.lexeme.lemma+'\n'
-            if Debug>=2:
-                sys.stderr.write(OutLine)
-            Out.write(OutLine)
-            LemmaDict[Wd.infform].add((Wd.lexeme.lemma,Wd.lexeme.pos))
-            SandhiFormPair=Wd.generate_sandhiforms()
-            (SandhiVForm,SandhiForms)=SandhiFormPair
-            if SandhiVForm:
-                Out.write(SandhiVForm+'\t'+Wd.infform+','+Wd.lexeme.lemma+'\n')
-            for (SandhiForm,_) in SandhiForms:
-                Out.write(SandhiForm+'\t'+Wd.infform+','+Wd.lexeme.lemma+'\n')
-    InfTypeFSw.close()
                 
-    populate_lemmadict(CurAlph,LemmaDict,LemmaJFSw)
+    populate_lemmadict(Wds,LemmaDicDir)
 
-    Size=sys.getsizeof(LemmaDict)
-    Len=len(LemmaDict)
-    print(Size)
-    print(Len)
-    if DoLemmaDict:
-        LemmaJFSw.close()
-        
-                
+    sys.stderr.write('Total '+str(WdCnt)+' words done for '+StarDictFNStem+'(out of total '+str(LineCnt)+' lines)'+'\n')
 
-def generate_words_perline(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,ErrorFP=None):
-    OutErr=open(ErrorFP,'wt') if ErrorFP else sys.stderr
+def generate_words_perline(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,ErrorFSw=None):
+    OutErr=ErrorFSw if ErrorFSw else sys.stderr
     Prv=[]
     for Cntr,LiNe in enumerate(open(StarDictFP)):
         LineEls=[ re.sub(r'{.+}$','',El).strip() for El in LiNe.strip().split(Delimiter) if El ][:3]
@@ -81,12 +132,14 @@ def generate_words_perline(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,ErrorFP
         if LineEls[2]!='verb' and LineEls[2].startswith('verb'):
             LineEls[2]='verb'
         if LineEls==Prv:
-            if Debug:   sys.stderr.write('duplicates, ignoring, '+LiNe)
+            if Debug>=2:   sys.stderr.write('duplicates, ignoring, '+LiNe)
             continue
         elif len(LineEls[1].split())>1:
-            sys.stderr.write('compound word? '+LineEls[1]+'\n')
+            OutErr.write('compound word? '+LineEls[1]+'\n')
             continue
         elif LineEls[2]=='phrase':
+            continue
+        elif LineEls[1].startswith('-'):
             continue
         else:
             if Debug:    sys.stderr.write('Line '+str(Cntr)+': '+LiNe.strip()+'\n')
@@ -97,8 +150,7 @@ def generate_words_perline(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,ErrorFP
                 continue
             else:
                 yield Wds
-    if ErrorFP:
-        OutErr.close
+
 
 
 def lemmaline2wds(LineEls,Delimiter):
@@ -115,17 +167,17 @@ def lemmaline2wds(LineEls,Delimiter):
 def get_infl_words(Lemma,Cat):
     Nouns=['n','m','f']
     if Cat in Nouns:
-        NounLex=sanskrit_morph.NounLexeme(Lemma,Cat)
-        return NounLex.decline_all()
+        return sanskrit_morph.NounLexeme(Lemma,Cat)
+        #return NounLex.decline_all()
     elif Cat == 'adj':
-        AdjLex=sanskrit_morph.AdjLexeme(Lemma)
-        return AdjLex.decline_all()
+        return sanskrit_morph.AdjLexeme(Lemma)
+        #return AdjLex.decline_all()
     elif Cat == 'pron':
-        PronLex=sanskrit_morph.PronounLexeme(Lemma)
-        return PronLex.decline_all()
+        return sanskrit_morph.PronounLexeme(Lemma)
+        #return ronLex.decline_all()
     elif Cat == 'verb':
-        VLex=sanskrit_morph.VerbLexeme(Lemma)
-        return VLex.conjugate_all()
+        return sanskrit_morph.VerbLexeme(Lemma)
+        #return VLex.conjugate_all()
     
 
 def main():
