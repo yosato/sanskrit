@@ -6727,8 +6727,7 @@
 करुणायति { करुणाय }	karuṇāyati  { karuṇāya }	verb	pity
 करुणायते { करुणाय }	karuṇāyate  { karuṇāya }	verb	be compassionate
 करुणायते { करुणाय }	karuṇāyate  { karuṇāya }	verb	pity
-करोमि	karomi	verb	ī do
-करोसि { कृ }	karosi  { kṛ }	verb	you do
+करोमि	karoti	verb do
 कर्कशशब्देनाप्रसादं सूचयति { सूचय् }	karkaśaśabdenāprasādaṃ sūcayati  { sūcay }	verb	to express disapproval in rude sounds  [ in theater, etc ]
 { कर्क् }	{ kark }	verb	laugh  [ used for derivation of a noun , but not used as a verb ]
 कर्जति { कर्ज् }	karjati  { karj }	verb	pain
