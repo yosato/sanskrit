@@ -6,16 +6,9 @@ imp.reload(paradigms)
 imp.reload(sandhi)
 imp.reload(sanskrit_phon)
 
-def get_stem_suffix(Str):
-    if len(Str)==1:
-        return Str,Str
-    if any(Str.endswith(End) for End in ('in','at','āt')) or (any(Str.endswith(End) for End in ('ḥ','ṛ')) and Str[-2] in sanskrit_phon.Vowels):
-        SplitPoint=-2
-    else:
-        SplitPoint=-1
-    return Str[:SplitPoint],Str[SplitPoint:]
-
 def get_phoncat(Str):
+    if not Str:
+        return None
     return ('v' if Str[0] in sanskrit_phon.Vowels else 'c')
 CategorisedSandhiRules=sandhi.create_sandhirules()
 
@@ -24,9 +17,8 @@ class Word:
     def __init__(self,Lexeme,InfForm):
         self.lexeme=Lexeme
         self.infform=InfForm
-        StemSuffix=get_stem_suffix(self.infform)
-        self.stem=StemSuffix[0]
-        self.suffix=StemSuffix[1]
+        self.stem=self.lexeme.stem
+        self.suffix=self.lexeme.suffix
         self.suffixphoncat=get_phoncat(self.suffix)
         self.stemphoncat=get_phoncat(self.infform)
     def generate_sandhiforms(self,Stringify=False):
@@ -81,25 +73,24 @@ class InfLexeme(morph_univ.Lexeme):
         
         if self.pos=='adj':
             InfTypes=paradigms.AdjInfTypes
-            EndingsGenders=[ (Suffixes,_) for (Suffixes,_) in InfTypes.keys() if any(self.lemma.endswith(Ending) for Ending in Suffixes) ]
-            Types=[InfTypes[EndingGender] for EndingGender in EndingsGenders]
-                
+            EndingsType={Endings:Type for (Endings,Type) in InfTypes.items() }
+            TypeSuffixPairs=typesuffix_pairs(self,EndingsType)
+                 
         elif self.pos=='pronoun':
             if self.lemma=='adas':
-                Type='adas';Suffix='adas'
+                TypeSuffixPairs=[('adas','adas')]
             elif self.lemma.endswith('idam'):
-                Type='PronIdam';Suffix='idam'
+                TypeSuffixPairs=[('PronIdam','idam')]
             elif self.lemma.endswith('ad'):
-                Type='PronYadTad';Suffix='ad'
+                TypeSuffixPairs=[('PronYadTad','ad')]
             elif self.lemma.endswith('im') or self.lemma.endswith('a'):
-                Type='PronAorIm';Suffix='im'
+                TypeSuffixPairs=[('PronAorIm','im')]
             elif self.person=='2':
-                Type='PPron2p';Suffix='adas'
+                TypeSuffixPairs=[('PPron2p','adas')]
             elif self.person=='1':
-                Type='PPron1p';Suffix='adas'
+                TypeSuffixPairs=[('PPron1p','adas')]
             else:
-                Type='others';Suffix=''
-            TypeSuffixPairs=[(Type,Suffix)]
+                TypeSuffixPairs=[]
         
         elif self.pos=='noun':
             InfTypes=paradigms.NounInfTypes
@@ -173,9 +164,15 @@ class NominalLexeme(InfLexeme):
 class AdjLexeme(NominalLexeme):
     def __init__(self,Lemma):
         super().__init__(Lemma,'adj')
-        self.declpar=paradigms.adj
-        PotInfTypes=self.determine_inftypes()
-        self.inftype=PotInfTypes[0] if PotInfTypes else None
+        PotInfTypesSuffixes=self.determine_inftypesuffix()
+        if PotInfTypesSuffixes:
+            self.inftype,self.suffix=self.pick_right_typesuffix(PotInfTypesSuffixes)
+            self.stem=self.lemma[:-len(self.suffix)]
+            self.decljpar=paradigms.adj[self.inftype]
+        else:
+            raise ValueError('no inftype identified')
+    def pick_right_typesuffix(self,PotInfTypesSuffixes):
+        return PotInfTypesSuffixes[0]
         
     def inflect_all(self,FormOnly=False):
         AdjWds=[]
@@ -202,7 +199,7 @@ class PronounLexeme(NominalLexeme):
         if PotInfTypesSuffixes:
             self.inftype,self.suffix=self.pick_right_typesuffix(PotInfTypesSuffixes)
             self.stem=self.lemma[:-len(self.suffix)]
-            self.conjpar=paradigms.verb[self.inftype]
+            self.conjpar=paradigms.pronoun[self.inftype]
         else:
             raise ValueError('no inftype identified')
     def pick_right_typesuffix(self,PotInfTypesSuffixes):
