@@ -38,14 +38,14 @@ def main0(StarDictFP,Debug=0,Delimiter='\t',OutDir=None,AlphCntUpTo=None,UpTo=No
             os.remove(LemmaDic)
         if os.path.isdir(AlphWriteOutDir):
             shutil.rmtree(AlphWriteOutDir)
-        sys.stderr.write('Creating lemma dicts for '+StarDictFP+' in '+LemmaDicDir+'\n')  
+        sys.stderr.write('Creating lemma dicts for '+StarDictFP+' in '+LemmaDicDir+'\n')
         create_lemmadict(StarDictFNStem,InDir,OutDir,LemmaDicDir,LineCnt,Delimiter,AlphCntUpTo,UpTo,Debug)
         LemmaDics=glob.glob(LemmaDicDir+'/*.pickle')
 
     if not os.path.isdir(AlphWriteOutDir):
         os.makedirs(AlphWriteOutDir)
 
-    sys.stderr.write('Writing out lemma dicts for '+StarDictFP+' in '+AlphWriteOutDir+'\n')          
+    sys.stderr.write('Writing out lemma dicts for '+StarDictFP+' in '+AlphWriteOutDir+'\n')
     writeout_lemmadict(StarDictFNStem,AlphWriteOutDir,LemmaDics,Debug=Debug)
 
 def writeout_lemmadict(StarDictFNStem,OutDir,LemmaDics,Debug=0):
@@ -88,8 +88,8 @@ def create_lemmadict(StarDictFNStem,InDir,OutDir,LemmaDicDir,LineCnt,Delimiter,A
 
     OutFPStem=os.path.join(OutDir,StarDictFNStem)
     #InfTypeFSw=open(OutFPStem+'.inftypes','wt')
-    ErrorFSw=open(OutFPStem+'.errors','wt')  
-    
+    ErrorFSw=open(OutFPStem+'.errors','wt')
+
     Wds=[]
     for Cntr,Lex in enumerate(generate_words_perline(os.path.join(InDir,StarDictFNStem+'.txt'),Delimiter,Debug,OutDir,ErrorFSw)):
         WdCnt=Cntr+1
@@ -145,14 +145,15 @@ def generate_words_perline(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,ErrorFS
         else:
             if Debug:    sys.stderr.write('Line '+str(Cntr)+': '+LiNe.strip()+'\n')
             Prv=LineEls
-            Lex=lemmaline2lexeme(LineEls,Delimiter)
+            try:
+                Lex=lemmaline2lexeme(LineEls,Delimiter)
+            except ValueError:
+                OutErr.write('no inftype identified for '+LiNe)
             if not Lex:
                 OutErr.write('no results returned from this line: '+LiNe)
                 continue
             else:
                 yield Lex
-
-
 
 def lemmaline2lexeme(LineEls,Delimiter):
     InfCats=['n','m','f','pron','verb','adj']

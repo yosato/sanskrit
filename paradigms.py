@@ -1,5 +1,6 @@
 #from pdb import set_trace
 import copy
+from collections import OrderedDict
 
 ###===== pronouns and adjectives ==============
 
@@ -160,7 +161,7 @@ pronoun={
 # The division in Gender is very artificial. It may not work with non-classical texts.
 # format: AM:{nom:(['form1','form2','form3'],['dualform'],['pluralform'],),
 
-NounInfTypes={
+NounInfTypes=OrderedDict({
     (('a',),('m',)):'AM',
     (('a',),('n',)):'AN',
     (('ā',),('f',)):'Ā',
@@ -191,12 +192,10 @@ NounInfTypes={
                     (('ṃs',),('m',)):'ṃsM',
                     (('go',),('f',)):'go',
                     (('nau',),('f',)):'nau'
-}
+})
 
 
 noun={
-
-
     'AM':{
 'Nom':(['aḥ'],['au'],['āh'],),
 'Voc': (['a'],['au'],['āh'],),
@@ -556,7 +555,7 @@ adj[('AAllGender')]=AdjExtra
 
 
 
-VerbInfTypes={
+VerbInfTypes=OrderedDict({
     ('ati',):'atiVerb',
     ('āti',):'ātiVerb',
     ('karoti',):'karotiVerb',
@@ -565,7 +564,7 @@ VerbInfTypes={
     ('akti',):'aktiVerb',
     ('ti',):'tiVerb'
 
-}
+})
 
 verb={
 'atiVerb':{

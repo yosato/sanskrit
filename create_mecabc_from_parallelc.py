@@ -82,7 +82,7 @@ def make_occurring_lemmadic(InFP,LemmaDicDir):
     OccurringAlphsInfforms=make_occurring_alphinfdic(InFP)
     LemmaDicFPs=glob.glob(LemmaDicDir+'/*.pickle')
     # OccurringLemmaDic is a reduced dictionary that only contains occurring items
-    OccurringLemmaDic=defaultdict(list)
+    OccurringLemmaDic=defaultdict(list); NotFounds=[]
     # lemma dic consists of 2-tuples with alphabet and dict
     for LemmaDicFP in LemmaDicFPs:
         Lexs=myModule.load_pickle(LemmaDicFP)
@@ -90,11 +90,14 @@ def make_occurring_lemmadic(InFP,LemmaDicDir):
         OccurringInfs=OccurringAlphsInfforms[Alph]
         for OccurringInf in OccurringInfs:
             PotOccurringLexs=[ Lex for Lex in Lexs if OccurringInf.startswith(Lex.stem)  ]
-            for PotOccurringLex in PotOccurringLexs:
-                if OccurringInf in PotOccurringLex.inflect_all(FormOnly=True):
-                    OccurringLemmaDic[OccurringInf]=PotOccurringLex.lemma
+            if not PotOccurringLexs:
+                NotFounds.append(OccurringInf)
+            else:
+                for PotOccurringLex in PotOccurringLexs:
+                    if OccurringInf in PotOccurringLex.inflect_all(FormOnly=True):
+                        OccurringLemmaDic[OccurringInf]=PotOccurringLex.lemma
 
-    return OccurringLemmaDic
+    return OccurringLemmaDic,NotFounds
                                  
 def check_plausibility(WdPairs):
     CumDist=0;CumWdCnt=0
