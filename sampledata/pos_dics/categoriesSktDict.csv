@@ -1,0 +1,114 @@
+"82089	adj	adj",adj,
+"63716	m	noun",noun,
+"42651	verb	verb",verb,
+"39514	n	noun",noun,
+"30266	f	noun",noun,
+"5207	ind	?",others,
+"1736	sent	ignore",,
+"1352	adverb	others",others,
+"1156	indecl	?",others,
+"959	ppp	?",adj,
+"806	m.n",noun,I think this means the noun can follow either m. or n. paradigm. As we know gender is unstable
+"694	",??,something missing?
+"284	m.f",noun,
+"244	phrase",ignore,
+"79	m.",noun,
+"68	gerund",others,"is a verb but does not conjugate, would be nice to lemmatise it to { root}, but later"
+"67	f.n",noun,see row 11.
+"63	expr",ignore,
+"54	sentence",ignore,
+"43	adv",others ,adverb
+"33	verb1",verb,"the number indicates the conjugation type. the info can prove useful in the future, but basically is just a verb"
+"32	n.f",noun,see row 11.
+"31	pron",pron,
+"27	prefix",others,"this is a special category (incmplete in the dict) of prefixes that can be added at the beginning of any word (with sandhi). The resulting word needs to be lemmatised e.g. prati + _tman= praty_tman. The lemma is one praty_tman  not 2 (prati _tman), regardless of whether praty_tman is in the dict."
+"22	num","try noun; they follow a special paradigm, but we may be able to capture a few with the current noun-inftypes paradigms",
+"22	conj",others,conjunction
+"18	loc",ignore,
+"15	verbb",verb,
+"15	Perfect",verb,"this is a tense with unpredictable forms. The info is useful, I should write a paradigm for it. Still the lemma here would need to be linke to the present indicative by using the {root} info"
+"14	prep",others,this should be merged with prefix at row 24
+"14	infinitive",others,it is a verb form that does not conjugate. Should be lemmatised through {root}
+"13	imperfect",ignore,
+"11	imperative",ignore,
+"11	future",verb,should be lemmatised through root
+"10	poss",ignore,
+"10	pl",ignore?,nouns for which the dict does not give the lemma frm but only the plural nom. Lets try without them for now.
+"9	pr.p",adj,
+"9	m.f.n",adj,
+"9	absol",others,same as row16
+"8	infinit",others,same as row 31
+"7	mn",noun,same as row 11
+"7	interj",others,
+"7	gerundive",adj,
+"7	fig",ignore tag,
+"7	encl",others,
+"7	Imperfect",ignore,
+"6	verb8",verb,see row 21
+"6	suffix",ignore,
+"6	pot",adj,should be merged with gerundive at row 43
+"6	instr",ignore,
+"5	ver",,cannot find it in the dict
+"5	postp",ignore,
+"5	interr",others,
+"5	absolut",others,same as gerund at row 16
+"4	mf",noun,
+"4	inverb",ignore,
+"4	a",ignore,
+"3	v",ignore,
+"3	pronoun",pron,
+"3	indef",others,
+"3	impers",noun?,
+"3	emph",others,
+"3	comp",adj,"may rquire a different paradigm, but it is only 10, let's try as is"
+"3	caus",verb,we may want to lemmatise it to {root} at some point
+"3	ayam",pron,
+"3	acc",ignore,
+"2	verp",,cannot find it in the dict
+"2	pres",ignore,
+"2	m.pl",ignore,
+"2	imp",ignore,
+"2	com",,
+"2	bot",,
+"2	abl",ignore,
+"2	Name",noun,
+"2	N",,
+"2	Future",,
+"1	with",,
+"1	verb4",verb,
+"1	verb3",verb,
+"1	vb",verb,
+"1	sup",,
+"1	religion",,
+"1	prefix/pos",,
+"1	ppa",adj,
+"1	pp",,
+"1	perfect",,
+"1	past",,
+"1	p.p",adj,
+"1	ord",,
+"1	nm",,
+"1	n.+loc",,
+"1	mfn",adj,
+"1	med",,
+"1	math",,
+"1	m.n.f",adj,
+"1	m.m",,
+"1	m-",,
+"1	infin",,
+"1	inf",,
+"1	h",,
+"1	ger",others,
+"1	gen",ignore tag,
+"1	fn",,
+"1	fem",noun,
+"1	dual",ignore tag,
+"1	binding",,cannot find it in the dict as a tag
+"1	arithm",ignore tag,
+"1	anat",,
+"1	am",,
+"1	aham",pron,
+"1	affix",ignore tag,
+"1	Sent",ignore,
+"1	?",,
+"1	.a",,
