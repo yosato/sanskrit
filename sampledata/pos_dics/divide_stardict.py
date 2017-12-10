@@ -1,4 +1,4 @@
-import sys,os
+import sys,os,re
 
 OurCats=('others','ignore','noun','adj','pron','verb')
 
@@ -8,13 +8,13 @@ def main0(DictFP,CatTSV):
 
 def make_catdic(CatTSV):
     Dict={}
-    with Cntr,open(CatTSV) as enumerate(FSr):
-        for LiNe in FSr:
+    with open(CatTSV) as FSr:
+        for Cntr,LiNe in enumerate(FSr):
             LineEls=LiNe.split()
             if len(LineEls)<3:
                 sys.stderr.write('not processable line, LN '+str(Cntr+1)+', '+LiNe)
                 continue
-            elif LineEls[2] not in OurCats: 
+            elif LineEls[2] not in OurCats:
                 sys.stderr.write('funny or empty cat, LN '+str(Cntr+1)+', '+LiNe)
                 continue
             SurfaceCat,OurCat=LineEls[1],LineEls[2]
@@ -23,26 +23,37 @@ def make_catdic(CatTSV):
 
 def divide_into_posdics(DictFP,CatDict):
     for OurCat in OurCats+('missed',):
-        FP=basename(DictFP)+'.'+OurCat
+        FP=os.path.basename(DictFP)+'.'+OurCat
         VarN='FSw'+OurCat
-        CmdStr=VarN+'=open(FP,"wt")'
+        CmdStr=VarN+'=open("'+FP+'","wt")'
         exec(CmdStr)
- 
+    DoneLines=set()
     with open(DictFP) as FSr:
         for Cntr,LiNe in enumerate(FSr):
             LineEls=LiNe.strip().split('\t')
             if len(LineEls)<3:
                 sys.stderr.write('funny line, LN '+str(Cntr+1)+', '+LiNe)
                 continue
-            LatLemma,SurfaceCat=LineEls[1],LineEls[2]
+            SurfaceCat=LineEls[2]
             SurfaceCat=SurfaceCat.strip().strip('.')
             OurCat=CatDict[SurfaceCat] if SurfaceCat in CatDict.keys() else 'missed'
             RightFSwVar='FSw'+OurCat
-            CmdStr=RightFSwVar+'.write("'+LiNe+'")'
+            NewLine='\t'.join(LineEls[:3])
+            if '{' in NewLine:
+                NewLine=re.sub(r' *{(.+?)} *','',NewLine)
+            if NewLine in DoneLines:
+                #sys.stderr.write('duplicate found\n')
+                continue
+            else:
+                DoneLines.add(NewLine)
+            if "'" in NewLine:
+                NewLine=NewLine.replace("'",' ')
+            CmdStr=RightFSwVar+".write('"+NewLine+"')"
+            exec(CmdStr)
+            CmdStr=RightFSwVar+".write('\\n')"
             exec(CmdStr)
     
     for OurCat in OurCats+('missed',):
-        FP=basename(DictFP)+'.'+OurCat
         VarN='FSw'+OurCat
         CmdStr=VarN+'.close()'
         exec(CmdStr)
@@ -52,6 +63,7 @@ def main():
     Args=sys.argv
     if len(Args)!=3:
         sys.exit('2 args, dict and cat name file, necessary')
+    Dict,CatTSV=Args[1],Args[2]
     if not os.path.isfile(Dict):
         sys.exit('dict not found: '+Dict)
     if not os.path.isfile(CatTSV):
