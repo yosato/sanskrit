@@ -23,7 +23,9 @@ def make_catdic(CatTSV):
 
 def divide_into_posdics(DictFP,CatDict):
     for OurCat in OurCats+('missed',):
-        FP=os.path.basename(DictFP)+'.'+OurCat
+        Dir=os.path.dirname(DictFP)
+        FN='.'.join(os.path.basename(DictFP).split('.')[:-1]+[OurCat,'tsv'])
+        FP=os.path.join(Dir,FN)
         VarN='FSw'+OurCat
         CmdStr=VarN+'=open("'+FP+'","wt")'
         exec(CmdStr)
@@ -40,7 +42,10 @@ def divide_into_posdics(DictFP,CatDict):
             RightFSwVar='FSw'+OurCat
             NewLine='\t'.join(LineEls[:3])
             if '{' in NewLine:
+                Matches=list(re.finditer(r'{(.+?)}',NewLine))
                 NewLine=re.sub(r' *{(.+?)} *','',NewLine)
+                if len(Matches)>=2:
+                    NewLine=NewLine+'\t'+Matches[1].group().replace('{','').replace('}','').strip()
             if NewLine in DoneLines:
                 #sys.stderr.write('duplicate found\n')
                 continue

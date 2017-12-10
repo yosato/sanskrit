@@ -91,7 +91,7 @@ def create_lemmadict(StarDictFNStem,InDir,OutDir,LemmaDicDir,LineCnt,Delimiter,A
     ErrorFSw=open(OutFPStem+'.errors','wt')
 
     Wds=[]
-    for Cntr,Lex in enumerate(generate_words_perline(os.path.join(InDir,StarDictFNStem+'.txt'),Delimiter,Debug,OutDir,ErrorFSw)):
+    for Cntr,Lex in enumerate(generate_words_perline(os.path.join(InDir,StarDictFNStem+'.tsv'),Delimiter,Debug,OutDir,ErrorFSw)):
         WdCnt=Cntr+1
         if WdCnt%10000==0:
             sys.stderr.write(str(WdCnt)+' lexemes done\n')

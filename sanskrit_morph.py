@@ -105,6 +105,8 @@ class InfLexeme(morph_univ.Lexeme):
 class NonInfLexeme(morph_univ.Lexeme):
     def __init__(self,Lemma,PoS):
         super().__init__(Lemma,PoS)
+        self.stem=Lemma
+        self.suffix=''
     def inflect_all(self):
         return [ NonInfWord(self.lemma,self.pos) ]
 
