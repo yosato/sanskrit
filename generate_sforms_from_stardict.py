@@ -149,6 +149,7 @@ def generate_words_perline(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,ErrorFS
                 Lex=lemmaline2lexeme(LineEls,Delimiter)
             except ValueError:
                 OutErr.write('no inftype identified for '+LiNe)
+                continue
             if not Lex:
                 OutErr.write('no results returned from this line: '+LiNe)
                 continue

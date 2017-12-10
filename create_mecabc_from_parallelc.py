@@ -47,7 +47,7 @@ def main0(FP,OutFP,LemmaDicDir,UpTo=None,Debug=0):
     
 
 def add_lemmata(InFP,OutFP,LemmaDicDir):
-    OccurringLemmaDic=make_occurring_lemmadic(InFP,LemmaDicDir)
+    OccurringLemmaDic,NotFounds=make_occurring_lemmadic(InFP,LemmaDicDir)
 
     FSr=open(InFP)
     Out=open(OutFP,'wt')
@@ -58,7 +58,7 @@ def add_lemmata(InFP,OutFP,LemmaDicDir):
         else:
             InfForm=Line.split('\t')[-1]
             if InfForm in OccurringLemmaDic.keys():
-                LemmaPoS=','.join(OccurringLemmaDic[InfForm][0])
+                LemmaPoS=','.join(OccurringLemmaDic[InfForm])
             else:
                 LemmaPoS='*,*'
 
@@ -89,13 +89,18 @@ def make_occurring_lemmadic(InFP,LemmaDicDir):
         Alph=Lexs[0].lemma[0]
         OccurringInfs=OccurringAlphsInfforms[Alph]
         for OccurringInf in OccurringInfs:
+            Found=False
             PotOccurringLexs=[ Lex for Lex in Lexs if OccurringInf.startswith(Lex.stem)  ]
-            if not PotOccurringLexs:
+            for PotOccurringLex in PotOccurringLexs:
+                if type(PotOccurringLex).__name__=='NonInfLexeme':
+                    if PotOccurringLex.lemma==OccurringInf:
+                        Found=True
+                        OccurringLemmaDic[OccurringInf]=(PotOccurringLex.lemma,PotOccurringLex.pos,)
+                elif OccurringInf in PotOccurringLex.inflect_all(FormOnly=True):
+                    OccurringLemmaDic[OccurringInf]=(PotOccurringLex.lemma,PotOccurringLex.pos,)
+                    Found=True
+            if not Found:
                 NotFounds.append(OccurringInf)
-            else:
-                for PotOccurringLex in PotOccurringLexs:
-                    if OccurringInf in PotOccurringLex.inflect_all(FormOnly=True):
-                        OccurringLemmaDic[OccurringInf]=PotOccurringLex.lemma
 
     return OccurringLemmaDic,NotFounds
                                  

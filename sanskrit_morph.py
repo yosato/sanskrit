@@ -170,7 +170,7 @@ class AdjLexeme(NominalLexeme):
         if PotInfTypesSuffixes:
             self.inftype,self.suffix=self.pick_right_typesuffix(PotInfTypesSuffixes)
             self.stem=self.lemma[:-len(self.suffix)]
-            self.decljpar=paradigms.adj[self.inftype]
+            self.declpar=paradigms.adj[self.inftype]
         else:
             raise ValueError('no inftype identified')
     def pick_right_typesuffix(self,PotInfTypesSuffixes):
@@ -180,7 +180,7 @@ class AdjLexeme(NominalLexeme):
         AdjWds=[]
         if self.inftype is None:
             return AdjWds
-        for (Case,NumVarSets) in self.declpar[self.inftype].items():
+        for (Case,NumVarSets) in self.declpar.items():
             for Cnt,NumVarSet in enumerate(NumVarSets):
                 if Cnt==0: Num='sg'
                 elif Cnt==1: Num='dl'
