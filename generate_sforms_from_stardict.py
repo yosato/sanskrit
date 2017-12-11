@@ -5,7 +5,7 @@ from collections import defaultdict
 
 imp.reload(sanskrit_morph)
 
-def main0(StarDictFP,Debug=0,Delimiter='\t',OutDir=None,AlphCntUpTo=None,UpTo=None):
+def main0(StarDictFP,Debug=0,Delimiter='\t',OutDir=None,AlphCntUpTo=None,UpTo=None,WriteOutP=False):
     LineCnt=myModule.get_linecount(StarDictFP)
     StarDictFN=os.path.basename(StarDictFP)
     StarDictFNStem='.'.join(StarDictFN.split('.')[:-1])
@@ -46,7 +46,8 @@ def main0(StarDictFP,Debug=0,Delimiter='\t',OutDir=None,AlphCntUpTo=None,UpTo=No
         os.makedirs(AlphWriteOutDir)
 
     sys.stderr.write('Writing out lemma dicts for '+StarDictFP+' in '+AlphWriteOutDir+'\n')
-    writeout_lemmadict(StarDictFNStem,AlphWriteOutDir,LemmaDics,Debug=Debug)
+    if WriteOutP:
+        writeout_lemmadict(StarDictFNStem,AlphWriteOutDir,LemmaDics,Debug=Debug)
 
 def writeout_lemmadict(StarDictFNStem,OutDir,LemmaDics,Debug=0):
     for PFP in LemmaDics:
@@ -182,6 +183,7 @@ def main():
     ArgPsr.add_argument('-o','--out-dir')
     ArgPsr.add_argument('--up-to',type=int)
     ArgPsr.add_argument('--debug',type=int,default=0)
+    ArgPsr.add_argument('--writeout',action='store_true')
     Args=ArgPsr.parse_args()
     RepoDir=os.path.join(os.getenv('HOME'),'myProjects/sanskrit')
     RepoSubDir='yo_scripts'
@@ -201,7 +203,7 @@ def main():
             FPs.append(FP)
 
         for FP in FPs:
-            main0(FP,AlphCntUpTo=Args.alphcnt_up_to,OutDir=Args.out_dir,Debug=Args.debug,UpTo=Args.up_to)
+            main0(FP,AlphCntUpTo=Args.alphcnt_up_to,OutDir=Args.out_dir,Debug=Args.debug,UpTo=Args.up_to,WriteOutP=Args.writeout)
     
 if __name__=='__main__':
     main()
