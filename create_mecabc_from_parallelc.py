@@ -12,15 +12,11 @@ def main0(FP,OutFP,LemmaDicDir,UpTo=None,Debug=0):
 
     OutFPTmp=OutFP+'.tmp'
     OutTmp=open(OutFPTmp,'wt')
-#    Switched=False
-#    LineCnt=count_lines(FP)
+    OutErr=open(OutFP+'.alignerrors','wt')
+
     for Cntr,LiNe in enumerate(open(FP)):
         if UpTo and Cntr>UpTo:
             break
- #       if OutFP and not Switched and Cntr>LineCnt*0.8:
-  #          OutTmp.close()
-   #         OutTmp=open(OutFP+'.test','wt')
-    #        Switched=True
         if Debug:    sys.stderr.write(str(Cntr+1)+': '+LiNe)
         OrgSeg=LiNe.strip().split('\t')
         if len(OrgSeg)!=3:
@@ -34,16 +30,20 @@ def main0(FP,OutFP,LemmaDicDir,UpTo=None,Debug=0):
             Seg=tokenise(Seg); Org=tokenise(Org)
             assert(Org[0]==Seg[0])
 
-            WdPairs=align_org_seg(Org,Seg)
+            WdChunkPairs=align_org_seg_global(Org,Seg)
+            if WdChunkPairs is None:
+                align_org_seg_global(Org,Seg)
 
-        if check_plausibility(WdPairs):
-            for (SForm,InfForm) in WdPairs:
-                OutTmp.write(SForm+'\t'+InfForm+'\n')
+        if WdChunkPairs:
+            for WdPairs in WdChunkPairs:
+                for (SForm,InfForm) in WdPairs:
+                    OutTmp.write(SForm+'\t'+InfForm+'\n')
+                OutTmp.write('<space>'+'\t'+'<space>'+'\n')
             OutTmp.write('EOS\n')
         else:
-            
+            OutErr.write(LiNe+'\n')
     
-    OutTmp.close()
+    OutTmp.close();OutErr.close()
 
     add_lemmata(OutFPTmp,OutFP,LemmaDicDir)
     
@@ -59,8 +59,11 @@ def add_lemmata(InFP,OutFP,LemmaDicDir):
             Out.write(LiNe)
         else:
             InfForm=Line.split('\t')[-1]
-            if InfForm in OccurringLemmaDic.keys():
-                LemmaPoS=','.join(OccurringLemmaDic[InfForm])
+            if InfForms in OccurringLemmaDic.keys():
+                LemmaPoSLineEls=[]
+                for InfForm in InfForms:
+                    LemmaPoSLineEls.append(','.join(OccurringLemmaDic[InfForm]))
+                LemmaPoS='\t'.join(LemmaPosLineEls)
             else:
                 LemmaPoS='*,*'
 
@@ -97,9 +100,9 @@ def make_occurring_lemmadic(InFP,LemmaDicDir):
                 if type(PotOccurringLex).__name__=='NonInfLexeme':
                     if PotOccurringLex.lemma==OccurringInf:
                         Found=True
-                        OccurringLemmaDic[OccurringInf]=(PotOccurringLex.lemma,PotOccurringLex.pos,)
+                        OccurringLemmaDic[OccurringInf].append((PotOccurringLex.lemma,PotOccurringLex.pos,))
                 elif OccurringInf in PotOccurringLex.inflect_all(FormOnly=True):
-                    OccurringLemmaDic[OccurringInf]=(PotOccurringLex.lemma,PotOccurringLex.pos,)
+                    OccurringLemmaDic[OccurringInf].append((PotOccurringLex.lemma,PotOccurringLex.pos,))
                     Found=True
             if not Found:
                 NotFounds.append(OccurringInf)
@@ -121,6 +124,65 @@ def check_plausibility(WdPairs):
                 Plausibility=False
                 break
     return Plausibility
+
+def samechunk_likely(OrgChunk,SegChunk):
+    Bool=False
+    if OrgChunk[0]==SegChunk[0] and OrgChunk[-1]==OrgChunk[-1] and len(SegChunk.replace('.','').replace('^',''))-len(OrgChunk)<=round(len(OrgChunk)*0.1):
+        Bool=True
+    return Bool
+
+def align_org_seg_global(Org,Seg):
+    ChunkPairs=[]
+    OrgChunks=Org.split()
+    SegChunks=Seg.split()
+    SegChunks=[Chunk for Chunk in SegChunks if Chunk!='--']
+    SegChunks=[Chunk for Chunk in SegChunks if Chunk!='-']
+    SegChunks=SegChunks[:-1] if SegChunks[-1] in (',','.') else SegChunks
+    OrgChunks=OrgChunks[:-1] if OrgChunks[-1] in (',','.') else OrgChunks
+    if len(OrgChunks)!=len(SegChunks):
+        if len(OrgChunks)>len(SegChunks):
+            Longers=OrgChunks;Shorters=SegChunks
+        else:
+            Longers,Shorters=SegChunks,OrgChunks
+        NewLongers=[];NewShorters=[];i=0;j=0
+        while i+1 <= len(Longers) and j+1 <= len(Shorters):
+            LChunk=Longers[i]
+            SChunk=Shorters[j]
+            if LChunk==SChunk:
+                NewShorters.append(SChunk)
+                NewLongers.append(LChunk)
+            else:
+                if samechunk_likely(LChunk,SChunk):
+                    NewShorters.append(SChunk)
+                    NewLongers.append(LChunk)
+                else:
+                    LChunk=Longers[i]+Longers[i+1]
+                    if samechunk_likely(LChunk,SChunk):
+                        NewLongers.append(LChunk)
+                        NewShorters.append(SChunk)
+                        i+=2;j+=1
+                    else:
+                        sys.stderr.write('alignment failed for ')
+                        return None
+            i+=1;j+=1
+            print(NewShorters)
+            print(NewLongers)
+            print()
+        if len(NewShorters)!=len(NewLongers):
+            return None
+        else:
+            if len(OrgChunks)>len(SegChunks):
+                OrgChunks,SegChunks=NewLongers,NewShorters
+            else:
+                OrgChunks,SegChunks=NewShorters,NewLongers
+    
+    for OrgChunk,SegChunk in zip(OrgChunks,SegChunks):
+        try:
+            ChunkPairs.append(align_org_seg(OrgChunk,SegChunk))
+        except:
+            ChunkPairs.append(align_org_seg(OrgChunk,SegChunk))
+    return ChunkPairs
+        
 
 def align_org_seg(Org,Seg):
     WdsOrg=Seg.replace('^',' ').replace('.',' ').split()
@@ -168,11 +230,11 @@ def main():
         if not os.path.isdir(Args.out_dir):
             sys.exit('Dir '+Args.out_dir+' does not exist')
     if Args.out_fn is None:
-        Args.out_fn=os.path.basename(Args.parallel_fp)
+        Args.out_fn=os.path.basename(Args.parallel_fp)+'.mecab'
 
     OutFP=os.path.join(Args.out_dir,Args.out_fn)
 
-    if os.path.exists(Args.out_fp):
+    if os.path.exists(OutFP):
         LowerAnswer=None
         while not any(LowerAnswer==Ans for Ans in ('yes','y','n','no')):
             LowerAnswer=input('Specified filename exists. Overwrite? (Say y, otherwise it will abort): ').lower()
@@ -185,7 +247,7 @@ def main():
         sys.exit('lemma dics, in pickle, have to be there')
         
     
-    main0(Args.parallel_fp,OutFP=Args.out_fp,LemmaDicDir=Args.lemmadic_dir,UpTo=Args.up_to)
+    main0(Args.parallel_fp,OutFP,LemmaDicDir=Args.lemmadic_dir,UpTo=Args.up_to)
 
 if __name__=='__main__':
     main()
