@@ -40,6 +40,8 @@ def main0(FP,OutFP,LemmaDicDir,UpTo=None,Debug=0):
             for (SForm,InfForm) in WdPairs:
                 OutTmp.write(SForm+'\t'+InfForm+'\n')
             OutTmp.write('EOS\n')
+        else:
+            
     
     OutTmp.close()
 
@@ -155,14 +157,20 @@ def main():
     import argparse
     Psr=argparse.ArgumentParser()
     Psr.add_argument('parallel_fp')
-    Psr.add_argument('--out-fp')
+    Psr.add_argument('--out-dir')
+    Psr.add_argument('--out-fn')
     Psr.add_argument('-l','--lemmadic-dir',required=True)
     Psr.add_argument('-u','--up-to',type=int)
     Args=Psr.parse_args()
-    if Args.out_fp is None:
-        Args.out_fp=os.path.join(os.path.dirname(Args.parallel_fp),os.path.basename(Args.parallel_fp)+'.out')
-    if not os.path.dirname(Args.out_fp):
-        print('parent of the specified fp '+Args.out_fp+' does not exist')
+    if Args.out_dir is None:
+        Args.out_dir=os.path.dirname(Args.parallel_fp)
+    else:
+        if not os.path.isdir(Args.out_dir):
+            sys.exit('Dir '+Args.out_dir+' does not exist')
+    if Args.out_fn is None:
+        Args.out_fn=os.path.basename(Args.parallel_fp)
+
+    OutFP=os.path.join(Args.out_dir,Args.out_fn)
 
     if os.path.exists(Args.out_fp):
         LowerAnswer=None
