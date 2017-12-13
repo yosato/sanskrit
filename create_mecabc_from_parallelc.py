@@ -4,19 +4,22 @@ from collections import defaultdict
 from pythonlib_ys import main as myModule
 #Delims=' ^.'
 
-def main0(FP,OutFP,LemmaDicDir,UpTo=None,Debug=0):
+def main0(ParallelFP,OutFP,LemmaDicDir,Debug=0):
+    OutFPTmp=OutFP+'.tmp'
+    align_unseg_seg(ParallelFP,OutFPTmp,Debug=Debug)
+    add_lemmata(OutFPTmp,OutFP,LemmaDicDir)
+    
+def align_unseg_seg(ParallelFP,OutFP,Debug=0):
     def count_lines(FP):
         for LineCnt,_ in enumerate(open(FP)):
             pass
         return LineCnt
 
-    OutFPTmp=OutFP+'.tmp'
-    OutTmp=open(OutFPTmp,'wt')
+    Out=open(OutFP,'wt')
     OutErr=open(OutFP+'.alignerrors','wt')
 
-    for Cntr,LiNe in enumerate(open(FP)):
-        if UpTo and Cntr>UpTo:
-            break
+    AlignFailCnt=0
+    for Cntr,LiNe in enumerate(open(ParallelFP)):
         if Debug:    sys.stderr.write(str(Cntr+1)+': '+LiNe)
         OrgSeg=LiNe.strip().split('\t')
         if len(OrgSeg)!=3:
@@ -31,24 +34,27 @@ def main0(FP,OutFP,LemmaDicDir,UpTo=None,Debug=0):
             assert(Org[0]==Seg[0])
 
             WdChunkPairs=align_org_seg_global(Org,Seg)
-            if WdChunkPairs is None:
-                align_org_seg_global(Org,Seg)
+            #if WdChunkPairs is None:
+            #    align_org_seg_global(Org,Seg)
 
-        if WdChunkPairs:
+        if WdChunkPairs is not None:
             for WdPairs in WdChunkPairs:
                 for (SForm,InfForm) in WdPairs:
-                    OutTmp.write(SForm+'\t'+InfForm+'\n')
-                OutTmp.write('<space>'+'\t'+'<space>'+'\n')
-            OutTmp.write('EOS\n')
+                    Out.write(SForm+'\t'+InfForm+'\n')
+                Out.write(' '+'\t'+' '+'\n')
+            Out.write('EOS\n')
         else:
+            AlignFailCnt+=1
             OutErr.write(LiNe+'\n')
-    
-    OutTmp.close();OutErr.close()
+    sys.stderr.write(str(Cntr+1)+' lines done\n')
+    sys.stderr.write(str(AlignFailCnt)+' lines failed\n')
+    Out.close();OutErr.close()
 
-    add_lemmata(OutFPTmp,OutFP,LemmaDicDir)
-    
 
+
+            
 def add_lemmata(InFP,OutFP,LemmaDicDir):
+    sys.stderr.write('\nWe first make an indexed (concise) dic, this could take a bit of time, unless you reuse it\n')
     OccurringLemmaDic,NotFounds=make_occurring_lemmadic(InFP,LemmaDicDir)
 
     FSr=open(InFP)
@@ -59,13 +65,20 @@ def add_lemmata(InFP,OutFP,LemmaDicDir):
             Out.write(LiNe)
         else:
             InfForm=Line.split('\t')[-1]
-            if InfForms in OccurringLemmaDic.keys():
+            if InfForm==' ':
+                LemmaPoS='<space>,symbol'
+            elif InfForm==',':
+                LemmaPoS='<comma>,symbol'
+            elif InfForm in OccurringLemmaDic.keys():
                 LemmaPoSLineEls=[]
-                for InfForm in InfForms:
-                    LemmaPoSLineEls.append(','.join(OccurringLemmaDic[InfForm]))
-                LemmaPoS='\t'.join(LemmaPosLineEls)
+                PotLemmata=OccurringLemmaDic[InfForm]
+                for LemmaPoS in PotLemmata:
+                    LemmaPoSLineEls.append(','.join(LemmaPoS))
+                LemmaPoS='\t'.join(LemmaPoSLineEls)
+                if len(PotLemmata)>=2:
+                    LemmaPoS+='\tAMB'
             else:
-                LemmaPoS='*,*'
+                LemmaPoS='*,*\tMISSED'
 
             Out.write(Line+','+LemmaPoS+'\n')
     FSr.close()
@@ -75,13 +88,10 @@ def make_occurring_lemmadic(InFP,LemmaDicDir):
         Dict=defaultdict(set)
         with open(FP) as FSr:
             for LiNe in FSr:
-                if LiNe!='EOS\n':
+                if LiNe!='EOS\n' and LiNe.strip()!='':
                     LineEls=LiNe.strip().split('\t')
-                    if len(LineEls)!=2:
-                        print('strange line, '+LiNe)
-                    else:
-                        InfForm=LineEls[1]
-                        Dict[InfForm[0]].add(InfForm)
+                    InfForm=LineEls[1]
+                    Dict[InfForm[0]].add(InfForm)
         return Dict
             
     OccurringAlphsInfforms=make_occurring_alphinfdic(InFP)
@@ -136,51 +146,54 @@ def align_org_seg_global(Org,Seg):
     OrgChunks=Org.split()
     SegChunks=Seg.split()
     SegChunks=[Chunk for Chunk in SegChunks if Chunk!='--']
-    SegChunks=[Chunk for Chunk in SegChunks if Chunk!='-']
-    SegChunks=SegChunks[:-1] if SegChunks[-1] in (',','.') else SegChunks
-    OrgChunks=OrgChunks[:-1] if OrgChunks[-1] in (',','.') else OrgChunks
-    if len(OrgChunks)!=len(SegChunks):
-        if len(OrgChunks)>len(SegChunks):
-            Longers=OrgChunks;Shorters=SegChunks
+    SegChunks=SegChunks[:-1] if SegChunks[-1] in (',','.','_') else SegChunks
+    OrgChunks=OrgChunks[:-1] if OrgChunks[-1] in (',','.','-') else OrgChunks
+    if len(OrgChunks)>len(SegChunks):
+        Longers=OrgChunks;Shorters=SegChunks
+    else:
+        Longers,Shorters=SegChunks,OrgChunks
+    NewLongers=[];NewShorters=[];i=0;j=0
+    while i+1 <= len(Longers) and j+1 <= len(Shorters):
+        IncrementI=1
+        LChunk=Longers[i]
+        SChunk=Shorters[j]
+        if LChunk==SChunk:
+            NewShorters.append(SChunk)
+            NewLongers.append(LChunk)
         else:
-            Longers,Shorters=SegChunks,OrgChunks
-        NewLongers=[];NewShorters=[];i=0;j=0
-        while i+1 <= len(Longers) and j+1 <= len(Shorters):
-            LChunk=Longers[i]
-            SChunk=Shorters[j]
-            if LChunk==SChunk:
+            if samechunk_likely(LChunk,SChunk):
                 NewShorters.append(SChunk)
                 NewLongers.append(LChunk)
             else:
-                if samechunk_likely(LChunk,SChunk):
-                    NewShorters.append(SChunk)
-                    NewLongers.append(LChunk)
-                else:
+                try:
                     LChunk=Longers[i]+Longers[i+1]
                     if samechunk_likely(LChunk,SChunk):
                         NewLongers.append(LChunk)
                         NewShorters.append(SChunk)
-                        i+=2;j+=1
+                        IncrementI=2
+                 
                     else:
-                        sys.stderr.write('alignment failed for ')
+#                        sys.stderr.write('alignment failed for '+LChunk+' '+SChunk+'\n\n')
                         return None
-            i+=1;j+=1
-            print(NewShorters)
-            print(NewLongers)
-            print()
-        if len(NewShorters)!=len(NewLongers):
-            return None
+                except:
+                    return None
+        i+=IncrementI;j+=1
+        #print(NewShorters)
+        #print(NewLongers)
+        #print()
+    if len(NewShorters)!=len(NewLongers):
+        return None
+    else:
+        if len(OrgChunks)>len(SegChunks):
+            OrgChunks,SegChunks=NewLongers,NewShorters
         else:
-            if len(OrgChunks)>len(SegChunks):
-                OrgChunks,SegChunks=NewLongers,NewShorters
-            else:
-                OrgChunks,SegChunks=NewShorters,NewLongers
+            OrgChunks,SegChunks=NewShorters,NewLongers
     
     for OrgChunk,SegChunk in zip(OrgChunks,SegChunks):
         try:
             ChunkPairs.append(align_org_seg(OrgChunk,SegChunk))
         except:
-            ChunkPairs.append(align_org_seg(OrgChunk,SegChunk))
+            return None
     return ChunkPairs
         
 
@@ -222,7 +235,6 @@ def main():
     Psr.add_argument('--out-dir')
     Psr.add_argument('--out-fn')
     Psr.add_argument('-l','--lemmadic-dir',required=True)
-    Psr.add_argument('-u','--up-to',type=int)
     Args=Psr.parse_args()
     if Args.out_dir is None:
         Args.out_dir=os.path.dirname(Args.parallel_fp)
@@ -247,7 +259,7 @@ def main():
         sys.exit('lemma dics, in pickle, have to be there')
         
     
-    main0(Args.parallel_fp,OutFP,LemmaDicDir=Args.lemmadic_dir,UpTo=Args.up_to)
+    main0(Args.parallel_fp,OutFP,LemmaDicDir=Args.lemmadic_dir)
 
 if __name__=='__main__':
     main()
