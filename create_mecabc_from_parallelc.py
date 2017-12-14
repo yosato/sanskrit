@@ -41,7 +41,7 @@ def align_unseg_seg(ParallelFP,OutFP,Debug=0):
             for WdPairs in WdChunkPairs:
                 for (SForm,InfForm) in WdPairs:
                     Out.write(SForm+'\t'+InfForm+'\n')
-                Out.write(' '+'\t'+' '+'\n')
+                Out.write('<sp>'+'\t'+'<sp>'+'\n')
             Out.write('EOS\n')
         else:
             AlignFailCnt+=1
