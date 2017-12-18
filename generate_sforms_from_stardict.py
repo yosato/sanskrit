@@ -17,20 +17,21 @@ def main0(StarDictFP,Debug=0,Delimiter='\t',OutDir=None,AlphCntUpTo=None,UpTo=No
     LemmaDicDir=os.path.join(OutDir,StarDictFNStem+'_lemmadics')
     if not os.path.isdir(LemmaDicDir):
         os.makedirs(LemmaDicDir)
-
-    LemmaDics=glob.glob(LemmaDicDir+'/*.pickle')
-    if LemmaDics:
-        Message='Lemmadics already exist. Overwrite? ([y]es or [n]o): '
-        Ans=input(Message)
-        while all(Ans.lower() != RightAns for RightAns in ('y','yes','no', 'n')):
-            print('answer yes or no')
-            Ans=input(Message)
-        if Ans.startswith('y'):
-            OW=True
-        else:
-            OW=False
-    else:
         OW=True
+    else:
+        LemmaDics=glob.glob(LemmaDicDir+'/*.pickle')
+        if LemmaDics:
+            Message='Lemmadics already exist. Overwrite? ([y]es or [n]o): '
+            Ans=input(Message)
+            while all(Ans.lower() != RightAns for RightAns in ('y','yes','no', 'n')):
+                print('answer yes or no')
+                Ans=input(Message)
+            if Ans.startswith('y'):
+                OW=True
+            else:
+                OW=False
+        else:
+            OW=True
 
     AlphWriteOutDir=LemmaDicDir+'/alph_writeouts'
     if OW:
@@ -40,7 +41,8 @@ def main0(StarDictFP,Debug=0,Delimiter='\t',OutDir=None,AlphCntUpTo=None,UpTo=No
             shutil.rmtree(AlphWriteOutDir)
         sys.stderr.write('Creating lemma dicts for '+StarDictFP+' in '+LemmaDicDir+'\n')
         create_lemmadict(StarDictFNStem,InDir,OutDir,LemmaDicDir,LineCnt,Delimiter,AlphCntUpTo,UpTo,Debug)
-        LemmaDics=glob.glob(LemmaDicDir+'/*.pickle')
+    else:
+        pass
 
     if not os.path.isdir(AlphWriteOutDir):
         os.makedirs(AlphWriteOutDir)
