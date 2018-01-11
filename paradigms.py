@@ -6,16 +6,16 @@ from collections import OrderedDict
 
 pronoun={
 #yad/tad-replace ad with:
-'PronYadTad':{
+'PronTad':{
     'm':{
-        'Nom':(['ah', 'o'],[ 'au' ],['e', 'āni'],),
+        'Nom':(['sah', 'so'],[ 'tau' ],['te', 'tāni'],),
         'Voc':([''],[''],[''],),
-        'Acc':(['am'],['au'],['ān'],),
-        'Inst':([ 'ena'], [ 'ābhyām'], ['aiḥ',  'air'],),
-        'Dat':([ 'asmai'], [ 'ābhyām'], ['ebhyaḥ',  'ebhyo'],),
-        'Abl':(['asmāt',  'asmād',  'asmādd'],[ 'ābhyām'], ['ebhyaḥ',  'ebhyo'],),
-        'Gen':([ 'asya'], ['ayoḥ',  'ayor'],['eṣām',  'eṣāṃ'],),
-        'Loc':(['asmin', 'asmim', 'asmiṃ'], ['ayoḥ', 'ayor'],['eṣu'],),
+        'Acc':(['tam'],['tau'],['ān'],),
+        'Inst':([ 'tena'], [ 'tābhyām'], ['taiḥ'],),
+        'Dat':([ 'tasmai'], [ 'tābhyām'], ['tebhyaḥ'],),
+        'Abl':(['tasmāt',  'tasmād'],[ 'ābhyām'], ['tebhyaḥ'],),
+        'Gen':([ 'tasya'], ['tayoḥ',  'tayor'],['teṣām',  'teṣāṃ'],),
+        'Loc':(['tasmin', 'tasmim', 'tasmiṃ'], ['tayoḥ'],['teṣu'],),
     },
     'f':{
         'Nom':(['ā'],['e'], ['āḥ'],),
