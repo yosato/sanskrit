@@ -26,7 +26,8 @@ class Word:
         VCats={'vv','vvis'}; CCats=set(CategorisedSandhiRules.keys())-VCats
         for (Cat,SandhiRules) in CategorisedSandhiRules.items():
             if self.suffixphoncat == 'v' and Cat in VCats:
-                for RelvSandhiRule in [ SandhiRule for SandhiRule in SandhiRules if SandhiRule.first==self.suffix ]:
+                RelvSandhiRules=[ SandhiRule for SandhiRule in SandhiRules if SandhiRule.first==self.suffix ]
+                for RelvSandhiRule in RelvSandhiRules: 
                     SandhiResults.append((self.stem+RelvSandhiRule.result,RelvSandhiRule.second))
             elif self.suffixphoncat == 'c' and Cat in CCats:
                 for RelvSandhiRule in [ SandhiRule for SandhiRule in SandhiRules if SandhiRule.first==self.suffix ]:
