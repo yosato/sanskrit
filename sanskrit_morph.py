@@ -18,6 +18,7 @@ class Word:
         self.lexeme=Lexeme
         self.infform=InfForm
         self.stem=self.lexeme.stem
+        self.sandhistem=self.infform[:-1]
         self.suffix=self.lexeme.suffix
         self.suffixphoncat=get_phoncat(self.suffix)
         self.stemphoncat=get_phoncat(self.infform)
@@ -28,10 +29,10 @@ class Word:
             if self.suffixphoncat == 'v' and Cat in VCats:
                 RelvSandhiRules=[ SandhiRule for SandhiRule in SandhiRules if SandhiRule.first==self.suffix ]
                 for RelvSandhiRule in RelvSandhiRules: 
-                    SandhiResults.append((self.stem+RelvSandhiRule.result,RelvSandhiRule.second))
+                    SandhiResults.append((self.sandhistem+RelvSandhiRule.result,RelvSandhiRule.second))
             elif self.suffixphoncat == 'c' and Cat in CCats:
                 for RelvSandhiRule in [ SandhiRule for SandhiRule in SandhiRules if SandhiRule.first==self.suffix ]:
-                    SandhiResults.append((self.stem+RelvSandhiRule.result,RelvSandhiRule.second))
+                    SandhiResults.append((self.sandhistem+RelvSandhiRule.result,RelvSandhiRule.second))
         if any(self.infform.startswith(Vowel) for Vowel in sanskrit_phon.Vowels):
             SandhiResults=(self.infform[1:],SandhiResults)
         else:

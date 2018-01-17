@@ -65,7 +65,7 @@ def add_lemmata(InFP,OutFP,LemmaDicDir):
             Out.write(LiNe)
         else:
             InfForm=Line.split('\t')[-1]
-            if InfForm==' ':
+            if InfForm=='<sp>':
                 LemmaPoS='<space>,symbol'
             elif InfForm==',':
                 LemmaPoS='<comma>,symbol'
@@ -73,14 +73,15 @@ def add_lemmata(InFP,OutFP,LemmaDicDir):
                 LemmaPoSLineEls=[]
                 PotLemmata=OccurringLemmaDic[InfForm]
                 for LemmaPoS in PotLemmata:
-                    LemmaPoSLineEls.append(','.join(LemmaPoS))
-                LemmaPoS='\t'.join(LemmaPoSLineEls)
+                    LemmaPoSLineEls.append('/'.join(LemmaPoS))
+                LemmaPoS=','.join(LemmaPoSLineEls)
                 if len(PotLemmata)>=2:
-                    LemmaPoS+='\tAMB'
+                    LemmaPoS=LemmaPoS+'\tAMB'
             else:
                 LemmaPoS='*,*\tMISSED'
-
-            Out.write(Line+','+LemmaPoS+'\n')
+            PrintLine=Line+'\t'+LemmaPoS+'\n'
+            #print(PrintLine)
+            Out.write(PrintLine)
     FSr.close()
 
 def make_occurring_lemmadic(InFP,LemmaDicDir):
@@ -97,7 +98,7 @@ def make_occurring_lemmadic(InFP,LemmaDicDir):
     OccurringAlphsInfforms=make_occurring_alphinfdic(InFP)
     LemmaDicFPs=glob.glob(LemmaDicDir+'/*.pickle')
     # OccurringLemmaDic is a reduced dictionary that only contains occurring items
-    OccurringLemmaDic=defaultdict(list); NotFounds=[]
+    OccurringLemmaDic=defaultdict(set); NotFounds=[]
     # lemma dic consists of 2-tuples with alphabet and dict
     for LemmaDicFP in LemmaDicFPs:
         Lexs=myModule.load_pickle(LemmaDicFP)
@@ -105,14 +106,15 @@ def make_occurring_lemmadic(InFP,LemmaDicDir):
         OccurringInfs=OccurringAlphsInfforms[Alph]
         for OccurringInf in OccurringInfs:
             Found=False
-            PotOccurringLexs=[ Lex for Lex in Lexs if OccurringInf.startswith(Lex.stem)  ]
+            PotOccurringLexs=[ Lex for Lex in Lexs if OccurringInf.startswith(Lex.stem)  ] 
             for PotOccurringLex in PotOccurringLexs:
+                OccurringLemmaDic[PotOccurringLex.lemma].add((PotOccurringLex.lemma,PotOccurringLex.pos))
                 if type(PotOccurringLex).__name__=='NonInfLexeme':
                     if PotOccurringLex.lemma==OccurringInf:
                         Found=True
-                        OccurringLemmaDic[OccurringInf].append((PotOccurringLex.lemma,PotOccurringLex.pos,))
+                        OccurringLemmaDic[OccurringInf].add((PotOccurringLex.lemma,PotOccurringLex.pos,))
                 elif OccurringInf in PotOccurringLex.inflect_all(FormOnly=True):
-                    OccurringLemmaDic[OccurringInf].append((PotOccurringLex.lemma,PotOccurringLex.pos,))
+                    OccurringLemmaDic[OccurringInf].add((PotOccurringLex.lemma,PotOccurringLex.pos,))
                     Found=True
             if not Found:
                 NotFounds.append(OccurringInf)

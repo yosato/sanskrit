@@ -64,7 +64,7 @@ def writeout_lemmadict(StarDictFNStem,OutDir,LemmaDics,Debug=0):
         for Lex in Lexs:
             Wds=Lex.inflect_all()
             for Wd in Wds:
-                OutLine=Wd.infform+'\t'+Wd.infform+','.join([Wd.lexeme.lemma,Wd.lexeme.pos,'no_sandhi'])+'\n'
+                OutLine=Wd.infform+'\t'+','.join([Wd.infform,Wd.lexeme.lemma,Wd.lexeme.pos,'no_sandhi'])+'\n'
                 if Debug>=2:
                     sys.stderr.write(OutLine)
                 Out.write(OutLine)
@@ -128,36 +128,41 @@ def create_lemmadict(StarDictFNStem,InDir,OutDir,LemmaDicDir,LineCnt,Delimiter,A
 
 def generate_words_perline(StarDictFP,Delimiter='\t',Debug=0,OutDir=None,ErrorFSw=None):
     OutErr=ErrorFSw if ErrorFSw else sys.stderr
-    Prv=[]
+    Prv=[];Seen=set()
     for Cntr,LiNe in enumerate(open(StarDictFP)):
-        LineEls=[ re.sub(r'{.+}$','',El).strip() for El in LiNe.strip().split(Delimiter) if El ][:3]
+        LineEls=[ re.sub(r'{.+}$','',El).strip().replace('.','') for El in LiNe.strip().split(Delimiter) if El ][:3]
         if any(not El for El in LineEls) or len(LineEls)<3:
             continue
+        if LineEls[2].endswith('.'):
+            LineEls[2]=LineEls[2][:-1]
         if LineEls[2]!='verb' and LineEls[2].startswith('verb'):
             LineEls[2]='verb'
-        if LineEls==Prv:
+        if LineEls==Prv or tuple(LineEls) in Seen:
             if Debug>=2:   sys.stderr.write('duplicates, ignoring, '+LiNe)
             continue
-        elif len(LineEls[1].split())>1:
-            OutErr.write('compound word? '+LineEls[1]+'\n')
-            continue
-        elif LineEls[2]=='phrase':
-            continue
-        elif LineEls[1].startswith('-'):
-            continue
         else:
-            if Debug:    sys.stderr.write('Line '+str(Cntr)+': '+LiNe.strip()+'\n')
-            Prv=LineEls
-            try:
-                Lex=lemmaline2lexeme(LineEls,Delimiter)
-            except ValueError:
-                OutErr.write('no inftype identified for '+LiNe)
+            Seen.add(tuple(LineEls))
+        
+            if len(LineEls[1].split())>1:
+                OutErr.write('compound word? '+LineEls[1]+'\n')
                 continue
-            if not Lex:
-                OutErr.write('no results returned from this line: '+LiNe)
+            elif LineEls[2]=='phrase':
+                continue
+            elif LineEls[1].startswith('-'):
                 continue
             else:
-                yield Lex
+                if Debug:    sys.stderr.write('Line '+str(Cntr)+': '+LiNe.strip()+'\n')
+                Prv=LineEls
+                try:
+                    Lex=lemmaline2lexeme(LineEls,Delimiter)
+                except ValueError:
+                    OutErr.write('no inftype identified for '+LiNe)
+                    continue
+                if not Lex:
+                    OutErr.write('no results returned from this line: '+LiNe)
+                    continue
+                else:
+                    yield Lex
 
 def lemmaline2lexeme(LineEls,Delimiter):
     InfCats=['n','m','f','pron','verb','adj']
