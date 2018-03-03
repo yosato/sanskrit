@@ -51,7 +51,7 @@ SandhiRulesRaw={
     ),
 
 'cc':(
-    CCC,
+    [('n','m',), 'c', 'j', 'ṭ', 'd'],
     {
     ('k',): ('ṅ','','g','','g','g'),
     ('ṭ',): ('ṅ','','ḍ','','ḍ','ḍ'),
@@ -62,7 +62,8 @@ SandhiRulesRaw={
     ),
     
 'nc':(
-        CNC,
+['c', 'j', 'ṭ', 'd', 't'],
+#        CNC,
 
 {
     ('n',):('ṃś','ñ','ṃṣ','ṇ','ṃs',''),
@@ -70,7 +71,8 @@ SandhiRulesRaw={
 },
     ),
 
-'vvis':(   VVis,
+'vvis':(   
+[sanskrit_phon.Vowels, 'r', ('y','l','v','h'), 'c', 'ṭ', 't', ('g','j','ḍ','b',('n','m')) ],
 {
     ('aḥ',): ('a','o','o','aś','aṣ','as','o'),
     ('āḥ',): ('ā','ā','ā','āś','āṣ','ās','ā'),
@@ -93,8 +95,7 @@ def create_sandhirules():
         for Fsts,Results in FstsResults.items():
             assert(len(ScdSets)==len(Results))
             for Fst in Fsts:
-                for (Scds,Result) in zip(ScdSets,Results):
-                    for Scd in Scds:
+                for (Scds,Resul
                         SandhiRules[Pat].append(SandhiRule(Fst,Scd,Result))
 
     return SandhiRules
