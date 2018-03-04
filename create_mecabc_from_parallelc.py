@@ -54,6 +54,21 @@ def align_unseg_seg(ParallelFP,OutFP,Debug=0):
 
             
 def add_lemmata(InFP,OutFP,LemmaDicDir):
+    def disambiguate_pos(PotLemmata):
+        OrderedCats=('noun','adj','ind','indec','verb','adverb')
+        CatLemmata=defaultdict(set)
+        for Lemma,PoS in PotLemmata:
+            CatLemmata[Lemma].add((Lemma,PoS))
+        MaxCard=max(len(CatLemma) for CatLemma in CatLemmata)
+        MaxCardSet=[ len(CatLemma) for CatLemma in CatLemmata ]
+        for Cat in OrderedCats:
+            for El in MaxCardSet:
+                if El[1]==Cat:
+                    ChosenEl=El
+                    break
+            ChosenEl=(OrderedCats[0],MaxCardSet[0][0])
+        return ChosenEl
+    
     sys.stderr.write('\nWe first make an indexed (concise) dic, this could take a bit of time, unless you reuse it\n')
     OccurringLemmaDic,NotFounds=make_occurring_lemmadic(InFP,LemmaDicDir)
 
@@ -64,61 +79,79 @@ def add_lemmata(InFP,OutFP,LemmaDicDir):
         if Line=='EOS':
             Out.write(LiNe)
         else:
-            InfForm=Line.split('\t')[-1]
+            SF,InfForm=Line.split('\t')
             if InfForm=='<sp>':
-                LemmaPoS='<space>,symbol'
+                LemmaPoS=('<space>','symbol')
             elif InfForm==',':
-                LemmaPoS='<comma>,symbol'
-            elif InfForm in OccurringLemmaDic.keys():
-                LemmaPoSLineEls=[]
-                PotLemmata=OccurringLemmaDic[InfForm]
-                for LemmaPoS in PotLemmata:
-                    LemmaPoSLineEls.append('/'.join(LemmaPoS))
-                LemmaPoS=','.join(LemmaPoSLineEls)
-                if len(PotLemmata)>=2:
-                    LemmaPoS=LemmaPoS+'\tAMB'
+                LemmaPoS=('<comma>','symbol')
             else:
-                LemmaPoS='*,*\tMISSED'
-            PrintLine=Line+'\t'+LemmaPoS+'\n'
-            #print(PrintLine)
-            Out.write(PrintLine)
+#                assert((SF,InfForm) in OccurringLemmaDic.keys())
+                PotLemmata=OccurringLemmaDic[(SF,InfForm)]
+                if PotLemmata(PotLemmata)==1:
+                    LemmaPoS=PotLemmata[0]
+                else:
+                    LemmaPoS=disambiguate_pos(PotLemmata)
+            Fts=(InfForm,)+LemmaPoS
+            InfFormLemmaPoSLine=','.join(Fts)
+            CorpusLine=SF+'\t'+InfFormLemmaPoSLine+'\n'
+            Out.write(CorpusLine)
+
     FSr.close()
 
-def make_occurring_lemmadic(InFP,LemmaDicDir):
+                                            
+
+def make_occurring_lemmadic(InFP,LemmaDicDir,InitOccDicP=True):
     def make_occurring_alphinfdic(FP):
-        Dict=defaultdict(set)
+        # alphabetical dic
+        Dic=defaultdict(set)
         with open(FP) as FSr:
             for LiNe in FSr:
                 if LiNe!='EOS\n' and LiNe.strip()!='':
                     LineEls=LiNe.strip().split('\t')
-                    InfForm=LineEls[1]
-                    Dict[InfForm[0]].add(InfForm)
-        return Dict
-            
-    OccurringAlphsInfforms=make_occurring_alphinfdic(InFP)
+                    SurfForm,InfForm=LineEls[0:2]
+                    Alph=InfForm[0]
+                    Dic[Alph].add((SurfForm,InfForm,))
+        return Dic
+
+    AlphSFsIFs=make_occurring_alphinfdic(InFP)
+    
     LemmaDicFPs=glob.glob(LemmaDicDir+'/*.pickle')
-    # OccurringLemmaDic is a reduced dictionary that only contains occurring items
+    # OccurringLemmaDic is a reduced dictionary that contains only occurring items with only necessary features 
+    # its keys are tuples (SurfForm,InfForm)
     OccurringLemmaDic=defaultdict(set); NotFounds=[]
+    
+    if InitOccDicP:
+        InitDicFSw=open(InFP+'.csv','wt')
+        val2str=lambda SF,Val:','.join((SF,'0','0','0')+Val)
     # lemma dic consists of 2-tuples with alphabet and dict
     for LemmaDicFP in LemmaDicFPs:
         Lexs=myModule.load_pickle(LemmaDicFP)
         Alph=Lexs[0].lemma[0]
-        OccurringInfs=OccurringAlphsInfforms[Alph]
-        for OccurringInf in OccurringInfs:
+        OccSFsInfs=AlphSFsIFs[Alph]
+        for OccSF,OccInf in OccSFsInfs:
             Found=False
-            PotOccurringLexs=[ Lex for Lex in Lexs if OccurringInf.startswith(Lex.stem)  ] 
+            PotOccurringLexs=[ Lex for Lex in Lexs if OccInf.startswith(Lex.stem)  ]
             for PotOccurringLex in PotOccurringLexs:
-                OccurringLemmaDic[PotOccurringLex.lemma].add((PotOccurringLex.lemma,PotOccurringLex.pos))
+                # lemma itself is always an inf form
+                ValL=(PotOccurringLex.lemma,PotOccurringLex.pos,)
+                OccurringLemmaDic[(OccSF,PotOccurringLex.lemma)].add(ValL)
+                if InitOccDicP:
+                    Str=val2str(OccSF,ValL)
+                    InitDicFSw.write(Str)
+                Val=(PotOccurringLex.lemma,PotOccurringLex.pos,)
                 if type(PotOccurringLex).__name__=='NonInfLexeme':
-                    if PotOccurringLex.lemma==OccurringInf:
+                    if PotOccurringLex.lemma==OccInf:
                         Found=True
-                        OccurringLemmaDic[OccurringInf].add((PotOccurringLex.lemma,PotOccurringLex.pos,))
-                elif OccurringInf in PotOccurringLex.inflect_all(FormOnly=True):
-                    OccurringLemmaDic[OccurringInf].add((PotOccurringLex.lemma,PotOccurringLex.pos,))
+                        OccurringLemmaDic[(OccSF,OccInf)].add(Val)
+                elif OccInf in PotOccurringLex.inflect_all(FormOnly=True):
+                    OccurringLemmaDic[(OccSF,OccInf)].add(Val)
                     Found=True
+                if Found and InitOccDicP:
+                    InitDicFSw.write(val2str(OccSF,Val))
             if not Found:
-                NotFounds.append(OccurringInf)
-
+                OccurringLemmaDic[(OccSF,OccInf)]=[('*','*')]
+                NotFounds.append(OccInf)
+            
     return OccurringLemmaDic,NotFounds
                                  
 def check_plausibility(WdPairs):
@@ -243,6 +276,8 @@ def main():
     else:
         if not os.path.isdir(Args.out_dir):
             sys.exit('Dir '+Args.out_dir+' does not exist')
+    if not os.path.isdir(Args.lemmadic_dir):
+        sys.exit('Dir '+Args.lemmadic_dir+' does not exist')
     if Args.out_fn is None:
         Args.out_fn=os.path.basename(Args.parallel_fp)+'.mecab'
 
@@ -256,7 +291,6 @@ def main():
         if LowerAnswer.startswith('n'):
             sys.exit('rename the file and restart')
         
-
     if not glob.glob(Args.lemmadic_dir+'/*.pickle'):
         sys.exit('lemma dics, in pickle, have to be there')
         
