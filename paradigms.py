@@ -5,106 +5,41 @@ from collections import OrderedDict
 ###===== pronouns and adjectives ==============
 
 pronoun={
-
-'tad':{
+#yad/tad-replace ad with:
+'PronYadTad':{
     'm':{
-        'Nom':(['saḥ', 'so'],[ 'tau' ],['te', 'tāni'],),
+        'Nom':(['ah', 'o'],[ 'au' ],['e', 'āni'],),
         'Voc':([''],[''],[''],),
-        'Acc':(['tam'],['tau'],['ān'],),
-        'Inst':([ 'tena'], [ 'tābhyām'], ['taiḥ'],),
-        'Dat':([ 'tasmai'], [ 'tābhyām'], ['tebhyaḥ'],),
-        'Abl':(['tasmāt'],[ 'tābhyām'], ['tebhyaḥ'],),
-        'Gen':([ 'tasya'], ['tayoḥ',  'tayor'],['teṣām',  'teṣāṃ'],),
-        'Loc':(['tasmin', 'tasmim', 'tasmiṃ'], ['tayoḥ'],['teṣu'],),
+        'Acc':(['am'],['au'],['ān'],),
+        'Inst':([ 'ena'], [ 'ābhyām'], ['aiḥ',  'air'],),
+        'Dat':([ 'asmai'], [ 'ābhyām'], ['ebhyaḥ',  'ebhyo'],),
+        'Abl':(['asmāt',  'asmād',  'asmādd'],[ 'ābhyām'], ['ebhyaḥ',  'ebhyo'],),
+        'Gen':([ 'asya'], ['ayoḥ',  'ayor'],['eṣām',  'eṣāṃ'],),
+        'Loc':(['asmin', 'asmim', 'asmiṃ'], ['ayoḥ', 'ayor'],['eṣu'],),
     },
     'f':{
-        'Nom':(['sā'],['te'], ['tāḥ'],),
-        'Voc':([''],[''],[''],),
-        'Acc':(['tām'],['te'],['tāḥ'],),
-        'Inst':([ 'tayā'], [ 'tābhyām'], ['tābhiḥ'],),
-        'Dat':([ 'tasyai'], [ 'tābhyām'], ['tābhyaḥ'],),
-        'Abl':([ 'tasyāḥ'],[ 'tābhyām'], ['tābhyaḥ'],),
-        'Gen':([ 'tasyāḥ'], ['tayoḥ'],['āṣām',  'tāṣāṃ'],),
-        'Loc':([ 'tasyām'], ['tayoḥ'],['tāsu'],),
+        'Nom':(['ā'],['e'], ['āḥ'],),
+        'Voc':[''],
+        'Acc':(['ām'],['e'],['āḥ'],),
+        'Inst':([ 'ayā'], [ 'ābhyām'], ['ābhiḥ',  'ābhir'],),
+        'Dat':([ 'syai'], [ 'ābhyām'], ['ābhyaḥ',  'ābhyo'],),
+        'Abl':([ 'asyāḥ'],[ 'ābhyām'], ['ābhyaḥ',  'ābhyo'],),
+        'Gen':([ 'asyāḥ'], ['ayoḥ',  'ayor'],['āṣām',  'āṣāṃ'],),
+        'Loc':([ 'asyām'], ['ayoḥ', 'ayor'],['āsu'],),
     },
     'n':{
-        'Nom':(['tad', 'tat'],['te'], [ 'tāni'],),
+        'Nom':(['ad', 'at'],['e'], [ 'āni'],),
         'Voc':([''],[''],[''],),
-        'Acc':(['tad', 'tat'],['te'],['tāni'],),
-            'Inst':([ 'tena'], [ 'tābhyām'], ['taiḥ'],),
-            'Dat':([ 'tasmai'], [ 'tābhyām'], ['tebhyaḥ'],),
-            'Abl':(['tasmāt'],[ 'tābhyām'], ['tebhyaḥ'],),
-            'Gen':([ 'tasya'], ['tayoḥ',  'tayor'],['teṣām',  'teṣāṃ'],),
-            'Loc':(['tasmin', 'tasmim', 'tasmiṃ'], ['tayoḥ'],['teṣu'],),
-    },
-},
-'yad':{
-    'm':{
-        'Nom':(['yaḥ', 'yo'],[ 'yau' ],['ye', 'yāni'],),
-        'Voc':([''],[''],[''],),
-        'Acc':(['yam'],['yau'],['yān'],),
-        'Inst':([ 'yena'], [ 'yābhyām'], ['yaiḥ'],),
-        'Dat':([ 'yasmai'], [ 'yābhyām'], ['yebhyaḥ'],),
-        'Abl':(['yasmāt'],[ 'yābhyām'], ['yebhyaḥ'],),
-        'Gen':([ 'yasya'], ['yayoḥ'],['yeṣām',  'yeṣāṃ'],),
-        'Loc':(['yasmin', 'yasmim', 'yasmiṃ'], ['yayoḥ'],['yeṣu'],),
-    },
-    'f':{
-        'Nom':(['yā'],['ye'], ['yāḥ'],),
-        'Voc':([''],[''],[''],),
-        'Acc':(['yām'],['ye'],['yāḥ'],),
-        'Inst':([ 'yayā'], [ 'yābhyām'], ['yābhiḥ'],),
-        'Dat':([ 'yasyai'], [ 'yābhyām'], ['yābhyaḥ'],),
-        'Abl':([ 'yasyāḥ'],[ 'yābhyām'], ['yābhyaḥ'],),
-        'Gen':([ 'yasyāḥ'], ['yayoḥ'],['yāṣām',  'yāṣāṃ'],),
-        'Loc':([ 'yasyām'], ['yayoḥ'],['yāsu'],),
-    },
-    'n':{
-        'Nom':(['yad', 'yat'],['ye'], [ 'yāni'],),
-        'Voc':([''],[''],[''],),
-        'Acc':(['yad', 'yat'],['ye'],['yāni'],),
-            'Inst':([ 'yena'], [ 'yābhyām'], ['yaiḥ'],),
-            'Dat':([ 'yasmai'], [ 'yābhyām'], ['yebhyaḥ'],),
-            'Abl':(['yasmāt'],[ 'yābhyām'], ['yebhyaḥ'],),
-            'Gen':([ 'yasya'], ['yayoḥ',  'yayor'],['yeṣām',  'yeṣāṃ'],),
-            'Loc':(['yasmin', 'yasmim', 'yasmiṃ'], ['yayoḥ'],['yeṣu'],),
-    },
-},
-
-'kim':{
-    'm':{
-        'Nom':(['kaḥ', 'ko'],[ 'kau' ],['ke', 'kāni'],),
-        'Voc':([''],[''],[''],),
-        'Acc':(['kam'],['kau'],['kān'],),
-        'Inst':([ 'kena'], [ 'kābhyām'], ['kaiḥ'],),
-        'Dat':([ 'kasmai'], [ 'kābhyām'], ['kebhyaḥ'],),
-        'Abl':(['kasmāt'],[ 'kābhyām'], ['kebhyaḥ'],),
-        'Gen':([ 'kasya'], ['kayoḥ'],['keṣām',  'keṣāṃ'],),
-        'Loc':(['kasmin', 'kasmim', 'kasmiṃ'], ['kayoḥ'],['keṣu'],),
-    },
-    'f':{
-        'Nom':(['kā'],['ke'], ['kāḥ'],),
-        'Voc':([''],[''],[''],),
-        'Acc':(['kām'],['ke'],['kāḥ'],),
-        'Inst':([ 'kayā'], [ 'kābhyām'], ['kābhiḥ'],),
-        'Dat':([ 'kasyai'], [ 'kābhyām'], ['kābhyaḥ'],),
-        'Abl':([ 'kasyāḥ'],[ 'kābhyām'], ['kābhyaḥ'],),
-        'Gen':([ 'kasyāḥ'], ['kayoḥ'],['kāṣām',  'kāṣāṃ'],),
-        'Loc':([ 'kasyām'], ['kayoḥ'],['kāsu'],),
-    },
-    'n':{
-        'Nom':(['kim', 'kiṃ'],['ke'], [ 'kāni'],),
-        'Voc':([''],[''],[''],),
-        'Acc':(['kad', 'kat'],['ke'],['kāni'],),
-            'Inst':([ 'kena'], [ 'kābhyām'], ['kaiḥ'],),
-            'Dat':([ 'kasmai'], [ 'kābhyām'], ['kebhyaḥ'],),
-            'Abl':(['kasmāt'],[ 'kābhyām'], ['kebhyaḥ'],),
-            'Gen':([ 'kasya'], ['kayoḥ',  'kayor'],['keṣām',  'keṣāṃ'],),
-            'Loc':(['kasmin', 'kasmim', 'kasmiṃ'], ['kayoḥ'],['keṣu'],),
+        'Acc':(['ad', 'at'],['e'],['āni'],),
+        'Inst':([ 'ena'], [ 'ābhyām'], ['aiḥ',  'air'],),
+        'Dat':([ 'asmai'], [ 'ābhyām'], ['ebhyaḥ',  'ebhyo'],),
+        'Abl':(['asmāt',  'asmād',  'asmādd'],[ 'ābhyām'], ['ebhyaḥ',  'ebhyo'],),
+        'Gen':([ 'asya'], ['ayoḥ',  'ayor'],['eṣām',  'eṣāṃ'],),
+        'Loc':(['asmin', 'asmim', 'asmiṃ'], ['ayoḥ', 'ayor'],['eṣu'],),
     },
 },
 #idam replace the whole word idam with:{
-'idam':{
+'PronIdam':{
     'm':{
         'Nom':(['ayam'], ['imau'], ['ime'],),
         'Voc':([''],[''],[''],),
@@ -138,8 +73,9 @@ pronoun={
         'Loc':(['asmin', 'asmim', 'asmiṃ'], ['ayoḥ', 'ayor'],['eṣu'],),
     },
 },
-# for the words :'sarva', 'anya', 'para', 'katama', 'viśva', 'sva', 'eka', 'itara', 'antara', uttara. 'adhara', pūrva replace final 'a' with suffixes from PrononimalDeclension
-'PronominalDeclension' :{
+# for the words :'sarva', 'anya', 'para', 'katama', 'viśva', 'sva', 'eka', 'itara', 'antara', uttara. 'adhara', pūrva
+# replace final a 'with', for the pronoun 'kim', replace im with:
+'PronAorIm' :{
     'm':{
         'Nom':(['a'], ['au'], ['e'],),
         'Voc':(['a'], ['au'], ['e'],),

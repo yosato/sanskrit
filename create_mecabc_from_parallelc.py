@@ -54,26 +54,21 @@ def align_unseg_seg(ParallelFP,OutFP,Debug=0):
 
             
 def add_lemmata(InFP,OutFP,LemmaDicDir):
-    def disambiguate_pos(PotLemmata):
-        OrderedCats=('noun','adj','ind','indec','verb','adverb')
+    def combine_lemmaforms(PotLemmata):
+        #OrderedCats=('noun','adj','ind','indec','verb','adverb')
         CatLemmata=defaultdict(set)
         for Lemma,PoS in PotLemmata:
-            CatLemmata[Lemma].add((Lemma,PoS))
-        MaxCard=max(len(CatLemma) for CatLemma in CatLemmata)
-        MaxCardSet=[ len(CatLemma) for CatLemma in CatLemmata ]
-        for Cat in OrderedCats:
-            for El in MaxCardSet:
-                if El[1]==Cat:
-                    ChosenEl=El
-                    break
-            ChosenEl=(OrderedCats[0],MaxCardSet[0][0])
-        return ChosenEl
+            CatLemmata[Lemma].add(PoS)
+        CombinedLemmata=[(Form,'-'.join(PoSs)) for Form,PoSs in CatLemmata.items()]
+        return CombinedLemmata
     
     sys.stderr.write('\nWe first make an indexed (concise) dic, this could take a bit of time, unless you reuse it\n')
-    OccurringLemmaDic,NotFounds=make_occurring_lemmadic(InFP,LemmaDicDir)
+    PickleFP=InFP+'.pickle'
+    (OccurringLemmaDic,NotFounds),_=myModule.ask_filenoexist_execute_pickle(PickleFP,make_occurring_lemmadic,([InFP,LemmaDicDir],{}))
 
     FSr=open(InFP)
     Out=open(OutFP,'wt')
+#    Out=sys.stdout
     for LiNe in FSr:
         Line=LiNe.strip()
         if Line=='EOS':
@@ -81,18 +76,21 @@ def add_lemmata(InFP,OutFP,LemmaDicDir):
         else:
             SF,InfForm=Line.split('\t')
             if InfForm=='<sp>':
-                LemmaPoS=('<space>','symbol')
+                LemmataPoSs=[('<space>','symbol')]
             elif InfForm==',':
-                LemmaPoS=('<comma>','symbol')
+                LemmataPoSs=[('<comma>','symbol')]
             else:
 #                assert((SF,InfForm) in OccurringLemmaDic.keys())
-                PotLemmata=OccurringLemmaDic[(SF,InfForm)]
-                if PotLemmata(PotLemmata)==1:
-                    LemmaPoS=PotLemmata[0]
+                PotLemmata=list(OccurringLemmaDic[(SF,InfForm)])
+                if len(PotLemmata)==1:
+                    LemmataPoSs=PotLemmata
                 else:
-                    LemmaPoS=disambiguate_pos(PotLemmata)
-            Fts=(InfForm,)+LemmaPoS
-            InfFormLemmaPoSLine=','.join(Fts)
+                    LemmataPoSs=combine_lemmaforms(PotLemmata)
+
+            #Fts=[InfForm,LemmaPoS]
+            LemmaPoSStr=[LP[0]+','+LP[1] for LP in LemmataPoSs]
+            FtStrs=[InfForm,'/'.join(LemmaPoSStr)]             
+            InfFormLemmaPoSLine=' '.join(FtStrs)
             CorpusLine=SF+'\t'+InfFormLemmaPoSLine+'\n'
             Out.write(CorpusLine)
 
@@ -149,7 +147,7 @@ def make_occurring_lemmadic(InFP,LemmaDicDir,InitOccDicP=True):
                 if Found and InitOccDicP:
                     InitDicFSw.write(val2str(OccSF,Val))
             if not Found:
-                OccurringLemmaDic[(OccSF,OccInf)]=[('*','*')]
+                OccurringLemmaDic[(OccSF,OccInf)]={('*','*')}
                 NotFounds.append(OccInf)
             
     return OccurringLemmaDic,NotFounds
