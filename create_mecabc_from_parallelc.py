@@ -56,11 +56,19 @@ def align_unseg_seg(ParallelFP,OutFP,Debug=0):
 def add_lemmata(InFP,OutFP,LemmaDicDir):
     def combine_lemmaforms(PotLemmata):
         #OrderedCats=('noun','adj','ind','indec','verb','adverb')
-        CatLemmata=defaultdict(set)
-        for Lemma,PoS in PotLemmata:
-            CatLemmata[Lemma].add(PoS)
-        CombinedLemmata=[(Form,'-'.join(PoSs)) for Form,PoSs in CatLemmata.items()]
+        CatLemmata=defaultdict(list)
+        for Lemma,PoS,Sandhi in PotLemmata:
+            CatLemmata[Lemma].append((PoS,Sandhi))
+        CombinedLemmata=[(Form,'-'.join([PoSSandhi[0] for PoSSandhi in PoSsSandhis]),PoSsSandhis[0][1]) for Form,PoSsSandhis in CatLemmata.items()]
         return CombinedLemmata
+    def disambiguate_lemmapos(SF,LemmataPoSs):
+        if len(LemmataPoSs)==1:
+            return LemmataPoSs[0]
+        else:
+            Lemmata=[LemmaPoS[0] for LemmaPoS in LemmataPoSs]
+            Diffs=[SequenceMatcher(None,SF,Lemma).ratio() for Lemma in Lemmata]
+            MinIndex=Diffs.index(min(Diffs))
+            return LemmataPoSs[MinIndex]
     
     sys.stderr.write('\nWe first make an indexed (concise) dic, this could take a bit of time, unless you reuse it\n')
     PickleFP=InFP+'.pickle'
@@ -76,9 +84,12 @@ def add_lemmata(InFP,OutFP,LemmaDicDir):
         else:
             SF,InfForm=Line.split('\t')
             if InfForm=='<sp>':
-                LemmataPoSs=[('<space>','symbol')]
+                LemmataPoSs=[('<space>','symbol','*')]
             elif InfForm==',':
-                LemmataPoSs=[('<comma>','symbol')]
+                LemmataPoSs=[('<comma>','symbol','*')]
+                InfForm='<comma>'
+            elif InfForm=='-':
+                LemmataPoSs=[('<hyphen>','symbol','*')]
             else:
 #                assert((SF,InfForm) in OccurringLemmaDic.keys())
                 PotLemmata=list(OccurringLemmaDic[(SF,InfForm)])
@@ -86,11 +97,11 @@ def add_lemmata(InFP,OutFP,LemmaDicDir):
                     LemmataPoSs=PotLemmata
                 else:
                     LemmataPoSs=combine_lemmaforms(PotLemmata)
-
-            #Fts=[InfForm,LemmaPoS]
-            LemmaPoSStr=[LP[0]+','+LP[1] for LP in LemmataPoSs]
-            FtStrs=[InfForm,'/'.join(LemmaPoSStr)]             
-            InfFormLemmaPoSLine=' '.join(FtStrs)
+                if not LemmataPoSs:
+                    print('theres something wrong')
+            LemmaPoS=disambiguate_lemmapos(SF,LemmataPoSs)
+            Fts=[InfForm,LemmaPoS[0],LemmaPoS[1],LemmaPoS[2]]
+            InfFormLemmaPoSLine=','.join(Fts)
             CorpusLine=SF+'\t'+InfFormLemmaPoSLine+'\n'
             Out.write(CorpusLine)
 
@@ -129,14 +140,15 @@ def make_occurring_lemmadic(InFP,LemmaDicDir,InitOccDicP=True):
         for OccSF,OccInf in OccSFsInfs:
             Found=False
             PotOccurringLexs=[ Lex for Lex in Lexs if OccInf.startswith(Lex.stem)  ]
+            SandhiFt='sandhi' if OccSF!=OccInf else 'no_sandhi'
             for PotOccurringLex in PotOccurringLexs:
                 # lemma itself is always an inf form
-                ValL=(PotOccurringLex.lemma,PotOccurringLex.pos,)
+                ValL=(PotOccurringLex.lemma,PotOccurringLex.pos,SandhiFt)
                 OccurringLemmaDic[(OccSF,PotOccurringLex.lemma)].add(ValL)
                 if InitOccDicP:
                     Str=val2str(OccSF,ValL)
                     InitDicFSw.write(Str)
-                Val=(PotOccurringLex.lemma,PotOccurringLex.pos,)
+                Val=(PotOccurringLex.lemma,PotOccurringLex.pos,SandhiFt)
                 if type(PotOccurringLex).__name__=='NonInfLexeme':
                     if PotOccurringLex.lemma==OccInf:
                         Found=True
@@ -147,9 +159,8 @@ def make_occurring_lemmadic(InFP,LemmaDicDir,InitOccDicP=True):
                 if Found and InitOccDicP:
                     InitDicFSw.write(val2str(OccSF,Val))
             if not Found:
-                OccurringLemmaDic[(OccSF,OccInf)]={('*','*')}
+                OccurringLemmaDic[(OccSF,OccInf)]={('*','*',SandhiFt)}
                 NotFounds.append(OccInf)
-            
     return OccurringLemmaDic,NotFounds
                                  
 def check_plausibility(WdPairs):
