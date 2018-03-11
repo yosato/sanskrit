@@ -187,7 +187,7 @@ def main():
     ArgPsr=argparse.ArgumentParser()
     ArgPsr.add_argument('stardict_fps',nargs='+')
     ArgPsr.add_argument('-u','--alphcnt-up-to',type=int)
-    ArgPsr.add_argument('-o','--out-dir')
+    ArgPsr.add_argument('-o','--out-dir',required=True)
     ArgPsr.add_argument('--up-to',type=int)
     ArgPsr.add_argument('--debug',type=int,default=0)
     ArgPsr.add_argument('--writeout',action='store_true')
